@@ -1,0 +1,13 @@
+node_modules
+.env
+.vscode
+*batch.sh
+NOTES.txt
+*.csv
+junk.txt
+screenshot*
+*.saved.*
+result.txt
+screenshots
+
+
