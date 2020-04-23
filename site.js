@@ -30,7 +30,7 @@ const process_login = async (browser, options) => {
   await page.type("#password", process.env.PUP_PASSWORD);
   await base.delay(1000);
   await page.click(".btn__primary--large");
-  await base.delay(12000);
+  await base.delay(5000);
 
   
   //await page.waitForSelector('button[button_id="configure_view"]');
@@ -87,7 +87,7 @@ const process_completed = async (browser, options) => {
   //await page.waitForSelector('a[tab_name="stats"]');
   //await page.click('a[tab_name="stats"]');
   await autoScroll(page);
-  await base.delay(12000);
+  await base.delay(5000);
   console.log("process_completed done");
 };
 
