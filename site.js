@@ -1,5 +1,6 @@
 require("dotenv").config();
 base = require('./base');
+fs = require('fs');
 
 PUP_URL_BASE="https://www.linkedin.com/learning";
 PUP_URL_LOGIN=PUP_URL_BASE+"/me";
@@ -13,7 +14,10 @@ PAGE_WAIT_LOGIN = 2000;
 PAGE_WAIT_LOGIN_DONE = 3000;
 PAGE_WAIT_COMPLETED = 2000;
 
-const sampleData = require('./sample.json')
+const SAMPLE_FILE = "./sample.json";
+
+
+const sampleData = require(SAMPLE_FILE);
 
 const process_login = async (browser, options) => {
   if (options.useSampleData) {
@@ -111,6 +115,9 @@ const process_completed = async (browser, options, data) => {
 
       return result;
     });
+    if (options.saveSampleData) {
+      fs.writeFileSync(SAMPLE_FILE, JSON.stringify(newdata, null, 2));
+    }
   }
 
   // assemble nested data from lists, assume collated

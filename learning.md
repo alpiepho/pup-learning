@@ -167,8 +167,8 @@ courses that were taken before subscribing to the LinkedIn premium plan.
 - Completed 3/13/2020
 
 [SVN for Java Developers](https://www.linkedin.com/learning/svn-for-java-developers/next-steps)
-- By: Dennis Taylor
-- Released Jan 17, 2019
+- By: Julian Robichaux
+- Released Jun 14, 2017
 - 4h 2m
 - Completed 3/9/2020
 

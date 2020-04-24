@@ -59,10 +59,11 @@ const main = async () => {
   options = { 
     browserType: "firefox", // "chrome, firefox"
     headless: false,
-    useSampleData: true, 
+    useSampleData: false, 
+    saveSampleData: true,
     screenshot: true, 
     screenshotDir: "/tmp/pup_learning_screenshots",
-    scrollToBottom: false
+    scrollToBottom: true
   }
   const browser = await base.browser_init(options);
   if (!options.useSampleData) {
