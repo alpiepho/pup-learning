@@ -15,7 +15,6 @@ A tool to gather learning classes completed along with details.
 - convert json data to index.html
 - add gh deploy step
 
-- randomized login timing to avoid capta
 - test with headless
 - set up docker/ubuntu/headless
 

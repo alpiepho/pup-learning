@@ -3,17 +3,11 @@ fsUtils = require("nodejs-fs-utils");
 puppeteerC = require("puppeteer");
 puppeteerF = require("puppeteer-firefox");
 
-// PUP_URL = process.env.PUP_URL;
-// PUP_URL_HREF = PUP_URL;
-// // PUP_URL_HREF = PUP_URL.replace('http:', 'https:').replace('www.', '')
-// PUP_URL_LOGIN = PUP_URL;
-
-// in ms
-PAGE_WAIT = 0;
-PAGE_WAIT_TAB = 2000;
-PAGE_WAIT_LOGIN = 4000;
-
 screenshot_count = 0;
+
+function random_int(max) {
+  return Math.floor(Math.random() * Math.floor(max));
+}
 
 function delay(time) {
   return new Promise(function(resolve) {
@@ -61,10 +55,10 @@ const browser_init = async (options) => {
   return null;
 };
 
-const browser_get_simple = async (browser, href, waitTime) => {
+const browser_get = async (browser, href, waitTime) => {
   let page;
   try {
-    console.log("browser_get_simple " + href);
+    console.log("browser_get " + href);
     //const page = await browser.newPage();
     page = (await browser.pages())[0];
     await page.goto(href);
@@ -73,22 +67,22 @@ const browser_get_simple = async (browser, href, waitTime) => {
   return page;
 };
 
-const browser_get = async (browser, href, waitTime) => {
-  let page;
-  for (let i = 0; i < 3; i++) {
-    try {
-      console.log("browser_get " + href);
-      //const page = await browser.newPage();
-      page = (await browser.pages())[0];
-      await page.goto(href);
-      await delay(waitTime);
-    } catch (err) {
-      if (waitTime == 0) waitTime = 1000;
-      else waitTime = waitTime * 2;
-    }
-  }
-  return page;
-};
+// const browser_get_retries = async (browser, href, waitTime, retries) => {
+//   let page;
+//   for (let i = 0; i < retries; i++) {
+//     try {
+//       console.log("browser_get " + href);
+//       //const page = await browser.newPage();
+//       page = (await browser.pages())[0];
+//       await page.goto(href);
+//       await delay(waitTime);
+//     } catch (err) {
+//       if (waitTime == 0) waitTime = 1000;
+//       else waitTime = waitTime * 2;
+//     }
+//   }
+//   return page;
+// };
 
 const browser_close = async browser => {
   //console.log('browser_close')
@@ -112,9 +106,10 @@ const process_options = async (browser, options) => {
   //console.log('process_options done')
 };
 
+exports.random_int = random_int;
 exports.delay = delay;
 exports.browser_init = browser_init;
-exports.browser_get_simple = browser_get_simple;
 exports.browser_get = browser_get;
+//exports.browser_get_retries = browser_get_retries;
 exports.browser_close = browser_close;
 exports.process_options = process_options;

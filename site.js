@@ -14,37 +14,34 @@ PUP_URL_LOGIN = PUP_URL;
 
 
 // in ms
-PAGE_WAIT = 0;
-//PAGE_WAIT_TAB = 2000;
-PAGE_WAIT_LOGIN = 3000;
+PAGE_WAIT = 1000;
+PAGE_WAIT_LOGIN_BASE = 1500;
+PAGE_WAIT_LOGIN_DONE = 3000;
 
 
 
 const process_login = async (browser, options) => {
-  console.log('process_login')
-  const page = await base.browser_get_simple(browser, PUP_URL_LOGIN, 2000);
+  var waitMs = PAGE_WAIT + base.random_int(100);
+  //console.log('process_login')
+  const page = await base.browser_get(browser, PUP_URL_LOGIN, (waitMs));
   await page.type("#auth-id-input", process.env.PUP_USERNAME);
-  await base.delay(1000);
-  await page.click("#auth-id-button");
-  await base.delay(2000);
+  await base.delay(waitMs);
+  await page.click("#auth-id-button"); // Email page "Continue"
+  await base.delay(waitMs);
   await page.type("#password", process.env.PUP_PASSWORD);
-  await base.delay(1000);
-  await page.click(".btn__primary--large");
-  await base.delay(5000);
-
-  
-  //await page.waitForSelector('button[button_id="configure_view"]');
-  //await base.process_options(browser, options);
+  await base.delay(waitMs);
+  await page.click(".btn__primary--large"); // Password page "Continue"
+  await base.delay(PAGE_WAIT_LOGIN_DONE);
   //console.log("process_login done")
 };
 
 const process_logout = async (browser, options) => {
-  console.log('process_logout')
-  const page = await base.browser_get_simple(browser, PUP_URL_LOGOUT, PAGE_WAIT);
-  console.log("process_logout done")
+  //console.log('process_logout')
+  const page = await base.browser_get(browser, PUP_URL_LOGOUT, PAGE_WAIT);
+  //console.log("process_logout done")
 };
 
-async function autoScroll(page){
+async function auto_scroll(page){
   await page.evaluate(async () => {
       await new Promise((resolve, reject) => {
           var totalHeight = 0;
@@ -65,10 +62,10 @@ async function autoScroll(page){
 
 const process_completed = async (browser, data) => {
   console.log("process_completed");
-  const page = await base.browser_get_simple(browser, PUP_URL_COMPLETED, 2000);
+  const page = await base.browser_get(browser, PUP_URL_COMPLETED, 2000);
   //await page.waitForSelector('a[tab_name="stats"]');
   //await page.click('a[tab_name="stats"]');
-  //await autoScroll(page);
+  //await auto_scroll(page);
   await base.delay(2000);
 
   const newdata = await page.evaluate(() => {
