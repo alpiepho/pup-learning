@@ -9,7 +9,7 @@ A tool to gather learning classes completed along with details.
 - do we navigate into each? (later)
 - clean up commented code
 - clean up hardcoded timeouts
-- do we keep options/lighthouse as template or make this simpler
+- do we keep options
 
 - convert json data to .md file
 - convert json data to index.html
@@ -85,17 +85,6 @@ be used for automated testing.  This works with both Chrome and Firefox.
 
 This feature allows capturing an image of the web page while the test is running. 
 
-### Lighthouse
-
-Only available with Chrome. 
-
-Lighthouse is a performance measuring tools built into Chrome.  This is an up and
-coming tool in the general web industry.  The performance and fix suggestions are 
-a good metric.
-
-Any json files generated can be visually inspected using the tool [here](https://googlechrome.github.io/lighthouse/viewer/).
-
-
 ## Know Issues
 
 TBD
@@ -104,8 +93,6 @@ TBD
 ## Some References
 
 https://miyakogi.github.io/pyppeteer/_modules/pyppeteer/launcher.html
-
-https://github.com/GoogleChrome/lighthouse/blob/master/docs/puppeteer.md
 
 ## Future changes:
 

@@ -1,5 +1,4 @@
 fsUtils = require("nodejs-fs-utils");
-lighthouse = require('lighthouse');
 
 puppeteerC = require("puppeteer");
 puppeteerF = require("puppeteer-firefox");
@@ -15,7 +14,6 @@ PAGE_WAIT_TAB = 2000;
 PAGE_WAIT_LOGIN = 4000;
 
 screenshot_count = 0;
-lighthouse_count = 0;
 
 function delay(time) {
   return new Promise(function(resolve) {
@@ -32,15 +30,6 @@ const browser_init = async (options) => {
     } catch (err) {}
     try {
       fsUtils.mkdirsSync(options.screenshotDir);  
-    } catch (err) {}
-  }
-
-  if (options.lighthouse) {
-    try {
-      fsUtils.removeSync(options.lighthouseDir);
-    } catch (err) {}
-    try {
-      fsUtils.mkdirsSync(options.lighthouseDir);  
     } catch (err) {}
   }
 
@@ -113,39 +102,12 @@ const process_screenshot = async (browser, filename) => {
   //console.log('process_screenshot done')
 };
 
-const process_lighthouse = async (browser, filename) => {
-  console.log('process_lighthouse')
-  if (options.version.includes('Chrome')) {
-    const page = (await browser.pages())[0];
-    const url = page.url();
-    const {lhr} = await lighthouse(url, {
-      port: (new URL(browser.wsEndpoint())).port,
-      output: 'json',
-      logLevel: 'error',
-    });
-    //console.log(lhr);  
-    console.log(`Lighthouse scores: ${Object.values(lhr.categories).map(c => c.score).join(', ')}`);
-    fs.writeFileSync(filename, JSON.stringify(lhr), 'utf8')
-
-    await browser_get(browser, url, PAGE_WAIT);
-  }
-  else {
-    console.log("NOTE: Lighhouse only works with Chrome");
-  }
-  //console.log('process_lighthouse done')
-};
-
 const process_options = async (browser, options) => {
   //console.log('process_options')
   if (options.screenshot) {
     filename = options.screenshotDir + '/img' + screenshot_count + '.jpeg'
     await process_screenshot(browser, filename)
     screenshot_count += 1;
-  }  
-  if (options.lighthouse) {
-    filename = options.lighthouseDir + '/lhr' + lighthouse_count + '.json'
-    await process_lighthouse(browser, filename);
-    lighthouse_count += 1;
   }  
   //console.log('process_options done')
 };

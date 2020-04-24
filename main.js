@@ -9,17 +9,11 @@ const main = async () => {
     browserType: "firefox", // "chrome, firefox"
     headless: false,
     screenshot: true, 
-    screenshotDir: "./screenshots",
-    lighthouse: false, 
-    lighthouseDir: "./screenshots"
+    screenshotDir: "./screenshots"
   }
   const browser = await base.browser_init(options);
   options.version = await browser.version();
   console.log(options);
-  if (options.lighthouse) {
-    console.log("You can use the following site to view lighthouse reports:");
-    console.log("https://googlechrome.github.io/lighthouse/viewer/");
-  }
 
   await site.process_login(browser, options);
   data = {}
