@@ -4,7 +4,6 @@ A tool to gather learning classes completed along with details.
 
 ## TODO
 
-- turn on scrolling again
 - navigate into each for details (later)
 - need to programatically deal with "not completed" tags (how to align)
 
