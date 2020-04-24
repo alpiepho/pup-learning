@@ -28,7 +28,7 @@ const main = async () => {
   // TODO: generate markdown (.mdx) for blog
   // TODO: generate html for deploy on GH Pages
   console.log("data:");
-  console.log(data);
+  console.log(JSON.stringify(data, null, space=2));
 
   console.log("done.");
 };

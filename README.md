@@ -5,7 +5,6 @@ A tool to gather learning classes completed along with details.
 ## TODO
 
 - turn on scrolling again
-- get all completed
 - navigate into each for details (later)
 
 - convert json data to .md file

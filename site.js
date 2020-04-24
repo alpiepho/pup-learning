@@ -9,12 +9,13 @@ PUP_URL_COMPLETED=PUP_URL_BASE+"/me/completed";
 
 // in ms
 PAGE_WAIT = 1000;
+PAGE_WAIT_LOGIN = 2000;
 PAGE_WAIT_LOGIN_DONE = 3000;
 PAGE_WAIT_COMPLETED = 2000;
 
 
 const process_login = async (browser, options) => {
-  var waitMs = PAGE_WAIT + base.random_int(100);
+  var waitMs = PAGE_WAIT_LOGIN + base.random_int(100);
   //console.log('process_login')
   const page = await base.browser_get(browser, PUP_URL_LOGIN, (waitMs));
   await base.process_options(browser, options);
@@ -73,12 +74,7 @@ const process_completed = async (browser, options, data) => {
     result['count'] = count.replace(')','').split('(')[1];
 
     // parse: table of completed courses
-    //  - course title
-    //  - course author
-    //  - course date recorded
-    //  - course durration
-    //  - completed date
-    //  - course link
+    // TODO:
     // below requires navigation
     //  - course details
     //  - author LinkedIn link
@@ -94,13 +90,22 @@ const process_completed = async (browser, options, data) => {
 
     // course lings
     result['links'] = [...document.querySelectorAll('.lls-card-detail-card-body__headline a.card-entity-link')].map(elem => elem.href);
+    result['titles'] = [...document.querySelectorAll('.lls-card-detail-card-body__headline a.card-entity-link')].map(elem => elem.innerText);
+    result['authors'] = [...document.querySelectorAll('.lls-card-detail-card-body__primary-metadata .lls-card-authors span')].map(elem => elem.innerText);
+    result['released'] = [...document.querySelectorAll('.lls-card-detail-card-body__primary-metadata span.lls-card-released-on')].map(elem => elem.innerText);
+    result['duration'] = [...document.querySelectorAll('span.lls-card-duration-label')].map(elem => elem.innerText);
+    result['completed'] = [...document.querySelectorAll('.lls-card-detail-card-body__footer span.lls-card-completion-state--completed')].map(elem => elem.innerText);
 
     return result;
   });
-  // TODO: cleaner way to copy
+  // TODO: assemble nested data from lists, assume collated
   data['count'] = newdata['count'];
-  // assemble nested data from lists, assume collated
   data['links'] = newdata['links'];
+  data['titles'] = newdata['titles'];
+  data['authors'] = newdata['authors'];
+  data['released'] = newdata['released'];
+  data['duration'] = newdata['duration'];
+  data['completed'] = newdata['completed'];
 
   // const links = await page.evaluate(
   //   () => [...document.querySelectorAll('h2 a')].map(elem => elem.href)
