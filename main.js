@@ -9,19 +9,28 @@ const main = async () => {
     browserType: "firefox", // "chrome, firefox"
     headless: false,
     screenshot: true, 
-    screenshotDir: "./screenshots"
+    screenshotDir: "/tmp/pup_learning_screenshots",
+    scrollToBottom: false
   }
   const browser = await base.browser_init(options);
   options.version = await browser.version();
+  console.log("options:");
   console.log(options);
 
-  await site.process_login(browser, options);
+  // login, get list of completed courses, logout
   data = {}
-  await site.process_completed(browser, data);
-  console.log(data);
-  
+  await site.process_login(browser, options);
+  await site.process_completed(browser, options, data);
   await site.process_logout(browser, options);
   await base.browser_close(browser);
+
+  // TODO: generate artifacts from data
+  // TODO: generate markdown (.mdx) for blog
+  // TODO: generate html for deploy on GH Pages
+  console.log("data:");
+  console.log(data);
+
+  console.log("done.");
 };
 
 main();

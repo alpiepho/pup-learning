@@ -6,10 +6,7 @@ A tool to gather learning classes completed along with details.
 
 - turn on scrolling again
 - get all completed
-- do we navigate into each? (later)
-- clean up commented code
-- clean up hardcoded timeouts
-- do we keep options
+- navigate into each for details (later)
 
 - convert json data to .md file
 - convert json data to index.html
