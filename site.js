@@ -69,8 +69,8 @@ const process_completed = async (browser, options, data) => {
     let result = {};
 
     // parse: 'Learning History (108)'
-    let temp = document.querySelector('#ember160').innerText;
-    result['count'] = temp.replace(')','').split('(')[1];
+    let count = document.querySelector('#ember160').innerText;
+    result['count'] = count.replace(')','').split('(')[1];
 
     // parse: table of completed courses
     //  - course title
@@ -92,9 +92,15 @@ const process_completed = async (browser, options, data) => {
     //  - course exercise files?
     //  - **could** also grab transcript???
 
+    // course lings
+    result['links'] = [...document.querySelectorAll('.lls-card-detail-card-body__headline a.card-entity-link')].map(elem => elem.href);
+
     return result;
   });
+  // TODO: cleaner way to copy
   data['count'] = newdata['count'];
+  // assemble nested data from lists, assume collated
+  data['links'] = newdata['links'];
 
   // const links = await page.evaluate(
   //   () => [...document.querySelectorAll('h2 a')].map(elem => elem.href)
