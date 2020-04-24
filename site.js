@@ -86,7 +86,7 @@ const process_completed = async (browser, options, data) => {
       let result = {};
 
       // parse: 'Learning History (108)'
-      let count = document.querySelector('#ember160').innerText;
+      let count = document.querySelector('.me__content-tab--completed').innerText;
       result['count'] = count.replace(')','').split('(')[1];
 
       // parse: table of completed courses
