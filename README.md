@@ -2,6 +2,26 @@
 
 A tool to gather learning classes completed along with details.
 
+## TODO
+
+- turn on scrolling again
+- get all completed
+- do we navigate into each? (later)
+- clean up commented code
+- clean up hardcoded timeouts
+- do we keep options/lighthouse as template or make this simpler
+
+- convert json data to .md file
+- convert json data to index.html
+- add gh deploy step
+
+- randomized login timing to avoid capta
+- test with headless
+- set up docker/ubuntu/headless
+
+- set up with GH Actions to deploy on commit
+- set up with GH Actions to run docker and auto deploy (cron)
+
 
 ## Mac Install
 

@@ -44,24 +44,6 @@ const process_logout = async (browser, options) => {
   console.log("process_logout done")
 };
 
-// const process_throbber = async page => {
-//   //console.log("process_throbber");
-//   // have to wait for "throbber" to show up and then be removed
-//   try {
-//     await page.waitForSelector(
-//       'div[class="throbber_overlay"]',
-//       (timeout = PAGE_WAIT_TAB)
-//     );
-//     console.log
-//     await page.waitFor(
-//       () =>
-//         !document.querySelector(
-//           'div[class="throbber_overlay"]')
-//     );  
-//   } catch (error) {}
-//   //console.log("process_throbber done");
-// };
-
 async function autoScroll(page){
   await page.evaluate(async () => {
       await new Promise((resolve, reject) => {
@@ -81,13 +63,29 @@ async function autoScroll(page){
   });
 }
 
-const process_completed = async (browser, options) => {
+const process_completed = async (browser, data) => {
   console.log("process_completed");
   const page = await base.browser_get_simple(browser, PUP_URL_COMPLETED, 2000);
   //await page.waitForSelector('a[tab_name="stats"]');
   //await page.click('a[tab_name="stats"]');
-  await autoScroll(page);
-  await base.delay(5000);
+  //await autoScroll(page);
+  await base.delay(2000);
+
+  const newdata = await page.evaluate(() => {
+    let result = {};
+    // like 'Learning History (108)'
+    let temp = document.querySelector('#ember160').innerText;
+    result['count'] = temp.replace(')','').split('(')[1];
+
+    return result;
+  });
+  data['count'] = newdata['count'];
+
+  // const links = await page.evaluate(
+  //   () => [...document.querySelectorAll('h2 a')].map(elem => elem.href)
+  // );
+  // links.forEach(item => data['teams'].push(item));
+
   console.log("process_completed done");
 };
 
