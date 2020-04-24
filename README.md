@@ -6,11 +6,14 @@ A tool to gather learning classes completed along with details.
 
 - turn on scrolling again
 - navigate into each for details (later)
+- need to programatically deal with "not completed" tags (how to align)
 
-- convert json data to .md file
-- convert json data to index.html
 - add gh deploy step
 
+- improve index.html
+    - summary info (name, li link, number courses, sum time etc)
+    - better style
+- improve .md
 - test with headless
 - set up docker/ubuntu/headless
 

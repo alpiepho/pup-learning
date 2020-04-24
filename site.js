@@ -13,8 +13,12 @@ PAGE_WAIT_LOGIN = 2000;
 PAGE_WAIT_LOGIN_DONE = 3000;
 PAGE_WAIT_COMPLETED = 2000;
 
+const sampleData = require('./sample.json')
 
 const process_login = async (browser, options) => {
+  if (options.useSampleData) {
+    return;
+  }
   var waitMs = PAGE_WAIT_LOGIN + base.random_int(100);
   //console.log('process_login')
   const page = await base.browser_get(browser, PUP_URL_LOGIN, (waitMs));
@@ -33,6 +37,9 @@ const process_login = async (browser, options) => {
 };
 
 const process_logout = async (browser, options) => {
+  if (options.useSampleData) {
+    return;
+  }
   //console.log('process_logout')
   const page = await base.browser_get(browser, PUP_URL_LOGOUT, PAGE_WAIT);
   //console.log("process_logout done")
@@ -59,59 +66,83 @@ async function auto_scroll(page){
 
 const process_completed = async (browser, options, data) => {
   //console.log("process_completed");
-  const page = await base.browser_get(browser, PUP_URL_COMPLETED, PAGE_WAIT_COMPLETED);
-  if (options.scrollToBottom) {
-    await auto_scroll(page);
+  var newdata;
+
+  if (options.useSampleData) {
+    newdata = sampleData;
+  } else {
+    const page = await base.browser_get(browser, PUP_URL_COMPLETED, PAGE_WAIT_COMPLETED);
+    if (options.scrollToBottom) {
+      await auto_scroll(page);
+    }
+    await base.delay(PAGE_WAIT_COMPLETED);
+    await base.process_options(browser, options);
+
+    newdata = await page.evaluate(() => {
+      let result = {};
+
+      // parse: 'Learning History (108)'
+      let count = document.querySelector('#ember160').innerText;
+      result['count'] = count.replace(')','').split('(')[1];
+
+      // parse: table of completed courses
+      // TODO:
+      // - copy thumbnail
+      // below requires navigation
+      //  - course details
+      //  - author LinkedIn link
+      //  - course toc
+      //    - sections
+      //      - title
+      //      - subsections
+      //        - title
+      //        - description
+      //        - durration
+      //  - course exercise files?
+      //  - **could** also grab transcript???
+
+      // course lings
+      result['links'] = [...document.querySelectorAll('.lls-card-detail-card-body__headline a.card-entity-link')].map(elem => elem.href);
+      result['titles'] = [...document.querySelectorAll('.lls-card-detail-card-body__headline a.card-entity-link')].map(elem => elem.innerText);
+      result['authors'] = [...document.querySelectorAll('.lls-card-detail-card-body__primary-metadata .lls-card-authors span')].map(elem => elem.innerText);
+      result['released'] = [...document.querySelectorAll('.lls-card-detail-card-body__primary-metadata span.lls-card-released-on')].map(elem => elem.innerText);
+      result['duration'] = [...document.querySelectorAll('span.lls-card-duration-label')].map(elem => elem.innerText);
+      result['completed'] = [...document.querySelectorAll('.lls-card-detail-card-body__footer span.lls-card-completion-state--completed')].map(elem => elem.innerText);
+
+      return result;
+    });
   }
-  await base.delay(PAGE_WAIT_COMPLETED);
-  await base.process_options(browser, options);
 
-  const newdata = await page.evaluate(() => {
-    let result = {};
+  // assemble nested data from lists, assume collated
+  var length;
+  let expectedCount = parseInt(newdata['count']);
+  //let expectedCount = newdata['links'].length;
+  length = newdata['links'].length;
+  if (length != expectedCount) console.log("WARNING: links.length %d != %d", length, expectedCount);
+  length = newdata['titles'].length;
+  if (length != expectedCount) console.log("WARNING: titles.length %d != %d", length, expectedCount);
+  length = newdata['authors'].length;
+  if (length != expectedCount) console.log("WARNING: authors.length %d != %d", length, expectedCount);
+  length = newdata['released'].length;
+  if (length != expectedCount) console.log("WARNING: released.length %d != %d", length, expectedCount);
+  length = newdata['duration'].length;
+  if (length != expectedCount) console.log("WARNING: links.duration %d != %d", length, expectedCount);
+  length = newdata['completed'].length;
+  if (length != expectedCount) console.log("WARNING: links.completed %d != %d", length, expectedCount);
 
-    // parse: 'Learning History (108)'
-    let count = document.querySelector('#ember160').innerText;
-    result['count'] = count.replace(')','').split('(')[1];
-
-    // parse: table of completed courses
-    // TODO:
-    // below requires navigation
-    //  - course details
-    //  - author LinkedIn link
-    //  - course toc
-    //    - sections
-    //      - title
-    //      - subsections
-    //        - title
-    //        - description
-    //        - durration
-    //  - course exercise files?
-    //  - **could** also grab transcript???
-
-    // course lings
-    result['links'] = [...document.querySelectorAll('.lls-card-detail-card-body__headline a.card-entity-link')].map(elem => elem.href);
-    result['titles'] = [...document.querySelectorAll('.lls-card-detail-card-body__headline a.card-entity-link')].map(elem => elem.innerText);
-    result['authors'] = [...document.querySelectorAll('.lls-card-detail-card-body__primary-metadata .lls-card-authors span')].map(elem => elem.innerText);
-    result['released'] = [...document.querySelectorAll('.lls-card-detail-card-body__primary-metadata span.lls-card-released-on')].map(elem => elem.innerText);
-    result['duration'] = [...document.querySelectorAll('span.lls-card-duration-label')].map(elem => elem.innerText);
-    result['completed'] = [...document.querySelectorAll('.lls-card-detail-card-body__footer span.lls-card-completion-state--completed')].map(elem => elem.innerText);
-
-    return result;
-  });
-  // TODO: assemble nested data from lists, assume collated
-  data['count'] = newdata['count'];
-  data['links'] = newdata['links'];
-  data['titles'] = newdata['titles'];
-  data['authors'] = newdata['authors'];
-  data['released'] = newdata['released'];
-  data['duration'] = newdata['duration'];
-  data['completed'] = newdata['completed'];
-
-  // const links = await page.evaluate(
-  //   () => [...document.querySelectorAll('h2 a')].map(elem => elem.href)
-  // );
-  // links.forEach(item => data['teams'].push(item));
-
+  data['completed-courses'] = []
+  for (i=0; i<expectedCount; i++) {
+    entry = {}
+    if (newdata['titles'][i]) {
+      entry['title'] = newdata['titles'][i];
+      entry['link'] = newdata['links'][i];
+      entry['author'] = newdata['authors'][i];
+      entry['released-date'] = newdata['released'][i];
+      entry['duration'] = newdata['duration'][i];
+      entry['completed-date'] = newdata['completed'][i];
+      data['completed-courses'].push(entry);  
+    }
+  }
   //console.log("process_completed done");
 };
 

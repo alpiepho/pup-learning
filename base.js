@@ -17,7 +17,9 @@ function delay(time) {
 
 const browser_init = async (options) => {
   //console.log('browser_init')
-
+  if (options.useSampleData) {
+    return null;
+  }
   if (options.screenshot) {
     try {
       fsUtils.removeSync(options.screenshotDir);
@@ -86,6 +88,9 @@ const browser_get = async (browser, href, waitTime) => {
 
 const browser_close = async browser => {
   //console.log('browser_close')
+  if (options.useSampleData) {
+    return null;
+  }
   await browser.close();
 };
 
