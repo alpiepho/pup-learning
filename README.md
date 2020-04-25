@@ -1,4 +1,9 @@
+![website](https://github.com/alpiepho/pup-learning/workflows/website/badge.svg)
+
 # pup-learning
+
+Deployed on GitHub pages [here](https://alpiepho.github.io/pup-learning/).
+
 
 A tool to gather learning classes completed along with details.
 
@@ -7,8 +12,6 @@ A tool to gather learning classes completed along with details.
 - navigate into each for details (later)
 - need to programatically deal with "not completed" tags (how to align)
 
-- add gh deploy step
-
 - improve index.html
     - summary info (name, li link, number courses, sum time etc)
     - better style
@@ -16,7 +19,6 @@ A tool to gather learning classes completed along with details.
 - test with headless
 - set up docker/ubuntu/headless
 
-- set up with GH Actions to deploy on commit
 - set up with GH Actions to run docker and auto deploy (cron)
 
 
