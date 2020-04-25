@@ -3,7 +3,7 @@ fs = require('fs');
 base = require('./base');
 site = require('./site');
 
-const HTML_FILE = "./index.html";
+const HTML_FILE = "./public/index.html";
 const MD_FILE = "./learning.md";
 
 const html1 = `
@@ -17,9 +17,9 @@ const html1 = `
     <title>
     LinkedIn Learning Courses Completed
     </title>
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./style.css" />
     <link rel="manifest" href="./manifest.json" />
-    <link rel="icon" 
+    <link rel="icon"
       type="image/png" 
       href="./favicon.ico" />
   </head>
