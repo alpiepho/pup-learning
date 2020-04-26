@@ -14,7 +14,7 @@ PAGE_WAIT_LOGIN = 2000;
 PAGE_WAIT_LOGIN_DONE = 3000;
 PAGE_WAIT_COMPLETED = 2000;
 
-const SAMPLE_FILE = "./sample.json";
+const SAMPLE_FILE = "./artifacts/sample.json";
 
 
 const sampleData = require(SAMPLE_FILE);
@@ -63,7 +63,7 @@ async function auto_scroll(page){
                   clearInterval(timer);
                   resolve();
               }
-          }, 500);
+          }, 1000);
       });
   });
 }
@@ -112,6 +112,7 @@ const process_completed = async (browser, options, data) => {
       result['released'] = [...document.querySelectorAll('.lls-card-detail-card-body__primary-metadata span.lls-card-released-on')].map(elem => elem.innerText);
       result['duration'] = [...document.querySelectorAll('span.lls-card-duration-label')].map(elem => elem.innerText);
       result['completed'] = [...document.querySelectorAll('.lls-card-detail-card-body__footer span.lls-card-completion-state--completed')].map(elem => elem.innerText);
+      result['imgs'] = [...document.querySelectorAll('.lls-card-entity-thumbnails__image img')].map(elem => elem.src);
 
       return result;
     });
@@ -136,6 +137,8 @@ const process_completed = async (browser, options, data) => {
   if (length != expectedCount) console.log("WARNING: links.duration %d != %d", length, expectedCount);
   length = newdata['completed'].length;
   if (length != expectedCount) console.log("WARNING: links.completed %d != %d", length, expectedCount);
+  length = newdata['imgs'].length;
+  if (length != expectedCount) console.log("WARNING: links.imgs %d != %d", length, expectedCount);
 
   data['completed-courses'] = []
   for (i=0; i<expectedCount; i++) {
@@ -147,6 +150,7 @@ const process_completed = async (browser, options, data) => {
       entry['released-date'] = newdata['released'][i];
       entry['duration'] = newdata['duration'][i];
       entry['completed-date'] = newdata['completed'][i];
+      entry['img'] = newdata['imgs'][i];
       data['completed-courses'].push(entry);  
     }
   }

@@ -17,9 +17,15 @@ A tool to gather learning classes completed along with details.
     - better style
 - improve .md
 - test with headless
-- set up docker/ubuntu/headless
 
-- set up with GH Actions to run docker and auto deploy (cron)
+
+- set up with GH Actions to run "update" with docker/ubuntu18/node12...
+    - get
+    - yarn install
+    - yarn start
+    - verify index
+    - commit /public  /artifacts (.md)
+
 
 
 ## Mac Install

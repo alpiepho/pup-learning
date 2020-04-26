@@ -4,7 +4,7 @@ base = require('./base');
 site = require('./site');
 
 const HTML_FILE = "./public/index.html";
-const MD_FILE = "./learning.md";
+const MD_FILE = "./artifacts/learning-summary.md";
 
 const html1 = `
 <!DOCTYPE html>
@@ -27,18 +27,15 @@ const html1 = `
     <main>
     <article class="page">
       <h1>LinkedIn Learning Courses Completed</h1>
-      <ul>
 `;
 
 const html2 = `
-      </ul>
     </article>
   </body>
 </html>
 `;
 
-const md1 = `
----
+const md1 = `---
 title: LinkedIn Completed Courses
 date: "2020-04-24"
 description: "Summary of my LinkedIn Learning Completed Courses"
@@ -48,6 +45,7 @@ description: "Summary of my LinkedIn Learning Completed Courses"
 This is just the direct LinkedIn Learning courses.  There are a number of "Lynda.com"
 courses that were taken before subscribing to the LinkedIn premium plan.
 
+A full summary with more details can be found [here](https://alpiepho.github.io/pup-learning/).
 
 `;
 
@@ -85,6 +83,8 @@ const main = async () => {
 
   // generate artifacts from data - html
   let htmlStr = html1;
+  htmlStr += "      <p>Total: " + data['completed-courses'].length + "</p>\n"
+  htmlStr += "      <ul>";
   data['completed-courses'].forEach(entry => {
     htmlStr += "            <li>\n";
     htmlStr += "              <ul>\n";
@@ -99,19 +99,33 @@ const main = async () => {
     htmlStr += "                <li>" + entry['completed-date'] + "</li>\n";
     htmlStr += "              </ul>\n";
     htmlStr += "            </li>\n";
+    htmlStr += "      </ul>";
   });
   htmlStr += html2;
   fs.writeFileSync(HTML_FILE, htmlStr);
    
   // TODO: generate markdown (.mdx) for blog
   let mdStr = md1;
+  mdStr += "Total Completed Courses: " + data['completed-courses'].length + "\n";
+  mdStr += "<br/>\n";
+  mdStr += "<br/>\n";
+  mdStr += "<br/>\n";
+  mdStr += "\n";
   data['completed-courses'].forEach(entry => {
+    mdStr += "\n";
+    if (entry['img']) {
+      mdStr += "![thumbnail](" + entry['img'] + ")\n";
+    }
+    mdStr += "\n";
     mdStr += "[" + entry['title'] + "](" + entry['link'] + ")\n";
     mdStr += "- " + entry['author'] + "\n";
     mdStr += "- " + entry['released-date'] + "\n";
     mdStr += "- " + entry['duration'] + "\n";
     mdStr += "- " + entry['completed-date'] + "\n";
-    mdStr += "\n";
+    mdStr += "<br/>\n";
+    mdStr += "<br/>\n";
+    mdStr += "<br/>\n";
+      mdStr += "\n";
   });
   mdStr += md2;
   fs.writeFileSync(MD_FILE, mdStr);
