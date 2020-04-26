@@ -10,13 +10,27 @@ A tool to gather learning classes completed along with details.
 ## TODO
 
 - navigate into each for details (later)
+  - course details
+  - author LinkedIn link
+  - course toc
+    - sections
+      - title
+      - subsections
+        - title
+        - description
+        - durration
+  - course exercise files?
+  - **could** also grab transcript???
+
 - need to programatically deal with "not completed" tags (how to align)
 
 - improve index.html
-    - summary info (name, li link, number courses, sum time etc)
+    - summary info (name, toc, li link, number courses, sum time etc)
     - better style
 - improve .md
 - test with headless
+
+- copy the thimbnail images?
 
 
 - set up with GH Actions to run "update" with docker/ubuntu18/node12...

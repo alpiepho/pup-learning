@@ -81,14 +81,41 @@ const main = async () => {
   // console.log("data:");
   // console.log(JSON.stringify(data, null, space=2));
 
+  // Derive timestamps and duration, sort
+  let totalMin = 0;
+  data['completed-courses'].forEach(entry => {
+    // assume "An Bm" or "Bm"
+    let temp = entry['duration'].split(' ');
+    if (temp.length == 2) {
+      val = parseInt(temp[0].replace('h', ''));
+      totalMin += val*60;
+      val = parseInt(temp[1].replace('m', ''));
+      totalMin += val;
+    }
+    if (temp.length == 1) {
+      val = parseInt(temp[0].replace('m', ''));
+      totalMin += val;      
+    }
+    entry['released-ts'] = Date.parse(entry['released-date']);
+    entry['completed-ts'] = Date.parse(entry['completed-date']);
+  });
+
+  totalH = Math.floor(totalMin / 60); 
+  totalM = totalMin - (totalH*60);
+  data['completed-courses'].sort((a, b) => (a['completed-ts'] < b['completed-ts']) ? 1 : -1) // decending
+
   // generate artifacts from data - html
   let htmlStr = html1;
-  htmlStr += "      <p>Total: " + data['completed-courses'].length + "</p>\n"
+  htmlStr += "      <p>Totals - Course: " + data['completed-courses'].length + ", Time: " + totalH + "h " + totalM + "m</p><br/>\n\n";
   htmlStr += "      <ul>";
   data['completed-courses'].forEach(entry => {
     htmlStr += "            <li>\n";
     htmlStr += "              <ul>\n";
     htmlStr += "                <li>\n";
+
+    htmlStr += "                  <p><img src=\"" + entry['img'] + "\"</img></p>\n";
+
+
     htmlStr += "                  <a target=\"_blank\" href=\"" + entry['link'] + "\">\n";
     htmlStr += "                    " + entry['title'] + "\n";
     htmlStr += "                  </a>\n";
@@ -99,14 +126,14 @@ const main = async () => {
     htmlStr += "                <li>" + entry['completed-date'] + "</li>\n";
     htmlStr += "              </ul>\n";
     htmlStr += "            </li>\n";
-    htmlStr += "      </ul>";
   });
+  htmlStr += "      </ul>";
   htmlStr += html2;
   fs.writeFileSync(HTML_FILE, htmlStr);
    
   // TODO: generate markdown (.mdx) for blog
   let mdStr = md1;
-  mdStr += "Total Completed Courses: " + data['completed-courses'].length + "\n";
+  mdStr += "Total Completed Courses: " + data['completed-courses'].length + ", Time: " + totalH + "h " + totalM + "m\n";
   mdStr += "<br/>\n";
   mdStr += "<br/>\n";
   mdStr += "<br/>\n";
