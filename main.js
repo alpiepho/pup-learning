@@ -55,14 +55,15 @@ const md2 = `
 const main = async () => {
   // INTERNAL OPTIONS
   options = { 
-    browserType: "firefox", // "chrome, firefox"
-    headless: false,        // run without windows
-    useSampleData: false,   // skip browser and use sample data file
-    forceFullGather: true, // skip test for number of course
-    saveSampleData: true,   // save to sample data file
-    screenshot: true,       // take snapshots
-    screenshotDir: "/tmp/pup_learning_screenshots",
-    scrollToBottom: true
+    browserType:     "firefox", // "chrome, firefox"
+    headless:        false,     // run without windows
+    forceFullGather:  true,     // skip test for number of course
+    scrollToBottom:   true,     // scroll page to bottom (WARNING: non-visible thumbnails are not loaded until page is scrolled)
+    gatherDetails:    true,     // parse the details
+    useSampleData:   false,     // skip browser and use sample data file
+    saveSampleData:   true,     // save to sample data file
+    screenshot:      false,     // take snapshots
+    screenshotDir:    "/tmp/pup_learning_screenshots"
   }
   const browser = await base.browser_init(options);
   if (!options.useSampleData) {
@@ -123,10 +124,15 @@ const main = async () => {
       htmlStr += "                    " + entry['title'] + "\n";
       htmlStr += "                  </a>\n";
       htmlStr += "                </li>\n";
-      htmlStr += "                <li>" + entry['author'] + "</li>\n";
+      if (entry['linkedin']) {
+        htmlStr += "                <li><a target=\"_blank\" href=\"" + entry['linkedin'] + "\">" + entry['author'] + "</a></li>\n";
+      } else {
+        htmlStr += "                <li>" + entry['author'] + "</li>\n";
+      }
       htmlStr += "                <li>" + entry['released-date'] + "</li>\n";
       htmlStr += "                <li>" + entry['duration'] + "</li>\n";
       htmlStr += "                <li>" + entry['completed-date'] + "</li>\n";
+      htmlStr += "                <li class=\"details\">" + entry['details'] + "</li>\n";
       htmlStr += "              </ul>\n";
       htmlStr += "            </li>\n";
     });
@@ -134,7 +140,7 @@ const main = async () => {
     htmlStr += html2;
     fs.writeFileSync(HTML_FILE, htmlStr);
     
-    // TODO: generate markdown (.mdx) for blog
+    // generate markdown (.mdx) for blog
     let mdStr = md1;
     mdStr += "Total Completed Courses: " + data['completed-courses'].length + ", Time: " + totalH + "h " + totalM + "m\n";
     mdStr += "<br/>\n";

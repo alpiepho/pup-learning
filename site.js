@@ -12,7 +12,8 @@ PUP_URL_COMPLETED=PUP_URL_BASE+"/me/completed";
 PAGE_WAIT = 1000;
 PAGE_WAIT_LOGIN = 2000;
 PAGE_WAIT_LOGIN_DONE = 3000;
-PAGE_WAIT_COMPLETED = 2000;
+PAGE_WAIT_COMPLETED = 3000;
+PAGE_WAIT_DETAILS = 1000;
 
 const SAMPLE_FILE = "./artifacts/sample.json";
 
@@ -68,6 +69,44 @@ async function auto_scroll(page){
   });
 }
 
+const process_course_details = async (browser, options, href) => {
+  //console.log("process_course_details");
+  var newdata;
+
+  const page = await base.browser_get(browser, href, PAGE_WAIT_DETAILS);
+
+  newdata = await page.evaluate(() => {
+    let result = {};
+    // parse: courses
+    // TODO:
+    //  - course details
+    //  - author LinkedIn link
+    //  - course toc
+    //    - sections
+    //      - title
+    //      - subsections
+    //        - title
+    //        - description
+    //        - durration
+    //  - course exercise files?
+    //  - **could** also grab transcript???
+
+    result['linkedin'] = "";
+    result['details'] = "";
+    a = document.querySelectorAll('a.course-author-entity__meta-action');
+    if (a.length) {
+      result['linkedin'] = a[0].href;
+    }
+    a = document.querySelectorAll('.classroom-layout-panel-layout__main p');
+    if (a.length) {
+      result['details'] = a[0].innerText;
+    }
+    return result;
+  });
+  return [newdata['linkedin'], newdata['details']];
+  //console.log("process_course_details done");
+};
+
 const process_completed = async (browser, options, data) => {
   //console.log("process_completed");
   var newdata;
@@ -106,23 +145,7 @@ const process_completed = async (browser, options, data) => {
       let count = document.querySelector('.me__content-tab--completed').innerText;
       result['count'] = count.replace(')','').split('(')[1];
 
-      // parse: table of completed courses
-      // TODO:
-      // - copy thumbnail
-      // below requires navigation
-      //  - course details
-      //  - author LinkedIn link
-      //  - course toc
-      //    - sections
-      //      - title
-      //      - subsections
-      //        - title
-      //        - description
-      //        - durration
-      //  - course exercise files?
-      //  - **could** also grab transcript???
-
-      // course lings
+      // course links
       result['links'] = [...document.querySelectorAll('.lls-card-detail-card-body__headline a.card-entity-link')].map(elem => elem.href);
       result['titles'] = [...document.querySelectorAll('.lls-card-detail-card-body__headline a.card-entity-link')].map(elem => elem.innerText);
       result['authors'] = [...document.querySelectorAll('.lls-card-detail-card-body__primary-metadata .lls-card-authors span')].map(elem => elem.innerText);
@@ -134,15 +157,9 @@ const process_completed = async (browser, options, data) => {
       return result;
     });
 
-    if (options.saveSampleData) {
-      fs.writeFileSync(SAMPLE_FILE, JSON.stringify(newdata, null, 2));
-    }
-  }
-
   // assemble nested data from lists, assume collated
   var length;
   let expectedCount = parseInt(newdata['count']);
-  //let expectedCount = newdata['links'].length;
   length = newdata['links'].length;
   if (length != expectedCount) console.log("WARNING: links.length %d != %d", length, expectedCount);
   length = newdata['titles'].length;
@@ -158,8 +175,23 @@ const process_completed = async (browser, options, data) => {
   length = newdata['imgs'].length;
   if (length != expectedCount) console.log("WARNING: links.imgs %d != %d", length, expectedCount);
 
+  newdata['linkedin'] = [];
+  newdata['details'] = [];
+  if (options.gatherDetails) {
+    for (i=0; i<newdata['links'].length; i++) {
+      [temp1, temp2] = await process_course_details(browser, options, newdata['links'][i]);
+      newdata['linkedin'].push(temp1);
+      newdata['details'].push(temp2);
+    }
+  }
+
+  if (options.saveSampleData) {
+    fs.writeFileSync(SAMPLE_FILE, JSON.stringify(newdata, null, 2));
+  }
+}
+
   data['completed-courses'] = []
-  for (i=0; i<expectedCount; i++) {
+  for (i=0; i<newdata['links'].length; i++) {
     entry = {}
     if (newdata['titles'][i]) {
       entry['title'] = newdata['titles'][i];
@@ -169,12 +201,17 @@ const process_completed = async (browser, options, data) => {
       entry['duration'] = newdata['duration'][i];
       entry['completed-date'] = newdata['completed'][i];
       entry['img'] = newdata['imgs'][i];
+      entry['linkedin']= newdata['linkedin'][i];
+      entry['details']= newdata['details'][i];
       data['completed-courses'].push(entry);  
     }
   }
   //console.log("process_completed done");
 };
 
+
+
 exports.process_login = process_login;
 exports.process_logout = process_logout;
+exports.process_course_details = process_course_details;
 exports.process_completed = process_completed;
