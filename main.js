@@ -53,13 +53,14 @@ const md2 = `
 `;
 
 const main = async () => {
-  // INTERNAL OPTION
+  // INTERNAL OPTIONS
   options = { 
     browserType: "firefox", // "chrome, firefox"
-    headless: false,
-    useSampleData: false, 
-    saveSampleData: true,
-    screenshot: true, 
+    headless: false,        // run without windows
+    useSampleData: false,   // skip browser and use sample data file
+    forceFullGather: true, // skip test for number of course
+    saveSampleData: true,   // save to sample data file
+    screenshot: true,       // take snapshots
     screenshotDir: "/tmp/pup_learning_screenshots",
     scrollToBottom: true
   }
@@ -81,82 +82,84 @@ const main = async () => {
   // console.log("data:");
   // console.log(JSON.stringify(data, null, space=2));
 
-  // Derive timestamps and duration, sort
-  let totalMin = 0;
-  data['completed-courses'].forEach(entry => {
-    // assume "An Bm" or "Bm"
-    let temp = entry['duration'].split(' ');
-    if (temp.length == 2) {
-      val = parseInt(temp[0].replace('h', ''));
-      totalMin += val*60;
-      val = parseInt(temp[1].replace('m', ''));
-      totalMin += val;
-    }
-    if (temp.length == 1) {
-      val = parseInt(temp[0].replace('m', ''));
-      totalMin += val;      
-    }
-    entry['released-ts'] = Date.parse(entry['released-date']);
-    entry['completed-ts'] = Date.parse(entry['completed-date']);
-  });
+  if (data['completed-courses'].length > 0) {
 
-  totalH = Math.floor(totalMin / 60); 
-  totalM = totalMin - (totalH*60);
-  data['completed-courses'].sort((a, b) => (a['completed-ts'] < b['completed-ts']) ? 1 : -1) // decending
+      // Derive timestamps and duration, sort
+    let totalMin = 0;
+    data['completed-courses'].forEach(entry => {
+      // assume "An Bm" or "Bm"
+      let temp = entry['duration'].split(' ');
+      if (temp.length == 2) {
+        val = parseInt(temp[0].replace('h', ''));
+        totalMin += val*60;
+        val = parseInt(temp[1].replace('m', ''));
+        totalMin += val;
+      }
+      if (temp.length == 1) {
+        val = parseInt(temp[0].replace('m', ''));
+        totalMin += val;      
+      }
+      entry['released-ts'] = Date.parse(entry['released-date']);
+      entry['completed-ts'] = Date.parse(entry['completed-date']);
+    });
 
-  // generate artifacts from data - html
-  let htmlStr = html1;
-  htmlStr += "      <p>Totals - Course: " + data['completed-courses'].length + ", Time: " + totalH + "h " + totalM + "m</p><br/>\n\n";
-  htmlStr += "      <ul>";
-  data['completed-courses'].forEach(entry => {
-    htmlStr += "            <li>\n";
-    htmlStr += "              <ul>\n";
-    htmlStr += "                <li>\n";
+    totalH = Math.floor(totalMin / 60); 
+    totalM = totalMin - (totalH*60);
+    data['completed-courses'].sort((a, b) => (a['completed-ts'] < b['completed-ts']) ? 1 : -1) // decending
 
-    htmlStr += "                  <p><img src=\"" + entry['img'] + "\"</img></p>\n";
+    // generate artifacts from data - html
+    let htmlStr = html1;
+    htmlStr += "      <p>Totals - Course: " + data['completed-courses'].length + ", Time: " + totalH + "h " + totalM + "m</p><br/>\n\n";
+    htmlStr += "      <ul>";
+    data['completed-courses'].forEach(entry => {
+      htmlStr += "            <li>\n";
+      htmlStr += "              <ul>\n";
+      htmlStr += "                <li>\n";
+
+      htmlStr += "                  <p><img src=\"" + entry['img'] + "\"</img></p>\n";
 
 
-    htmlStr += "                  <a target=\"_blank\" href=\"" + entry['link'] + "\">\n";
-    htmlStr += "                    " + entry['title'] + "\n";
-    htmlStr += "                  </a>\n";
-    htmlStr += "                </li>\n";
-    htmlStr += "                <li>" + entry['author'] + "</li>\n";
-    htmlStr += "                <li>" + entry['released-date'] + "</li>\n";
-    htmlStr += "                <li>" + entry['duration'] + "</li>\n";
-    htmlStr += "                <li>" + entry['completed-date'] + "</li>\n";
-    htmlStr += "              </ul>\n";
-    htmlStr += "            </li>\n";
-  });
-  htmlStr += "      </ul>";
-  htmlStr += html2;
-  fs.writeFileSync(HTML_FILE, htmlStr);
-   
-  // TODO: generate markdown (.mdx) for blog
-  let mdStr = md1;
-  mdStr += "Total Completed Courses: " + data['completed-courses'].length + ", Time: " + totalH + "h " + totalM + "m\n";
-  mdStr += "<br/>\n";
-  mdStr += "<br/>\n";
-  mdStr += "<br/>\n";
-  mdStr += "\n";
-  data['completed-courses'].forEach(entry => {
+      htmlStr += "                  <a target=\"_blank\" href=\"" + entry['link'] + "\">\n";
+      htmlStr += "                    " + entry['title'] + "\n";
+      htmlStr += "                  </a>\n";
+      htmlStr += "                </li>\n";
+      htmlStr += "                <li>" + entry['author'] + "</li>\n";
+      htmlStr += "                <li>" + entry['released-date'] + "</li>\n";
+      htmlStr += "                <li>" + entry['duration'] + "</li>\n";
+      htmlStr += "                <li>" + entry['completed-date'] + "</li>\n";
+      htmlStr += "              </ul>\n";
+      htmlStr += "            </li>\n";
+    });
+    htmlStr += "      </ul>";
+    htmlStr += html2;
+    fs.writeFileSync(HTML_FILE, htmlStr);
+    
+    // TODO: generate markdown (.mdx) for blog
+    let mdStr = md1;
+    mdStr += "Total Completed Courses: " + data['completed-courses'].length + ", Time: " + totalH + "h " + totalM + "m\n";
+    mdStr += "<br/>\n";
+    mdStr += "<br/>\n";
+    mdStr += "<br/>\n";
     mdStr += "\n";
-    if (entry['img']) {
-      mdStr += "![thumbnail](" + entry['img'] + ")\n";
-    }
-    mdStr += "\n";
-    mdStr += "[" + entry['title'] + "](" + entry['link'] + ")\n";
-    mdStr += "- " + entry['author'] + "\n";
-    mdStr += "- " + entry['released-date'] + "\n";
-    mdStr += "- " + entry['duration'] + "\n";
-    mdStr += "- " + entry['completed-date'] + "\n";
-    mdStr += "<br/>\n";
-    mdStr += "<br/>\n";
-    mdStr += "<br/>\n";
+    data['completed-courses'].forEach(entry => {
       mdStr += "\n";
-  });
-  mdStr += md2;
-  fs.writeFileSync(MD_FILE, mdStr);
-
+      if (entry['img']) {
+        mdStr += "![thumbnail](" + entry['img'] + ")\n";
+      }
+      mdStr += "\n";
+      mdStr += "[" + entry['title'] + "](" + entry['link'] + ")\n";
+      mdStr += "- " + entry['author'] + "\n";
+      mdStr += "- " + entry['released-date'] + "\n";
+      mdStr += "- " + entry['duration'] + "\n";
+      mdStr += "- " + entry['completed-date'] + "\n";
+      mdStr += "<br/>\n";
+      mdStr += "<br/>\n";
+      mdStr += "<br/>\n";
+        mdStr += "\n";
+    });
+    mdStr += md2;
+    fs.writeFileSync(MD_FILE, mdStr);
+  }
 
 
   // TODO: generate html for deploy on GH Pages

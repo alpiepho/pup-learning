@@ -76,6 +76,23 @@ const process_completed = async (browser, options, data) => {
     newdata = sampleData;
   } else {
     const page = await base.browser_get(browser, PUP_URL_COMPLETED, PAGE_WAIT_COMPLETED);
+
+    newdata = await page.evaluate(() => {
+      let result = {};
+
+      // parse: 'Learning History (108)'
+      let count = document.querySelector('.me__content-tab--completed').innerText;
+      result['count'] = count.replace(')','').split('(')[1];
+      return result;
+    });
+
+    // check for optimization, of count is same, then we are done.
+    if (!options.forceFullGather && sampleData['count'] == newdata['count']) {
+      console.log("same expected course count, nothing to do.")
+      data['completed-courses'] = []
+      return;
+    }
+    
     if (options.scrollToBottom) {
       await auto_scroll(page);
     }
@@ -116,6 +133,7 @@ const process_completed = async (browser, options, data) => {
 
       return result;
     });
+
     if (options.saveSampleData) {
       fs.writeFileSync(SAMPLE_FILE, JSON.stringify(newdata, null, 2));
     }
