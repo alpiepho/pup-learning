@@ -7,40 +7,6 @@ Deployed on GitHub pages [here](https://alpiepho.github.io/pup-learning/).
 
 A tool to gather learning classes completed along with details.
 
-## TODO
-
-- navigate into each for details (later)
-  - course details
-  - author LinkedIn link
-  - course toc
-    - sections
-      - title
-      - subsections
-        - title
-        - description
-        - durration
-  - course exercise files?
-  - **could** also grab transcript???
-
-- need to programatically deal with "not completed" tags (how to align)
-
-- improve index.html
-    - summary info (name, toc, li link, number courses, sum time etc)
-    - better style
-- improve .md
-- test with headless
-
-- copy the thimbnail images?
-
-
-- set up with GH Actions to run "update" with docker/ubuntu18/node12...
-    - get
-    - yarn install
-    - yarn start
-    - verify index
-    - commit /public  /artifacts (.md)
-
-
 
 ## Mac Install
 
@@ -90,6 +56,20 @@ will be added as program options.
 
 Look for "INTERNAL OPTION".
 
+```
+    browserType:     "firefox", // "chrome, firefox"
+    headless:        false,     // run without windows
+    forceFullGather:  true,     // skip test for number of course
+    scrollToBottom:   true,     // scroll page to bottom (WARNING: non-visible thumbnails are not loaded until page is scrolled)
+    gatherDetails:    true,     // parse the details
+    useSampleData:   false,     // skip browser and use sample data file
+    preloadDetails:   true,     // use sample data to preload details (HACK: workaround for limeited number of pages)
+    saveSampleData:   true,     // save to sample data file
+    screenshot:      false,     // take snapshots
+    screenshotDir:    "/tmp/pup_learning_screenshots"
+```
+
+
 ### Chromium vs Firefox for Puppeteer
 
 Puppeteer can run automated tests with both Chrome (technically the Chromium build) and
@@ -106,12 +86,28 @@ This feature allows capturing an image of the web page while the test is running
 
 ## Know Issues
 
-TBD
+- limit to 10 detail pages per run of tool, otherwise puppeteer hangs (workaround limits to 10, using previous details saved in sample.json, so running multiple times will eventually fill in all the details)
+- options must be set in code
 
 
-## Some References
+## TODO List:
 
-https://miyakogi.github.io/pyppeteer/_modules/pyppeteer/launcher.html
+Rapidly getting to the point where
+this tool can generate a blog post entry with a summary of all LinkedIn courses
+completed if the tool is run manually.
+
+- need to programatically deal with "not completed" tags (how to align)
+- test with headless
+- refactor main.js
+- move screenshots to artifacts and remove option?
+- set up with GH Actions to run "update" with docker/ubuntu18/node12...
+    - get
+    - yarn install
+    - yarn start
+    - verify index
+    - commit /public  /artifacts (.md)
+- go back to HACK (limit to 10 detail pages per run of tool)
+- go back to issues with browser_get_filtered (could not get rid of exceptions)
 
 ## Future changes:
 

@@ -61,6 +61,7 @@ const main = async () => {
     scrollToBottom:   true,     // scroll page to bottom (WARNING: non-visible thumbnails are not loaded until page is scrolled)
     gatherDetails:    true,     // parse the details
     useSampleData:   false,     // skip browser and use sample data file
+    preloadDetails:   true,     // use sample data to preload details (HACK: workaround for limeited number of pages)
     saveSampleData:   true,     // save to sample data file
     screenshot:      false,     // take snapshots
     screenshotDir:    "/tmp/pup_learning_screenshots"
@@ -111,7 +112,7 @@ const main = async () => {
     // generate artifacts from data - html
     let htmlStr = html1;
     htmlStr += "      <p>Totals - Course: " + data['completed-courses'].length + ", Time: " + totalH + "h " + totalM + "m</p><br/>\n\n";
-    htmlStr += "      <ul>";
+    htmlStr += "      <ul>\n";
     data['completed-courses'].forEach(entry => {
       htmlStr += "            <li>\n";
       htmlStr += "              <ul>\n";
@@ -166,9 +167,6 @@ const main = async () => {
     mdStr += md2;
     fs.writeFileSync(MD_FILE, mdStr);
   }
-
-
-  // TODO: generate html for deploy on GH Pages
 
   console.log("done.");
 };

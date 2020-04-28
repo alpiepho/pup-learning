@@ -70,17 +70,18 @@ async function auto_scroll(page){
 }
 
 const process_course_details = async (browser, options, href) => {
-  //console.log("process_course_details");
-  var newdata;
+  console.log("process_course_details");
+  var newdata = {};
+  newdata['linkedin'] = "";
+  newdata['details'] = "";
 
   const page = await base.browser_get(browser, href, PAGE_WAIT_DETAILS);
+  //console.log("process_course_details - after page")
 
   newdata = await page.evaluate(() => {
     let result = {};
     // parse: courses
     // TODO:
-    //  - course details
-    //  - author LinkedIn link
     //  - course toc
     //    - sections
     //      - title
@@ -90,6 +91,7 @@ const process_course_details = async (browser, options, href) => {
     //        - durration
     //  - course exercise files?
     //  - **could** also grab transcript???
+    // WARNING: with limit on number of detail pages, will need to start with clear sample.json and rebuild saved details if any more details are parsed
 
     result['linkedin'] = "";
     result['details'] = "";
@@ -103,8 +105,9 @@ const process_course_details = async (browser, options, href) => {
     }
     return result;
   });
-  return [newdata['linkedin'], newdata['details']];
+
   //console.log("process_course_details done");
+  return [newdata['linkedin'], newdata['details']];
 };
 
 const process_completed = async (browser, options, data) => {
@@ -177,11 +180,22 @@ const process_completed = async (browser, options, data) => {
 
   newdata['linkedin'] = [];
   newdata['details'] = [];
+  if (options.preloadDetails) {
+    newdata['linkedin'] = sampleData['linkedin'];
+    newdata['details'] = sampleData['details'];
+  }
+
   if (options.gatherDetails) {
-    for (i=0; i<newdata['links'].length; i++) {
-      [temp1, temp2] = await process_course_details(browser, options, newdata['links'][i]);
-      newdata['linkedin'].push(temp1);
-      newdata['details'].push(temp2);
+    // HACK: found limit of 20-40 detail pages, will need to run this multiple times
+    console.log("HACK: get next 10 detail pages");
+    let newDetailCount = 0;
+    for (i=0; i<newdata['links'].length && newDetailCount < 10; i++) {
+      if (!newdata['details'][i]) {
+          [temp1, temp2] = await process_course_details(browser, options, newdata['links'][i]);
+          newdata['linkedin'].push(temp1);
+          newdata['details'].push(temp2);
+          newDetailCount += 1;
+      }
     }
   }
 

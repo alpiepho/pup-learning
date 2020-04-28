@@ -86,6 +86,64 @@ const browser_get = async (browser, href, waitTime) => {
 //   return page;
 // };
 
+// const blockedResources = [
+//   'quantserve',
+//   'adzerk',
+//   'doubleclick',
+//   'adition',
+//   'exelator',
+//   'sharethrough',
+//   'twitter',
+//   'google-analytics',
+//   'fontawesome',
+//   'facebook',
+//   'analytics',
+//   'optimizely',
+//   'clicktale',
+//   'mixpanel',
+//   'zedo',
+//   'clicksor',
+//   'tiqcdn',
+//   'googlesyndication',
+//   'demdex',
+//   'bat.bing',
+//   //'static-exp1.licdn.com',
+//   'media-exp1.licdn.com',
+//   'linkedin.com/track',
+//   'files3.lynda.com',
+// ];
+
+// const browser_get_filtered = async (browser, href, waitTime) => {
+//   let page;
+//   try {
+//     console.log("browser_get_filtered " + href);
+//     //const page = await browser.newPage();
+//     page = (await browser.pages())[0];
+
+//     //TODO: try new page
+//     await page.setRequestInterception(false);
+//     page.removeAllListeners('request');
+//     await page.setRequestInterception(true);
+//     page.on('request', (request) => {
+//       try {
+//         // BLOCK CERTAIN DOMAINS
+//         if (blockedResources.some(resource => request.url().indexOf(resource) !== -1))
+//           try {request.abort();} catch (err) {}
+//         // ALLOW OTHER REQUESTS
+//         else {
+//           //request.continue().catch(err => console.log(err));
+//           if (!request._interceptionHandled)
+//             try {request.continue();} catch (err) {}
+//         }
+//       } catch (err) {}
+//     });
+
+//     await page.goto(href);
+//     await delay(waitTime);
+//   } catch (err) {}
+//   return page;
+// };
+
 const browser_close = async browser => {
   //console.log('browser_close')
   if (options.useSampleData) {
@@ -115,6 +173,7 @@ exports.random_int = random_int;
 exports.delay = delay;
 exports.browser_init = browser_init;
 exports.browser_get = browser_get;
+//exports.browser_get_filtered = browser_get_filtered;
 //exports.browser_get_retries = browser_get_retries;
 exports.browser_close = browser_close;
 exports.process_options = process_options;

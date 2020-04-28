@@ -112,9 +112,9 @@ Total Completed Courses: 107, Time: 198h 57m
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/media-proxy/ext?w=512&h=288&f=n&hash=ipB7c6Ko7m8lPgbVEM%2FK9xLCXbE%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6plxVUzgUv5K_PrkC9q0RIUJDPBy-mXiOp-92fZ3LvesbXZLSioloVcSQAmQEze-esSDjhEo69LcLmY4Yx3A)
+![thumbnail](https://media-exp1.licdn.com/media-proxy/ext?w=512&h=288&f=n&hash=iyd1FeWEKrkIVbZDxIL9rWVFbs0%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6plxVUzgUv5K_PrkC9q0RIUJDPBy-mXiOp-92fZ3LvesbXZLOkrFUWeSwClA00eue1QTapG43ma90)
 
-[Security Tips Weekly](https://www.linkedin.com/learning/security-tips-weekly/learn-more-about-security-with-linkedin-learning)
+[Security Tips](https://www.linkedin.com/learning/security-tips/learn-more-about-security-with-linkedin-learning)
 - By: Scott Simpson
 - Updated Sep 30, 2019
 - 3h 43m
