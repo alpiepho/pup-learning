@@ -96,9 +96,6 @@ Rapidly getting to the point where
 this tool can generate a blog post entry with a summary of all LinkedIn courses
 completed if the tool is run manually.
 
-- need to programatically deal with "not completed" tags (how to align)
-- test with headless
-- refactor main.js
 - move screenshots to artifacts and remove option?
 - set up with GH Actions to run "update" with docker/ubuntu18/node12...
     - get

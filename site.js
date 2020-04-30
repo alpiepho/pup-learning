@@ -28,14 +28,14 @@ const process_login = async (browser, options) => {
   //console.log('process_login')
   const page = await base.browser_get(browser, PUP_URL_LOGIN, (waitMs));
   await base.process_options(browser, options);
-  await page.type("#auth-id-input", process.env.PUP_USERNAME);
+  await page.type('#auth-id-input', process.env.PUP_USERNAME);
   await base.delay(waitMs);
-  await page.click("#auth-id-button"); // Email page "Continue"
+  await page.click('#auth-id-button'); // Email page "Continue"
   await base.delay(waitMs);
   await base.process_options(browser, options);
-  await page.type("#password", process.env.PUP_PASSWORD);
+  await page.type('#password', process.env.PUP_PASSWORD);
   await base.delay(waitMs);
-  await page.click(".btn__primary--large"); // Password page "Continue"
+  await page.click('.btn__primary--large'); // Password page "Continue"
   await base.delay(PAGE_WAIT_LOGIN_DONE);
   await base.process_options(browser, options);
   //console.log("process_login done")
@@ -50,22 +50,22 @@ const process_logout = async (browser, options) => {
   //console.log("process_logout done")
 };
 
-async function auto_scroll(page){
+async function auto_scroll(page) {
   await page.evaluate(async () => {
-      await new Promise((resolve, reject) => {
-          var totalHeight = 0;
-          var distance = 400;
-          var timer = setInterval(() => {
-              var scrollHeight = document.body.scrollHeight;
-              window.scrollBy(0, distance);
-              totalHeight += distance;
+    await new Promise((resolve, reject) => {
+      var totalHeight = 0;
+      var distance = 400;
+      var timer = setInterval(() => {
+        var scrollHeight = document.body.scrollHeight;
+        window.scrollBy(0, distance);
+        totalHeight += distance;
 
-              if(totalHeight >= scrollHeight){
-                  clearInterval(timer);
-                  resolve();
-              }
-          }, 1000);
-      });
+        if (totalHeight >= scrollHeight) {
+          clearInterval(timer);
+          resolve();
+        }
+      }, 1000);
+    });
   });
 }
 
@@ -117,7 +117,11 @@ const process_completed = async (browser, options, data) => {
   if (options.useSampleData) {
     newdata = sampleData;
   } else {
-    const page = await base.browser_get(browser, PUP_URL_COMPLETED, PAGE_WAIT_COMPLETED);
+    const page = await base.browser_get(
+      browser,
+      PUP_URL_COMPLETED,
+      PAGE_WAIT_COMPLETED
+    );
 
     newdata = await page.evaluate(() => {
       let result = {};
@@ -130,11 +134,11 @@ const process_completed = async (browser, options, data) => {
 
     // check for optimization, of count is same, then we are done.
     if (!options.forceFullGather && sampleData['count'] == newdata['count']) {
-      console.log("same expected course count, nothing to do.")
-      data['completed-courses'] = []
+      console.log("same expected course count, nothing to do.");
+      data['completed-courses'] = [];
       return;
     }
-    
+
     if (options.scrollToBottom) {
       await auto_scroll(page);
     }
