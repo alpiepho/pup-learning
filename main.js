@@ -4,7 +4,7 @@ base = require('./base');
 site = require('./site');
 
 const HTML_FILE = "./public/index.html";
-const MD_FILE = "./artifacts/learning-summary.md";
+const MD_FILE = "./artifacts/learning-summary.mdx";
 const SCREENSHOT_DIR = "./screenshots";
 
 const html1 = `
