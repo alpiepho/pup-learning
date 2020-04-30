@@ -96,7 +96,6 @@ Rapidly getting to the point where
 this tool can generate a blog post entry with a summary of all LinkedIn courses
 completed if the tool is run manually.
 
-- move screenshots to artifacts and remove option?
 - set up with GH Actions to run "update" with docker/ubuntu18/node12...
     - get
     - yarn install

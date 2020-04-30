@@ -5,6 +5,7 @@ site = require('./site');
 
 const HTML_FILE = "./public/index.html";
 const MD_FILE = "./artifacts/learning-summary.md";
+const SCREENSHOT_DIR = "./screenshots";
 
 const html1 = `
 <!DOCTYPE html>
@@ -157,7 +158,7 @@ const main = async () => {
     preloadDetails:   true,     // use sample data to preload details (HACK: workaround for limeited number of pages)
     saveSampleData:   true,     // save to sample data file
     screenshot:      false,     // take snapshots
-    screenshotDir:    "/tmp/pup_learning_screenshots"
+    screenshotDir:   SCREENSHOT_DIR
   }
   const browser = await base.browser_init(options);
   if (!options.useSampleData) {
