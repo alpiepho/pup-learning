@@ -152,78 +152,67 @@ const process_completed = async (browser, options, data) => {
       let count = document.querySelector('.me__content-tab--completed').innerText;
       result['count'] = count.replace(')','').split('(')[1];
 
-      // course links
-      result['links'] = [...document.querySelectorAll('.lls-card-detail-card-body__headline a.card-entity-link')].map(elem => elem.href);
-      result['titles'] = [...document.querySelectorAll('.lls-card-detail-card-body__headline a.card-entity-link')].map(elem => elem.innerText);
-      result['authors'] = [...document.querySelectorAll('.lls-card-detail-card-body__primary-metadata .lls-card-authors span')].map(elem => elem.innerText);
-      result['released'] = [...document.querySelectorAll('.lls-card-detail-card-body__primary-metadata span.lls-card-released-on')].map(elem => elem.innerText);
-      result['duration'] = [...document.querySelectorAll('span.lls-card-duration-label')].map(elem => elem.innerText);
-      result['completed'] = [...document.querySelectorAll('.lls-card-detail-card-body__footer span.lls-card-completion-state--completed')].map(elem => elem.innerText);
-      result['imgs'] = [...document.querySelectorAll('.lls-card-entity-thumbnails__image img')].map(elem => elem.src);
-
+      result['completed-courses'] = []
+      let card_conts = document.querySelectorAll('.lls-card-detail-card');
+      for (i=0; i<card_conts.length; i++) {
+        let entry = {};
+        entry['title'] = '';
+        entry['link'] = '';
+        entry['author'] = '';
+        entry['released-date'] = '';
+        entry['duration'] = '';
+        entry['completed-date'] = '';
+        entry['img'] = '';
+        entry['linkedin'] = '';
+        entry['details'] = '';
+        entry['title'] = card_conts[i].querySelector('.lls-card-headline').innerText;
+        entry['link'] = card_conts[i].querySelector('a.card-entity-link').href;
+        temp = card_conts[i].querySelector('.lls-card-authors');
+        if (temp) entry['author'] = temp.innerText.replace('By: ','');
+        temp = card_conts[i].querySelector('.lls-card-released-on');
+        if (temp) entry['released-date'] = temp.innerText.replace('Released ','');
+        temp = card_conts[i].querySelector('.lls-card-duration-label');
+        if (temp) entry['duration'] = temp.innerText;
+        temp = card_conts[i].querySelector('.lls-card-completion-state--completed');
+        if (temp) entry['completed-date'] = temp.innerText.replace('Completed ','');
+        temp = card_conts[i].querySelector('img');
+        if (temp) entry['img'] = temp.src;
+        //entry["linkedin"] = newdata["linkedin"][i];
+        //if (temp) entry['linkedin'] = temp;
+        //temp = card_conts[i].querySelector('.meta-description');
+        //if (temp) entry['details'] = temp.innerText;
+        result['completed-courses'].push(entry);
+      }
       return result;
     });
 
-  // assemble nested data from lists, assume collated
-  var length;
-  let expectedCount = parseInt(newdata['count']);
-  length = newdata['links'].length;
-  if (length != expectedCount) console.log("WARNING: links.length %d != %d", length, expectedCount);
-  length = newdata['titles'].length;
-  if (length != expectedCount) console.log("WARNING: titles.length %d != %d", length, expectedCount);
-  length = newdata['authors'].length;
-  if (length != expectedCount) console.log("WARNING: authors.length %d != %d", length, expectedCount);
-  length = newdata['released'].length;
-  if (length != expectedCount) console.log("WARNING: released.length %d != %d", length, expectedCount);
-  length = newdata['duration'].length;
-  if (length != expectedCount) console.log("WARNING: links.duration %d != %d", length, expectedCount);
-  length = newdata['completed'].length;
-  if (length != expectedCount) console.log("WARNING: links.completed %d != %d", length, expectedCount);
-  length = newdata['imgs'].length;
-  if (length != expectedCount) console.log("WARNING: links.imgs %d != %d", length, expectedCount);
-
-  newdata['linkedin'] = [];
-  newdata['details'] = [];
-  if (options.preloadDetails) {
-    newdata['linkedin'] = sampleData['linkedin'];
-    newdata['details'] = sampleData['details'];
-  }
-
-  if (options.gatherDetails) {
-    // HACK: found limit of 20-40 detail pages, will need to run this multiple times
-    console.log("HACK: get next 10 detail pages");
-    let newDetailCount = 0;
-    for (i=0; i<newdata['links'].length && newDetailCount < 10; i++) {
-      if (!newdata['details'][i]) {
-          [temp1, temp2] = await process_course_details(browser, options, newdata['links'][i]);
-          newdata['linkedin'].push(temp1);
-          newdata['details'].push(temp2);
-          newDetailCount += 1;
+    if (options.preloadDetails) {
+      for (i=0; i<newdata['completed-courses'].length; i++) {
+        newdata['completed-courses'][i]['linkedin'] = sampleData['completed-courses'][i]['linkedin'];
+        newdata['completed-courses'][i]['details'] = sampleData['completed-courses'][i]['details'];
       }
     }
-  }
 
-  if (options.saveSampleData) {
-    fs.writeFileSync(SAMPLE_FILE, JSON.stringify(newdata, null, 2));
-  }
-}
+    if (options.gatherDetails) {
+      // HACK: found limit of 20-40 detail pages, will need to run this multiple times
+      console.log("HACK: get next 10 detail pages");
+      let newDetailCount = 0;
+      for (i=0; i<newdata['completed-courses'].length && newDetailCount < 10; i++) {
+        if (!newdata['completed-courses'][i]['details']) {
+            [temp1, temp2] = await process_course_details(browser, options, newdata['completed-courses'][i]['link']);
+            newdata['completed-courses'][i]['linkedin'] = temp1;
+            newdata['completed-courses'][i]['details'] = temp2;
+            newDetailCount += 1;
+        }
+      }
+    }
 
-  data['completed-courses'] = []
-  for (i=0; i<newdata['links'].length; i++) {
-    entry = {}
-    if (newdata['titles'][i]) {
-      entry['title'] = newdata['titles'][i];
-      entry['link'] = newdata['links'][i];
-      entry['author'] = newdata['authors'][i].replace('By: ', '');
-      entry['released-date'] = newdata['released'][i];
-      entry['duration'] = newdata['duration'][i];
-      entry['completed-date'] = newdata['completed'][i].replace('Completed ', '');
-      entry['img'] = newdata['imgs'][i];
-      entry['linkedin']= newdata['linkedin'][i];
-      entry['details']= newdata['details'][i];
-      data['completed-courses'].push(entry);  
+    if (options.saveSampleData) {
+      fs.writeFileSync(SAMPLE_FILE, JSON.stringify(newdata, null, 2));
     }
   }
+
+   data['completed-courses'] = newdata['completed-courses'];
   //console.log("process_completed done");
 };
 

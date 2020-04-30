@@ -87,6 +87,7 @@ This feature allows capturing an image of the web page while the test is running
 ## Know Issues
 
 - limit to 10 detail pages per run of tool, otherwise puppeteer hangs (workaround limits to 10, using previous details saved in sample.json, so running multiple times will eventually fill in all the details)
+- use "for i in {1..12}; do yarn start; done"
 - options must be set in code
 
 
