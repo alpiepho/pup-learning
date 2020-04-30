@@ -103,11 +103,11 @@ function build_html(data, totalH, totalM) {
     if (entry['linkedin']) {
       htmlStr += "                <li><a target=\"_blank\" href=\"" + entry['linkedin'] + "\">" + entry['author'] + "</a></li>\n";
     } else {
-      htmlStr += "                <li>" + entry['author'] + "</li>\n";
+      htmlStr += "                <li>Author: " + entry['author'] + "</li>\n";
     }
-    htmlStr += "                <li>" + entry['released-date'] + "</li>\n";
-    htmlStr += "                <li>" + entry['duration'] + "</li>\n";
-    htmlStr += "                <li>" + entry['completed-date'] + "</li>\n";
+    htmlStr += "                <li>Released: " + entry['released-date'] + "</li>\n";
+    htmlStr += "                <li>Duration: " + entry['duration'] + "</li>\n";
+    htmlStr += "                <li>Completed: " + entry['completed-date'] + "</li>\n";
     htmlStr += "                <li class=\"details\">" + entry['details'] + "</li>\n";
     htmlStr += "              </ul>\n";
     htmlStr += "            </li>\n";

@@ -214,10 +214,10 @@ const process_completed = async (browser, options, data) => {
     if (newdata['titles'][i]) {
       entry['title'] = newdata['titles'][i];
       entry['link'] = newdata['links'][i];
-      entry['author'] = newdata['authors'][i];
+      entry['author'] = newdata['authors'][i].replace('By: ', '');
       entry['released-date'] = newdata['released'][i];
       entry['duration'] = newdata['duration'][i];
-      entry['completed-date'] = newdata['completed'][i];
+      entry['completed-date'] = newdata['completed'][i].replace('Completed: ', '');
       entry['img'] = newdata['imgs'][i];
       entry['linkedin']= newdata['linkedin'][i];
       entry['details']= newdata['details'][i];
