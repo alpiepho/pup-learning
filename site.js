@@ -14,6 +14,7 @@ PAGE_WAIT_LOGIN = 2000;
 PAGE_WAIT_LOGIN_DONE = 3000;
 PAGE_WAIT_COMPLETED = 3000;
 PAGE_WAIT_DETAILS = 1000;
+PAGE_WAIT_DETAILS_RETRY = 20000;
 
 const SAMPLE_FILE = "./artifacts/sample.json";
 
@@ -69,14 +70,13 @@ async function auto_scroll(page) {
   });
 }
 
-const process_course_details = async (browser, options, href) => {
-  console.log("process_course_details");
+const process_course_details = async (page, options, href) => {
+  console.log("process_course_details: " + href);
   var newdata = {};
   newdata['linkedin'] = "";
   newdata['details'] = "";
-
-  const page = await base.browser_get(browser, href, PAGE_WAIT_DETAILS);
-  //console.log("process_course_details - after page")
+  
+  await base.browser_get_filtered(page, href, PAGE_WAIT_DETAILS);
 
   newdata = await page.evaluate(() => {
     let result = {};
@@ -166,7 +166,9 @@ const process_completed = async (browser, options, data) => {
         entry['linkedin'] = '';
         entry['details'] = '';
         entry['title'] = card_conts[i].querySelector('.lls-card-headline').innerText;
-        entry['link'] = card_conts[i].querySelector('a.card-entity-link').href;
+        temp = card_conts[i].querySelector('a.card-entity-link').href;
+        // get first 5 parts of href
+        entry['link'] =  temp.split('/').slice(0,5).join('/');
         temp = card_conts[i].querySelector('.lls-card-authors');
         if (temp) entry['author'] = temp.innerText.replace('By: ','');
         temp = card_conts[i].querySelector('.lls-card-released-on');
@@ -186,23 +188,30 @@ const process_completed = async (browser, options, data) => {
       return result;
     });
 
-    if (options.preloadDetails) {
-      for (i=0; i<newdata['completed-courses'].length; i++) {
-        newdata['completed-courses'][i]['linkedin'] = sampleData['completed-courses'][i]['linkedin'];
-        newdata['completed-courses'][i]['details'] = sampleData['completed-courses'][i]['details'];
-      }
-    }
-
     if (options.gatherDetails) {
-      // HACK: found limit of 20-40 detail pages, will need to run this multiple times
-      console.log("HACK: get next 10 detail pages");
-      let newDetailCount = 0;
-      for (i=0; i<newdata['completed-courses'].length && newDetailCount < 10; i++) {
+      var filteredPage = await base.browser_prep_filtered(browser);
+      for (i=0; i<newdata['completed-courses'].length; i++) {
         if (!newdata['completed-courses'][i]['details']) {
-            [temp1, temp2] = await process_course_details(browser, options, newdata['completed-courses'][i]['link']);
+          console.log(i);
+          [temp1, temp2] = await process_course_details(filteredPage, options, newdata['completed-courses'][i]['link']);
+          newdata['completed-courses'][i]['linkedin'] = temp1;
+          newdata['completed-courses'][i]['details'] = temp2;
+          if (!temp2) {
+            // retry
+            console.log(i);
+            await base.delay(PAGE_WAIT_DETAILS_RETRY);
+            [temp1, temp2] = await process_course_details(filteredPage, options, newdata['completed-courses'][i]['link']);
             newdata['completed-courses'][i]['linkedin'] = temp1;
-            newdata['completed-courses'][i]['details'] = temp2;
-            newDetailCount += 1;
+            newdata['completed-courses'][i]['details'] = temp2;  
+              if (!temp2) {
+                // retry
+                console.log(i);
+                await base.delay(PAGE_WAIT_DETAILS_RETRY);
+                [temp1, temp2] = await process_course_details(filteredPage, options, newdata['completed-courses'][i]['link']);
+                newdata['completed-courses'][i]['linkedin'] = temp1;
+                newdata['completed-courses'][i]['details'] = temp2;  
+              }
+            }
         }
       }
     }

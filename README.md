@@ -63,7 +63,6 @@ Look for "INTERNAL OPTION".
     scrollToBottom:   true,     // scroll page to bottom (WARNING: non-visible thumbnails are not loaded until page is scrolled)
     gatherDetails:    true,     // parse the details
     useSampleData:   false,     // skip browser and use sample data file
-    preloadDetails:   true,     // use sample data to preload details (HACK: workaround for limeited number of pages)
     saveSampleData:   true,     // save to sample data file
     screenshot:      false,     // take snapshots
     screenshotDir:    "/tmp/pup_learning_screenshots"
@@ -84,18 +83,18 @@ be used for automated testing.  This works with both Chrome and Firefox.
 
 This feature allows capturing an image of the web page while the test is running. 
 
+### Local Test of index.html
+
+- cd public
+- python -m SimpleHTTPServer
+- open http://localhost:8000/
+
 ## Know Issues
 
-- limit to 10 detail pages per run of tool, otherwise puppeteer hangs (workaround limits to 10, using previous details saved in sample.json, so running multiple times will eventually fill in all the details)
-- use "for i in {1..12}; do yarn start; done"
 - options must be set in code
 
 
 ## TODO List:
-
-Rapidly getting to the point where
-this tool can generate a blog post entry with a summary of all LinkedIn courses
-completed if the tool is run manually.
 
 - set up with GH Actions to run "update" with docker/ubuntu18/node12...
     - get
@@ -103,8 +102,7 @@ completed if the tool is run manually.
     - yarn start
     - verify index
     - commit /public  /artifacts (.md)
-- go back to HACK (limit to 10 detail pages per run of tool)
-- go back to issues with browser_get_filtered (could not get rid of exceptions)
+- go back to HACK (limit to 10 detail pages per run of tool) DEBUG firefox
 
 ## Future changes:
 

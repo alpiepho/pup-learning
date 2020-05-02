@@ -27,10 +27,11 @@ const html1 = `
   <body class="body">
     <main>
     <article class="page">
-      <h1>LinkedIn Learning Courses Completed</h1>
+      <h1  id=\"top\">LinkedIn Learning Courses Completed</h1>
 `;
 
 const html2 = `
+    <div id=\"bottom\"></div>
     </article>
   </body>
 </html>
@@ -48,9 +49,13 @@ courses that were taken before subscribing to the LinkedIn premium plan.
 
 A full summary with more details can be found [here](https://alpiepho.github.io/pup-learning/).
 
+#### top
+
 `;
 
 const md2 = `
+
+#### bottom
 `;
 
 function build_hours_minutes(data) {
@@ -109,6 +114,7 @@ function build_html(data, totalH, totalM) {
     htmlStr += "                <li>Duration: " + entry['duration'] + "</li>\n";
     htmlStr += "                <li>Completed: " + entry['completed-date'] + "</li>\n";
     htmlStr += "                <li class=\"details\">" + entry['details'] + "</li>\n";
+    htmlStr += "                <li><a href=\"#top\">top</a> / <a href=\"#bottom\">bottom</a></li>\n";
     htmlStr += "              </ul>\n";
     htmlStr += "            </li>\n";
   });
@@ -137,6 +143,8 @@ function build_md(data, totalH, totalM) {
     mdStr += "- Duration: " + entry['duration'] + "\n";
     mdStr += "- Completed: " + entry['completed-date'] + "\n";
     mdStr += "- Details: " + entry['details'] + "\n";
+    mdStr += "- [top](#top) / [bottom](#bottom)\n";
+
     mdStr += "<br/>\n";
     mdStr += "<br/>\n";
     mdStr += "<br/>\n";
@@ -149,13 +157,12 @@ function build_md(data, totalH, totalM) {
 const main = async () => {
   // INTERNAL OPTIONS
   options = { 
-    browserType:     "firefox", // "chrome, firefox"
+    browserType:     "chrome", // "chrome, firefox" // WARNING: hit limit on number of detail pages with firefox
     headless:        false,     // run without windows
     forceFullGather:  true,     // skip test for number of course
     scrollToBottom:   true,     // scroll page to bottom (WARNING: non-visible thumbnails are not loaded until page is scrolled)
     gatherDetails:    true,     // parse the details
     useSampleData:   false,     // skip browser and use sample data file
-    preloadDetails:   true,     // use sample data to preload details (HACK: workaround for limeited number of pages)
     saveSampleData:   true,     // save to sample data file
     screenshot:      false,     // take snapshots
     screenshotDir:   SCREENSHOT_DIR
