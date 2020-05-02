@@ -5,13 +5,13 @@
 Deployed on GitHub pages [here](https://alpiepho.github.io/pup-learning/).
 
 
-A tool to gather learning classes completed along with details.
+A tool to gather Learning classes completed along with details.
 
 When run as a Node.js tool, it will parse all the Completed Courses of the configured
 user, It will save that data as ./artifact/sample/json, and it will generate
 
 - public/index.html
-- artifacts/leraning-summary.mdx
+- artifacts/learning-summary.mdx
 
 The associated GH Action will deploy the index.html file.  
 
