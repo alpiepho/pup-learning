@@ -91,13 +91,12 @@ const blockedResources = [
   'demdex',
 
   'bat.bing',
-  //'static-exp1.licdn.com',
   'media-exp1.licdn.com',
   'linkedin.com/track',
   'linkedin.com/li/track',
   'files3.lynda.com',
   'platform.linkedin.com',
-  //'www.linkedin.com/learning-api/relatedContent',
+  'www.linkedin.com/learning-api/relatedContent',
   'snap.licdn.com',
 ];
 
