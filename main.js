@@ -41,7 +41,7 @@ const html1 = `
         href="https://github.com/alpiepho/pup-learning"
         target="_blank"
         rel="noreferrer"
-      >here.</a>.  This tool needs to be run manually to parse the LinkedIn Learning
+      >here</a>.  This tool needs to be run manually to parse the LinkedIn Learning
       site to gather the list of courses I have taken.
       </p>
       <p>
