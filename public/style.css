@@ -1,4 +1,8 @@
 
+.introduction {
+    max-width: 800px;
+}
+
 ul {
     list-style-type: none;
     margin-bottom: 15px;
