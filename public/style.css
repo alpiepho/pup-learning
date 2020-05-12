@@ -1,7 +1,22 @@
 
+.body {
+    margin: auto;
+    width: 500px;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.introduction {
+    max-width: 800px;
+}
+
+#top {
+    text-align: center;
+}
+
 ul {
     list-style-type: none;
     margin-bottom: 15px;
+    padding-inline-start: 0px;
 }
 
 li {
@@ -9,8 +24,21 @@ li {
     margin-bottom: 5px;
 }
 
+img {
+    width: 500px;
+}
+
+.completed {
+    margin-bottom: 20px;
+}
+
 .details {
     max-width: 800px;
+}
+
+.topbottom {
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 @media only screen and (max-width: 600px) {
