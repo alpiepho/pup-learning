@@ -13,7 +13,7 @@ PAGE_WAIT = 1000;
 PAGE_WAIT_LOGIN = 2000;
 PAGE_WAIT_LOGIN_DONE = 3000;
 PAGE_WAIT_COMPLETED = 3000;
-PAGE_WAIT_DETAILS = 1000;
+PAGE_WAIT_DETAILS = 3000;
 PAGE_WAIT_DETAILS_RETRY = 20000;
 
 const SAMPLE_FILE = "./artifacts/sample.json";
@@ -142,6 +142,12 @@ const process_completed = async (browser, options, data) => {
     if (options.scrollToBottom) {
       await auto_scroll(page);
     }
+
+    try {
+      // HACK: should get a count (clicking on a class might click all, not sure)
+      await page.click('.lls-card-child-content__button'); // Show content
+    } catch {}
+
     await base.delay(PAGE_WAIT_COMPLETED);
     await base.process_options(browser, options);
 

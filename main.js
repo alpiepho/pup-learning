@@ -28,6 +28,27 @@ const html1 = `
     <main>
     <article class="page">
       <h1  id=\"top\">LinkedIn Learning Courses Completed</h1>
+
+      <div class="introduction">
+      <p>
+      This a summary of all the Linked-In courses I have completed. 
+      This is just the direct LinkedIn Learning courses.  There are a number of "Lynda.com"
+      courses that were taken before subscribing to the LinkedIn premium plan.
+      </p>
+      <p>
+      This list is generated from a tool called "pup-learning" that can be found
+      <a
+        href="https://github.com/alpiepho/pup-learning"
+        target="_blank"
+        rel="noreferrer"
+      >here</a>.  This tool needs to be run manually to parse the LinkedIn Learning
+      site to gather the list of courses I have taken.
+      </p>
+      <p>
+        If you look over the list of courses, there is variety.  I fully admit that
+        my attention for some courses was less that other.  My form of bing watching :) 
+      </p>
+      </div>
 `;
 
 const html2 = `
@@ -91,7 +112,7 @@ function build_hours_minutes(data) {
 function build_html(data, totalH, totalM) {
   // generate artifacts from data - html
   let htmlStr = html1;
-  htmlStr += "      <p>Totals - Course: " + data['completed-courses'].length + ", Time: " + totalH + "h " + totalM + "m</p><br/>\n\n";
+  htmlStr += "      <br/><p>Totals - Course: " + data['completed-courses'].length + ", Time: " + totalH + "h " + totalM + "m</p><br/>\n\n";
   htmlStr += "      <ul>\n";
   data['completed-courses'].forEach(entry => {
     htmlStr += "            <li>\n";
