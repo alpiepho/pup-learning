@@ -60,7 +60,7 @@ const html2 = `
 
 const md1 = `---
 title: LinkedIn Completed Courses
-date: "2020-04-24"
+date: "2020-06-03"
 description: "Summary of my LinkedIn Learning Completed Courses"
 ---
 
