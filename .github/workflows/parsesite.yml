@@ -26,7 +26,7 @@ jobs:
       env:
         PUP_USERNAME: ${{ secrets.PUP_USERNAME }}
         PUP_PASSWORD: ${{ secrets.PUP_PASSWORD }}
-        PUP_HEADLESS: ${{ secrets.PUP_HEADLESS }}
+        PUP_HEADLESS: 'true'
     - run: echo $PUP_USERNAME
     - run: echo $PUP_HEADLESS
     - run: npm install
