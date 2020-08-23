@@ -1,4 +1,4 @@
-name: Special README Publish
+name: Parse Site
 
 # use this for generating when you commit
 # on:
@@ -27,6 +27,8 @@ jobs:
         PUP_USERNAME: ${{ secrets.PUP_USERNAME }}
         PUP_PASSWORD: ${{ secrets.PUP_PASSWORD }}
         PUP_HEADLESS: ${{ secrets.PUP_HEADLESS }}
+    - run: echo $PUP_USERNAME
+    - run: echo $PUP_HEADLESS
     - run: npm install
     - run: npm start
     - run: git diff
