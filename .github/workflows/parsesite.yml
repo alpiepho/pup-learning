@@ -1,14 +1,19 @@
 name: Parse Site
 
-# use this for generating when you commit
 # on:
-#   push:
+#   release:
 #     branches:
 #       - master
-# use this for testing scheduled (At every 5th minute)
+
+# use this for generating when you commit
 on:
-  schedule:
-    - cron: "*/5 * * * *"
+  push:
+    branches:
+      - master
+# use this for testing scheduled (At every 5th minute)
+# on:
+#   schedule:
+#     - cron: "*/5 * * * *"
 # use this for actual special readme repo (At every 30th minute)
 # on:
 #   schedule:

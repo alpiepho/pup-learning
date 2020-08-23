@@ -1,6 +1,7 @@
 name: GH Pages Deploy
 
-on: push
+# on: push
+on: release
 
 jobs:
   publish:
