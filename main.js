@@ -184,7 +184,7 @@ const main = async () => {
   // INTERNAL OPTIONS
   options = { 
     browserType:     "chrome", // "chrome, firefox" // WARNING: hit limit on number of detail pages with firefox
-    headless:        (process.env.PUP_HEADLESS == 'true'), // run without windows
+    headless:         true, //(process.env.PUP_HEADLESS == 'true'), // run without windows
     forceFullGather:  true,     // skip test for number of course
     scrollToBottom:   true,     // scroll page to bottom (WARNING: non-visible thumbnails are not loaded until page is scrolled)
     gatherDetails:    true,     // parse the details
@@ -197,6 +197,8 @@ const main = async () => {
   if (!options.useSampleData) {
     options.version = await browser.version();
   }
+  console.log("env:");
+  console.log(process.env);
   console.log("options:");
   console.log(options);
 
