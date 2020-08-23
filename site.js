@@ -151,6 +151,10 @@ const process_completed = async (browser, options, data) => {
     await base.delay(PAGE_WAIT_COMPLETED);
     await base.process_options(browser, options);
 
+
+
+
+
     newdata = await page.evaluate(() => {
       let result = {};
 
@@ -172,9 +176,8 @@ const process_completed = async (browser, options, data) => {
         entry['linkedin'] = '';
         entry['details'] = '';
         entry['title'] = card_conts[i].querySelector('.lls-card-headline').innerText;
-        temp = card_conts[i].querySelector('a.card-entity-link').href;
-        // get first 5 parts of href
-        entry['link'] =  temp.split('/').slice(0,5).join('/');
+        temp = card_conts[i].querySelector('a.entity-link').href;
+        entry['link'] = temp;
         temp = card_conts[i].querySelector('.lls-card-authors');
         if (temp) entry['author'] = temp.innerText.replace('By: ','');
         temp = card_conts[i].querySelector('.lls-card-released-on');
@@ -193,6 +196,7 @@ const process_completed = async (browser, options, data) => {
       }
       return result;
     });
+    console.log(newdata)
 
     if (options.gatherDetails) {
       var filteredPage = await base.browser_prep_filtered(browser);
