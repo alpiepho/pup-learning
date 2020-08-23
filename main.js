@@ -113,6 +113,10 @@ function build_hours_minutes(data) {
 function build_html(data, totalH, totalM) {
   // generate artifacts from data - html
   let htmlStr = html1;
+
+  today = new Date()
+  htmlStr += "<sup><sub>(updated " + today + ")</sub></sup>\n\n"
+
   htmlStr += "      <br/><p>Totals - Course: " + data['completed-courses'].length + ", Time: " + totalH + "h " + totalM + "m</p><br/>\n\n";
   htmlStr += "      <ul>\n";
   data['completed-courses'].forEach(entry => {
@@ -180,7 +184,7 @@ const main = async () => {
   // INTERNAL OPTIONS
   options = { 
     browserType:     "chrome", // "chrome, firefox" // WARNING: hit limit on number of detail pages with firefox
-    headless:        false,     // run without windows
+    headless:        (process.env.PUP_HEADLESS == 'true'), // run without windows
     forceFullGather:  true,     // skip test for number of course
     scrollToBottom:   true,     // scroll page to bottom (WARNING: non-visible thumbnails are not loaded until page is scrolled)
     gatherDetails:    true,     // parse the details
