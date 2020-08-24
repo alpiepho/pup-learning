@@ -35,7 +35,7 @@ jobs:
       env:
         PUP_USERNAME: ${{ secrets.PUP_USERNAME }}
         PUP_PASSWORD: ${{ secrets.PUP_PASSWORD }}
-        PUP_HEADLESS: 'true'
+        PUP_HEADLESS: ${{ secrets.PUP_HEADLESS }}
     # - run: git diff
     # - run: |
     #       date > generated.txt

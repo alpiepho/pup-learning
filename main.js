@@ -184,7 +184,7 @@ const main = async () => {
   // INTERNAL OPTIONS
   options = { 
     browserType:     "chrome",  // "chrome, firefox" // WARNING: hit limit on number of detail pages with firefox
-    headless:         true,     // run without windows
+    headless:         (process.env.PUP_HEADLESS == 'true'),     // run without windows
     forceFullGather:  true,     // skip test for number of course
     scrollToBottom:   true,     // scroll page to bottom (WARNING: non-visible thumbnails are not loaded until page is scrolled)
     gatherDetails:    true,     // parse the details
@@ -200,17 +200,17 @@ const main = async () => {
   console.log("options:");
   console.log(options);
 
-  // const browser = await base.browser_init(options);
-  // if (!options.useSampleData) {
-  //   options.version = await browser.version();
-  // }
+  const browser = await base.browser_init(options);
+  if (!options.useSampleData) {
+    options.version = await browser.version();
+  }
 
   // // login, get list of completed courses, logout
   // data = {}
   // await site.process_login(browser, options);
   // await site.process_completed(browser, options, data);
   // await site.process_logout(browser, options);
-  // await base.browser_close(browser);
+  await base.browser_close(browser);
 
   // //DEBUG
   // // console.log("data:");
