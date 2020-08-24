@@ -203,23 +203,23 @@ const main = async () => {
   console.log("options:");
   console.log(options);
 
-  // login, get list of completed courses, logout
-  data = {}
-  await site.process_login(browser, options);
-  await site.process_completed(browser, options, data);
-  await site.process_logout(browser, options);
-  await base.browser_close(browser);
+  // // login, get list of completed courses, logout
+  // data = {}
+  // await site.process_login(browser, options);
+  // await site.process_completed(browser, options, data);
+  // await site.process_logout(browser, options);
+  // await base.browser_close(browser);
 
-  //DEBUG
-  // console.log("data:");
-  // console.log(JSON.stringify(data, null, space=2));
+  // //DEBUG
+  // // console.log("data:");
+  // // console.log(JSON.stringify(data, null, space=2));
 
-  if (data['completed-courses'].length > 0) {
-    [totalH, totalM] = build_hours_minutes(data);
-    data['completed-courses'].sort((a, b) => (a['completed-ts'] < b['completed-ts']) ? 1 : -1) // decending
-    build_html(data, totalH, totalM);
-    build_md(data, totalH, totalM);
-  }
+  // if (data['completed-courses'].length > 0) {
+  //   [totalH, totalM] = build_hours_minutes(data);
+  //   data['completed-courses'].sort((a, b) => (a['completed-ts'] < b['completed-ts']) ? 1 : -1) // decending
+  //   build_html(data, totalH, totalM);
+  //   build_md(data, totalH, totalM);
+  // }
 
   console.log("done.");
 };
