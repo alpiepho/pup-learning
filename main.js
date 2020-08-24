@@ -205,16 +205,16 @@ const main = async () => {
     options.version = await browser.version();
   }
 
-  // // login, get list of completed courses, logout
-  // data = {}
-  // await site.process_login(browser, options);
-  // await site.process_completed(browser, options, data);
-  // await site.process_logout(browser, options);
+  // login, get list of completed courses, logout
+  data = {}
+  await site.process_login(browser, options);
+  await site.process_completed(browser, options, data);
+  await site.process_logout(browser, options);
   await base.browser_close(browser);
 
-  // //DEBUG
-  // // console.log("data:");
-  // // console.log(JSON.stringify(data, null, space=2));
+  //DEBUG
+  console.log("data:");
+  console.log(JSON.stringify(data, null, space=2));
 
   // if (data['completed-courses'].length > 0) {
   //   [totalH, totalM] = build_hours_minutes(data);
