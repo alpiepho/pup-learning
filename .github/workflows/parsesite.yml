@@ -28,14 +28,14 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: '12.x'
-      env:
-        PUP_USERNAME: ${{ secrets.PUP_USERNAME }}
-        PUP_PASSWORD: ${{ secrets.PUP_PASSWORD }}
-        PUP_HEADLESS: 'true'
     - run: echo $PUP_USERNAME
     - run: echo $PUP_HEADLESS
     - run: npm install
     - run: npm start
+      env:
+        PUP_USERNAME: ${{ secrets.PUP_USERNAME }}
+        PUP_PASSWORD: ${{ secrets.PUP_PASSWORD }}
+        PUP_HEADLESS: 'true'
     # - run: git diff
     # - run: |
     #       date > generated.txt

@@ -193,15 +193,17 @@ const main = async () => {
     screenshot:      false,     // take snapshots
     screenshotDir:   SCREENSHOT_DIR
   }
-  const browser = await base.browser_init(options);
-  if (!options.useSampleData) {
-    options.version = await browser.version();
-  }
+
   console.log("env:");
   console.log(process.env.PUP_USERNAME);
   console.log(process.env.PUP_HEADLESS);
   console.log("options:");
   console.log(options);
+
+  // const browser = await base.browser_init(options);
+  // if (!options.useSampleData) {
+  //   options.version = await browser.version();
+  // }
 
   // // login, get list of completed courses, logout
   // data = {}
