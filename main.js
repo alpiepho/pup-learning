@@ -213,15 +213,15 @@ const main = async () => {
   await base.browser_close(browser);
 
   //DEBUG
-  console.log("data:");
-  console.log(JSON.stringify(data, null, space=2));
+  // console.log("data:");
+  // console.log(JSON.stringify(data, null, space=2));
 
-  // if (data['completed-courses'].length > 0) {
-  //   [totalH, totalM] = build_hours_minutes(data);
-  //   data['completed-courses'].sort((a, b) => (a['completed-ts'] < b['completed-ts']) ? 1 : -1) // decending
-  //   build_html(data, totalH, totalM);
-  //   build_md(data, totalH, totalM);
-  // }
+  if (data['completed-courses'].length > 0) {
+    [totalH, totalM] = build_hours_minutes(data);
+    data['completed-courses'].sort((a, b) => (a['completed-ts'] < b['completed-ts']) ? 1 : -1) // decending
+    build_html(data, totalH, totalM);
+    build_md(data, totalH, totalM);
+  }
 
   console.log("done.");
 };

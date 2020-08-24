@@ -103,16 +103,11 @@ This feature allows capturing an image of the web page while the test is running
 ## Know Issues
 
 - options must be set in code
+- GH Actions almost works, but LinkedIn flags login from an unknown IP address (see saved for .yml file)
 
 
 ## TODO List:
 
-- set up with GH Actions to run "update" with docker/ubuntu18/node12...
-    - get
-    - yarn install
-    - yarn start
-    - verify index
-    - commit /public  /artifacts (.md)
 - go back to HACK (limit to 10 detail pages per run of tool) DEBUG firefox
 
 ## Future changes:
@@ -120,7 +115,7 @@ This feature allows capturing an image of the web page while the test is running
 Some ideas for future changes:
 
 - Create summary page from data
-- Add GH Actions to autogenerate page on a schedule
+
 
 
 
