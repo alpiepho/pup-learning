@@ -184,7 +184,7 @@ const main = async () => {
   // INTERNAL OPTIONS
   options = { 
     browserType:     "chrome",  // "chrome, firefox" // WARNING: hit limit on number of detail pages with firefox
-    headless:         (process.env.PUP_HEADLESS == 'true'),     // run without windows
+    headless:         false, //(process.env.PUP_HEADLESS == 'true'),     // run without windows
     forceFullGather:  true,     // skip test for number of course
     scrollToBottom:   true,     // scroll page to bottom (WARNING: non-visible thumbnails are not loaded until page is scrolled)
     gatherDetails:    true,     // parse the details
