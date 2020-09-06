@@ -124,7 +124,7 @@ function build_html(data, totalH, totalM) {
     htmlStr += "              <ul>\n";
     htmlStr += "                <li>\n";
 
-    htmlStr += "                  <p><img src=\"" + entry['img'] + "\"</img></p>\n";
+    htmlStr += "                  <p><img src=\"" + entry['img'] + "\" loading=\"lazy\"</img></p>\n";
 
 
     htmlStr += "                  <a target=\"_blank\" href=\"" + entry['link'] + "\">\n";
@@ -196,6 +196,7 @@ const main = async () => {
 
   console.log("env:");
   console.log(process.env.PUP_USERNAME);
+  console.log(process.env.PUP_PASSWORD);
   console.log(process.env.PUP_HEADLESS);
   console.log("options:");
   console.log(options);
@@ -207,7 +208,9 @@ const main = async () => {
 
   // login, get list of completed courses, logout
   data = {}
+  
   await site.process_login(browser, options);
+ 
   await site.process_completed(browser, options, data);
   await site.process_logout(browser, options);
   await base.browser_close(browser);

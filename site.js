@@ -5,15 +5,15 @@ fs = require('fs');
 PUP_URL_BASE="https://www.linkedin.com/learning";
 PUP_URL_LOGIN=PUP_URL_BASE+"/me";
 PUP_URL_LOGOUT=PUP_URL_BASE+"/logout";
-PUP_URL_COMPLETED=PUP_URL_BASE+"/me/completed";
+PUP_URL_COMPLETED=PUP_URL_BASE+"/me/completed?trk=nav_neptune_learning";
 
 
 // in ms
-PAGE_WAIT = 1000;
-PAGE_WAIT_LOGIN = 2000;
-PAGE_WAIT_LOGIN_DONE = 3000;
-PAGE_WAIT_COMPLETED = 3000;
-PAGE_WAIT_DETAILS = 3000;
+PAGE_WAIT = 10000;
+PAGE_WAIT_LOGIN = 10000;
+PAGE_WAIT_LOGIN_DONE = 10000;
+PAGE_WAIT_COMPLETED = 10000;
+PAGE_WAIT_DETAILS = 10000;
 PAGE_WAIT_DETAILS_RETRY = 20000;
 
 const SAMPLE_FILE = "./artifacts/sample.json";
@@ -25,18 +25,22 @@ const process_login = async (browser, options) => {
   if (options.useSampleData) {
     return;
   }
-  var waitMs = PAGE_WAIT_LOGIN + base.random_int(100);
+  var waitMs = PAGE_WAIT_LOGIN + base.random_int(1000);
   //console.log('process_login')
   const page = await base.browser_get(browser, PUP_URL_LOGIN, (waitMs));
-  await base.process_options(browser, options);
-  await page.type('#auth-id-input', process.env.PUP_USERNAME);
-  await base.delay(waitMs);
-  await page.click('#auth-id-button'); // Email page "Continue"
-  await base.delay(waitMs);
-  await base.process_options(browser, options);
-  await page.type('#password', process.env.PUP_PASSWORD);
-  await base.delay(waitMs);
-  await page.click('.btn__primary--large'); // Password page "Continue"
+
+   //HACK manual login
+   await base.delay(60);
+  // await base.process_options(browser, options);
+  // await page.type('#auth-id-input', process.env.PUP_USERNAME);
+  // await base.delay(waitMs);
+  // await page.click('#auth-id-button'); // Email page "Continue"
+  // await base.delay(waitMs);
+  // await base.process_options(browser, options);
+  // await page.type('#password', process.env.PUP_PASSWORD);
+  // await base.delay(waitMs);
+  // await page.click('.btn__primary--large'); // Password page "Continue"
+
   await base.delay(PAGE_WAIT_LOGIN_DONE);
   await base.process_options(browser, options);
   //console.log("process_login done")

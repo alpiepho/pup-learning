@@ -12,13 +12,52 @@ A full summary with more details can be found [here](https://alpiepho.github.io/
 
 #### top
 
-Total Completed Courses: 155, Time: 282h 45m
+Total Completed Courses: 158, Time: 286h 16m
 <br/>
 <br/>
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQE4D0EVxat0vw/learning-public-crop_144_256/0?e=1599332400&v=beta&t=fw0OZ7SmlcTww7HNCJa8n3rCr5yLorvhbRslm3jEJs0)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQEFchWnMoDBLA/learning-public-crop_144_256/0?e=1599498000&v=beta&t=zsxXNiPRvpJOcluFTZ_MmC0ooDV2UyU1PM_Tm8qYsvY)
+
+[Learning Splunk](https://www.linkedin.com/learning/learning-splunk)
+- Author: Josh Samuelson
+- Duration: 1h 34m
+- Completed: 9/6/2020
+- Details: Splunk is a tool for analyzing and searching incoming machine-generated data like application or database logs. It is ideal for monitoring the health of IT infrastructure, especially networks with complex and aging systems, and software in production. In this course you can learn the basics of how Splunk works and how it can help you monitor data from multiple systems: web servers, databases, applications, and even cloud-based resources. Explore the search and reporting features, and learn how to set up alerts so that you can catch potential problems before they become critical. Plus, learn how to set up dashboards for visual insights into the state of your systems. Instructor Josh Samuelson illustrates the lessons with examples from real-world scenarios, where Splunk is used for centralized logging and reporting from multiple systems.
+- [top](#top) / [bottom](#bottom)
+<br/>
+<br/>
+<br/>
+
+
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFFkRpeVmh0UQ/learning-public-crop_144_256/0?e=1599498000&v=beta&t=8SohdTjq1x0H5w6xPK8k9z3aE3arzBwQ8AR1LE7Mcbg)
+
+[Linux: System Maintenance](https://www.linkedin.com/learning/linux-system-maintenance)
+- Author: Scott Simpson
+- Duration: 1h 18m
+- Completed: 9/4/2020
+- Details: It can be tempting to skimp on regular system maintenance once your computer is up and running. That said, it's essential to keep tabs on your machine, and check to see if there are any security problems you should address, and whether your computer is keeping up with its tasks. In this course, dive into the basics of Linux system maintenance. Instructor Scott Simpson explains how to approach any Linux system, to help you get your bearings if a system looks unfamiliar. He also covers system and security logs, troubleshooting the boot process, upgrading software, freeing disk space, and automating reports with scripting.
+- [top](#top) / [bottom](#bottom)
+<br/>
+<br/>
+<br/>
+
+
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQE6rDHtZht9qw/learning-public-crop_144_256/0?e=1599498000&v=beta&t=pcdL1UsPvQ4BIuE7cjl5jTsH_vV51EME0jt6_zL3uk0)
+
+[Linux: Multitasking at the Command Line](https://www.linkedin.com/learning/linux-multitasking-at-the-command-line)
+- Author: Scott Simpson
+- Duration: 39m
+- Completed: 9/4/2020
+- Details: When you're working at the Linux command line, you don't have to give up the multitasking flexibility you're accustomed to in a graphical user interface. Have a long-running copy operation preventing you from editing a configuration file? Send it to the background and reclaim your time! In this short course, author Scott Simpson shows you how to switch tasks to the background and bring them back to the foreground. He also demonstrates screen and tmux, two very popular utilities for creating working environments that persist between connections.
+- [top](#top) / [bottom](#bottom)
+<br/>
+<br/>
+<br/>
+
+
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQE4D0EVxat0vw/learning-public-crop_144_256/0?e=1599498000&v=beta&t=XHVK3UibQLBXVtkT8yw555QjCCTd-zBLX0Ab2PIAasM)
 
 [Learning Arduino: Interfacing with Analog Devices](https://www.linkedin.com/learning/learning-arduino-interfacing-with-analog-devices)
 - Author: Zahraa Khalil
@@ -31,7 +70,7 @@ Total Completed Courses: 155, Time: 282h 45m
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQEtKvzH4fYxQw/learning-public-crop_144_256/0?e=1599332400&v=beta&t=Vm_ZPeyrEPQixLnyJcX9_Yg3lF-fHlzwEQmB2ggniA0)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQEtKvzH4fYxQw/learning-public-crop_144_256/0?e=1599498000&v=beta&t=QfDvaTldlQnjOlWM23lDWbY8ukoKX6-hBLhIz_uwovk)
 
 [Linux: Web Services](https://www.linkedin.com/learning/linux-web-services)
 - Author: Scott Simpson
@@ -44,7 +83,7 @@ Total Completed Courses: 155, Time: 282h 45m
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHSYPrYj9FvEQ/learning-public-crop_144_256/0?e=1599332400&v=beta&t=MCdc2gEpQ-2NLHJ37RUVf51Anq_0VpAb6peKOF6s3bY)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHSYPrYj9FvEQ/learning-public-crop_144_256/0?e=1599498000&v=beta&t=JZh3R8TXWj2yUVEykyD3a1wN-xyepr9YdpEZi4DDn9o)
 
 [Learning Ubuntu Server](https://www.linkedin.com/learning/learning-ubuntu-server)
 - Author: Scott Simpson
@@ -57,7 +96,7 @@ Total Completed Courses: 155, Time: 282h 45m
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4D0DAQFs4TTciqF0Sg/learning-public-crop_144_256/0?e=1599332400&v=beta&t=GTwfva_ZpzGDOuzVvsAK388tjA80pn0T04dw0cjz_tc)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4D0DAQFs4TTciqF0Sg/learning-public-crop_144_256/0?e=1599498000&v=beta&t=iS4h3-ULB_aTHfrI6GKwnY-62OwWB4-fkUL6KUa2BMU)
 
 [Learning VirtualBox](https://www.linkedin.com/learning/learning-virtualbox-2)
 - Author: Scott Simpson
@@ -70,7 +109,7 @@ Total Completed Courses: 155, Time: 282h 45m
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFfjEJNQP1sCA/learning-public-crop_144_256/0?e=1599332400&v=beta&t=XRoQL2qn_UZvRZIzbwBKLBZCmUzIC_FenOPFY46hDcw)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFfjEJNQP1sCA/learning-public-crop_144_256/0?e=1599498000&v=beta&t=j3dTmvDCBGmT1r73r8oK7fXCEhpr1gTRedOdYmKOeqw)
 
 [Visual Studio Code for Web Developers](https://www.linkedin.com/learning/visual-studio-code-for-web-developers)
 - Author: Joe Marini
@@ -85,7 +124,7 @@ Joe Marini kicks off the course by taking you through the app's user interface, 
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFQY8WcMyH8BA/learning-public-crop_144_256/0?e=1599332400&v=beta&t=ch4xZndL4vIWWqBCTkTBXhWjUPS-pBAshZIpaWVfshg)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFQY8WcMyH8BA/learning-public-crop_144_256/0?e=1599498000&v=beta&t=sl2hRgE_ezFghAQnPF6-a8X4NhresGs3RpQp9n6_LI0)
 
 [Visual Studio Code for Python Developers](https://www.linkedin.com/learning/visual-studio-code-for-python-developers)
 - Author: Joe Marini
@@ -98,7 +137,7 @@ Joe Marini kicks off the course by taking you through the app's user interface, 
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQEKs9l1zrEaaw/learning-public-crop_144_256/0?e=1599332400&v=beta&t=KnzJFQRPb_qTWaTJisOas5cOSgTnLCLzNZ-ZcexPROk)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQEKs9l1zrEaaw/learning-public-crop_144_256/0?e=1599498000&v=beta&t=__ysSKyyKR34mFNkU0KAe_aJGECZtVgRKbDj_U5ty9k)
 
 [Learning FTP](https://www.linkedin.com/learning/learning-ftp)
 - Author: Scott Simpson
@@ -111,7 +150,7 @@ Joe Marini kicks off the course by taking you through the app's user interface, 
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4D0DAQGoxmdvTiOMuA/learning-public-crop_144_256/0?e=1599332400&v=beta&t=iEpZirFFJbIv5KrSzRHkn1yMAilqvDQaYvTVaGovZkk)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4D0DAQGoxmdvTiOMuA/learning-public-crop_144_256/0?e=1599498000&v=beta&t=Gd4wEMP-oW7QEHOX7iVSU8jA7G1ZTMKSnWjYlqcCnig)
 
 [Building Tools with Python](https://www.linkedin.com/learning/building-tools-with-python)
 - Author: Scott Simpson
@@ -124,7 +163,7 @@ Joe Marini kicks off the course by taking you through the app's user interface, 
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFCn7Wo7bm_ow/learning-public-crop_144_256/0?e=1599332400&v=beta&t=maDfmlz5BzViy6ZKSSIMOCUuh8Q8479NRAbntMzBJDQ)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFCn7Wo7bm_ow/learning-public-crop_144_256/0?e=1599498000&v=beta&t=yORmg8Rgw0BYr3RVfoEOP4ugcZpffcNEcxRIQDzq5zY)
 
 [Delivering an Authentic Elevator Pitch](https://www.linkedin.com/learning/delivering-an-authentic-elevator-pitch)
 - Author: Tatiana Kolovou
@@ -137,7 +176,7 @@ Joe Marini kicks off the course by taking you through the app's user interface, 
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQEAMMb6xqBPaA/learning-public-crop_144_256/0?e=1599332400&v=beta&t=yrh-BV-8_EqXXfjwAUaqpRApZgpfx4y9g0Kxa6-Fl4E)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQEAMMb6xqBPaA/learning-public-crop_144_256/0?e=1599498000&v=beta&t=9yyrsTAqsh5clYcU3JyUizEDM6vwX_0r3Z51Rp1Tus8)
 
 [Learning Arduino: Interfacing with Hardware](https://www.linkedin.com/learning/learning-arduino-interfacing-with-hardware)
 - Author: Zahraa Khalil
@@ -150,7 +189,7 @@ Joe Marini kicks off the course by taking you through the app's user interface, 
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQE_WWmsgbMuhA/learning-public-crop_144_256/0?e=1599332400&v=beta&t=6swKwID2hxRSoxtQ4wYPW8xccwZBKGq4f_9tSwrQB6c)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQE_WWmsgbMuhA/learning-public-crop_144_256/0?e=1599498000&v=beta&t=rXCRcPBXKJmM312AZzj5FYO-ysf7Ag0wgdou_EZPgZM)
 
 [Learning Spring with Spring Boot](https://www.linkedin.com/learning/learning-spring-with-spring-boot-2)
 - Author: Frank P Moley III
@@ -163,7 +202,7 @@ Joe Marini kicks off the course by taking you through the app's user interface, 
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHt_WQ2EI8yTA/learning-public-crop_144_256/0?e=1599332400&v=beta&t=7dvYil3BtmE8_QbTOuMdcqfJkJwvGatW8HrxeGRXgyc)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHt_WQ2EI8yTA/learning-public-crop_144_256/0?e=1599498000&v=beta&t=YrnU2yTOrrShm9R9nqvZRnoLBm2_11JZGYwgcKugvzg)
 
 [Creating Your First Spring Boot Microservice](https://www.linkedin.com/learning/creating-your-first-spring-boot-microservice)
 - Author: Mary Ellen Bowman
@@ -176,7 +215,7 @@ Joe Marini kicks off the course by taking you through the app's user interface, 
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHqNko91KVUGQ/learning-public-crop_144_256/0?e=1599332400&v=beta&t=Qi8uMbhxN5t3EJxHqjVGBgMOIWWW6G18lYG7_mingwE)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHqNko91KVUGQ/learning-public-crop_144_256/0?e=1599498000&v=beta&t=Khx6gtWhbyAo2pAnfDLmpy5sBk3kU0hWwXHTyJ-v5Oc)
 
 [SQL: Data Reporting and Analysis](https://www.linkedin.com/learning/sql-data-reporting-and-analysis-2)
 - Author: Emma Saunders
@@ -189,7 +228,7 @@ Joe Marini kicks off the course by taking you through the app's user interface, 
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQEN5EmSj32fTA/learning-public-crop_144_256/0?e=1599332400&v=beta&t=fBP9csgW_7hUCmDlzvvOWfQTzqZdhB01Aldqgkv0zHc)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQEN5EmSj32fTA/learning-public-crop_144_256/0?e=1599498000&v=beta&t=X8g1Yo5v9j8l6L3duhINIf03Y0xdGrnkgRRldIeBGp0)
 
 [Learning Ransomware Countermeasures](https://www.linkedin.com/learning/learning-ransomware-countermeasures)
 - Author: Lisa Bock
@@ -202,7 +241,7 @@ Joe Marini kicks off the course by taking you through the app's user interface, 
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQF9a5RFTdv7zw/learning-public-crop_144_256/0?e=1599332400&v=beta&t=zyFVtcZfMOfpy_lfIyh4Z4Z4DTMfVQ_JVZn3krNDni8)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQF9a5RFTdv7zw/learning-public-crop_144_256/0?e=1599498000&v=beta&t=Pp7IKpudDIqgvdCrrpFjCGGmLI6HH0LKZnZeXM8H99M)
 
 [Wireshark: Packet Loss and Recovery](https://www.linkedin.com/learning/wireshark-packet-loss-and-recovery)
 - Author: Lisa Bock
@@ -215,7 +254,7 @@ Joe Marini kicks off the course by taking you through the app's user interface, 
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFGobzUaQYbfA/learning-public-crop_144_256/0?e=1599332400&v=beta&t=F1P9Hi22UKazFcgv-Ys29bCSQfmAct0t95LAz9nF1Gc)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFGobzUaQYbfA/learning-public-crop_144_256/0?e=1599498000&v=beta&t=UEV6FdAQ5Ka5Dy_NXIYtCjFOzFbuy7mGnI06jEfwo4I)
 
 [Amazon EC2 Load Balancers](https://www.linkedin.com/learning/amazon-ec2-load-balancers-2)
 - Author: Shyam Raj
@@ -230,7 +269,7 @@ This course was created by Shyam Raj. We are pleased to offer this training in o
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQEPaMbcvpCyug/learning-public-crop_144_256/0?e=1599332400&v=beta&t=hHYZN3-dodIBrNJLfoKfDRVcmnY8v477xTXfeKLSrBc)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQEPaMbcvpCyug/learning-public-crop_144_256/0?e=1599498000&v=beta&t=LAD8otxVDuHwqgftAnmqPFdJyS6hxrzESuzCJiR_eDk)
 
 [Amazon EC2 Deep Dive](https://www.linkedin.com/learning/amazon-ec2-deep-dive-2)
 - Author: Shyam Raj
@@ -245,7 +284,7 @@ This course was created by Shyam Raj. We are pleased to offer this training in o
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQF_6UveIpTnPg/learning-public-crop_144_256/0?e=1599332400&v=beta&t=UmPKH65bVOACJ5YlugpRGc-tpYOVM5SrTj4m--sI5BI)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQF_6UveIpTnPg/learning-public-crop_144_256/0?e=1599498000&v=beta&t=4zTGcKiR4eu7_xhK9NKUZYrUsqyExRTsOngw3965aNU)
 
 [Network Automation Quick Start](https://www.linkedin.com/learning/network-automation-quick-start)
 - Author: David Bombal
@@ -258,7 +297,7 @@ This course was created by Shyam Raj. We are pleased to offer this training in o
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHNligPyFZ3kg/learning-public-crop_144_256/0?e=1599332400&v=beta&t=jWqTpBKwO-Z-r3hVx6te_FDhIpqNdF1_msRqcBt0Mbk)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHNligPyFZ3kg/learning-public-crop_144_256/0?e=1599498000&v=beta&t=o_gzQ326AnhscNirTRRLEC3yJvB6pmDwPW5Lqth1pD4)
 
 [Wireshark: VoIP](https://www.linkedin.com/learning/wireshark-voip)
 - Author: Lisa Bock
@@ -271,7 +310,7 @@ This course was created by Shyam Raj. We are pleased to offer this training in o
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQF3yX1Vs0Kdxg/learning-public-crop_144_256/0?e=1599332400&v=beta&t=x2bAKEc-wayvDipNmDqYqEpyRFjYDSLoZEMvqnqlUN4)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQF3yX1Vs0Kdxg/learning-public-crop_144_256/0?e=1599498000&v=beta&t=L5GrXn_YK8dqy7GnDB6uJTK1Fkp4HV77brwvmo03rHo)
 
 [Get Ready for Your Coding Interview](https://www.linkedin.com/learning/get-ready-for-your-coding-interview)
 - Author: YK Sugi
@@ -286,7 +325,7 @@ Follow YK Sugishita as he explains what to keep in mind as you prepare for codin
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQF3ASJ6I6OhEw/learning-public-crop_144_256/0?e=1599332400&v=beta&t=dMi7LHYrWCKFOKuZ0JrwGfU7tAVH3u3rKtoyfaRSntY)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQF3ASJ6I6OhEw/learning-public-crop_144_256/0?e=1599498000&v=beta&t=mJgXvTpGv1rzeaeB2tAq7B1bvTUP349XTvzmTBI4NM4)
 
 [Cloud Architecture: Advanced Concepts](https://www.linkedin.com/learning/cloud-architecture-advanced-concepts-2)
 - Author: David Linthicum
@@ -301,7 +340,7 @@ Note: This course was revised for 2019.
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFQEwdkpc1jJQ/learning-public-crop_144_256/0?e=1599332400&v=beta&t=KQIfJkuVrR8mT_CsRBEPBgf-icS9_iNOOyseP2LHB7g)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFQEwdkpc1jJQ/learning-public-crop_144_256/0?e=1599498000&v=beta&t=p0yTz7Mh8tUKzUtmV_m9dZ8_z84fqooeOOxfAn2ci2w)
 
 [Serverless Architecture](https://www.linkedin.com/learning/serverless-architecture)
 - Author: Lynn Langit
@@ -314,7 +353,7 @@ Note: This course was revised for 2019.
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQEwXy7f9mN9fg/learning-public-crop_144_256/0?e=1599332400&v=beta&t=3G800Ypyf3rdgWDKyOh-bB7aGkrf-Xc3CTgdhpEN7pI)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQEwXy7f9mN9fg/learning-public-crop_144_256/0?e=1599498000&v=beta&t=Hv4Kfjf3qvz-zzdrCXX8KmMfYYGWzYIluQktrzPpM50)
 
 [Learning Data Visualization with D3.js](https://www.linkedin.com/learning/learning-data-visualization-with-d3-js)
 - Author: Ray Villalobos
@@ -327,7 +366,7 @@ Note: This course was revised for 2019.
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFGWcozpq_ASw/learning-public-crop_144_256/0?e=1599332400&v=beta&t=VMXcSwfESddP3DMzkFcfvbFk7-XtJe7uNHvtkykR6cI)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFGWcozpq_ASw/learning-public-crop_144_256/0?e=1599498000&v=beta&t=GH0nkB8Nts75zrqam5Yp3LZ9M4SpFJMxs_Cv3rND9gQ)
 
 [Wireshark: Functionality](https://www.linkedin.com/learning/wireshark-functionality)
 - Author: Lisa Bock
@@ -340,7 +379,7 @@ Note: This course was revised for 2019.
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQF9nR-OH3x-3A/learning-public-crop_144_256/0?e=1599332400&v=beta&t=W9UZk5dcQ3-0DrTaFILTiodC4HvjpesO0dPf8E0DFnU)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQF9nR-OH3x-3A/learning-public-crop_144_256/0?e=1599498000&v=beta&t=5expUJ7uNls3d3jd6jXyGonb3hUXBPLVb0r_fdjQCAY)
 
 [Practical Linux for Network Engineers: Part 2](https://www.linkedin.com/learning/practical-linux-for-network-engineers-part-2)
 - Author: David Bombal
@@ -355,7 +394,7 @@ Note: This course uses GNS3 for all demonstrations.
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHmDGse08DybA/learning-public-crop_144_256/0?e=1599332400&v=beta&t=xcqXMfVpJaPG39XIKlf60YCFAFz93K9icWJjgpY6plw)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHmDGse08DybA/learning-public-crop_144_256/0?e=1599498000&v=beta&t=h7qw1qM8djJhTjeWCtaCIjkpfSRoSG-TFDOEESSEfcA)
 
 [Wireshark: Malware and Forensics](https://www.linkedin.com/learning/wireshark-malware-and-forensics)
 - Author: Lisa Bock
@@ -368,7 +407,7 @@ Note: This course uses GNS3 for all demonstrations.
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQEHWjkvkylMHw/learning-public-crop_144_256/0?e=1599332400&v=beta&t=nycv7rQESoq6DUCYpxe5QaVKtF9hxVZF4_a6RCEHwtY)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQEHWjkvkylMHw/learning-public-crop_144_256/0?e=1599498000&v=beta&t=CidOcsaIwCTRFuWEz3o3QAxT4LI-uj-slL1Z56f4Dh0)
 
 [Learning Java 8](https://www.linkedin.com/learning/learning-java-8)
 - Author: Peggy Fisher
@@ -381,7 +420,7 @@ Note: This course uses GNS3 for all demonstrations.
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHJyIROW2Tsug/learning-public-crop_144_256/0?e=1599332400&v=beta&t=eSh4Q2bRkTRC5NK6QsYO9Wo_UNMcl-usfSYZI4HZuOE)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHJyIROW2Tsug/learning-public-crop_144_256/0?e=1599498000&v=beta&t=xG1q0a0fJAr9wVBXYTnGknKNfWHj7vy_ApJi8-SlVII)
 
 [Ethical Hacking: The Complete Malware Analysis Process](https://www.linkedin.com/learning/ethical-hacking-the-complete-malware-analysis-process)
 - Author: Malcolm Shore
@@ -394,7 +433,7 @@ Note: This course uses GNS3 for all demonstrations.
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFjvCtQYbGnlQ/learning-public-crop_144_256/0?e=1599332400&v=beta&t=74JXx7m8U7uR4KDkYux7TTH6S32-Xkhicg2WyimZezs)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFjvCtQYbGnlQ/learning-public-crop_144_256/0?e=1599498000&v=beta&t=rLFh3eObaeM40Oab1uLVeJrXjlu_66ANmQ1k1-YnWXA)
 
 [AWS: Monitoring and Reporting](https://www.linkedin.com/learning/aws-monitoring-and-reporting)
 - Author: Shyam Raj
@@ -407,7 +446,7 @@ Note: This course uses GNS3 for all demonstrations.
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFOutJRe1SIhQ/learning-public-crop_144_256/0?e=1599332400&v=beta&t=23ocH3VSUIZS5aeIZ-kHpPIGxyZ45rQ6Oo24lygQmns)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFOutJRe1SIhQ/learning-public-crop_144_256/0?e=1599498000&v=beta&t=soumhpeuBmMDhZeiDaw-LyfK2QwAU41JjwnbYluApLw)
 
 [AWS: Automation and Optimization](https://www.linkedin.com/learning/aws-automation-and-optimization)
 - Author: Shyam Raj
@@ -420,7 +459,7 @@ Note: This course uses GNS3 for all demonstrations.
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFC1QNb8DSUxg/learning-public-crop_144_256/0?e=1599332400&v=beta&t=WYdy_tbYWvpWAMGqtiTM3PhpkHbs7z9LBUOnd6dUiIc)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFC1QNb8DSUxg/learning-public-crop_144_256/0?e=1599498000&v=beta&t=eWdJLogttpL0QOBMFfZD1ugD1pH13CtZT2KgB7-p-w8)
 
 [Humor in the Workplace](https://www.linkedin.com/learning/humor-in-the-workplace)
 - Author: Izzy Gesell
@@ -433,7 +472,7 @@ Note: This course uses GNS3 for all demonstrations.
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHWbZSM1Jz8rg/learning-public-crop_144_256/0?e=1599332400&v=beta&t=jzYpfPe0hYdrZJAUDQzGndimNjFv-Wilms8Y-7da-lA)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHWbZSM1Jz8rg/learning-public-crop_144_256/0?e=1599498000&v=beta&t=OkodYjojfXjZ66_R5Msg331TteAUBLOMA6_oJNvlg6A)
 
 [Learning to use MakerBot 3D Printers](https://www.linkedin.com/learning/learning-to-use-makerbot-3d-printers)
 - Author: Kacie Hultgren
@@ -448,7 +487,7 @@ Want more? Check out Up and Running with 3D Printing for information on creating
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQGu632x3hHlRg/learning-public-crop_144_256/0?e=1599332400&v=beta&t=hovATTf4Ld40j0_csnaszcfvnU-IX9BEJLQiJP0qXGQ)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQGu632x3hHlRg/learning-public-crop_144_256/0?e=1599498000&v=beta&t=AWHPZ0Sa3hFFMw3Vveom3_5Afe-GtKrNwMOQnAXbidk)
 
 [Learning 3D Printing](https://www.linkedin.com/learning/learning-3d-printing)
 - Author: Kacie Hultgren
@@ -461,7 +500,7 @@ Want more? Check out Up and Running with 3D Printing for information on creating
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQF873XeQsbaKA/learning-public-crop_144_256/0?e=1599332400&v=beta&t=ONWUe-3cLhlfWagt2xRi0rIhuUP45O-93zaV4oQ7B5w)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQF873XeQsbaKA/learning-public-crop_144_256/0?e=1599498000&v=beta&t=neDzFszPraZ-9sWEgXDO_IeiJ4dA3lpZ1wm03xbDRxY)
 
 [Ethical Hacking: Evading IDS, Firewalls, and Honeypots](https://www.linkedin.com/learning/ethical-hacking-evading-ids-firewalls-and-honeypots)
 - Author: Malcolm Shore
@@ -476,7 +515,7 @@ Note: The topics covered in this course are drawn from the Evading IDS, Firewall
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFgmC3_YUow5w/learning-public-crop_144_256/0?e=1599332400&v=beta&t=LSUE_sxghuvKMP4wsnhfHL_n-S8lV27pDiWR4eX5D3U)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFgmC3_YUow5w/learning-public-crop_144_256/0?e=1599498000&v=beta&t=uog2zDI8ihUkL7to91516qfsUe7SETgqUC59lfNGinw)
 
 [Writing a Resume](https://www.linkedin.com/learning/writing-a-resume)
 - Author: Stacey Gordon
@@ -491,7 +530,7 @@ Stacey explains what to include and exclude on a resume and how to showcase your
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C510DAQE1OBUMka5FaA/learning-public-crop_144_256/0?e=1599332400&v=beta&t=HOXkE93Vi0EWmE796QmbiaXSmoxOsD33XQFXfrHvclM)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C510DAQE1OBUMka5FaA/learning-public-crop_144_256/0?e=1599498000&v=beta&t=JQqLMV2ooph0jJLuJAlPkuF61Kt1eBXCqPht15vm4-s)
 
 [Finding a Job during Challenging Economic Times](https://www.linkedin.com/learning/paths/finding-a-job-during-challenging-economic-times)
 - Author: 
@@ -504,7 +543,7 @@ Stacey explains what to include and exclude on a resume and how to showcase your
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHNB8ELGoTgFQ/learning-public-crop_144_256/0?e=1599332400&v=beta&t=EqSawjnAVXMwvZsuSVHKoQa2gNSp8a0NPr4KEbK68bg)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHNB8ELGoTgFQ/learning-public-crop_144_256/0?e=1599498000&v=beta&t=XifxCMh0SzIJnYjyxWUSvW1rcNHSAQXGICPVBks_Gfk)
 
 [Learning Tinkercad (2017)](https://www.linkedin.com/learning/learning-tinkercad-2017)
 - Author: Kacie Hultgren
@@ -519,7 +558,7 @@ To learn more about 3D printing with your Tinkercad designs, check out Kacie's c
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHIfKCqyjAcRg/learning-public-crop_144_256/0?e=1599332400&v=beta&t=_aGemmeCVLYYMwOEejcd8HfZJ_0t31v5PGlqxVPWgpE)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHIfKCqyjAcRg/learning-public-crop_144_256/0?e=1599498000&v=beta&t=yN9zZpZt9h7R0_-g3-y0gRkDI1aFWoFLrdEsBGkiyXY)
 
 [Ansible Essential Training](https://www.linkedin.com/learning/ansible-essential-training)
 - Author: Robert Starmer
@@ -532,7 +571,7 @@ To learn more about 3D printing with your Tinkercad designs, check out Kacie's c
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQG7akJ-_SFmeg/learning-public-crop_144_256/0?e=1599332400&v=beta&t=I4uaEpFUnQdogRmQB21TYgVDXUwST7CD9o1RQjWPZDI)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQG7akJ-_SFmeg/learning-public-crop_144_256/0?e=1599498000&v=beta&t=u9x8JfDZVAjZ8u12-KITLXoeE0kqeRYzi73XwmuhSxo)
 
 [10 Ways to Stay Motivated While Job Hunting](https://www.linkedin.com/learning/10-ways-to-stay-motivated-while-job-hunting)
 - Author: Careercake
@@ -545,7 +584,7 @@ To learn more about 3D printing with your Tinkercad designs, check out Kacie's c
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4D0DAQFQ1fpELDqBbg/learning-public-crop_144_256/0?e=1599332400&v=beta&t=ZHNzJqMuQoeq889Z-kyq6w1F5aDhhttwI8cM20Jwq5Y)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4D0DAQFQ1fpELDqBbg/learning-public-crop_144_256/0?e=1599498000&v=beta&t=EwTM9hLpqmZLPkT_9IWzHTbX7hAcCzCgfQv63rqTXu4)
 
 [Engage the Likability Effect in the Job Search](https://www.linkedin.com/learning/engage-the-likability-effect-in-the-job-search)
 - Author: Dawn Graham
@@ -558,7 +597,7 @@ To learn more about 3D printing with your Tinkercad designs, check out Kacie's c
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQF9nhCcTd2OQw/learning-public-crop_144_256/0?e=1599332400&v=beta&t=oNkLdkMqPGG-Hn8Fhn1jdpNB7ydbDDrSB6mioAo2wok)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQF9nhCcTd2OQw/learning-public-crop_144_256/0?e=1599498000&v=beta&t=Gfqx560je5chV1AwkxE23m9Z2Bn3GwSq1SDM2DCIjrM)
 
 [Video Interview Tips](https://www.linkedin.com/learning/video-interview-tips)
 - Author: Jenny Foss
@@ -571,7 +610,7 @@ To learn more about 3D printing with your Tinkercad designs, check out Kacie's c
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHco1-nUWL3tA/learning-public-crop_144_256/0?e=1599332400&v=beta&t=zdiuoq4vES0V3likfSkjkw8O2ciFYA7AkKWZq5S_1hE)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHco1-nUWL3tA/learning-public-crop_144_256/0?e=1599498000&v=beta&t=MLhYvDlOlGBJ7enjK5RoC8hJUmNLhrKtSd9tWoAfpeY)
 
 [Building Resilience](https://www.linkedin.com/learning/building-resilience)
 - Author: Tatiana Kolovou
@@ -586,7 +625,7 @@ Note: This course was featured in Market Watch, Inc., Fortune, Forbes, and Entre
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHRJ2TqFonNNQ/learning-public-crop_144_256/0?e=1599332400&v=beta&t=lnrvLDpdGOTGQfDsm22T4hFHZ6LsOSn6OcgHuWcC5gk)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHRJ2TqFonNNQ/learning-public-crop_144_256/0?e=1599498000&v=beta&t=DdTpbpRfi78msLj2OST-DjFsPDXVASbgbOs4c4vVlSA)
 
 [Digital Body Language](https://www.linkedin.com/learning/digital-body-language)
 - Author: Erica Dhawan
@@ -599,7 +638,7 @@ Note: This course was featured in Market Watch, Inc., Fortune, Forbes, and Entre
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHDHu8O9EuuRw/learning-public-crop_144_256/0?e=1599332400&v=beta&t=VL6_jJDcJo2AvPhpIbb1TWhPouJjMEUnt4ZSIfccQn0)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHDHu8O9EuuRw/learning-public-crop_144_256/0?e=1599498000&v=beta&t=hPKBH5mBsFtsYuvlA5f53Zo-qHnF5EZ2fM9RbhE9xnU)
 
 [Digital Networking Strategies](https://www.linkedin.com/learning/digital-networking-strategies)
 - Author: Chris Taylor
@@ -612,7 +651,7 @@ Note: This course was featured in Market Watch, Inc., Fortune, Forbes, and Entre
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C560DAQFSJ9-UYmSCGA/learning-public-crop_144_256/0?e=1599332400&v=beta&t=9MkZrQkPWdSy-Y5GZ1I3V-nIYr1NPAM6-WkCCILXpq8)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C560DAQFSJ9-UYmSCGA/learning-public-crop_144_256/0?e=1599498000&v=beta&t=D-PR60ePsHmuQU8Vqurf0mgQh7zTztImz-M2-GtuHvA)
 
 [Learning LinkedIn](https://www.linkedin.com/learning/learning-linkedin-3)
 - Author: Oliver Schinkten
@@ -625,7 +664,7 @@ Note: This course was featured in Market Watch, Inc., Fortune, Forbes, and Entre
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHc9yJ2QUY4_g/learning-public-crop_144_256/0?e=1599332400&v=beta&t=O0toEeNqlzvuCr7HMzIOld-ggtepeK-xW7d5daMfBxo)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHc9yJ2QUY4_g/learning-public-crop_144_256/0?e=1599498000&v=beta&t=bBRsuY_1yFrBMaMcergO1xrqhWnDj-6WueqTR50brKE)
 
 [Recession-Proof Career Strategies](https://www.linkedin.com/learning/recession-proof-career-strategies)
 - Author: Jason Schenker
@@ -638,7 +677,7 @@ Note: This course was featured in Market Watch, Inc., Fortune, Forbes, and Entre
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFJCBkoxE65ow/learning-public-crop_144_256/0?e=1599332400&v=beta&t=IjxQeEXWUzhEspeKESCvl5GjL0MG6ge1U0cBxJelsdM)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFJCBkoxE65ow/learning-public-crop_144_256/0?e=1599498000&v=beta&t=BIpO68noVQaEA0tMfg89Rdd6NcoIdmkeUNLQ60UKvdU)
 
 [A Career Strategist's Guide to Getting a Job](https://www.linkedin.com/learning/a-career-strategist-s-guide-to-getting-a-job)
 - Author: Jenny Foss
@@ -651,7 +690,7 @@ Note: This course was featured in Market Watch, Inc., Fortune, Forbes, and Entre
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQGE97PHJI2LQw/learning-public-crop_144_256/0?e=1599332400&v=beta&t=vhYHhbSnGwp5iWJis4D-MDD9dLVJWjsl_c3HC8vUu-g)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQGE97PHJI2LQw/learning-public-crop_144_256/0?e=1599498000&v=beta&t=yzfzCZhewxL8jL-9S9NXDWB0F_dboFasQifGL7crxZo)
 
 [How to Manage Feeling Overwhelmed](https://www.linkedin.com/learning/how-to-manage-feeling-overwhelmed)
 - Author: Heidi Hanna
@@ -664,7 +703,7 @@ Note: This course was featured in Market Watch, Inc., Fortune, Forbes, and Entre
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQE9TbAy7l8JfQ/learning-public-crop_144_256/0?e=1599332400&v=beta&t=Ms5eJLpDQl3rk3U62P8ypui0Vt4gP0VA5jVi-sZkeac)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQE9TbAy7l8JfQ/learning-public-crop_144_256/0?e=1599498000&v=beta&t=g8WbjtVKUBW8LiFjpcW6_CnjuT41gEEajKCOJfdDe0o)
 
 [Learning COBOL](https://www.linkedin.com/learning/learning-cobol)
 - Author: Peggy Fisher
@@ -679,7 +718,7 @@ This course is designed to help new and experienced programmers alike add COBOL 
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQGQv-h2er4DIw/learning-public-crop_144_256/0?e=1599332400&v=beta&t=ymGwVbP7DHXADYYdTGxKGc7_nrYjpy8Y8jDwfJp_gak)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQGQv-h2er4DIw/learning-public-crop_144_256/0?e=1599498000&v=beta&t=y8SPN6Jb0Xm7cc0Xl9_RPbs98ODe4W3dit4IQ2u3u68)
 
 [Security Testing: Nmap Security Scanning](https://www.linkedin.com/learning/security-testing-nmap-security-scanning)
 - Author: Mike Chapple
@@ -692,7 +731,7 @@ This course is designed to help new and experienced programmers alike add COBOL 
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHM8SljU6qecg/learning-public-crop_144_256/0?e=1599332400&v=beta&t=SNqHfO9ouIMLkGP0E7eiCMgfaiQKCmhG1XVp4gBXEf0)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHM8SljU6qecg/learning-public-crop_144_256/0?e=1599498000&v=beta&t=CImy18sXaa-ZgWWrVfcrkXHKyqyW-G6e5j6-KH0BL1M)
 
 [Learn Industrial Automation](https://www.linkedin.com/learning/learn-industrial-automation)
 - Author: Zahraa Khalil
@@ -707,7 +746,7 @@ Learn about the components and networks involved at each level of automation: fi
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFnM4Ns3yfuIQ/learning-public-crop_144_256/0?e=1599332400&v=beta&t=jBUG4jNg7FMINizxc-7TgJSbcZa-RLQoIv9j9FbDE1U)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFnM4Ns3yfuIQ/learning-public-crop_144_256/0?e=1599498000&v=beta&t=MycJ7iI9uwcsW_gmnla3CoGz0aUpico9nVUbXW6Q0S4)
 
 [Learning Ansible (2017)](https://www.linkedin.com/learning/learning-ansible-2017)
 - Author: Jesse Keating
@@ -720,7 +759,7 @@ Learn about the components and networks involved at each level of automation: fi
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4D0DAQFfhs2EuPDcuA/learning-public-crop_144_256/0?e=1599332400&v=beta&t=9LAgBRG5CdbLZ-kX4mNmuLDzbTV4yeVmkwsW8FYeQjM)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4D0DAQFfhs2EuPDcuA/learning-public-crop_144_256/0?e=1599498000&v=beta&t=Pwc8yEyaf_cK-S8ZomcJWxSnzXD5C4_hu8TznvkPcy0)
 
 [SQL Essential Training](https://www.linkedin.com/learning/sql-essential-training-3)
 - Author: Bill Weinman
@@ -735,7 +774,7 @@ This course was created by Bill Weinman. We are pleased to offer this training i
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHHTy9ONG_nsA/learning-public-crop_144_256/0?e=1599332400&v=beta&t=0d2y4ObLnC3HOD9sLjjTxeunc67lTReRjf7vQhow5Vw)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHHTy9ONG_nsA/learning-public-crop_144_256/0?e=1599498000&v=beta&t=b6rNE8Fsvqz3n1yMtKC4TvFrNoDU1forybdqBGycTN0)
 
 [Learning Zoom](https://www.linkedin.com/learning/learning-zoom)
 - Author: Garrick Chow
@@ -750,7 +789,7 @@ Note: This course was featured in Market Watch, Inc., Fortune, Forbes, and Entre
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQE0dY-NRKZ-3A/learning-public-crop_144_256/0?e=1599332400&v=beta&t=qs8qu_Hh4yeMsNJ88USWEXa7ihV7nyeK4PtTx1NZR3Y)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQE0dY-NRKZ-3A/learning-public-crop_144_256/0?e=1599498000&v=beta&t=E4HWcvOUcle6fzWSCLZUwSdjcvdmsyE7JXK9eIbtgjY)
 
 [Learning TypeScript](https://www.linkedin.com/learning/learning-typescript-2)
 - Author: Jess Chadwick
@@ -763,7 +802,7 @@ Note: This course was featured in Market Watch, Inc., Fortune, Forbes, and Entre
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHNUjHWc4ZSYA/learning-public-crop_144_256/0?e=1599332400&v=beta&t=lcOHFzJaaBTybQ87q-bb7eLDBdj4VlfMENkldFDJojc)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHNUjHWc4ZSYA/learning-public-crop_144_256/0?e=1599498000&v=beta&t=gtRK44Plk1SBoAc_u2JEmmftqp1S0ZPw5pPx0VE2HcY)
 
 [Learning Google Cloud IoT Core](https://www.linkedin.com/learning/learning-google-cloud-iot-core)
 - Author: Lee Assam
@@ -776,7 +815,7 @@ Note: This course was featured in Market Watch, Inc., Fortune, Forbes, and Entre
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQGeA2wVaXlEQg/learning-public-crop_144_256/0?e=1599332400&v=beta&t=CvahF_60lbgwlZKf6T-MIpoLASynvaaoHxEhEYsZKq8)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQGeA2wVaXlEQg/learning-public-crop_144_256/0?e=1599498000&v=beta&t=OOsgyxQowsOrlNa9PqhvnqRkgExfuT2QFjJ-y1J4mJk)
 
 [Security Tips](https://www.linkedin.com/learning/security-tips)
 - Author: Scott Simpson
@@ -789,7 +828,7 @@ Note: This course was featured in Market Watch, Inc., Fortune, Forbes, and Entre
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQE1JXXNNM81DA/learning-public-crop_144_256/0?e=1599332400&v=beta&t=mPMMRInvcO6h7Oupg0OzeeAlNJflhZusJ9ZbQJaX9IA)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQE1JXXNNM81DA/learning-public-crop_144_256/0?e=1599498000&v=beta&t=ynxKLHJZ18-SU-9p_pW2EWAqwUzjvuCsTWoMm4m_1uA)
 
 [Learning Tor and the Dark Web](https://www.linkedin.com/learning/learning-tor-and-the-dark-web)
 - Author: Mike Chapple
@@ -802,7 +841,7 @@ Note: This course was featured in Market Watch, Inc., Fortune, Forbes, and Entre
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQEHyHsPsVL93Q/learning-public-crop_144_256/0?e=1599332400&v=beta&t=PjGlxdeINgQLNv8iNJq3Izi64WLfmPizLYNWlqUs-X4)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQEHyHsPsVL93Q/learning-public-crop_144_256/0?e=1599498000&v=beta&t=bof_kDSyauE-BwN1756_nBHxRWqcQpZfCpeUWmWJ6i8)
 
 [Practical Linux for Network Engineers: Part 1](https://www.linkedin.com/learning/practical-linux-for-network-engineers-part-1)
 - Author: David Bombal
@@ -817,7 +856,7 @@ Note: This course uses GNS3 for all demonstrations.
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFgS59Gn2buwg/learning-public-crop_144_256/0?e=1599332400&v=beta&t=pYfOT0Uoqtp3-2TnpOpLDf0GZfkxUehYjD0BIjmJAoA)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFgS59Gn2buwg/learning-public-crop_144_256/0?e=1599498000&v=beta&t=vAJ-rMSF-FafRMbOtbjNDT6PDm-fPM0P4ddtoDZYUNo)
 
 [Learning Arduino: Foundations](https://www.linkedin.com/learning/learning-arduino-foundations-2)
 - Author: Zahraa Khalil
@@ -830,7 +869,7 @@ Note: This course uses GNS3 for all demonstrations.
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQGRPYyiTIhq_w/learning-public-crop_144_256/0?e=1599332400&v=beta&t=GdMo_RHDJ8y8tcYGgqqEwsD5FP-uooLTZ8y8vJgCuqY)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQGRPYyiTIhq_w/learning-public-crop_144_256/0?e=1599498000&v=beta&t=pNCMym2qWDDS_ACZQVM5M_0E2AkTyX9pSS7VKsK189c)
 
 [JavaScript: Security Essentials](https://www.linkedin.com/learning/javascript-security-essentials)
 - Author: Emmanuel Henri
@@ -843,7 +882,7 @@ Note: This course uses GNS3 for all demonstrations.
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4D0DAQFqwMRtOdtvLQ/learning-public-crop_144_256/0?e=1599332400&v=beta&t=WsSYxVTZ5PuOxgFSzfytBczYSOJO5oChAVF29D3NBN0)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4D0DAQFqwMRtOdtvLQ/learning-public-crop_144_256/0?e=1599498000&v=beta&t=NRHUIRShsxeVAqDvvwbW79aTEPA4Kh0xJfgdQ_p9Vfs)
 
 [Learning Web Audio and Video](https://www.linkedin.com/learning/learning-web-audio-and-video)
 - Author: Joseph Labrecque
@@ -856,7 +895,7 @@ Note: This course uses GNS3 for all demonstrations.
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQG97Tpur8dsPw/learning-public-crop_144_256/0?e=1599332400&v=beta&t=ZrLsfz4Hhl4CQ7I18z9F85QY6Q3oyc4fHj2pbA6UkWI)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQG97Tpur8dsPw/learning-public-crop_144_256/0?e=1599498000&v=beta&t=wwJgsQOrIg1e03xCuf3E0UuM5etQ0wJHaA3paA37y_w)
 
 [Web Security: OAuth and OpenID Connect](https://www.linkedin.com/learning/web-security-oauth-and-openid-connect-2)
 - Author: Keith Casey
@@ -869,7 +908,7 @@ Note: This course uses GNS3 for all demonstrations.
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQH5wxAAY0PRpA/learning-public-crop_144_256/0?e=1599332400&v=beta&t=_O5irjqnNA8rUhyJlzDMdYjF6qpxU3oGJSQOQOwMoHY)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQH5wxAAY0PRpA/learning-public-crop_144_256/0?e=1599498000&v=beta&t=boZ1xaIEx9rFIYMjhAm8H-g-xk-pD1wS42duX93l1QQ)
 
 [Learning Chrome Web Developer Tools (2017)](https://www.linkedin.com/learning/learning-chrome-web-developer-tools-2017)
 - Author: Sasha Vodnik
@@ -882,7 +921,7 @@ Note: This course uses GNS3 for all demonstrations.
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQEpuhnII7TTWQ/learning-public-crop_144_256/0?e=1599332400&v=beta&t=mJKIXXd48JniXeEywRqnuh75ewmbXn9YRpX9K9X8Xrs)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQEpuhnII7TTWQ/learning-public-crop_144_256/0?e=1599498000&v=beta&t=FnT37oL1WNHu3Yz_6wQyhWiEm11aHXvCM0KTLkqXTF8)
 
 [Web Security: Same-Origin Policies](https://www.linkedin.com/learning/web-security-same-origin-policies)
 - Author: Sasha Vodnik
@@ -895,7 +934,7 @@ Note: This course uses GNS3 for all demonstrations.
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQH5YhL8VXTeUw/learning-public-crop_144_256/0?e=1599332400&v=beta&t=nXt_L2ajIHQBQ4BHljpCl9_R9nuODY15EFwpmfFKy4c)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQH5YhL8VXTeUw/learning-public-crop_144_256/0?e=1599498000&v=beta&t=eMBV4eo26TlxFXVQZ3osZrOlaoWw6NOuf6kl-bH4ROM)
 
 [Blazor First Look](https://www.linkedin.com/learning/blazor-first-look)
 - Author: Richard Goforth
@@ -908,7 +947,7 @@ Note: This course uses GNS3 for all demonstrations.
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFGxKhcwUJJgQ/learning-public-crop_144_256/0?e=1599332400&v=beta&t=PatgXgt32Neb-IuxIM0dmE7MaVIsTnB3iI6AzNTUNR4)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFGxKhcwUJJgQ/learning-public-crop_144_256/0?e=1599498000&v=beta&t=KmqgwyFU8rOau0GjByHf87Ibp6xmwMcck3RH7KDUIyM)
 
 [Learning GitHub Actions](https://www.linkedin.com/learning/learning-github-actions-2)
 - Author: Michael Jenkins
@@ -921,7 +960,7 @@ Note: This course uses GNS3 for all demonstrations.
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQEnq7YC4-P-4Q/learning-public-crop_144_256/0?e=1599332400&v=beta&t=fNbizqevMloPFI0f5ZkZlZ_-IP7bQOMKdE_WPHRGVgg)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQEnq7YC4-P-4Q/learning-public-crop_144_256/0?e=1599498000&v=beta&t=CwA9uKlkEV_-oQ0u9bcDP-qdnzObZ44UR2OFnpt0h0k)
 
 [Learning SSL/TLS](https://www.linkedin.com/learning/learning-ssl-tls)
 - Author: Daniel Lachance
@@ -934,7 +973,7 @@ Note: This course uses GNS3 for all demonstrations.
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFNd_XsR93vjQ/learning-public-crop_144_256/0?e=1599332400&v=beta&t=qtpYF7Tn63NqwdNUe5NjsBom93omZGI_TAwGpa5bZ50)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFNd_XsR93vjQ/learning-public-crop_144_256/0?e=1599498000&v=beta&t=lmv-IHJd6zkSWPm5KL8BMqEfP5LLvROrmEJcthJD9o4)
 
 [What to Do in the First 90 Days of Your New Job](https://www.linkedin.com/learning/what-to-do-in-the-first-90-days-of-your-new-job)
 - Author: Careercake
@@ -947,7 +986,7 @@ Note: This course uses GNS3 for all demonstrations.
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFT4iTdjcOkWw/learning-public-crop_144_256/0?e=1599332400&v=beta&t=ZiqRL4CpmeqP7bCGHfTM5TAYuNUNr188FJgg818tPw4)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFT4iTdjcOkWw/learning-public-crop_144_256/0?e=1599498000&v=beta&t=cftUAWurLupoMIVXr7TKmb36js1UwrIwXCOaJ1hBAGo)
 
 [SVN for Java Developers](https://www.linkedin.com/learning/svn-for-java-developers)
 - Author: Julian Robichaux
@@ -960,7 +999,7 @@ Note: This course uses GNS3 for all demonstrations.
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQE6Tpqt6WhvPw/learning-public-crop_144_256/0?e=1599332400&v=beta&t=xTItXem8ZFjFq4wX1McYGzX2MUYUyDwcMtJBZQFBO44)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQE6Tpqt6WhvPw/learning-public-crop_144_256/0?e=1599498000&v=beta&t=n8bR68TBHBVYdfItonfMm7JDlWrEgiHi4byOsBfzJxg)
 
 [Practical Software-Defined Networking: 1 SDN and OpenFlow Quick Start](https://www.linkedin.com/learning/practical-software-defined-networking-1-sdn-and-openflow-quick-start)
 - Author: David Bombal
@@ -975,7 +1014,7 @@ Note: This course uses GNS3 for all demonstrations.
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFIN4EwnLZFHw/learning-public-crop_144_256/0?e=1599332400&v=beta&t=IJ3xjK7f-tv9gKcgjRfB5cAc6X6k43jSZoOmumQUcAE)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFIN4EwnLZFHw/learning-public-crop_144_256/0?e=1599498000&v=beta&t=M6HROcyDg9g8udUqis8eNL-CuugASpcKi3ADzcFasd8)
 
 [OWASP Top 10: #7 XSS and #8 Insecure Deserialization](https://www.linkedin.com/learning/owasp-top-10-7-xss-and-8-insecure-deserialization)
 - Author: Caroline Wong
@@ -988,7 +1027,7 @@ Note: This course uses GNS3 for all demonstrations.
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFEQCi3TXC7lg/learning-public-crop_144_256/0?e=1599332400&v=beta&t=4zjT9SEWnODai9pT1HH5bYlwysshwbrz3YSV0QVXGQE)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFEQCi3TXC7lg/learning-public-crop_144_256/0?e=1599498000&v=beta&t=e9gTjSb2wVYmtJbq2ij_EcuATecu17Gnh_PD_3IFvNo)
 
 [OWASP Top 10: #9 Components with Known Vulnerabilities and #10 Insufficient Logging and Monitoring](https://www.linkedin.com/learning/owasp-top-10-9-components-with-known-vulnerabilities-and-10-insufficient-logging-and-monitoring)
 - Author: Caroline Wong
@@ -1001,7 +1040,7 @@ Note: This course uses GNS3 for all demonstrations.
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQG_hOMOGFH_xw/learning-public-crop_144_256/0?e=1599332400&v=beta&t=axhnq2EHMRSyFmw_9AJq8bwgW0T4xO_9fUN-hCddUeM)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQG_hOMOGFH_xw/learning-public-crop_144_256/0?e=1599498000&v=beta&t=5b-L_D-AWlq4FKEDh9Gnyrcrcf_dOq4TlOsZVB2_A50)
 
 [OWASP Top 10: #5 Broken Access Control and #6 Security Misconfiguration](https://www.linkedin.com/learning/owasp-top-10-5-broken-access-control-and-6-security-misconfiguration)
 - Author: Caroline Wong
@@ -1014,7 +1053,7 @@ Note: This course uses GNS3 for all demonstrations.
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHGzXWM8FOfEw/learning-public-crop_144_256/0?e=1599332400&v=beta&t=8SaiK5Rae8rYEdwVeCiqhGdeWOrK8lFkPSBzr0S0AGs)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHGzXWM8FOfEw/learning-public-crop_144_256/0?e=1599498000&v=beta&t=jgZ5zIgDdUw6bIYeAvtDkUDbmVdu4m9jVf7wxrdYN2c)
 
 [Learning the OWASP Top 10](https://www.linkedin.com/learning/learning-the-owasp-top-10)
 - Author: Caroline Wong
@@ -1029,7 +1068,7 @@ Note: More information about the OWASP Top 10 list can be found on the Cobalt we
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFYSlr7Vc_WPg/learning-public-crop_144_256/0?e=1599332400&v=beta&t=8FZnTcsugFVZV9mG260DzSqIXAeUGU1VmhtdjqSW6kc)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFYSlr7Vc_WPg/learning-public-crop_144_256/0?e=1599498000&v=beta&t=tTAcQY7osuYqeCAL9ckU-N1H2dwPLtItgBInCg71ocQ)
 
 [OWASP Top 10: #1 Injection and #2 Broken Authentication](https://www.linkedin.com/learning/owasp-top-10-1-injection-and-2-broken-authentication)
 - Author: Caroline Wong
@@ -1042,7 +1081,7 @@ Note: More information about the OWASP Top 10 list can be found on the Cobalt we
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQEjcq9LRQeuww/learning-public-crop_144_256/0?e=1599332400&v=beta&t=zsErZz886je3qsHDlMlVIorSQekan9OxUS69aYvqqiU)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQEjcq9LRQeuww/learning-public-crop_144_256/0?e=1599498000&v=beta&t=7wLVd6EdMch06qkOeWHZPi5FaglP47xYZ220qk4HI78)
 
 [OWASP Top 10: #3 Sensitive Data Exposure and #4 External Entities (XXE)](https://www.linkedin.com/learning/owasp-top-10-3-sensitive-data-exposure-and-4-external-entities-xxe)
 - Author: Caroline Wong
@@ -1055,7 +1094,7 @@ Note: More information about the OWASP Top 10 list can be found on the Cobalt we
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQGxzpnKTCvSnA/learning-public-crop_144_256/0?e=1599332400&v=beta&t=RzU_bkkmxYkWIW6JIwcuf1d_ubaqDXMgLUX9aGiQhTw)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQGxzpnKTCvSnA/learning-public-crop_144_256/0?e=1599498000&v=beta&t=IO_jXgne-wZVTVgTxyBtew2LE6baTNkcDgKlzKUU3lc)
 
 [Transitioning to a Career in Cybersecurity](https://www.linkedin.com/learning/transitioning-to-a-career-in-cybersecurity)
 - Author: Marc Menninger
@@ -1068,7 +1107,7 @@ Note: More information about the OWASP Top 10 list can be found on the Cobalt we
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQF7tuWV4wA3Rw/learning-public-crop_144_256/0?e=1599332400&v=beta&t=Kk8XyQofybCiiHg0lhUtSTqp0LWRzeGk9tnzxoBfULE)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQF7tuWV4wA3Rw/learning-public-crop_144_256/0?e=1599498000&v=beta&t=wNrqu-KkT8GaPBFUX1D9GTBzoGnHjB1Q8D7h2xhDBoE)
 
 [Nail Your Cybersecurity Interview](https://www.linkedin.com/learning/nail-your-cybersecurity-interview)
 - Author: Tu Laniyonu
@@ -1081,7 +1120,7 @@ Note: More information about the OWASP Top 10 list can be found on the Cobalt we
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQH-boBnK1M1Qw/learning-public-crop_144_256/0?e=1599332400&v=beta&t=kzXiYns35k8Qo90QDQqKa7OkVI-qHhHbFhk-aCDxM00)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQH-boBnK1M1Qw/learning-public-crop_144_256/0?e=1599498000&v=beta&t=5Ahk3WOQHWyZJiN8dMICLYmKDZSiEUnwZUBpCjn-y-k)
 
 [CompTIA Network+ (N10-007) Cert Prep: 9 Managing the Network](https://www.linkedin.com/learning/comptia-network-plus-n10-007-cert-prep-9-managing-the-network)
 - Author: Mike Meyers
@@ -1098,7 +1137,7 @@ This course was created by Total Seminars. We are pleased to offer this training
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQF2o3ESrcn-Qg/learning-public-crop_144_256/0?e=1599332400&v=beta&t=jflN3dzqtTVGqqkyAads-9No8ybhETNeiPCxOpP74Do)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQF2o3ESrcn-Qg/learning-public-crop_144_256/0?e=1599498000&v=beta&t=INsUWhHLRkVg6oFfF8rEP19EqBgJVjoNFLN_SQ2wmII)
 
 [CompTIA Network+ (N10-007) Cert Prep: 7 Wireless, Virtual, Cloud, and Mobile Networking](https://www.linkedin.com/learning/comptia-network-plus-n10-007-cert-prep-7-wireless-virtual-cloud-and-mobile-networking)
 - Author: Mike Meyers
@@ -1115,7 +1154,7 @@ This course was created by Total Seminars. We are pleased to offer this training
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQEQgVnDk-q6mg/learning-public-crop_144_256/0?e=1599332400&v=beta&t=e0EqGiPWIaKMzRgg0grphXRkA4UshFjWiH510HBFGZ8)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQEQgVnDk-q6mg/learning-public-crop_144_256/0?e=1599498000&v=beta&t=_SCQGYh_mx6I6AXYvC3V_mlWH1azmLC7L-v4XTFLPBI)
 
 [CompTIA Network+ (N10-007) Cert Prep: 8 Building a Real-World Network](https://www.linkedin.com/learning/comptia-network-plus-n10-007-cert-prep-8-building-a-real-world-network)
 - Author: Mike Meyers
@@ -1132,7 +1171,7 @@ This course was created by Total Seminars. We are pleased to offer this training
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHvXLzM9e8Lqg/learning-public-crop_144_256/0?e=1599332400&v=beta&t=VjDGFkPp0IbwHKKeBHP36h5r2mfek4Mo-M3BCeBux8k)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHvXLzM9e8Lqg/learning-public-crop_144_256/0?e=1599498000&v=beta&t=Q5wiQOM84NAz99NzMydFJRqxKMylx4LdjzvP_vMcKBA)
 
 [CompTIA Network+ (N10-007) Cert Prep: 6 Advanced IP Networking](https://www.linkedin.com/learning/comptia-network-plus-n10-007-cert-prep-6-advanced-ip-networking)
 - Author: Mike Meyers
@@ -1149,7 +1188,7 @@ This course was created by Total Seminars. We are pleased to offer this training
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHTN0pKWpHsuQ/learning-public-crop_144_256/0?e=1599332400&v=beta&t=wyQLu6Efg8bKp_nTEOWNpKHBUx30_Y5M5LEub6JEYgw)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHTN0pKWpHsuQ/learning-public-crop_144_256/0?e=1599498000&v=beta&t=u_BeNQodLhXPE2W6GsvPx7ZD1G1LlTY3yOMZRo_1NC4)
 
 [CompTIA Network+ (N10-007) Cert Prep: 5 Securing TCP/IP](https://www.linkedin.com/learning/comptia-network-plus-n10-007-cert-prep-5-securing-tcp-ip)
 - Author: Mike Meyers
@@ -1166,7 +1205,7 @@ This course was created by Total Seminars. We are pleased to offer this training
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHQff-aed0wWg/learning-public-crop_144_256/0?e=1599332400&v=beta&t=5qmV1hwdqSQAf7IAYWVkIP1KHbnOVlC1xAfKekSBGyE)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHQff-aed0wWg/learning-public-crop_144_256/0?e=1599498000&v=beta&t=8X-2jqex3JcOg_eqXzNOdIDxabW3s3C355FdKJ4OhQQ)
 
 [CompTIA Network+ (N10-007) Cert Prep: 4 Making TCP/IP Work](https://www.linkedin.com/learning/comptia-network-plus-n10-007-cert-prep-4-making-tcp-ip-work)
 - Author: Mike Meyers
@@ -1183,7 +1222,7 @@ This course was created by Total Seminars. We are pleased to offer this training
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQEykFgvAr5wbw/learning-public-crop_144_256/0?e=1599332400&v=beta&t=2hLWEcRdUBCNAomTj22U8GZGLVjdyH8XMyBZ2K9Sjws)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQEykFgvAr5wbw/learning-public-crop_144_256/0?e=1599498000&v=beta&t=HMWUpPp37lTbZEUqxeHIOkVWJmKeg2xnJZa7Q9BiKnQ)
 
 [CompTIA Network+ (N10-007) Cert Prep: 1 Understanding Networks](https://www.linkedin.com/learning/comptia-network-plus-n10-007-cert-prep-1-understanding-networks)
 - Author: Mike Meyers
@@ -1200,7 +1239,7 @@ This course was created by Total Seminars. We are pleased to offer this training
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQEJPMT_MAuLaA/learning-public-crop_144_256/0?e=1599332400&v=beta&t=pPFj51oAgYbm18mkPJRsj5h50_O9FNQKmiTEEbrMSN8)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQEJPMT_MAuLaA/learning-public-crop_144_256/0?e=1599498000&v=beta&t=DInUBSya6cKOyMGUCpdTtI-DzBbOcs6Ymo3UXs8LAzc)
 
 [CompTIA Network+ (N10-007) Cert Prep: 2 The Physical Network](https://www.linkedin.com/learning/comptia-network-plus-n10-007-cert-prep-2-the-physical-network)
 - Author: Mike Meyers
@@ -1217,7 +1256,7 @@ This course was created by Total Seminars. We are pleased to offer this training
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHWmBt3XF8rfA/learning-public-crop_144_256/0?e=1599332400&v=beta&t=_ZubtVMhjbZo60srzl79aTZ8mk38c6CkeHvAdw-c5ok)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHWmBt3XF8rfA/learning-public-crop_144_256/0?e=1599498000&v=beta&t=H_w1IabLl-L1eRRuYuFxEOfA9Hbv-MzXhLEWnUlrHQA)
 
 [CompTIA Network+ (N10-007) Cert Prep: 3 The World of TCP/IP](https://www.linkedin.com/learning/comptia-network-plus-n10-007-cert-prep-3-the-world-of-tcp-ip)
 - Author: Mike Meyers
@@ -1234,7 +1273,7 @@ This course was created by Total Seminars. We are pleased to offer this training
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQET4lXAO30qag/learning-public-crop_144_256/0?e=1599332400&v=beta&t=zIZQpIl5FjkJEDAb0lUxuM31t4WO09ypu2W0l9g6qy0)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQET4lXAO30qag/learning-public-crop_144_256/0?e=1599498000&v=beta&t=LOKZm9qkHFjn_RnFC40CVWFDD_SEvU_BGBHBPB1B1Vg)
 
 [Linux: Package Management for CentOS](https://www.linkedin.com/learning/linux-package-management-for-centos)
 - Author: Grant McWilliams
@@ -1247,7 +1286,7 @@ This course was created by Total Seminars. We are pleased to offer this training
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQH7Le-6S2yeWQ/learning-public-crop_144_256/0?e=1599332400&v=beta&t=rtND8NO6jH-VQpD_iN9K8gTFhW4KBoVzODHKBL0zsE0)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQH7Le-6S2yeWQ/learning-public-crop_144_256/0?e=1599498000&v=beta&t=M1ZcHPY67JopGuFI3u3Hj_8Ze62Izp_5k_GxHUT0N44)
 
 [Advanced Web Development with Django](https://www.linkedin.com/learning/advanced-web-development-with-django)
 - Author: Jeremy Spencer
@@ -1262,7 +1301,7 @@ Note: This course was created and produced by Packt Publishing.
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQGgtEpivQIelw/learning-public-crop_144_256/0?e=1599332400&v=beta&t=ElZYK6FNk_m77BMyBMUDd_iguQbJSAZuKFqStSjXRRU)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQGgtEpivQIelw/learning-public-crop_144_256/0?e=1599498000&v=beta&t=ua39qCSt37PICpESUJXrcKX0axOzaNvYQoC8J0Ofd5w)
 
 [Penetration Testing: Advanced Kali Linux](https://www.linkedin.com/learning/penetration-testing-advanced-kali-linux)
 - Author: Malcolm Shore
@@ -1275,7 +1314,7 @@ Note: This course was created and produced by Packt Publishing.
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQEVmnkmql1NcQ/learning-public-crop_144_256/0?e=1599332400&v=beta&t=9vqst5XIyfy_OGpUuPlZGWnp0z2Qhq2GzuV_mk83GAw)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQEVmnkmql1NcQ/learning-public-crop_144_256/0?e=1599498000&v=beta&t=a_Br8330HvRg748a5B2W2LRwjx-7zP2fgwLvUW0aKGA)
 
 [Elasticsearch Essential Training](https://www.linkedin.com/learning/elasticsearch-essential-training)
 - Author: Ben Sullins
@@ -1290,7 +1329,7 @@ In this course, join Ben Sullins as he dives into the inner workings of Elastics
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHXXUIK7rRvcQ/learning-public-crop_144_256/0?e=1599332400&v=beta&t=ViqitvqftTMj7SRQiR48i9RUNY6lGCtQHnhlshuOXd4)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHXXUIK7rRvcQ/learning-public-crop_144_256/0?e=1599498000&v=beta&t=cszsyk5pI-ySRYJtalPBfDSQAh1oZ_r3vsDiT6wUtWE)
 
 [Learning the Elastic Stack](https://www.linkedin.com/learning/learning-the-elastic-stack)
 - Author: Emmanuel Henri
@@ -1303,7 +1342,7 @@ In this course, join Ben Sullins as he dives into the inner workings of Elastics
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQEK2SPHZF5qgg/learning-public-crop_144_256/0?e=1599332400&v=beta&t=Fc9oHSWMdJzyVcSuPxu26HgEfjeVzUAcHTZxa3wTO-g)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQEK2SPHZF5qgg/learning-public-crop_144_256/0?e=1599498000&v=beta&t=PKSbtARr0b-bo4vOzP124cN_e64tIwvjK9i7PQuO8v8)
 
 [DevSecOps: Automated Security Testing](https://www.linkedin.com/learning/devsecops-automated-security-testing)
 - Author: James Wickett
@@ -1316,7 +1355,7 @@ In this course, join Ben Sullins as he dives into the inner workings of Elastics
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHb42SHxPC1xg/learning-public-crop_144_256/0?e=1599332400&v=beta&t=NTAIWmV-dyIOtXL9Bji8tx1QZ12m33tYOVKE2ES3ds0)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHb42SHxPC1xg/learning-public-crop_144_256/0?e=1599498000&v=beta&t=CXXJRoFj3SLJrdkE4CIMEZHBtHTg0YDo8OIk0HWHBQo)
 
 [Vanilla JavaScript: Web Workers](https://www.linkedin.com/learning/vanilla-javascript-web-workers)
 - Author: Maximiliano Firtman
@@ -1329,7 +1368,7 @@ In this course, join Ben Sullins as he dives into the inner workings of Elastics
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQGZlrywMiuSQg/learning-public-crop_144_256/0?e=1599332400&v=beta&t=uoSEOeIYCmz1mFTjn4cDM4j83jc3gtgvQ1iNZ762AkU)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQGZlrywMiuSQg/learning-public-crop_144_256/0?e=1599498000&v=beta&t=rRXypBs59i1DmT3_Rwe-0g7p6O0Sy2FGmPP9Orqr24Q)
 
 [Ethical Hacking: System Hacking](https://www.linkedin.com/learning/ethical-hacking-system-hacking)
 - Author: Lisa Bock
@@ -1342,7 +1381,7 @@ In this course, join Ben Sullins as he dives into the inner workings of Elastics
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQEKzuxJOFSiTA/learning-public-crop_144_256/0?e=1599332400&v=beta&t=uDBwp8TjZOwYbt2TgUTOYAsKcn5fUVMEVfIuttIr41Q)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQEKzuxJOFSiTA/learning-public-crop_144_256/0?e=1599498000&v=beta&t=jVU5yJaGU5m6LqoVu06lUofxRgDpb-PkUMM_EBrbLik)
 
 [Ethical Hacking: Wireless Networks](https://www.linkedin.com/learning/ethical-hacking-wireless-networks)
 - Author: Malcolm Shore
@@ -1357,7 +1396,7 @@ Note: This course is part of our test prep series for the Certified Ethical Hack
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHH4MJfsoDymg/learning-public-crop_144_256/0?e=1599332400&v=beta&t=OcfZFDKzqd63Juz__qcaVZuIppRQS1GJb9UYdrRB1oY)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHH4MJfsoDymg/learning-public-crop_144_256/0?e=1599498000&v=beta&t=26aMxT7fyPpOlTC4AlA96LfQLTOVNRc35RoGk2GdzOo)
 
 [Windows Server 2019: Install and Configure Active Directory](https://www.linkedin.com/learning/windows-server-2019-install-and-configure-active-directory)
 - Author: Ed Liberman
@@ -1370,7 +1409,7 @@ Note: This course is part of our test prep series for the Certified Ethical Hack
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHFERwL3SgTuA/learning-public-crop_144_256/0?e=1599332400&v=beta&t=G-OSYRpj4b6LwGZdIWda1MdkmSLF_f4yV27fzf8DUPs)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHFERwL3SgTuA/learning-public-crop_144_256/0?e=1599498000&v=beta&t=8IvU-TwSqyhYUCRNTHuofwDci279RmarUaO9u_b_x6Q)
 
 [Linux System Engineer: Authentication with LDAP and Kerberos](https://www.linkedin.com/learning/linux-system-engineer-authentication-with-ldap-and-kerberos)
 - Author: Grant McWilliams
@@ -1383,7 +1422,7 @@ Note: This course is part of our test prep series for the Certified Ethical Hack
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFDp97eZuNXtQ/learning-public-crop_144_256/0?e=1599332400&v=beta&t=Z2M0vOUmjkovsXak15OiOc1xHl74fcaKMfQT3tNqQ6U)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFDp97eZuNXtQ/learning-public-crop_144_256/0?e=1599498000&v=beta&t=tvCG4JbYBOMko--Wf6gSBzwWczgMJRzRwh10hUER0C8)
 
 [Building APIs with Swagger and the OpenAPI Specification](https://www.linkedin.com/learning/building-apis-with-swagger-and-the-openapi-specification)
 - Author: Kevin Bowersox
@@ -1396,7 +1435,7 @@ Note: This course is part of our test prep series for the Certified Ethical Hack
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFPrN235tALQw/learning-public-crop_144_256/0?e=1599332400&v=beta&t=vk68r2HenlC-NnKu4hfcvV8e97-p99vn8dvSU83GK54)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFPrN235tALQw/learning-public-crop_144_256/0?e=1599498000&v=beta&t=R_9vosIg8QvT835qwsvcsjQ9QknjL39A9qU200ss3Yk)
 
 [Nail Your C++ Interview](https://www.linkedin.com/learning/nail-your-c-plus-plus-interview)
 - Author: Erin Colvin
@@ -1409,7 +1448,7 @@ Note: This course is part of our test prep series for the Certified Ethical Hack
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQGtMNZQaIGbdQ/learning-public-crop_144_256/0?e=1599332400&v=beta&t=rxLTpz40rLDj6bKVbw2KB-le3wpj-G7T8WgHQvoc3HQ)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQGtMNZQaIGbdQ/learning-public-crop_144_256/0?e=1599498000&v=beta&t=gQCVjYJwwA8IQwDjGeULxyryuF0eR3DK3ndysBJ0Z_E)
 
 [Linux System Engineer: Web Servers and DNS Using Apache, NGINX, and BIND](https://www.linkedin.com/learning/linux-system-engineer-web-servers-and-dns-using-apache-nginx-and-bind)
 - Author: Grant McWilliams
@@ -1424,7 +1463,7 @@ Note: This course also helps you study to pass the Red Hat Certified Engineer (R
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHX6yvDN52IZw/learning-public-crop_144_256/0?e=1599332400&v=beta&t=BAohGl0_IW-fndCZSHCMawFctzsAHEZDkgYK8BJ9GDw)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHX6yvDN52IZw/learning-public-crop_144_256/0?e=1599498000&v=beta&t=F7B3BgFP588p0vo3FuW-AIG7LjlBqFawhTSBGcqM40Y)
 
 [Test Automation Foundations](https://www.linkedin.com/learning/test-automation-foundations)
 - Author: Meaghan Lewis
@@ -1437,7 +1476,7 @@ Note: This course also helps you study to pass the Red Hat Certified Engineer (R
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQE2j1ahETHTSw/learning-public-crop_144_256/0?e=1599332400&v=beta&t=WzQ6uiZTvtR3laYaKSeVkenof6D4qQmyFRQaUMYzrEE)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQE2j1ahETHTSw/learning-public-crop_144_256/0?e=1599498000&v=beta&t=yfjOR6IQ1h5ADLDfVPhKMo9KuUkwjzR0pHPQ4JP900k)
 
 [Docker for Data Scientists](https://www.linkedin.com/learning/docker-for-data-scientists)
 - Author: Jonathan Fernandes
@@ -1450,7 +1489,7 @@ Note: This course also helps you study to pass the Red Hat Certified Engineer (R
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHHQ4kjklNDmQ/learning-public-crop_144_256/0?e=1599332400&v=beta&t=AJN4R_OIpdehATmF9E3zAO1Ejkxj0J7R9vqEXjtXIOQ)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHHQ4kjklNDmQ/learning-public-crop_144_256/0?e=1599498000&v=beta&t=3GXCzABd_NdisOBMRW9ew8WTTvmy5u_R-STHaiDHkhA)
 
 [Linux System Engineer: Bash Shell Scripting for Automation](https://www.linkedin.com/learning/linux-system-engineer-bash-shell-scripting-for-automation)
 - Author: Grant McWilliams
@@ -1465,7 +1504,7 @@ Note: This course also helps you study to pass the Red Hat Certified Engineer (R
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFIPj_z7h0anA/learning-public-crop_144_256/0?e=1599332400&v=beta&t=GTewetGmqH5wQJi98ONbygOnJL_ZcgChXYg93NglmEw)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFIPj_z7h0anA/learning-public-crop_144_256/0?e=1599498000&v=beta&t=keFYD0rleV9yu86w_0crR2-TZJ519pEpEErHlca4mKQ)
 
 [Cybersecurity for IT Professionals](https://www.linkedin.com/learning/cybersecurity-for-it-professionals-2)
 - Author: Malcolm Shore
@@ -1478,7 +1517,7 @@ Note: This course also helps you study to pass the Red Hat Certified Engineer (R
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQEyWIrhWXQGBQ/learning-public-crop_144_256/0?e=1599332400&v=beta&t=w4EiH-_kjzYGlvF0sRAg-Bcio85KHCLZyBqtEpOgWbQ)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQEyWIrhWXQGBQ/learning-public-crop_144_256/0?e=1599498000&v=beta&t=ORW_lMndyI-fDC8kf8Iihk5jmUCadGx-M0mTybgnJaM)
 
 [Tech Sense](https://www.linkedin.com/learning/tech-sense)
 - Author: Morten Rand-Hendriksen
@@ -1491,7 +1530,7 @@ Note: This course also helps you study to pass the Red Hat Certified Engineer (R
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFCyIvUSluIKw/learning-public-crop_144_256/0?e=1599332400&v=beta&t=4hUaziivSWxb6AR89G5InQii7fWv0RznGpJWsVkJHX4)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFCyIvUSluIKw/learning-public-crop_144_256/0?e=1599498000&v=beta&t=NF43l88oKL31JSz7n4KIuL6LKUPMSGBObl3xPF2JYcU)
 
 [Becoming Indistractable](https://www.linkedin.com/learning/becoming-indistractable)
 - Author: Nir Eyal and Arianna Huffington
@@ -1504,7 +1543,7 @@ Note: This course also helps you study to pass the Red Hat Certified Engineer (R
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHMX--loiB1Vw/learning-public-crop_144_256/0?e=1599332400&v=beta&t=j70Y_RJvFLvgQvB1eYCnKrlVXNXEgJ8v-0RhEGo6Nv0)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHMX--loiB1Vw/learning-public-crop_144_256/0?e=1599498000&v=beta&t=eusDuA_psrPhWZ_-4W0pBPSTiQrKeC-yWijA5bsKdx4)
 
 [Learning Slack](https://www.linkedin.com/learning/learning-slack-2)
 - Author: Gini von Courter
@@ -1517,7 +1556,7 @@ Note: This course also helps you study to pass the Red Hat Certified Engineer (R
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQG9rNv-VbOM5A/learning-public-crop_144_256/0?e=1599332400&v=beta&t=Lq5RNyqhQXf3gDWIdDdeIaVz_HHqpvsYRxF7-T7lx50)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQG9rNv-VbOM5A/learning-public-crop_144_256/0?e=1599498000&v=beta&t=zg1GfIE8iwViXAKUp100DemDKtASK4XPX8u_WL3r5Dg)
 
 [Go Essential Training](https://www.linkedin.com/learning/go-essential-training)
 - Author: Miki Tebeka
@@ -1530,7 +1569,7 @@ Note: This course also helps you study to pass the Red Hat Certified Engineer (R
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQGe4IvPt2-JGg/learning-public-crop_144_256/0?e=1599332400&v=beta&t=j2XQRi4NxxHzpJ8fjuQ-Rq7MMnY164Xdh1pZw9dq0m4)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQGe4IvPt2-JGg/learning-public-crop_144_256/0?e=1599498000&v=beta&t=Zous2JzsHgrTPSTUEmitTefyTJpfEw6rkP9-eR9d-co)
 
 [Learning Kali Linux (2016)](https://www.linkedin.com/learning/learning-kali-linux-2016)
 - Author: Malcolm Shore
@@ -1547,7 +1586,7 @@ Because businesses are connected, they are also exposed. Vulnerability testing h
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQEVwSLIHO4jZw/learning-public-crop_144_256/0?e=1599332400&v=beta&t=oj3YEKJzlH52Rrm64tOfCTTVIfwj5TIhrosvq1IIrjk)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQEVwSLIHO4jZw/learning-public-crop_144_256/0?e=1599498000&v=beta&t=fLkht251FliqPimGiDhY3xKdadO6vY7dO4esQAuuAwg)
 
 [Managing DNS Essential Training](https://www.linkedin.com/learning/managing-dns-essential-training)
 - Author: Sean Colins
@@ -1562,7 +1601,7 @@ To begin, author Sean Colins covers the fundamentals of DNS. He then segues to m
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4D0DAQFi6V6JGW14hQ/learning-public-crop_144_256/0?e=1599332400&v=beta&t=JcOp_aG-gbFR4zpYQBty-Wx2f2XBiZS1VTkIRBevvIo)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4D0DAQFi6V6JGW14hQ/learning-public-crop_144_256/0?e=1599498000&v=beta&t=YmXYBXAeZLye44ln-SalvXj9FGBxexB4BTjBemMqGwA)
 
 [Ethical Hacking: Sniffers](https://www.linkedin.com/learning/ethical-hacking-sniffers)
 - Author: Lisa Bock
@@ -1577,7 +1616,7 @@ Note: The topics in this course will prepare you for key objectives on the Certi
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFNSKkC7YU5iQ/learning-public-crop_144_256/0?e=1599332400&v=beta&t=KjDUG2F-lwYLZsWuRAaozXOeRW2ylAvzfHLWfD26WXc)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFNSKkC7YU5iQ/learning-public-crop_144_256/0?e=1599498000&v=beta&t=ZyvaeJtGfpdTttX4CS0Dzy30NirOq8xdKVT8jnW3N0s)
 
 [Wireshark Essential Training](https://www.linkedin.com/learning/wireshark-essential-training)
 - Author: Lisa Bock
@@ -1590,7 +1629,7 @@ Note: The topics in this course will prepare you for key objectives on the Certi
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQGqZdGqfxGv7A/learning-public-crop_144_256/0?e=1599332400&v=beta&t=6RJdWL496PMiGXbUNqLG72M0ODJ-c9IpR9ImQ1BTDdM)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQGqZdGqfxGv7A/learning-public-crop_144_256/0?e=1599498000&v=beta&t=fPLIXL0MawA5EJZVR6gqhZZI2W_gNC0jb0OhFLtI2U4)
 
 [Linux: BIND and DNS](https://www.linkedin.com/learning/linux-bind-and-dns)
 - Author: Chaim Krause
@@ -1603,7 +1642,7 @@ Note: The topics in this course will prepare you for key objectives on the Certi
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQGM65tPc8e-hg/learning-public-crop_144_256/0?e=1599332400&v=beta&t=tQqGUH6Erb24IfR3xdvfDkXXRvXpvQYMieD1AIq-O0o)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQGM65tPc8e-hg/learning-public-crop_144_256/0?e=1599498000&v=beta&t=nrxXezab8yKpEYkrM-s_4oY8IrOjCM4ivFUdPp7QacE)
 
 [Advanced Linux: The Linux Kernel (2016)](https://www.linkedin.com/learning/advanced-linux-the-linux-kernel-2016)
 - Author: Kevin Dankwardt
@@ -1618,7 +1657,7 @@ We survey the Linux kernel specification, boot process, and loadable kernel modu
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQGJbaSnLl1ApQ/learning-public-crop_144_256/0?e=1599332400&v=beta&t=e3DaNmkMCkOy4HMgfG-xRaRYMZdQqATAUpy5ySgoKeM)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQGJbaSnLl1ApQ/learning-public-crop_144_256/0?e=1599498000&v=beta&t=TPz56ZrUs6ESu3cJzExdf2EMijAK40LipdH1k3WGc4Q)
 
 [Learning SSH](https://www.linkedin.com/learning/learning-ssh)
 - Author: Scott Simpson
@@ -1631,7 +1670,7 @@ We survey the Linux kernel specification, boot process, and loadable kernel modu
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4D0DAQEAFL5hUnoEUQ/learning-public-crop_144_256/0?e=1599332400&v=beta&t=0NiFzW17XI_k2gd9ZobTMW1UUz-dKduA8pQIxHC7lBc)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4D0DAQEAFL5hUnoEUQ/learning-public-crop_144_256/0?e=1599498000&v=beta&t=bX1rfJdKL7CXT4xXB_fpUJGsBY_Cjly0dnaidbCiPn0)
 
 [Learning Docker](https://www.linkedin.com/learning/learning-docker-2)
 - Author: Arthur Ulfeldt
@@ -1644,7 +1683,7 @@ We survey the Linux kernel specification, boot process, and loadable kernel modu
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQGHEcE3WYit-Q/learning-public-crop_144_256/0?e=1599332400&v=beta&t=pHSyKCA1_Ddsm3O7aD15E_rUpq706INAq-csoLFo5M4)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQGHEcE3WYit-Q/learning-public-crop_144_256/0?e=1599498000&v=beta&t=t2xFOshiTE4BGPXuEmy8LeQ3MmMR9xTD9JcZfHONCwg)
 
 [Learning Eclipse](https://www.linkedin.com/learning/learning-eclipse-2)
 - Author: Reynald Adolphe
@@ -1657,7 +1696,7 @@ We survey the Linux kernel specification, boot process, and loadable kernel modu
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQF94z_CAvgoeA/learning-public-crop_144_256/0?e=1599332400&v=beta&t=WYSz1QeL45urAofRHkTo7xkj7bKm6XHOsxHBoymxFt0)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQF94z_CAvgoeA/learning-public-crop_144_256/0?e=1599498000&v=beta&t=cl4HLOcnEDQnYRu25JnM1fUd2uQ_AZ68KaBBT0z9hec)
 
 [Disrupting Yourself](https://www.linkedin.com/learning/disrupting-yourself)
 - Author: Whitney Johnson
@@ -1670,7 +1709,7 @@ We survey the Linux kernel specification, boot process, and loadable kernel modu
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFC6erKj3wGsg/learning-public-crop_144_256/0?e=1599332400&v=beta&t=uNe7cAB2mQbxDvIiacvz24D5pxVXWX3mYG267YR0Liw)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFC6erKj3wGsg/learning-public-crop_144_256/0?e=1599498000&v=beta&t=f_6A2Qd9XTrJ_dukH2e0I2VfmAfqsrOuvX4ScDO76Kc)
 
 [Faster Python Services](https://www.linkedin.com/learning/faster-python-services)
 - Author: Miki Tebeka
@@ -1683,7 +1722,7 @@ We survey the Linux kernel specification, boot process, and loadable kernel modu
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHdT8fcS0S7zQ/learning-public-crop_144_256/0?e=1599332400&v=beta&t=gqE5iE25TWobGsgfE6pa-LrK_IBRa-0qorzNiNqUb1g)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHdT8fcS0S7zQ/learning-public-crop_144_256/0?e=1599498000&v=beta&t=pGhnyfGZwWatNmjCvoNREMLbDrB_mnNoJhCWrE3jKPY)
 
 [C# Essential Training: 2 Flow Control, Arrays, and Exception Handling](https://www.linkedin.com/learning/c-sharp-essential-training-2-flow-control-arrays-and-exception-handling)
 - Author: Bruce Van Horn
@@ -1696,7 +1735,7 @@ We survey the Linux kernel specification, boot process, and loadable kernel modu
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQGVk1ZY_jZzqQ/learning-public-crop_144_256/0?e=1599332400&v=beta&t=sKmFmfjlDJnyzMLEXoK_R3r6ITO0_vJEE0Opakclfv0)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQGVk1ZY_jZzqQ/learning-public-crop_144_256/0?e=1599498000&v=beta&t=TuyE9wpSZq3zCafff-_JjnsHw-GyS7odk6y5hsLfn4Q)
 
 [Being Positive at Work](https://www.linkedin.com/learning/being-positive-at-work)
 - Author: Brenda Bailey-Hughes
@@ -1711,7 +1750,7 @@ To gain fresh insights and celebrate your positivity wins with other learners, y
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHcfsNthTGhbg/learning-public-crop_144_256/0?e=1599332400&v=beta&t=OvMBJ4Aj76RxwL-bWJ-gqr1Ef01gPX0TA3L-HwMXKaU)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHcfsNthTGhbg/learning-public-crop_144_256/0?e=1599498000&v=beta&t=stJJH59GiwlkbE-y9WFRxeibjgHmyiQFH5v9PmydFYo)
 
 [C# Essential Training: 1 Syntax and Object Oriented Programming](https://www.linkedin.com/learning/c-sharp-essential-training-1-syntax-and-object-oriented-programming)
 - Author: Bruce Van Horn
@@ -1724,7 +1763,7 @@ To gain fresh insights and celebrate your positivity wins with other learners, y
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQG4bYFXimro_w/learning-public-crop_144_256/0?e=1599332400&v=beta&t=eqetGHdUY6BIqjji_wMD0vK26LfxfJapn4_ay5z0cZI)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQG4bYFXimro_w/learning-public-crop_144_256/0?e=1599498000&v=beta&t=iDeFJJCpN2XDPetsBwIEVNjh0y8DGq83mezorBBBkB4)
 
 [Git: Branches, Merges, and Remotes](https://www.linkedin.com/learning/git-branches-merges-and-remotes)
 - Author: Kevin Skoglund
@@ -1737,7 +1776,7 @@ To gain fresh insights and celebrate your positivity wins with other learners, y
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQGGIGR23x0YuA/learning-public-crop_144_256/0?e=1599332400&v=beta&t=7M4KagKbKrg0Ktz6ywF6aDMM7dt-i_3PIobw9q7W94s)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQGGIGR23x0YuA/learning-public-crop_144_256/0?e=1599498000&v=beta&t=lmar6DbwRoyxS0B_neOMO3CZluA5rkjlGoE5upwGDDg)
 
 [Git Intermediate Techniques](https://www.linkedin.com/learning/git-intermediate-techniques)
 - Author: Kevin Skoglund
@@ -1750,7 +1789,7 @@ To gain fresh insights and celebrate your positivity wins with other learners, y
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHYPaPnQ5mIFw/learning-public-crop_144_256/0?e=1599332400&v=beta&t=7e9slHdSMPRMfo2RCCyrUTuTGp9Ajl6wNOmj1BBO0i8)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHYPaPnQ5mIFw/learning-public-crop_144_256/0?e=1599498000&v=beta&t=5ns5YWQuWo3ZUz9oyGmfePw4vCBhmwzCovg6_oRQgE0)
 
 [CSS Layouts: From Float to Flexbox and Grid](https://www.linkedin.com/learning/css-layouts-from-float-to-flexbox-and-grid)
 - Author: Christina Truong
@@ -1763,7 +1802,7 @@ To gain fresh insights and celebrate your positivity wins with other learners, y
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFMkzYInuXKfA/learning-public-crop_144_256/0?e=1599332400&v=beta&t=73e5oZ46Wo2bpHnan9VHveiI5Px8zWONHKKN5-bO3X0)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFMkzYInuXKfA/learning-public-crop_144_256/0?e=1599498000&v=beta&t=M9DIpff89fIYv2ENzyWW0OY8VaQSWp-Hxls2k0VheKw)
 
 [ASP.NET MVC 5 Essential Training](https://www.linkedin.com/learning/asp-dot-net-mvc-5-essential-training-4)
 - Author: Jonathan "J." Tower
@@ -1776,7 +1815,7 @@ To gain fresh insights and celebrate your positivity wins with other learners, y
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFtJG6toauRFQ/learning-public-crop_144_256/0?e=1599332400&v=beta&t=PPJfxVR2xf0DWyoMCMXsKh5TG9Fcp91R9rDOu99pBc4)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFtJG6toauRFQ/learning-public-crop_144_256/0?e=1599498000&v=beta&t=td9A1i-hlrqgNeRgEstrFN0-rq5SuLbfnxVKHVfmhnA)
 
 [PHP with MySQL Essential Training: 2 Build a CMS](https://www.linkedin.com/learning/php-with-mysql-essential-training-2-build-a-cms)
 - Author: Kevin Skoglund
@@ -1789,7 +1828,7 @@ To gain fresh insights and celebrate your positivity wins with other learners, y
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQE_om3nR45UWg/learning-public-crop_144_256/0?e=1599332400&v=beta&t=BcO6TC0uuooVvlFqY7OyjebDOE1u1gZgon5T-5i5uOc)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQE_om3nR45UWg/learning-public-crop_144_256/0?e=1599498000&v=beta&t=bdAvLQtfxAKTbUnMzqBWxVOzgcsktOeixIMJOd5XWVc)
 
 [PHP with MySQL Essential Training: 1 The Basics](https://www.linkedin.com/learning/php-with-mysql-essential-training-1-the-basics)
 - Author: Kevin Skoglund
@@ -1802,7 +1841,7 @@ To gain fresh insights and celebrate your positivity wins with other learners, y
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQH5nTGJDKi4fg/learning-public-crop_144_256/0?e=1599332400&v=beta&t=dbpggTkQdIB1ra-lgNnU-tufpXQjR7nj2tiCrS4U6Tc)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQH5nTGJDKi4fg/learning-public-crop_144_256/0?e=1599498000&v=beta&t=QSlrzgeH3CTmnNAuwAh6NQTTmnQtudXD4NVlVPVQEW0)
 
 [WordPress 5 Essential Training: Site Administration](https://www.linkedin.com/learning/wordpress-5-essential-training-site-administration)
 - Author: Morten Rand-Hendriksen
@@ -1815,7 +1854,7 @@ To gain fresh insights and celebrate your positivity wins with other learners, y
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4D0DAQHCGbZ8JjKs4g/learning-public-crop_144_256/0?e=1599332400&v=beta&t=SDjttD_chTBpOV7WbNoT4s3SlkO45qD4bLzTqWBfIXE)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4D0DAQHCGbZ8JjKs4g/learning-public-crop_144_256/0?e=1599498000&v=beta&t=z0e02zFxuaHq_g0dJztYnDwRM9ukEZ6HOv_PAv2Sg90)
 
 [WordPress 5 Essential Training](https://www.linkedin.com/learning/wordpress-5-essential-training)
 - Author: Morten Rand-Hendriksen
@@ -1830,7 +1869,7 @@ Note: This course covers WordPress 5. The training will be updated as WordPress 
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHyb1HnT7yrQQ/learning-public-crop_144_256/0?e=1599332400&v=beta&t=5KUce-v9ddIklymH6ygwDHlvmmYnSIxY3sog9v5HzfE)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHyb1HnT7yrQQ/learning-public-crop_144_256/0?e=1599498000&v=beta&t=h7gpc-PsMRAY4RQk8SnFm-KbF6hgXPAWwogY7bsIFYU)
 
 [Learning Static Site Building with Jekyll](https://www.linkedin.com/learning/learning-static-site-building-with-jekyll)
 - Author: Nate Barbettini
@@ -1843,7 +1882,7 @@ Note: This course covers WordPress 5. The training will be updated as WordPress 
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHkzs2gEFxPvQ/learning-public-crop_144_256/0?e=1599332400&v=beta&t=uXGGa8bLXrU_XHl12Y19zuuLJXPmG1p4xbw0mciUaiA)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHkzs2gEFxPvQ/learning-public-crop_144_256/0?e=1599498000&v=beta&t=-cJyvK7lgUyw1nqJNu6I1ng6JzhGhoOo1tD_OAaoCDU)
 
 [Learning Selenium](https://www.linkedin.com/learning/learning-selenium)
 - Author: Meaghan Lewis
@@ -1856,7 +1895,7 @@ Note: This course covers WordPress 5. The training will be updated as WordPress 
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQGot_W0OUC9Rg/learning-public-crop_144_256/0?e=1599332400&v=beta&t=tkfRgpcxkrnzR08gQXtxeIE46Cq_FBaAoYhYEMHLBk0)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQGot_W0OUC9Rg/learning-public-crop_144_256/0?e=1599498000&v=beta&t=GZBLdQmI3ChqHYWbj6Nr-uECAz6zmrCYiYe8C7vMeUo)
 
 [Docker Essential Training: 1 Installation and Configuration](https://www.linkedin.com/learning/docker-essential-training-1-installation-and-configuration)
 - Author: David Davis
@@ -1869,7 +1908,7 @@ Note: This course covers WordPress 5. The training will be updated as WordPress 
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFyjIxa-nw5CA/learning-public-crop_144_256/0?e=1599332400&v=beta&t=nlh9ArYQfvPdFjRnD-pAv2TuldsfJZIsuelazl6ZdCc)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFyjIxa-nw5CA/learning-public-crop_144_256/0?e=1599498000&v=beta&t=SvaYQgGyPPX_7Uhy87Npc7DLoyrl5fxpjEgjkGWy0n0)
 
 [Learning Amazon Web Services (AWS) for Developers (2018)](https://www.linkedin.com/learning/learning-amazon-web-services-aws-for-developers-2018)
 - Author: Bear Cahill
@@ -1884,7 +1923,7 @@ Note: The topics covered here are important prerequisites for the AWS Certified 
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQG_Rjfb5O3w7w/learning-public-crop_144_256/0?e=1599332400&v=beta&t=rLtCSZWKIEjqGZQOW2Snt8q8rv5dZOdLne-Q175U4Bc)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQG_Rjfb5O3w7w/learning-public-crop_144_256/0?e=1599498000&v=beta&t=6Kb77YsyaGzTMLV9vh1aaMTtQ5ibEt5Af7DBgVevgcU)
 
 [Advanced Node.js](https://www.linkedin.com/learning/advanced-node-js)
 - Author: Alex Banks
@@ -1897,7 +1936,7 @@ Note: The topics covered here are important prerequisites for the AWS Certified 
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFz-yxp6RMfIA/learning-public-crop_144_256/0?e=1599332400&v=beta&t=NgL4vHcbeCxqltnM-hmefLsdmW2FpvLJGfnita5BS-8)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFz-yxp6RMfIA/learning-public-crop_144_256/0?e=1599498000&v=beta&t=S-vaBYNNyzLGyjadZTy3w8vMxH1RjWO1aPlUBGKgfQc)
 
 [Learning Jenkins](https://www.linkedin.com/learning/learning-jenkins)
 - Author: Michael Jenkins
@@ -1914,7 +1953,7 @@ By the end of the training, you should be able to install Jenkins locally or on 
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHBRCsrRpTCkg/learning-public-crop_144_256/0?e=1599332400&v=beta&t=xJ4spCAIPHg2HjvpwXtt-6KAtxT2liwxIDuOL2ZPJjo)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHBRCsrRpTCkg/learning-public-crop_144_256/0?e=1599498000&v=beta&t=sExl66PQIGAHTXC9DLTC_T3zDdIIaMKEwwZePJfQ0wo)
 
 [Building Single-Page Applications Using ASP.NET Core JavaScriptServices](https://www.linkedin.com/learning/building-single-page-applications-using-asp-dot-net-core-javascriptservices)
 - Author: Kazi Nasrat Ali
@@ -1927,7 +1966,7 @@ By the end of the training, you should be able to install Jenkins locally or on 
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQEJup2uO0jOtQ/learning-public-crop_144_256/0?e=1599332400&v=beta&t=0Hi8dsyMSzEBHISQKyw55y1rkhsiDoAiFjdBJEF9ebo)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQEJup2uO0jOtQ/learning-public-crop_144_256/0?e=1599498000&v=beta&t=KalVUGyVowVGLkkfIL-S-Sjmntov-JcV97ykyi5EyEo)
 
 [React: Securing Applications (2018)](https://www.linkedin.com/learning/react-securing-applications-2018)
 - Author: Emmanuel Henri
@@ -1940,7 +1979,7 @@ By the end of the training, you should be able to install Jenkins locally or on 
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHHRbjHRCynrA/learning-public-crop_144_256/0?e=1599332400&v=beta&t=GG0cG2H8PJStvUbQnRBbl-KCDsh0k8_joM7cHKnVkxg)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHHRbjHRCynrA/learning-public-crop_144_256/0?e=1599498000&v=beta&t=pmmnrbpW4bReP1PLWJylRqWpHhjEmxrRKEdx7q94iMg)
 
 [React Native Essential Training](https://www.linkedin.com/learning/react-native-essential-training)
 - Author: Samer Buna
@@ -1953,7 +1992,7 @@ By the end of the training, you should be able to install Jenkins locally or on 
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQEDBGmntoR6NA/learning-public-crop_144_256/0?e=1599332400&v=beta&t=yrPCXZYSFRYNK5u-80YTVU1zBzwgjCbSpEXjhM8PhK4)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQEDBGmntoR6NA/learning-public-crop_144_256/0?e=1599498000&v=beta&t=hQtuFOvAL0G05J_2EPr9wGcE-t464cX6Aty8q8Yz9Rw)
 
 [Mastering Web Developer Interview Code](https://www.linkedin.com/learning/mastering-web-developer-interview-code)
 - Author: Ray Villalobos
@@ -1966,7 +2005,7 @@ By the end of the training, you should be able to install Jenkins locally or on 
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFz3Yqt3raE0w/learning-public-crop_144_256/0?e=1599332400&v=beta&t=C8B6NlVfUZsDan-VOTLK719E8wMtOHZHCnaV8gUu2j8)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFz3Yqt3raE0w/learning-public-crop_144_256/0?e=1599498000&v=beta&t=uQtWIHhGP6SPBHtk4OTHtQDNxPJ7IPmtHKWvHFSCTaE)
 
 [React Native Ecosystem and Workflow](https://www.linkedin.com/learning/react-native-ecosystem-and-workflow)
 - Author: Emmanuel Henri
@@ -1979,7 +2018,7 @@ By the end of the training, you should be able to install Jenkins locally or on 
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQF_gtrOz56v3w/learning-public-crop_144_256/0?e=1599332400&v=beta&t=A23_Aq61KEA6zY6n73BMellWRHs6g3CfOXiD7tJ8RuM)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQF_gtrOz56v3w/learning-public-crop_144_256/0?e=1599498000&v=beta&t=DTX91u5-fV43wyZ9gHmGFpY65FXhVuFEUiw80U3LPMU)
 
 [Learning Bash Scripting](https://www.linkedin.com/learning/learning-bash-scripting)
 - Author: Scott Simpson
@@ -1992,7 +2031,7 @@ By the end of the training, you should be able to install Jenkins locally or on 
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C560DAQERv-M1vq1flw/learning-public-crop_144_256/0?e=1599332400&v=beta&t=aX9F24T06lUwqNToBInfiMqmdzNWjCltbI7vU8_47cA)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C560DAQERv-M1vq1flw/learning-public-crop_144_256/0?e=1599498000&v=beta&t=JIEPWDK18pTNJgs_EyOdx0eKK0ShPxxHd0hrqd6XY2w)
 
 [Webpack for React Applications](https://www.linkedin.com/learning/webpack-for-react-applications)
 - Author: Alexandru Toea
@@ -2005,7 +2044,7 @@ By the end of the training, you should be able to install Jenkins locally or on 
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQEJhagbNelDIw/learning-public-crop_144_256/0?e=1599332400&v=beta&t=9JdYqAzEDAyrpzsKWJKYzT4WJlmU-Vbp6M9tIBXYMxU)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQEJhagbNelDIw/learning-public-crop_144_256/0?e=1599498000&v=beta&t=s87tTY-wdqRe4yEn2BAd3170-rG_LzTdyJt43ojSi8g)
 
 [React: Ecosystems](https://www.linkedin.com/learning/react-ecosystems)
 - Author: Emmanuel Henri
@@ -2018,7 +2057,7 @@ By the end of the training, you should be able to install Jenkins locally or on 
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQGQD57qPmq-9Q/learning-public-crop_144_256/0?e=1599332400&v=beta&t=jZksO9CBOGmZIqxfaLaErIe064nlBNupaQhs0dlbsGY)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQGQD57qPmq-9Q/learning-public-crop_144_256/0?e=1599498000&v=beta&t=okc5bhmZUOcUQajRkh-HWwHctemRYOIk6qD-xJz-m5g)
 
 [Learning webpack 4](https://www.linkedin.com/learning/learning-webpack-4-2)
 - Author: Eve Porcello
@@ -2031,7 +2070,7 @@ By the end of the training, you should be able to install Jenkins locally or on 
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4D0DAQGSflZ0yKTKdA/learning-public-crop_144_256/0?e=1599332400&v=beta&t=yI5NtFz49fEp7XN5ziR0h1FjX8DEIsW3jV_S9C1pw1g)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4D0DAQGSflZ0yKTKdA/learning-public-crop_144_256/0?e=1599498000&v=beta&t=SaWcCACKyE7GUTkfBAjL78M32J_mhn7TQdYoVSIYrYs)
 
 [The Key to Good Communication: Your Audience](https://www.linkedin.com/learning/the-key-to-good-communication-your-audience)
 - Author: Big Think
@@ -2044,7 +2083,7 @@ By the end of the training, you should be able to install Jenkins locally or on 
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHqAyFLdw_vhQ/learning-public-crop_144_256/0?e=1599332400&v=beta&t=TtfyotzrvPcrJGaDY7V525q5bBLXsUReFEsViwd9_do)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQHqAyFLdw_vhQ/learning-public-crop_144_256/0?e=1599498000&v=beta&t=Btb0MnaLSsGMOuWrSRPyE2Qppok2ASvOR8FkjLNMzik)
 
 [J.T. O'Donnell on Making Recruiters Come to You](https://www.linkedin.com/learning/j-t-o-donnell-on-making-recruiters-come-to-you)
 - Author: J.T. O'Donnell
@@ -2059,7 +2098,7 @@ This course will help job seekers tap a valuable source by showing them how to c
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQH5vYPvckvpkw/learning-public-crop_144_256/0?e=1599332400&v=beta&t=KuzVAQEf_DWw2YMosySQi1OTYDu7-HB-iKZrTxUzq2s)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQH5vYPvckvpkw/learning-public-crop_144_256/0?e=1599498000&v=beta&t=JHeJt8HIZ0DKjMTyVMlqxOlNTQOVuJoaEYWr7O8sr3w)
 
 [React: Building Progressive Web Apps (PWAs)](https://www.linkedin.com/learning/react-building-progressive-web-apps-pwas)
 - Author: Eve Porcello
@@ -2072,7 +2111,7 @@ This course will help job seekers tap a valuable source by showing them how to c
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4D0DAQGKcOd2oAO61A/learning-public-crop_144_256/0?e=1599332400&v=beta&t=n9G-7vJdL0uzL_CEdmaEji-5JuEAkhhogGnI8KS3B7M)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4D0DAQGKcOd2oAO61A/learning-public-crop_144_256/0?e=1599498000&v=beta&t=Mv3mDQ_-EjNnNXHy-gphmn2Xc-d4ghWs3hsXhUqgkCQ)
 
 [React.js Essential Training](https://www.linkedin.com/learning/react-js-essential-training-3)
 - Author: Eve Porcello
@@ -2085,7 +2124,7 @@ This course will help job seekers tap a valuable source by showing them how to c
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4D0DAQFEuBuoBuNQhA/learning-public-crop_144_256/0?e=1599332400&v=beta&t=4AVsfXQKs4KdDfC3SMzFEkWksGdPliMyl63c3Fe_B5w)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4D0DAQFEuBuoBuNQhA/learning-public-crop_144_256/0?e=1599498000&v=beta&t=bsIr9wqfpY9KOpPc-g-8rHulkn3RcgVFS-iFbM9M6zI)
 
 [Recovering from a Layoff](https://www.linkedin.com/learning/recovering-from-a-layoff)
 - Author: Brie Reynolds
@@ -2098,7 +2137,7 @@ This course will help job seekers tap a valuable source by showing them how to c
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFELjmZkHS-Vw/learning-public-crop_144_256/0?e=1599332400&v=beta&t=f0jT1k0QBVThltQSnWEBDWrXU-YC773PXWRo90Iw3Ww)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQFELjmZkHS-Vw/learning-public-crop_144_256/0?e=1599498000&v=beta&t=1yWfWFO5E2FiLheEHPFBVeqHvAZ7oAcR7IM1-_HCiIU)
 
 [Finding a Job](https://www.linkedin.com/learning/finding-a-job)
 - Author: Jolie Miller
@@ -2111,7 +2150,7 @@ This course will help job seekers tap a valuable source by showing them how to c
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQF79vF0eiMkVA/learning-public-crop_144_256/0?e=1599332400&v=beta&t=xAwztMQOsQwFigXWXcM2yVop26dvROd8VYVKs5FhLfo)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQF79vF0eiMkVA/learning-public-crop_144_256/0?e=1599498000&v=beta&t=I0mwBlnwBizko9cmPmN8Xc0s8gicAmBc4FUFqhUB9nM)
 
 [GraphQL Essential Training](https://www.linkedin.com/learning/graphql-essential-training)
 - Author: Emmanuel Henri
@@ -2124,7 +2163,7 @@ This course will help job seekers tap a valuable source by showing them how to c
 <br/>
 
 
-![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQH7EO758a1_iw/learning-public-crop_144_256/0?e=1599332400&v=beta&t=xiIQDx6pVhkO5oF5JQWrWS4sSHJzTqLNFoELAnnOaBE)
+![thumbnail](https://media-exp1.licdn.com/dms/image/C4E0DAQH7EO758a1_iw/learning-public-crop_144_256/0?e=1599498000&v=beta&t=2O7q4oIrg7Xki56mdvUorpljr_k2aM5E7dtMEmpoRPU)
 
 [Learning GraphQL](https://www.linkedin.com/learning/learning-graphql)
 - Author: Eve Porcello
