@@ -1,6 +1,7 @@
 require("dotenv").config();
 base = require('./base');
 fs = require('fs');
+axios = require('axios');
 
 PUP_URL_BASE="https://www.linkedin.com/learning";
 PUP_URL_LOGIN=PUP_URL_BASE+"/me";
@@ -9,11 +10,11 @@ PUP_URL_COMPLETED=PUP_URL_BASE+"/me/completed?trk=nav_neptune_learning";
 
 
 // in ms
-PAGE_WAIT = 10000;
-PAGE_WAIT_LOGIN = 10000;
-PAGE_WAIT_LOGIN_DONE = 10000;
-PAGE_WAIT_COMPLETED = 10000;
-PAGE_WAIT_DETAILS = 10000;
+PAGE_WAIT = 4000;
+PAGE_WAIT_LOGIN = 4000;
+PAGE_WAIT_LOGIN_DONE = 4000;
+PAGE_WAIT_COMPLETED = 4000;
+PAGE_WAIT_DETAILS = 4000;
 PAGE_WAIT_DETAILS_RETRY = 20000;
 
 const SAMPLE_FILE = "./artifacts/sample.json";
@@ -29,17 +30,21 @@ const process_login = async (browser, options) => {
   //console.log('process_login')
   const page = await base.browser_get(browser, PUP_URL_LOGIN, (waitMs));
 
-   //HACK manual login
-   await base.delay(60);
-  // await base.process_options(browser, options);
-  // await page.type('#auth-id-input', process.env.PUP_USERNAME);
-  // await base.delay(waitMs);
-  // await page.click('#auth-id-button'); // Email page "Continue"
-  // await base.delay(waitMs);
-  // await base.process_options(browser, options);
-  // await page.type('#password', process.env.PUP_PASSWORD);
-  // await base.delay(waitMs);
-  // await page.click('.btn__primary--large'); // Password page "Continue"
+  if (options.manualLogin) {
+    console.log("FINISH LOGIN");
+    await base.delay(60000);
+  } 
+  else {
+    await base.process_options(browser, options);
+    await page.type('#auth-id-input', process.env.PUP_USERNAME);
+    await base.delay(waitMs);
+    await page.click('#auth-id-button'); // Email page "Continue"
+    await base.delay(waitMs);
+    await base.process_options(browser, options);
+    await page.type('#password', process.env.PUP_PASSWORD);
+    await base.delay(waitMs);
+    await page.click('.btn__primary--large'); // Password page "Continue"  
+  }
 
   await base.delay(PAGE_WAIT_LOGIN_DONE);
   await base.process_options(browser, options);
@@ -114,6 +119,16 @@ const process_course_details = async (page, options, href) => {
   return [newdata['linkedin'], newdata['details']];
 };
 
+const save_thumb = async (url, path) => {
+  const writer = fs.createWriteStream(path)
+  const response = await axios({
+    url,
+    method: 'GET',
+    responseType: 'stream'
+  })
+  response.data.pipe(writer)
+};
+
 const process_completed = async (browser, options, data) => {
   //console.log("process_completed");
   var newdata;
@@ -154,10 +169,6 @@ const process_completed = async (browser, options, data) => {
 
     await base.delay(PAGE_WAIT_COMPLETED);
     await base.process_options(browser, options);
-
-
-
-
 
     newdata = await page.evaluate(() => {
       let result = {};
@@ -200,7 +211,21 @@ const process_completed = async (browser, options, data) => {
       }
       return result;
     });
-    console.log(newdata)
+    //console.log(newdata);
+
+
+    if (options.gatherThumbs) {
+      for (i=0; i<newdata['completed-courses'].length; i++) {
+        entry = newdata['completed-courses'][i];
+        //https://media-exp1.licdn.com/dms/image/C4E0DAQFFkRpeVmh0UQ/learning-public-crop_144_256/0?e=1599498000&v=beta&t=8SohdTjq1x0H5w6xPK8k9z3aE3arzBwQ8AR1LE7Mcbg
+        if (entry['img']) {
+          entry['img_guid'] = entry['img'].split('/')[5];
+          entry['img_file'] = './public/images/' + entry['img_guid'] + '.jpg';
+          console.log(entry['img_guid']);
+          await save_thumb(entry['img'], entry['img_file']);
+        }
+      }
+    }    
 
     if (options.gatherDetails) {
       var filteredPage = await base.browser_prep_filtered(browser);

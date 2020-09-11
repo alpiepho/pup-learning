@@ -110,6 +110,7 @@ function build_hours_minutes(data) {
   return [totalH, totalM];
 }
 
+
 function build_html(data, totalH, totalM) {
   // generate artifacts from data - html
   let htmlStr = html1;
@@ -124,8 +125,10 @@ function build_html(data, totalH, totalM) {
     htmlStr += "              <ul>\n";
     htmlStr += "                <li>\n";
 
-    htmlStr += "                  <p><img src=\"" + entry['img'] + "\" loading=\"lazy\"</img></p>\n";
-
+    if (entry['img_file'])
+      htmlStr += "                  <p><img src=\"" + entry['img_file'] + "\" loading=\"lazy\"</img></p>\n";
+    else
+      htmlStr += "                  <p><img src=\"" + entry['img'] + "\" loading=\"lazy\"</img></p>\n";
 
     htmlStr += "                  <a target=\"_blank\" href=\"" + entry['link'] + "\">\n";
     htmlStr += "                    " + entry['title'] + "\n";
@@ -148,45 +151,47 @@ function build_html(data, totalH, totalM) {
   fs.writeFileSync(HTML_FILE, htmlStr);
 }
 
-function build_md(data, totalH, totalM) {
-  // generate markdown (.mdx) for blog
-  let mdStr = md1;
-  mdStr += "Total Completed Courses: " + data['completed-courses'].length + ", Time: " + totalH + "h " + totalM + "m\n";
-  mdStr += "<br/>\n";
-  mdStr += "<br/>\n";
-  mdStr += "<br/>\n";
-  mdStr += "\n";
-  data['completed-courses'].forEach(entry => {
-    mdStr += "\n";
-    if (entry['img']) {
-      mdStr += "![thumbnail](" + entry['img'] + ")\n";
-    }
-    mdStr += "\n";
-    mdStr += "[" + entry['title'] + "](" + entry['link'] + ")\n";
-    mdStr += "- Author: " + entry['author'] + "\n";
-    //mdStr += "- Released: " + entry['released-date'] + "\n";
-    mdStr += "- Duration: " + entry['duration'] + "\n";
-    mdStr += "- Completed: " + entry['completed-date'] + "\n";
-    mdStr += "- Details: " + entry['details'] + "\n";
-    mdStr += "- [top](#top) / [bottom](#bottom)\n";
+// function build_md(data, totalH, totalM) {
+//   // generate markdown (.mdx) for blog
+//   let mdStr = md1;
+//   mdStr += "Total Completed Courses: " + data['completed-courses'].length + ", Time: " + totalH + "h " + totalM + "m\n";
+//   mdStr += "<br/>\n";
+//   mdStr += "<br/>\n";
+//   mdStr += "<br/>\n";
+//   mdStr += "\n";
+//   data['completed-courses'].forEach(entry => {
+//     mdStr += "\n";
+//     if (entry['img']) {
+//       mdStr += "![thumbnail](" + entry['img'] + ")\n";
+//     }
+//     mdStr += "\n";
+//     mdStr += "[" + entry['title'] + "](" + entry['link'] + ")\n";
+//     mdStr += "- Author: " + entry['author'] + "\n";
+//     //mdStr += "- Released: " + entry['released-date'] + "\n";
+//     mdStr += "- Duration: " + entry['duration'] + "\n";
+//     mdStr += "- Completed: " + entry['completed-date'] + "\n";
+//     mdStr += "- Details: " + entry['details'] + "\n";
+//     mdStr += "- [top](#top) / [bottom](#bottom)\n";
 
-    mdStr += "<br/>\n";
-    mdStr += "<br/>\n";
-    mdStr += "<br/>\n";
-      mdStr += "\n";
-  });
-  mdStr += md2;
-  fs.writeFileSync(MDX_FILE, mdStr);
-  fs.writeFileSync(MD_FILE, mdStr);
-}
+//     mdStr += "<br/>\n";
+//     mdStr += "<br/>\n";
+//     mdStr += "<br/>\n";
+//       mdStr += "\n";
+//   });
+//   mdStr += md2;
+//   fs.writeFileSync(MDX_FILE, mdStr);
+//   fs.writeFileSync(MD_FILE, mdStr);
+// }
 
 const main = async () => {
   // INTERNAL OPTIONS
   options = { 
     browserType:     "chrome",  // "chrome, firefox" // WARNING: hit limit on number of detail pages with firefox
     headless:         false, //(process.env.PUP_HEADLESS == 'true'),     // run without windows
+    manualLogin:      true,
     forceFullGather:  true,     // skip test for number of course
     scrollToBottom:   true,     // scroll page to bottom (WARNING: non-visible thumbnails are not loaded until page is scrolled)
+    gatherThumbs:     true,     // copy thumbnails
     gatherDetails:    true,     // parse the details
     useSampleData:   false,     // skip browser and use sample data file
     saveSampleData:   true,     // save to sample data file
@@ -223,7 +228,7 @@ const main = async () => {
     [totalH, totalM] = build_hours_minutes(data);
     data['completed-courses'].sort((a, b) => (a['completed-ts'] < b['completed-ts']) ? 1 : -1) // decending
     build_html(data, totalH, totalM);
-    build_md(data, totalH, totalM);
+    // build_md(data, totalH, totalM);
   }
 
   console.log("done.");
