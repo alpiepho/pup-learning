@@ -220,9 +220,10 @@ const process_completed = async (browser, options, data) => {
         //https://media-exp1.licdn.com/dms/image/C4E0DAQFFkRpeVmh0UQ/learning-public-crop_144_256/0?e=1599498000&v=beta&t=8SohdTjq1x0H5w6xPK8k9z3aE3arzBwQ8AR1LE7Mcbg
         if (entry['img']) {
           entry['img_guid'] = entry['img'].split('/')[5];
-          entry['img_file'] = './public/images/' + entry['img_guid'] + '.jpg';
+          entry['img_file'] = './images/' + entry['img_guid'] + '.jpg';
+          path = './public/images/' + entry['img_guid'] + '.jpg';
           console.log(entry['img_guid']);
-          await save_thumb(entry['img'], entry['img_file']);
+          await save_thumb(entry['img'], path);
         }
       }
     }    
