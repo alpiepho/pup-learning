@@ -1,8 +1,9 @@
 
 .body {
     margin: auto;
-    width: 500px;
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    width: 800px;
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 140%;
 }
 
 .introduction {
@@ -25,7 +26,7 @@ li {
 }
 
 img {
-    width: 500px;
+    width: 300px;
 }
 
 .completed {
@@ -34,6 +35,7 @@ img {
 
 .details {
     max-width: 800px;
+    clear: both;
 }
 
 .topbottom {
@@ -41,14 +43,53 @@ img {
     margin-bottom: 50px;
 }
 
-@media only screen and (max-width: 600px) {
+.leftside {
+    float: left;
+}
+
+.rightside {
+    float: right;
+    padding-top: 20px;
+}
+
+.rightside li {
+    text-align: right;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .body {
+        margin: auto;
+        width: 300px;
+    } 
+
     ul {
         padding: 0;
     }
+
+    .mainul {
+        padding-bottom: 50px;
+    }
+
     img {
         width: 300px;
     }
+
     .details {
-        max-width: 700px;
+        max-width: 300px;
     }
+
+    .leftside {
+        float: none;
+    }
+    
+    .rightside {
+        float: none;
+        padding-top: 20px;
+    }
+    
+    .rightside li {
+        text-align: left;
+    }
+    
 }
