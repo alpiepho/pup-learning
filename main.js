@@ -119,30 +119,66 @@ function build_html(data, totalH, totalM) {
   htmlStr += "<sup><sub>(updated " + today + ")</sub></sup>\n\n"
 
   htmlStr += "      <br/><p>Totals - Course: " + data['completed-courses'].length + ", Time: " + totalH + "h " + totalM + "m</p><br/>\n\n";
-  htmlStr += "      <ul>\n";
+  htmlStr += "      <ul class=\"mainul\">\n";
   data['completed-courses'].forEach(entry => {
     htmlStr += "            <li>\n";
     htmlStr += "              <ul>\n";
     htmlStr += "                <li>\n";
 
+    htmlStr += "                  <div class=\"leftside\">\n";
     if (entry['img_file'])
-      htmlStr += "                  <p><img src=\"" + entry['img_file'] + "\" loading=\"lazy\"</img></p>\n";
+      htmlStr += "                    <p><img src=\"" + entry['img_file'] + "\" loading=\"lazy\"</img></p>\n";
     else
-      htmlStr += "                  <p><img src=\"" + entry['img'] + "\" loading=\"lazy\"</img></p>\n";
+      htmlStr += "                    <p><img src=\"" + entry['img'] + "\" loading=\"lazy\"</img></p>\n";
 
-    htmlStr += "                  <a target=\"_blank\" href=\"" + entry['link'] + "\">\n";
-    htmlStr += "                    " + entry['title'] + "\n";
-    htmlStr += "                  </a>  ";
-    htmlStr += "                <span>(" + entry['released-date'].replace('Updated ','') + " ... " + entry['duration'] + ")</span>\n";
-    htmlStr += "                </li>\n";
+    htmlStr += "                  </div>\n";
+
+    htmlStr += "                  <div class=\"rightside\">\n";
+    htmlStr += "                    <ul>\n";
+    htmlStr += "                      <li>\n";
+    htmlStr += "                        <a target=\"_blank\" href=\"" + entry['link'] + "\">\n";
+    htmlStr += "                        " + entry['title'] + "\n";
+    htmlStr += "                        </a>  ";
+    htmlStr += "                      </li>\n";
+    htmlStr += "                      <li>\n";
+    htmlStr += "                        <span>(" + entry['released-date'].replace('Updated ','') + " ... " + entry['duration'] + ")</span>\n";
+    htmlStr += "                      </li>\n";
+    htmlStr += "                      <li>\n";
     if (entry['linkedin']) {
-      htmlStr += "                <li><a target=\"_blank\" href=\"" + entry['linkedin'] + "\">" + entry['author'] + "</a></li>\n";
+      htmlStr += "                        <li><a target=\"_blank\" href=\"" + entry['linkedin'] + "\">" + entry['author'] + "</a></li>\n";
     } else {
-      htmlStr += "                <li>Author: " + entry['author'] + "</li>\n";
+      htmlStr += "                        <li>Author: " + entry['author'] + "</li>\n";
     }
-    htmlStr += "                <li class=\"completed\"><i>Completed: " + entry['completed-date'] + "</i></li>\n";
+    htmlStr += "                      </li>\n";
+    htmlStr += "                      <li>\n";
+    htmlStr += "                        <li class=\"completed\"><i>Completed: " + entry['completed-date'] + "</i></li>\n";
+    htmlStr += "                      </li>\n";
+    htmlStr += "                    </ul>\n";
+    htmlStr += "                  </div>\n";
+    htmlStr += "                </li>\n";
     htmlStr += "                <li class=\"details\">" + entry['details'] + "</li>\n";
     htmlStr += "                <li class=\"topbottom\"><a href=\"#top\">top</a> / <a href=\"#bottom\">bottom</a></li>\n";
+
+
+
+    // if (entry['img_file'])
+    //   htmlStr += "                  <p><img src=\"" + entry['img_file'] + "\" loading=\"lazy\"</img></p>\n";
+    // else
+    //   htmlStr += "                  <p><img src=\"" + entry['img'] + "\" loading=\"lazy\"</img></p>\n";
+
+    // htmlStr += "                  <a target=\"_blank\" href=\"" + entry['link'] + "\">\n";
+    // htmlStr += "                    " + entry['title'] + "\n";
+    // htmlStr += "                  </a>  ";
+    // htmlStr += "                <span>(" + entry['released-date'].replace('Updated ','') + " ... " + entry['duration'] + ")</span>\n";
+    // htmlStr += "                </li>\n";
+    // if (entry['linkedin']) {
+    //   htmlStr += "                <li><a target=\"_blank\" href=\"" + entry['linkedin'] + "\">" + entry['author'] + "</a></li>\n";
+    // } else {
+    //   htmlStr += "                <li>Author: " + entry['author'] + "</li>\n";
+    // }
+    // htmlStr += "                <li class=\"completed\"><i>Completed: " + entry['completed-date'] + "</i></li>\n";
+    // htmlStr += "                <li class=\"details\">" + entry['details'] + "</li>\n";
+    // htmlStr += "                <li class=\"topbottom\"><a href=\"#top\">top</a> / <a href=\"#bottom\">bottom</a></li>\n";
     htmlStr += "              </ul>\n";
     htmlStr += "            </li>\n";
   });
@@ -193,7 +229,7 @@ const main = async () => {
     scrollToBottom:   true,     // scroll page to bottom (WARNING: non-visible thumbnails are not loaded until page is scrolled)
     gatherThumbs:     true,     // copy thumbnails
     gatherDetails:    true,     // parse the details
-    useSampleData:   false,     // skip browser and use sample data file
+    useSampleData:   true,     // skip browser and use sample data file
     saveSampleData:   true,     // save to sample data file
     screenshot:      false,     // take snapshots
     screenshotDir:   SCREENSHOT_DIR
