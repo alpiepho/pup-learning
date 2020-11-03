@@ -233,25 +233,26 @@ const process_completed = async (browser, options, data) => {
       for (i=0; i<newdata['completed-courses'].length; i++) {
         if (!newdata['completed-courses'][i]['details']) {
           console.log(i);
+          await base.delay(2000);
           [temp1, temp2] = await process_course_details(filteredPage, options, newdata['completed-courses'][i]['link']);
           newdata['completed-courses'][i]['linkedin'] = temp1;
           newdata['completed-courses'][i]['details'] = temp2;
-          if (!temp2) {
-            // retry
-            console.log(i);
-            await base.delay(PAGE_WAIT_DETAILS_RETRY);
-            [temp1, temp2] = await process_course_details(filteredPage, options, newdata['completed-courses'][i]['link']);
-            newdata['completed-courses'][i]['linkedin'] = temp1;
-            newdata['completed-courses'][i]['details'] = temp2;  
-              if (!temp2) {
-                // retry
-                console.log(i);
-                await base.delay(PAGE_WAIT_DETAILS_RETRY);
-                [temp1, temp2] = await process_course_details(filteredPage, options, newdata['completed-courses'][i]['link']);
-                newdata['completed-courses'][i]['linkedin'] = temp1;
-                newdata['completed-courses'][i]['details'] = temp2;  
-              }
-            }
+        //   if (!temp2) {
+        //     // retry
+        //     console.log(i);
+        //     await base.delay(PAGE_WAIT_DETAILS_RETRY);
+        //     [temp1, temp2] = await process_course_details(filteredPage, options, newdata['completed-courses'][i]['link']);
+        //     newdata['completed-courses'][i]['linkedin'] = temp1;
+        //     newdata['completed-courses'][i]['details'] = temp2;  
+        //       if (!temp2) {
+        //         // retry
+        //         console.log(i);
+        //         await base.delay(PAGE_WAIT_DETAILS_RETRY);
+        //         [temp1, temp2] = await process_course_details(filteredPage, options, newdata['completed-courses'][i]['link']);
+        //         newdata['completed-courses'][i]['linkedin'] = temp1;
+        //         newdata['completed-courses'][i]['details'] = temp2;  
+        //       }
+        //     }
         }
       }
     }

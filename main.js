@@ -229,8 +229,8 @@ const main = async () => {
     scrollToBottom:   true,     // scroll page to bottom (WARNING: non-visible thumbnails are not loaded until page is scrolled)
     gatherThumbs:     true,     // copy thumbnails
     gatherDetails:    true,     // parse the details
-    useSampleData:   true,     // skip browser and use sample data file
-    saveSampleData:   true,     // save to sample data file
+    useSampleData:    false,     // skip browser and use sample data file
+    saveSampleData:   false,     // save to sample data file
     screenshot:      false,     // take snapshots
     screenshotDir:   SCREENSHOT_DIR
   }

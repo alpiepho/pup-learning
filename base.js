@@ -98,6 +98,8 @@ const blockedResources = [
   'platform.linkedin.com',
   'www.linkedin.com/learning-api/relatedContent',
   'snap.licdn.com',
+
+  'dms.licdn.com',
 ];
 
 const browser_prep_filtered = async (browser) => {
@@ -114,13 +116,13 @@ const browser_prep_filtered = async (browser) => {
     page.on('request', (request) => {
       try {
         // BLOCK CERTAIN DOMAINS
-        console.log(request.url())
         if (blockedResources.some(resource => request.url().indexOf(resource) !== -1)) {
-          console.log("block");
+          // console.log("block");
           try {request.abort();} catch (err) { console.log("ABORT: " + err); }
         // ALLOW OTHER REQUESTS
         } else {
-          console.log("allow");
+          console.log(request.url())
+          // console.log("allow");
           //request.continue().catch(err => console.log(err));
           if (!request._interceptionHandled)
             try {request.continue();} catch (err) { console.log("CONTINUE: " + err); }
@@ -134,13 +136,13 @@ const browser_prep_filtered = async (browser) => {
 const browser_get_filtered = async (page, href, waitTime) => {
   try {
     console.log("browser_get_filtered " + href);
-    await page.goto(href, options={timeout: 20000});
+    await page.goto(href, options={timeout: 10000});
     await delay(waitTime);
   } catch (err) { 
     console.log("ERROR: browser_get_filtered:"); 
     console.log(href); 
     console.log(err); 
-    page.reload();
+    //page.reload();
     // try {
     //   await delay(10000);
     //   console.log("browser_get_filtered-retry " + href);
@@ -152,7 +154,10 @@ const browser_get_filtered = async (page, href, waitTime) => {
     //   console.log(err); 
     //   page.reload();
     // }
+    console.log('11111')
+    return 'failed';
   }
+  console.log('22222')
 };
 
 const browser_close = async browser => {
