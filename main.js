@@ -227,8 +227,9 @@ const main = async () => {
     manualLogin:      true,
     forceFullGather:  true,     // skip test for number of course
     scrollToBottom:   true,     // scroll page to bottom (WARNING: non-visible thumbnails are not loaded until page is scrolled)
+    gatherCount:      9,    // max courses
     gatherThumbs:     true,     // copy thumbnails
-    gatherDetails:    true,     // parse the details
+    gatherDetails:    false,     // parse the details
     useSampleData:    false,     // skip browser and use sample data file
     saveSampleData:   false,     // save to sample data file
     screenshot:      false,     // take snapshots
@@ -263,6 +264,9 @@ const main = async () => {
   if (data['completed-courses'].length > 0) {
     [totalH, totalM] = build_hours_minutes(data);
     data['completed-courses'].sort((a, b) => (a['completed-ts'] < b['completed-ts']) ? 1 : -1) // decending
+    if (options.gatherCount < data['completed-courses'].length) {
+      data['completed-courses'].splice(options.gatherCount-1, data['completed-courses'].length - options.gatherCount)
+    }
     build_html(data, totalH, totalM);
     // build_md(data, totalH, totalM);
   }

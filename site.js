@@ -213,7 +213,6 @@ const process_completed = async (browser, options, data) => {
     });
     //console.log(newdata);
 
-
     if (options.gatherThumbs) {
       for (i=0; i<newdata['completed-courses'].length; i++) {
         entry = newdata['completed-courses'][i];
