@@ -54,10 +54,9 @@ From a command line:
 yarn start
 ```
 
-This should take a few minutes to navigate thru all the tabs.  It takes snapshot images
-and saves them in 'screenshots'.  
+This should take a few minutes to navigate thru all the tabs. 
 
-You can also runs this 'headless' or without a browser window.  Look for 'headless' in site.js.  To verify, you should see the screenshots generated.
+You can also runs this 'headless' or without a browser window.  Look for 'headless' in site.js.  
 
 
 ## Internal Settings
@@ -70,13 +69,8 @@ Look for "INTERNAL OPTION".
 ```
     browserType:     "firefox", // "chrome, firefox"
     headless:        false,     // run without windows
-    forceFullGather:  true,     // skip test for number of course
     scrollToBottom:   true,     // scroll page to bottom (WARNING: non-visible thumbnails are not loaded until page is scrolled)
     gatherDetails:    true,     // parse the details
-    useSampleData:   false,     // skip browser and use sample data file
-    saveSampleData:   true,     // save to sample data file
-    screenshot:      false,     // take snapshots
-    screenshotDir:    "/tmp/pup_learning_screenshots"
 ```
 
 
@@ -90,9 +84,6 @@ Firefox.
 Headless is the ability to run a web page without showing on the screen.  This mode can
 be used for automated testing.  This works with both Chrome and Firefox.
 
-### Screenshots
-
-This feature allows capturing an image of the web page while the test is running. 
 
 ### Local Test of index.html
 
@@ -108,7 +99,7 @@ This feature allows capturing an image of the web page while the test is running
 
 ## TODO List:
 
-- go back to HACK (limit to 10 detail pages per run of tool) DEBUG firefox
+- pull course example files
 
 ## Future changes:
 

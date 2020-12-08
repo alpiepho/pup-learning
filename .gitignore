@@ -5,9 +5,7 @@ node_modules
 NOTES.txt
 *.csv
 junk.txt
-screenshot*
 *.saved.*
 result.txt
-screenshots
 generated.txt
 

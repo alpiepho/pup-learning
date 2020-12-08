@@ -1,0 +1,3910 @@
+
+    
+    <html lang="en">
+      <head>
+        <meta name="pageKey" content="d_learning_course_guest">
+<!---->        <meta name="locale" content="en_US">
+        <meta id="config" data-app-version="1.2.305" data-call-tree-id="CqFxqVmXThYgI1Ue2CoAAA==" data-service-name="learning-guest-frontend">
+        <meta id="google-analytics-config">
+        <link rel="canonical" href="https://www.linkedin.com/learning/jenkins-essential-training">
+<!----><!---->
+<!---->
+<!---->
+        <link rel="manifest" href="/homepage-guest/manifest.json" crossorigin="use-credentials">
+
+<!---->
+          <script>
+            function getDfd() {let yFn,nFn;const p=new Promise(function(y, n){yFn=y;nFn=n;});p.resolve=yFn;p.reject=nFn;return p;}
+            window.lazyloader = getDfd();
+            window.tracking = getDfd();
+            window.impressionTracking = getDfd();
+            window.ingraphTracking = getDfd();
+            window.appDetection = getDfd();
+          </script>
+
+<!---->
+        
+        <link rel="icon" href="https://static-exp1.licdn.com/sc/p/com.linkedin.learning-guest-frontend%3Alearning-guest-frontend-static-content%2B1.2.305/f/%2Flearning-guest-frontend%2Fimages%2Flearning%2Fplay-icon.ico">
+        <title>Jenkins Essential Training | LinkedIn Learning, formerly Lynda.com</title>
+        <meta name="robots" content="noarchive">
+        <meta name="description" content="Discover Jenkins, the DevOps automation platform. Find how to automate builds, test and secure deployments, create a continuous integration and delivery pipeline, and more.">
+        <meta property="og:site_name" content="LinkedIn">
+        <meta name="twitter:site" content="@LI_Learning">
+        <meta name="twitter:card" content="summary">
+        <meta name="litmsProfileName" content="learning-guest-frontend">
+
+          <meta property="og:title" content="Jenkins Essential Training | LinkedIn Learning, formerly Lynda.com">
+          <meta name="twitter:title" content="Jenkins Essential Training | LinkedIn Learning, formerly Lynda.com">
+          <meta property="og:description" content="Discover Jenkins, the DevOps automation platform. Find how to automate builds, test and secure deployments, create a continuous integration and delivery pipeline, and more.">
+          <meta name="twitter:description" content="Discover Jenkins, the DevOps automation platform. Find how to automate builds, test and secure deployments, create a continuous integration and delivery pipeline, and more.">
+          <meta property="og:image" content="https://media-exp1.licdn.com/dms/image/C4E0DAQGTr0vsFQCfUQ/learning-public-crop_675_1200/0?e=1607475600&amp;v=beta&amp;t=qUAgf2Ujh5nol5Lz-ff28f8b9V_I9uUQN8wmyZlAZoE">
+          <meta name="twitter:image" content="https://media-exp1.licdn.com/dms/image/C4E0DAQGTr0vsFQCfUQ/learning-public-crop_675_1200/0?e=1607475600&amp;v=beta&amp;t=qUAgf2Ujh5nol5Lz-ff28f8b9V_I9uUQN8wmyZlAZoE">
+          <meta property="og:url" content="https://www.linkedin.com/learning/jenkins-essential-training">
+
+          <meta property="og:type" content="website">
+<!---->        
+        
+    <link rel="stylesheet" href="https://static-exp1.licdn.com/sc/h/7f5x8knrwbob41yewjdlug08y">
+
+
+          
+    
+    <script type="application/ld+json">
+      {"@context":"http://schema.org/","@type":"Course","educationalCredentialAwarded":"LinkedIn Learning Certificate","provider":{"@type":"Organization","name":"LinkedIn"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online"},"name":"Jenkins Essential Training","description":"Discover Jenkins, the DevOps automation platform. Find how to automate builds, test and secure deployments, create a continuous integration and delivery pipeline, and more.","image":"https://media-exp1.licdn.com/dms/image/C4E0DAQGTr0vsFQCfUQ/learning-public-crop_675_1200/0?e=1607475600&v=beta&t=qUAgf2Ujh5nol5Lz-ff28f8b9V_I9uUQN8wmyZlAZoE","creator":[{"@type":"Person","name":"Robert Starmer","url":"https://www.linkedin.com/in/rstarmer"}],"author":[{"@type":"Person","name":"Robert Starmer","url":"https://www.linkedin.com/in/rstarmer"}],"dateCreated":"2018-08-09","datePublished":"2018-08-09","thumbnailUrl":"https://media-exp1.licdn.com/dms/image/C4E0DAQGTr0vsFQCfUQ/learning-public-crop_675_1200/0?e=1607475600&v=beta&t=qUAgf2Ujh5nol5Lz-ff28f8b9V_I9uUQN8wmyZlAZoE","timeRequired":"PT2H28M36S","url":"https://www.linkedin.com/learning/jenkins-essential-training","about":[{"@type":"Thing","url":"https://www.linkedin.com/learning/topics/jenkins","name":"Jenkins"},{"@type":"Thing","url":"https://www.linkedin.com/learning/search?keywords=Automation","name":"Automation"}],"hasPart":[[{"@type":"VideoObject","name":"From code to production with Jenkins - Introduction","author":{"@type":"Person","name":"Robert Starmer"},"thumbnailUrl":"https://media-exp1.licdn.com/dms/image/C4E0DAQGTr0vsFQCfUQ/learning-public-crop_675_1200/0?e=1607475600&v=beta&t=qUAgf2Ujh5nol5Lz-ff28f8b9V_I9uUQN8wmyZlAZoE","description":"Discover Jenkins, the DevOps automation platform. Find how to automate builds, test and secure deployments, create a continuous integration and delivery pipeline, and more.","duration":"PT47S","uploadDate":"2018-08-09","requiresSubscription":false,"contentUrl":"https://www.linkedin.com/in/rstarmer"},{"@type":"VideoObject","name":"What you should know - Introduction","author":{"@type":"Person","name":"Robert Starmer"},"thumbnailUrl":"https://media-exp1.licdn.com/dms/image/C4E0DAQGTr0vsFQCfUQ/learning-public-crop_675_1200/0?e=1607475600&v=beta&t=qUAgf2Ujh5nol5Lz-ff28f8b9V_I9uUQN8wmyZlAZoE","description":"Discover Jenkins, the DevOps automation platform. Find how to automate builds, test and secure deployments, create a continuous integration and delivery pipeline, and more.","duration":"PT49S","uploadDate":"2018-08-09","requiresSubscription":false,"contentUrl":"https://www.linkedin.com/in/rstarmer"}],[{"@type":"VideoObject","name":"Continuous integration and deployment - 1. CI/CD","author":{"@type":"Person","name":"Robert Starmer"},"thumbnailUrl":"https://media-exp1.licdn.com/dms/image/C4E0DAQGTr0vsFQCfUQ/learning-public-crop_675_1200/0?e=1607475600&v=beta&t=qUAgf2Ujh5nol5Lz-ff28f8b9V_I9uUQN8wmyZlAZoE","description":"Discover Jenkins, the DevOps automation platform. Find how to automate builds, test and secure deployments, create a continuous integration and delivery pipeline, and more.","duration":"PT2M46S","uploadDate":"2018-08-09","requiresSubscription":true,"contentUrl":"https://www.linkedin.com/in/rstarmer"},{"@type":"VideoObject","name":"Jenkins for continuous deployment - 1. CI/CD","author":{"@type":"Person","name":"Robert Starmer"},"thumbnailUrl":"https://media-exp1.licdn.com/dms/image/C4E0DAQGTr0vsFQCfUQ/learning-public-crop_675_1200/0?e=1607475600&v=beta&t=qUAgf2Ujh5nol5Lz-ff28f8b9V_I9uUQN8wmyZlAZoE","description":"Discover Jenkins, the DevOps automation platform. Find how to automate builds, test and secure deployments, create a continuous integration and delivery pipeline, and more.","duration":"PT2M11S","uploadDate":"2018-08-09","requiresSubscription":false,"contentUrl":"https://www.linkedin.com/in/rstarmer"}],[{"@type":"VideoObject","name":"Job or build: What's the difference? - 2. Jobs","author":{"@type":"Person","name":"Robert Starmer"},"thumbnailUrl":"https://media-exp1.licdn.com/dms/image/C4E0DAQGTr0vsFQCfUQ/learning-public-crop_675_1200/0?e=1607475600&v=beta&t=qUAgf2Ujh5nol5Lz-ff28f8b9V_I9uUQN8wmyZlAZoE","description":"Discover Jenkins, the DevOps automation platform. Find how to automate builds, test and secure deployments, create a continuous integration and delivery pipeline, and more.","duration":"PT1M39S","uploadDate":"2018-08-09","requiresSubscription":true,"contentUrl":"https://www.linkedin.com/in/rstarmer"},{"@type":"VideoObject","name":"Creating a job definition - 2. Jobs","author":{"@type":"Person","name":"Robert Starmer"},"thumbnailUrl":"https://media-exp1.licdn.com/dms/image/C4E0DAQGTr0vsFQCfUQ/learning-public-crop_675_1200/0?e=1607475600&v=beta&t=qUAgf2Ujh5nol5Lz-ff28f8b9V_I9uUQN8wmyZlAZoE","description":"Discover Jenkins, the DevOps automation platform. Find how to automate builds, test and secure deployments, create a continuous integration and delivery pipeline, and more.","duration":"PT3M52S","uploadDate":"2018-08-09","requiresSubscription":true,"contentUrl":"https://www.linkedin.com/in/rstarmer"},{"@type":"VideoObject","name":"Parameterizing a job - 2. Jobs","author":{"@type":"Person","name":"Robert Starmer"},"thumbnailUrl":"https://media-exp1.licdn.com/dms/image/C4E0DAQGTr0vsFQCfUQ/learning-public-crop_675_1200/0?e=1607475600&v=beta&t=qUAgf2Ujh5nol5Lz-ff28f8b9V_I9uUQN8wmyZlAZoE","description":"Discover Jenkins, the DevOps automation platform. Find how to automate builds, test and secure deployments, create a continuous integration and delivery pipeline, and more.","duration":"PT2M42S","uploadDate":"2018-08-09","requiresSubscription":true,"contentUrl":"https://www.linkedin.com/in/rstarmer"},{"@type":"VideoObject","name":"Creating multiple steps for a job - 2. Jobs","author":{"@type":"Person","name":"Robert Starmer"},"thumbnailUrl":"https://media-exp1.licdn.com/dms/image/C4E0DAQGTr0vsFQCfUQ/learning-public-crop_675_1200/0?e=1607475600&v=beta&t=qUAgf2Ujh5nol5Lz-ff28f8b9V_I9uUQN8wmyZlAZoE","description":"Discover Jenkins, the DevOps automation platform. Find how to automate builds, test and secure deployments, create a continuous integration and delivery pipeline, and more.","duration":"PT2M58S","uploadDate":"2018-08-09","requiresSubscription":true,"contentUrl":"https://www.linkedin.com/in/rstarmer"},{"@type":"VideoObject","name":"Adding scripts as a job step - 2. Jobs","author":{"@type":"Person","name":"Robert Starmer"},"thumbnailUrl":"https://media-exp1.licdn.com/dms/image/C4E0DAQGTr0vsFQCfUQ/learning-public-crop_675_1200/0?e=1607475600&v=beta&t=qUAgf2Ujh5nol5Lz-ff28f8b9V_I9uUQN8wmyZlAZoE","description":"Discover Jenkins, the DevOps automation platform. Find how to automate builds, test and secure deployments, create a continuous integration and delivery pipeline, and more.","duration":"PT5M17S","uploadDate":"2018-08-09","requiresSubscription":true,"contentUrl":"https://www.linkedin.com/in/rstarmer"}],[{"@type":"VideoObject","name":"Tracking build state - 3. Builds","author":{"@type":"Person","name":"Robert Starmer"},"thumbnailUrl":"https://media-exp1.licdn.com/dms/image/C4E0DAQGTr0vsFQCfUQ/learning-public-crop_675_1200/0?e=1607475600&v=beta&t=qUAgf2Ujh5nol5Lz-ff28f8b9V_I9uUQN8wmyZlAZoE","description":"Discover Jenkins, the DevOps automation platform. Find how to automate builds, test and secure deployments, create a continuous integration and delivery pipeline, and more.","duration":"PT2M19S","uploadDate":"2018-08-09","requiresSubscription":true,"contentUrl":"https://www.linkedin.com/in/rstarmer"},{"@type":"VideoObject","name":"Polling SCM for build triggering - 3. Builds","author":{"@type":"Person","name":"Robert Starmer"},"thumbnailUrl":"https://media-exp1.licdn.com/dms/image/C4E0DAQGTr0vsFQCfUQ/learning-public-crop_675_1200/0?e=1607475600&v=beta&t=qUAgf2Ujh5nol5Lz-ff28f8b9V_I9uUQN8wmyZlAZoE","description":"Discover Jenkins, the DevOps automation platform. Find how to automate builds, test and secure deployments, create a continuous integration and delivery pipeline, and more.","duration":"PT4M10S","uploadDate":"2018-08-09","requiresSubscription":true,"contentUrl":"https://www.linkedin.com/in/rstarmer"},{"@type":"VideoObject","name":"Connecting Jenkins to GitHub - 3. Builds","author":{"@type":"Person","name":"Robert Starmer"},"thumbnailUrl":"https://media-exp1.licdn.com/dms/image/C4E0DAQGTr0vsFQCfUQ/learning-public-crop_675_1200/0?e=1607475600&v=beta&t=qUAgf2Ujh5nol5Lz-ff28f8b9V_I9uUQN8wmyZlAZoE","description":"Discover Jenkins, the DevOps automation platform. Find how to automate builds, test and secure deployments, create a continuous integration and delivery pipeline, and more.","duration":"PT2M27S","uploadDate":"2018-08-09","requiresSubscription":true,"contentUrl":"https://www.linkedin.com/in/rstarmer"},{"@type":"VideoObject","name":"Webhook build triggering - 3. Builds","author":{"@type":"Person","name":"Robert Starmer"},"thumbnailUrl":"https://media-exp1.licdn.com/dms/image/C4E0DAQGTr0vsFQCfUQ/learning-public-crop_675_1200/0?e=1607475600&v=beta&t=qUAgf2Ujh5nol5Lz-ff28f8b9V_I9uUQN8wmyZlAZoE","description":"Discover Jenkins, the DevOps automation platform. Find how to automate builds, test and secure deployments, create a continuous integration and delivery pipeline, and more.","duration":"PT5M43S","uploadDate":"2018-08-09","requiresSubscription":true,"contentUrl":"https://www.linkedin.com/in/rstarmer"}],[{"@type":"VideoObject","name":"Adding an SSH build agent to Jenkins - 4. Agents and Distributing Builds","author":{"@type":"Person","name":"Robert Starmer"},"thumbnailUrl":"https://media-exp1.licdn.com/dms/image/C4E0DAQGTr0vsFQCfUQ/learning-public-crop_675_1200/0?e=1607475600&v=beta&t=qUAgf2Ujh5nol5Lz-ff28f8b9V_I9uUQN8wmyZlAZoE","description":"Discover Jenkins, the DevOps automation platform. Find how to automate builds, test and secure deployments, create a continuous integration and delivery pipeline, and more.","duration":"PT4M47S","uploadDate":"2018-08-09","requiresSubscription":true,"contentUrl":"https://www.linkedin.com/in/rstarmer"},{"@type":"VideoObject","name":"Scaling builds with a cloud service - 4. Agents and Distributing Builds","author":{"@type":"Person","name":"Robert Starmer"},"thumbnailUrl":"https://media-exp1.licdn.com/dms/image/C4E0DAQGTr0vsFQCfUQ/learning-public-crop_675_1200/0?e=1607475600&v=beta&t=qUAgf2Ujh5nol5Lz-ff28f8b9V_I9uUQN8wmyZlAZoE","description":"Discover Jenkins, the DevOps automation platform. Find how to automate builds, test and secure deployments, create a continuous integration and delivery pipeline, and more.","duration":"PT6M34S","uploadDate":"2018-08-09","requiresSubscription":true,"contentUrl":"https://www.linkedin.com/in/rstarmer"},{"@type":"VideoObject","name":"Using Docker images for agents - 4. Agents and Distributing Builds","author":{"@type":"Person","name":"Robert Starmer"},"thumbnailUrl":"https://media-exp1.licdn.com/dms/image/C4E0DAQGTr0vsFQCfUQ/learning-public-crop_675_1200/0?e=1607475600&v=beta&t=qUAgf2Ujh5nol5Lz-ff28f8b9V_I9uUQN8wmyZlAZoE","description":"Discover Jenkins, the DevOps automation platform. Find how to automate builds, test and secure deployments, create a continuous integration and delivery pipeline, and more.","duration":"PT6M38S","uploadDate":"2018-08-09","requiresSubscription":true,"contentUrl":"https://www.linkedin.com/in/rstarmer"},{"@type":"VideoObject","name":"Configuring specific agents - 4. Agents and Distributing Builds","author":{"@type":"Person","name":"Robert Starmer"},"thumbnailUrl":"https://media-exp1.licdn.com/dms/image/C4E0DAQGTr0vsFQCfUQ/learning-public-crop_675_1200/0?e=1607475600&v=beta&t=qUAgf2Ujh5nol5Lz-ff28f8b9V_I9uUQN8wmyZlAZoE","description":"Discover Jenkins, the DevOps automation platform. Find how to automate builds, test and secure deployments, create a continuous integration and delivery pipeline, and more.","duration":"PT2M45S","uploadDate":"2018-08-09","requiresSubscription":true,"contentUrl":"https://www.linkedin.com/in/rstarmer"}],[{"@type":"VideoObject","name":"Adding plugins via plugin manager - 5. Extending Jenkins","author":{"@type":"Person","name":"Robert Starmer"},"thumbnailUrl":"https://media-exp1.licdn.com/dms/image/C4E0DAQGTr0vsFQCfUQ/learning-public-crop_675_1200/0?e=1607475600&v=beta&t=qUAgf2Ujh5nol5Lz-ff28f8b9V_I9uUQN8wmyZlAZoE","description":"Discover Jenkins, the DevOps automation platform. Find how to automate builds, test and secure deployments, create a continuous integration and delivery pipeline, and more.","duration":"PT3M17S","uploadDate":"2018-08-09","requiresSubscription":false,"contentUrl":"https://www.linkedin.com/in/rstarmer"},{"@type":"VideoObject","name":"Using shared libraries - 5. Extending Jenkins","author":{"@type":"Person","name":"Robert Starmer"},"thumbnailUrl":"https://media-exp1.licdn.com/dms/image/C4E0DAQGTr0vsFQCfUQ/learning-public-crop_675_1200/0?e=1607475600&v=beta&t=qUAgf2Ujh5nol5Lz-ff28f8b9V_I9uUQN8wmyZlAZoE","description":"Discover Jenkins, the DevOps automation platform. Find how to automate builds, test and secure deployments, create a continuous integration and delivery pipeline, and more.","duration":"PT8M42S","uploadDate":"2018-08-09","requiresSubscription":true,"contentUrl":"https://www.linkedin.com/in/rstarmer"}],[{"@type":"VideoObject","name":"Notifications of build state - 6. Notifications","author":{"@type":"Person","name":"Robert Starmer"},"thumbnailUrl":"https://media-exp1.licdn.com/dms/image/C4E0DAQGTr0vsFQCfUQ/learning-public-crop_675_1200/0?e=1607475600&v=beta&t=qUAgf2Ujh5nol5Lz-ff28f8b9V_I9uUQN8wmyZlAZoE","description":"Discover Jenkins, the DevOps automation platform. Find how to automate builds, test and secure deployments, create a continuous integration and delivery pipeline, and more.","duration":"PT3M15S","uploadDate":"2018-08-09","requiresSubscription":true,"contentUrl":"https://www.linkedin.com/in/rstarmer"},{"@type":"VideoObject","name":"Build state badges for SCM - 6. Notifications","author":{"@type":"Person","name":"Robert Starmer"},"thumbnailUrl":"https://media-exp1.licdn.com/dms/image/C4E0DAQGTr0vsFQCfUQ/learning-public-crop_675_1200/0?e=1607475600&v=beta&t=qUAgf2Ujh5nol5Lz-ff28f8b9V_I9uUQN8wmyZlAZoE","description":"Discover Jenkins, the DevOps automation platform. Find how to automate builds, test and secure deployments, create a continuous integration and delivery pipeline, and more.","duration":"PT3M55S","uploadDate":"2018-08-09","requiresSubscription":true,"contentUrl":"https://www.linkedin.com/in/rstarmer"}],[{"@type":"VideoObject","name":"Code coverage tests and reports - 7. Testing","author":{"@type":"Person","name":"Robert Starmer"},"thumbnailUrl":"https://media-exp1.licdn.com/dms/image/C4E0DAQGTr0vsFQCfUQ/learning-public-crop_675_1200/0?e=1607475600&v=beta&t=qUAgf2Ujh5nol5Lz-ff28f8b9V_I9uUQN8wmyZlAZoE","description":"Discover Jenkins, the DevOps automation platform. Find how to automate builds, test and secure deployments, create a continuous integration and delivery pipeline, and more.","duration":"PT3M4S","uploadDate":"2018-08-09","requiresSubscription":true,"contentUrl":"https://www.linkedin.com/in/rstarmer"},{"@type":"VideoObject","name":"Using test results to stop a build - 7. Testing","author":{"@type":"Person","name":"Robert Starmer"},"thumbnailUrl":"https://media-exp1.licdn.com/dms/image/C4E0DAQGTr0vsFQCfUQ/learning-public-crop_675_1200/0?e=1607475600&v=beta&t=qUAgf2Ujh5nol5Lz-ff28f8b9V_I9uUQN8wmyZlAZoE","description":"Discover Jenkins, the DevOps automation platform. Find how to automate builds, test and secure deployments, create a continuous integration and delivery pipeline, and more.","duration":"PT3M29S","uploadDate":"2018-08-09","requiresSubscription":true,"contentUrl":"https://www.linkedin.com/in/rstarmer"}],[{"@type":"VideoObject","name":"Triggering builds via the REST API - 8. REST API","author":{"@type":"Person","name":"Robert Starmer"},"thumbnailUrl":"https://media-exp1.licdn.com/dms/image/C4E0DAQGTr0vsFQCfUQ/learning-public-crop_675_1200/0?e=1607475600&v=beta&t=qUAgf2Ujh5nol5Lz-ff28f8b9V_I9uUQN8wmyZlAZoE","description":"Discover Jenkins, the DevOps automation platform. Find how to automate builds, test and secure deployments, create a continuous integration and delivery pipeline, and more.","duration":"PT4M22S","uploadDate":"2018-08-09","requiresSubscription":true,"contentUrl":"https://www.linkedin.com/in/rstarmer"},{"@type":"VideoObject","name":"Retrieving build status via the REST API - 8. REST API","author":{"@type":"Person","name":"Robert Starmer"},"thumbnailUrl":"https://media-exp1.licdn.com/dms/image/C4E0DAQGTr0vsFQCfUQ/learning-public-crop_675_1200/0?e=1607475600&v=beta&t=qUAgf2Ujh5nol5Lz-ff28f8b9V_I9uUQN8wmyZlAZoE","description":"Discover Jenkins, the DevOps automation platform. Find how to automate builds, test and secure deployments, create a continuous integration and delivery pipeline, and more.","duration":"PT2M53S","uploadDate":"2018-08-09","requiresSubscription":true,"contentUrl":"https://www.linkedin.com/in/rstarmer"}],[{"@type":"VideoObject","name":"Securing your deployment with users - 9. Security","author":{"@type":"Person","name":"Robert Starmer"},"thumbnailUrl":"https://media-exp1.licdn.com/dms/image/C4E0DAQGTr0vsFQCfUQ/learning-public-crop_675_1200/0?e=1607475600&v=beta&t=qUAgf2Ujh5nol5Lz-ff28f8b9V_I9uUQN8wmyZlAZoE","description":"Discover Jenkins, the DevOps automation platform. Find how to automate builds, test and secure deployments, create a continuous integration and delivery pipeline, and more.","duration":"PT3M56S","uploadDate":"2018-08-09","requiresSubscription":true,"contentUrl":"https://www.linkedin.com/in/rstarmer"},{"@type":"VideoObject","name":"Securing secret credentials and files - 9. Security","author":{"@type":"Person","name":"Robert Starmer"},"thumbnailUrl":"https://media-exp1.licdn.com/dms/image/C4E0DAQGTr0vsFQCfUQ/learning-public-crop_675_1200/0?e=1607475600&v=beta&t=qUAgf2Ujh5nol5Lz-ff28f8b9V_I9uUQN8wmyZlAZoE","description":"Discover Jenkins, the DevOps automation platform. Find how to automate builds, test and secure deployments, create a continuous integration and delivery pipeline, and more.","duration":"PT3M29S","uploadDate":"2018-08-09","requiresSubscription":true,"contentUrl":"https://www.linkedin.com/in/rstarmer"},{"@type":"VideoObject","name":"Auditing your environment - 9. Security","author":{"@type":"Person","name":"Robert Starmer"},"thumbnailUrl":"https://media-exp1.licdn.com/dms/image/C4E0DAQGTr0vsFQCfUQ/learning-public-crop_675_1200/0?e=1607475600&v=beta&t=qUAgf2Ujh5nol5Lz-ff28f8b9V_I9uUQN8wmyZlAZoE","description":"Discover Jenkins, the DevOps automation platform. Find how to automate builds, test and secure deployments, create a continuous integration and delivery pipeline, and more.","duration":"PT4M30S","uploadDate":"2018-08-09","requiresSubscription":false,"contentUrl":"https://www.linkedin.com/in/rstarmer"},{"@type":"VideoObject","name":"Using folders to create security realms - 9. Security","author":{"@type":"Person","name":"Robert Starmer"},"thumbnailUrl":"https://media-exp1.licdn.com/dms/image/C4E0DAQGTr0vsFQCfUQ/learning-public-crop_675_1200/0?e=1607475600&v=beta&t=qUAgf2Ujh5nol5Lz-ff28f8b9V_I9uUQN8wmyZlAZoE","description":"Discover Jenkins, the DevOps automation platform. Find how to automate builds, test and secure deployments, create a continuous integration and delivery pipeline, and more.","duration":"PT6M15S","uploadDate":"2018-08-09","requiresSubscription":true,"contentUrl":"https://www.linkedin.com/in/rstarmer"}],[{"@type":"VideoObject","name":"Creating and storing artifacts - 10. Artifacts","author":{"@type":"Person","name":"Robert Starmer"},"thumbnailUrl":"https://media-exp1.licdn.com/dms/image/C4E0DAQGTr0vsFQCfUQ/learning-public-crop_675_1200/0?e=1607475600&v=beta&t=qUAgf2Ujh5nol5Lz-ff28f8b9V_I9uUQN8wmyZlAZoE","description":"Discover Jenkins, the DevOps automation platform. Find how to automate builds, test and secure deployments, create a continuous integration and delivery pipeline, and more.","duration":"PT3M15S","uploadDate":"2018-08-09","requiresSubscription":true,"contentUrl":"https://www.linkedin.com/in/rstarmer"},{"@type":"VideoObject","name":"Fingerprinting for artifact tracking - 10. Artifacts","author":{"@type":"Person","name":"Robert Starmer"},"thumbnailUrl":"https://media-exp1.licdn.com/dms/image/C4E0DAQGTr0vsFQCfUQ/learning-public-crop_675_1200/0?e=1607475600&v=beta&t=qUAgf2Ujh5nol5Lz-ff28f8b9V_I9uUQN8wmyZlAZoE","description":"Discover Jenkins, the DevOps automation platform. Find how to automate builds, test and secure deployments, create a continuous integration and delivery pipeline, and more.","duration":"PT4M11S","uploadDate":"2018-08-09","requiresSubscription":true,"contentUrl":"https://www.linkedin.com/in/rstarmer"}],[{"@type":"VideoObject","name":"Automating deployment with pipelines - 11. Pipelines","author":{"@type":"Person","name":"Robert Starmer"},"thumbnailUrl":"https://media-exp1.licdn.com/dms/image/C4E0DAQGTr0vsFQCfUQ/learning-public-crop_675_1200/0?e=1607475600&v=beta&t=qUAgf2Ujh5nol5Lz-ff28f8b9V_I9uUQN8wmyZlAZoE","description":"Discover Jenkins, the DevOps automation platform. Find how to automate builds, test and secure deployments, create a continuous integration and delivery pipeline, and more.","duration":"PT2M13S","uploadDate":"2018-08-09","requiresSubscription":true,"contentUrl":"https://www.linkedin.com/in/rstarmer"},{"@type":"VideoObject","name":"Creating pipeline gates - 11. Pipelines","author":{"@type":"Person","name":"Robert Starmer"},"thumbnailUrl":"https://media-exp1.licdn.com/dms/image/C4E0DAQGTr0vsFQCfUQ/learning-public-crop_675_1200/0?e=1607475600&v=beta&t=qUAgf2Ujh5nol5Lz-ff28f8b9V_I9uUQN8wmyZlAZoE","description":"Discover Jenkins, the DevOps automation platform. Find how to automate builds, test and secure deployments, create a continuous integration and delivery pipeline, and more.","duration":"PT2M27S","uploadDate":"2018-08-09","requiresSubscription":true,"contentUrl":"https://www.linkedin.com/in/rstarmer"},{"@type":"VideoObject","name":"Job promotion for long-running pipelines - 11. Pipelines","author":{"@type":"Person","name":"Robert Starmer"},"thumbnailUrl":"https://media-exp1.licdn.com/dms/image/C4E0DAQGTr0vsFQCfUQ/learning-public-crop_675_1200/0?e=1607475600&v=beta&t=qUAgf2Ujh5nol5Lz-ff28f8b9V_I9uUQN8wmyZlAZoE","description":"Discover Jenkins, the DevOps automation platform. Find how to automate builds, test and secure deployments, create a continuous integration and delivery pipeline, and more.","duration":"PT4M32S","uploadDate":"2018-08-09","requiresSubscription":true,"contentUrl":"https://www.linkedin.com/in/rstarmer"},{"@type":"VideoObject","name":"Multibranch repository automation - 11. Pipelines","author":{"@type":"Person","name":"Robert Starmer"},"thumbnailUrl":"https://media-exp1.licdn.com/dms/image/C4E0DAQGTr0vsFQCfUQ/learning-public-crop_675_1200/0?e=1607475600&v=beta&t=qUAgf2Ujh5nol5Lz-ff28f8b9V_I9uUQN8wmyZlAZoE","description":"Discover Jenkins, the DevOps automation platform. Find how to automate builds, test and secure deployments, create a continuous integration and delivery pipeline, and more.","duration":"PT3M50S","uploadDate":"2018-08-09","requiresSubscription":true,"contentUrl":"https://www.linkedin.com/in/rstarmer"},{"@type":"VideoObject","name":"Creating pipelines with snippets - 11. Pipelines","author":{"@type":"Person","name":"Robert Starmer"},"thumbnailUrl":"https://media-exp1.licdn.com/dms/image/C4E0DAQGTr0vsFQCfUQ/learning-public-crop_675_1200/0?e=1607475600&v=beta&t=qUAgf2Ujh5nol5Lz-ff28f8b9V_I9uUQN8wmyZlAZoE","description":"Discover Jenkins, the DevOps automation platform. Find how to automate builds, test and secure deployments, create a continuous integration and delivery pipeline, and more.","duration":"PT2M35S","uploadDate":"2018-08-09","requiresSubscription":true,"contentUrl":"https://www.linkedin.com/in/rstarmer"},{"@type":"VideoObject","name":"Discovering global pipeline variables - 11. Pipelines","author":{"@type":"Person","name":"Robert Starmer"},"thumbnailUrl":"https://media-exp1.licdn.com/dms/image/C4E0DAQGTr0vsFQCfUQ/learning-public-crop_675_1200/0?e=1607475600&v=beta&t=qUAgf2Ujh5nol5Lz-ff28f8b9V_I9uUQN8wmyZlAZoE","description":"Discover Jenkins, the DevOps automation platform. Find how to automate builds, test and secure deployments, create a continuous integration and delivery pipeline, and more.","duration":"PT3M1S","uploadDate":"2018-08-09","requiresSubscription":true,"contentUrl":"https://www.linkedin.com/in/rstarmer"}],[{"@type":"VideoObject","name":"Distributing builds with agents - 12. Best Practices","author":{"@type":"Person","name":"Robert Starmer"},"thumbnailUrl":"https://media-exp1.licdn.com/dms/image/C4E0DAQGTr0vsFQCfUQ/learning-public-crop_675_1200/0?e=1607475600&v=beta&t=qUAgf2Ujh5nol5Lz-ff28f8b9V_I9uUQN8wmyZlAZoE","description":"Discover Jenkins, the DevOps automation platform. Find how to automate builds, test and secure deployments, create a continuous integration and delivery pipeline, and more.","duration":"PT2M28S","uploadDate":"2018-08-09","requiresSubscription":false,"contentUrl":"https://www.linkedin.com/in/rstarmer"},{"@type":"VideoObject","name":"Automating tool installation on agents - 12. Best Practices","author":{"@type":"Person","name":"Robert Starmer"},"thumbnailUrl":"https://media-exp1.licdn.com/dms/image/C4E0DAQGTr0vsFQCfUQ/learning-public-crop_675_1200/0?e=1607475600&v=beta&t=qUAgf2Ujh5nol5Lz-ff28f8b9V_I9uUQN8wmyZlAZoE","description":"Discover Jenkins, the DevOps automation platform. Find how to automate builds, test and secure deployments, create a continuous integration and delivery pipeline, and more.","duration":"PT2M20S","uploadDate":"2018-08-09","requiresSubscription":true,"contentUrl":"https://www.linkedin.com/in/rstarmer"},{"@type":"VideoObject","name":"Global libraries for pipelines - 12. Best Practices","author":{"@type":"Person","name":"Robert Starmer"},"thumbnailUrl":"https://media-exp1.licdn.com/dms/image/C4E0DAQGTr0vsFQCfUQ/learning-public-crop_675_1200/0?e=1607475600&v=beta&t=qUAgf2Ujh5nol5Lz-ff28f8b9V_I9uUQN8wmyZlAZoE","description":"Discover Jenkins, the DevOps automation platform. Find how to automate builds, test and secure deployments, create a continuous integration and delivery pipeline, and more.","duration":"PT2M36S","uploadDate":"2018-08-09","requiresSubscription":true,"contentUrl":"https://www.linkedin.com/in/rstarmer"},{"@type":"VideoObject","name":"Jenkinsfile as code - 12. Best Practices","author":{"@type":"Person","name":"Robert Starmer"},"thumbnailUrl":"https://media-exp1.licdn.com/dms/image/C4E0DAQGTr0vsFQCfUQ/learning-public-crop_675_1200/0?e=1607475600&v=beta&t=qUAgf2Ujh5nol5Lz-ff28f8b9V_I9uUQN8wmyZlAZoE","description":"Discover Jenkins, the DevOps automation platform. Find how to automate builds, test and secure deployments, create a continuous integration and delivery pipeline, and more.","duration":"PT2M48S","uploadDate":"2018-08-09","requiresSubscription":true,"contentUrl":"https://www.linkedin.com/in/rstarmer"},{"@type":"VideoObject","name":"Organizing jobs in views - 12. Best Practices","author":{"@type":"Person","name":"Robert Starmer"},"thumbnailUrl":"https://media-exp1.licdn.com/dms/image/C4E0DAQGTr0vsFQCfUQ/learning-public-crop_675_1200/0?e=1607475600&v=beta&t=qUAgf2Ujh5nol5Lz-ff28f8b9V_I9uUQN8wmyZlAZoE","description":"Discover Jenkins, the DevOps automation platform. Find how to automate builds, test and secure deployments, create a continuous integration and delivery pipeline, and more.","duration":"PT1M40S","uploadDate":"2018-08-09","requiresSubscription":true,"contentUrl":"https://www.linkedin.com/in/rstarmer"}],[{"@type":"VideoObject","name":"Next steps - Conclusion","author":{"@type":"Person","name":"Robert Starmer"},"thumbnailUrl":"https://media-exp1.licdn.com/dms/image/C4E0DAQGTr0vsFQCfUQ/learning-public-crop_675_1200/0?e=1607475600&v=beta&t=qUAgf2Ujh5nol5Lz-ff28f8b9V_I9uUQN8wmyZlAZoE","description":"Discover Jenkins, the DevOps automation platform. Find how to automate builds, test and secure deployments, create a continuous integration and delivery pipeline, and more.","duration":"PT1M9S","uploadDate":"2018-08-09","requiresSubscription":true,"contentUrl":"https://www.linkedin.com/in/rstarmer"}]]}
+    </script>
+  
+  
+      
+      
+      </head>
+      <body dir="ltr">
+          
+          
+    
+
+      <a href="#main-content" class="skip-link">Skip to main content</a>
+  
+          
+<!---->  
+
+        
+        
+        
+    
+    <header class="header global-alert-offset">
+      
+        
+
+    
+    
+    
+
+    <nav class="nav" aria-label="Primary">
+      <a href="/learning?trk=learning-course_nav-header-logo" class="nav__logo-link" data-tracking-control-name="learning-course_nav-header-logo" data-tracking-will-navigate>
+          
+              
+            
+
+    
+    
+
+    <div class="learning-logo">
+      <icon class="learning-logo__inbug onload" data-delayed-url="https://static-exp1.licdn.com/sc/h/4zqr0f9jf98vi2nkijyc3bex2"></icon>
+      <span class="learning-logo__text" aria-hidden="true">Learning</span>
+      <span class="sr-only">LinkedIn Learning</span>
+    </div>
+  
+          
+          
+      </a>
+
+        
+
+    
+    
+    
+    
+    <section class="search-bar" data-current-search-type="LEARNING">
+      <button class="search-bar__placeholder show-on-mobile hide-on-desktop" data-tracking-control-name="learning-course_search-switcher-opener" aria-label="Expand search">
+        <div class="search-bar__full-placeholder">
+<!----><!---->              Search skills, subjects, or software
+        </div>
+      </button>
+
+      
+
+    
+    
+    
+
+    <div class="switcher-tabs__trigger-and-tabs">
+      <button aria-expanded="false" class="switcher-tabs__placeholder hide-on-mobile" data-tracking-control-name="learning-course_switcher-tabs-placeholder">
+        <span class="switcher-tabs__placeholder-text"></span>
+        <icon class="switcher-tabs__caret-down-filled onload" data-delayed-url="https://static-exp1.licdn.com/sc/h/7asbl4deqijhoy3z2ivveispv"></icon>
+      </button>
+
+      <div class="switcher-tabs hide-on-desktop hide-on-mobile">
+        <ul aria-labelledby="switcher-label" class="switcher-tabs__list">
+          <li class="switcher-tabs__tab ">
+            <button data-switcher-type="JOBS" class="switcher-tabs__button" data-tracking-control-name="learning-course_switcher-tabs-jobs-search-switcher" type="button">
+              Jobs
+            </button>
+          </li>
+          <li class="switcher-tabs__tab ">
+            <button data-switcher-type="PEOPLE" class="switcher-tabs__button" data-tracking-control-name="learning-course_switcher-tabs-people-search-switcher" type="button">
+              People
+            </button>
+          </li>
+          <li class="switcher-tabs__tab switcher-tabs__tab--active">
+            <button data-switcher-type="LEARNING" class="switcher-tabs__button" data-tracking-control-name="learning-course_switcher-tabs-learning-search-switcher" type="button">
+              Learning
+            </button>
+          </li>
+        </ul>
+
+        <button class="switcher-tabs__cancel-btn hide-on-desktop" data-tracking-control-name="learning-course_switcher-tabs-cancel-search-switcher" type="button">
+          <icon class="switcher-tabs__cancel-icon onload" data-delayed-url="https://static-exp1.licdn.com/sc/h/cs55jggk4p3uqh9ozxdmpvjg7"></icon>
+        </button>
+      </div>
+    </div>
+  
+
+      
+
+    
+    
+    
+    
+
+    
+
+    
+
+    <section class="base-search-bar" data-searchbar-type="PEOPLE">
+      <form class="base-search-bar__form" role="search" action="/pub/dir" data-tracking-control-name="learning-course_people-search-bar_base-search-bar-form">
+        
+          
+      
+    
+
+    <section class="dismissable-input search-input">
+      <input aria-label="First Name" name="firstName" class="dismissable-input__input" placeholder="First Name" autocomplete="on" data-tracking-control-name="learning-course_people-search-bar_first-name_dismissable-input" maxlength="500" type="search">
+        <button class="dismissable-input__button" data-tracking-control-name="learning-course_people-search-bar_first-name_dismissable-input-clear" type="button">
+          <label class="screen-reader-text">Dismiss</label>
+          <icon class="dismissable-input__button-icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/cs55jggk4p3uqh9ozxdmpvjg7"></icon>
+        </button>
+
+      
+    </section>
+  
+  
+          
+      
+    
+
+    <section class="dismissable-input search-input">
+      <input aria-label="Last Name" name="lastName" class="dismissable-input__input" placeholder="Last Name" autocomplete="on" data-tracking-control-name="learning-course_people-search-bar_last-name_dismissable-input" maxlength="500" type="search">
+        <button class="dismissable-input__button" data-tracking-control-name="learning-course_people-search-bar_last-name_dismissable-input-clear" type="button">
+          <label class="screen-reader-text">Dismiss</label>
+          <icon class="dismissable-input__button-icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/cs55jggk4p3uqh9ozxdmpvjg7"></icon>
+        </button>
+
+      
+    </section>
+  
+  
+      
+        <input name="trk" value="learning-course_people-search-bar_search-submit" type="hidden">
+        <button class="base-search-bar__submit-btn" aria-label="Search" data-tracking-control-name="learning-course_people-search-bar_base-search-bar-search-submit" type="submit">
+          <icon class="base-search-bar__search-icon onload" data-delayed-url="https://static-exp1.licdn.com/sc/h/a6wnw1b2dk8748w5uni4o96fa"></icon>
+        </button>
+      </form>
+    </section>
+  
+  
+
+      
+
+    
+    
+    
+
+    
+
+    
+
+    <section class="base-search-bar" data-searchbar-type="JOBS">
+      <form class="base-search-bar__form" role="search" action="/jobs/search" data-tracking-control-name="learning-course_jobs-search-bar_base-search-bar-form">
+        
+        
+
+    
+    
+    
+
+    <code id="i18n_aria_live_text_no-suggestions" style="display: none"><!--"No suggestions found"--></code>
+    <code id="i18n_aria_live_text_one-suggestion" style="display: none"><!--"One Suggestion. Use up and down keys to navigate"--></code>
+    <code id="i18n_aria_live_text_multiple-suggestions" style="display: none"><!--"Multiple Suggestions. Use up and down keys to navigate"--></code>
+
+    
+    
+
+    <section class="dismissable-input typeahead-input keywords-typeahead-input" role="combobox" aria-owns="job-search-bar-keywords-typeahead-list" aria-haspopup="listbox">
+      <input aria-autocomplete="list" aria-controls="job-search-bar-keywords-typeahead-list" aria-label="Search job titles or companies" name="keywords" class="dismissable-input__input" placeholder="Search job titles or companies" autocomplete="off" data-tracking-control-name="learning-course_dismissable-input" maxlength="500" type="search">
+        <button class="dismissable-input__button" data-tracking-control-name="learning-course_dismissable-input-clear" type="button">
+          <label class="screen-reader-text">Dismiss</label>
+          <icon class="dismissable-input__button-icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/cs55jggk4p3uqh9ozxdmpvjg7"></icon>
+        </button>
+
+      
+<!---->      <div class="typeahead-input__dropdown">
+        <template class="typeahead-item-template">
+          <li class="typeahead-input__dropdown-item" role="option">
+            <span class="typeahead-input__dropdown-text"></span>
+          </li>
+        </template>
+
+        <ul class="typeahead-input__dropdown-list" id="job-search-bar-keywords-typeahead-list" role="listbox"></ul>
+      </div>
+<!---->    
+    </section>
+  
+  
+        
+
+    
+    
+    
+
+    <code id="i18n_aria_live_text_no-suggestions" style="display: none"><!--"No suggestions found"--></code>
+    <code id="i18n_aria_live_text_one-suggestion" style="display: none"><!--"One Suggestion. Use up and down keys to navigate"--></code>
+    <code id="i18n_aria_live_text_multiple-suggestions" style="display: none"><!--"Multiple Suggestions. Use up and down keys to navigate"--></code>
+
+    
+    
+
+    <section class="dismissable-input typeahead-input location-typeahead-input" role="combobox" aria-owns="job-search-bar-location-typeahead-list" aria-haspopup="listbox">
+      <input aria-autocomplete="list" aria-controls="job-search-bar-location-typeahead-list" aria-label="Location" name="location" class="dismissable-input__input" value="Fort Collins, CO" placeholder="Location" autocomplete="off" data-tracking-control-name="learning-course_dismissable-input" maxlength="500" type="search">
+        <button class="dismissable-input__button" data-tracking-control-name="learning-course_dismissable-input-clear" type="button">
+          <label class="screen-reader-text">Dismiss</label>
+          <icon class="dismissable-input__button-icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/cs55jggk4p3uqh9ozxdmpvjg7"></icon>
+        </button>
+
+      
+<!---->      <div class="typeahead-input__dropdown">
+        <template class="typeahead-item-template">
+          <li class="typeahead-input__dropdown-item" role="option">
+            <span class="typeahead-input__dropdown-text"></span>
+          </li>
+        </template>
+
+        <ul class="typeahead-input__dropdown-list" id="job-search-bar-location-typeahead-list" role="listbox"></ul>
+      </div>
+<!---->    
+    </section>
+  
+  
+        <input name="geoId" value="107091148" type="hidden">
+      
+        <input name="trk" value="learning-course_jobs-search-bar_search-submit" type="hidden">
+        <button class="base-search-bar__submit-btn" aria-label="Search" data-tracking-control-name="learning-course_jobs-search-bar_base-search-bar-search-submit" type="submit">
+          <icon class="base-search-bar__search-icon onload" data-delayed-url="https://static-exp1.licdn.com/sc/h/a6wnw1b2dk8748w5uni4o96fa"></icon>
+        </button>
+      </form>
+    </section>
+  
+  
+
+      
+    
+    
+
+    
+
+    
+
+    <section class="base-search-bar" data-searchbar-type="LEARNING">
+      <form class="base-search-bar__form" role="search" action="/learning/search" data-tracking-control-name="learning-course_learning-search-bar_base-search-bar-form">
+        
+        
+      
+    
+
+    <section class="dismissable-input search-input">
+      <input aria-label="Search skills, subjects, or software" name="keywords" class="dismissable-input__input" placeholder="Search skills, subjects, or software" autocomplete="on" data-tracking-control-name="learning-course_learning-search-bar_keywords_dismissable-input" maxlength="500" type="search">
+        <button class="dismissable-input__button" data-tracking-control-name="learning-course_learning-search-bar_keywords_dismissable-input-clear" type="button">
+          <label class="screen-reader-text">Dismiss</label>
+          <icon class="dismissable-input__button-icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/cs55jggk4p3uqh9ozxdmpvjg7"></icon>
+        </button>
+
+      
+    </section>
+  
+  
+        <input class="nav__search-uoo" name="upsellOrderOrigin" type="hidden">
+      
+        <input name="trk" value="learning-course_learning-search-bar_search-submit" type="hidden">
+        <button class="base-search-bar__submit-btn" aria-label="Search" data-tracking-control-name="learning-course_learning-search-bar_base-search-bar-search-submit" type="submit">
+          <icon class="base-search-bar__search-icon onload" data-delayed-url="https://static-exp1.licdn.com/sc/h/a6wnw1b2dk8748w5uni4o96fa"></icon>
+        </button>
+      </form>
+    </section>
+  
+  
+      <div aria-live="polite" class="search-bar__live-text sr-only" role="status"></div>
+    </section>
+  
+
+      <div class="nav__cta-container">
+          
+          <a class="nav__button-tertiary" href="http://www.linkedin.com/learning/subscription/products?courseSlug=jenkins-essential-training&amp;destRedirectURL=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Flearning%2Fjenkins-essential-training&amp;upsellTrk=lil_upsell_nav_subscription&amp;session_redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fjenkins-essential-training&amp;trk=learning-course_nav-header-join" data-tracking-control-name="lil_upsell_nav_subscription" data-tracking-impression-name="lil_upsell_nav_subscription" data-tracking-will-navigate>
+          Start free trial
+        </a>
+
+            
+            <a class="nav__button-secondary" href="https://www.linkedin.com/learning-login/?redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Flearning%2Fjenkins-essential-training&amp;fromSignIn=true&amp;session_redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fjenkins-essential-training&amp;trk=learning-course_nav-header-signin" data-tracking-control-name="learning-course_nav-header-signin" data-tracking-will-navigate>Sign in</a>
+      </div>
+
+<!---->
+<!---->    </nav>
+  
+      
+    </header>
+
+    
+          
+<!---->          
+      
+
+      <div class="cta-banner ">
+        
+        
+            
+
+    
+    
+    
+    
+    
+
+      <div class="enterprise-nav">
+        <div class="enterprise-nav__content-wrapper">
+          <p id="enterprise-nav-solutions" class="enterprise-nav__content" tabindex="-1">
+            Solutions for:
+          </p>
+
+            <a class="enterprise-nav__content" id="business-nav-business" href="https://learning.linkedin.com/for-entire-companies?src=li-learning-nav&amp;trk=learning-course_enterprise-nav" aria-labelledby="enterprise-nav-solutions business-nav-business" data-tracking-control-name="learning-course_enterprise-nav" data-tracking-will-navigate>
+              Business
+            </a>
+            <a class="enterprise-nav__content" id="business-nav-education" href="https://learning.linkedin.com/for-higher-education?src=li-learning-nav&amp;trk=learning-course_enterprise-nav" aria-labelledby="enterprise-nav-solutions business-nav-education" data-tracking-control-name="learning-course_enterprise-nav" data-tracking-will-navigate>
+              Higher Education
+            </a>
+            <a class="enterprise-nav__content" id="business-nav-government" href="https://learning.linkedin.com/for-governments?src=li-learning-nav&amp;trk=learning-course_enterprise-nav" aria-labelledby="enterprise-nav-solutions business-nav-government" data-tracking-control-name="learning-course_enterprise-nav" data-tracking-will-navigate>
+              Government
+            </a>
+            <a class="enterprise-nav__content" id="business-nav-buy" href="https://learning.linkedin.com/elearning-solutions-contact-us?veh=lil_upx&amp;src=li-learning-nav&amp;trk=learning-course_enterprise-nav" aria-labelledby="enterprise-nav-solutions business-nav-buy" data-tracking-control-name="learning-course_enterprise-nav" data-test-live-enterprise-upsell data-tracking-will-navigate>
+              Buy for my team
+            </a>
+        </div>
+      </div>
+  
+
+<!---->
+<!---->          
+      
+      </div>
+
+    <main class="main  " role="main">
+      <section class="core-rail">
+        
+        
+            
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <section id="main-content" class="top-card ">
+      
+
+    <section class="top-card-layout">
+        
+          <section class="top-card__video-wrapper">
+            <div class="top-card__video" tabindex="-1" aria-label>
+<!---->              <code id="top-card-model" style="display: none"><!--{"isVideoPage":false}--></code>
+<!---->                <img class="top-card__video-image" data-delayed-url="https://media-exp1.licdn.com/dms/image/C4E0DAQGTr0vsFQCfUQ/learning-public-crop_675_1200/0?e=1607475600&amp;v=beta&amp;t=qUAgf2Ujh5nol5Lz-ff28f8b9V_I9uUQN8wmyZlAZoE" alt="Jenkins Essential Training">
+                    <a class="top-card__overlay-button" data-tracking-control-name="course_preview" data-tracking-will-navigate href="https://www.linkedin.com/learning/jenkins-essential-training/from-code-to-production-with-jenkins?autoplay=true&amp;trk=course_preview">
+                      <span class="top-card__preview-cta">
+                        <icon class="top-card__preview-icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/2cal8hyvmirn7m2tok5d2d9gi" data-svg-class-name="top-card__preview-icon--svg">
+                        </icon>Preview
+                      </span>
+<!---->                    </a>
+            </div>
+          </section>
+        
+
+      <div class="top-card-layout__card">
+          
+
+        <div class="top-card-layout__entity-info-container">
+          <div class="top-card-layout__entity-info">
+              <h1 class="top-card-layout__title">
+                Jenkins Essential Training
+                
+              </h1>
+              <h2 class="top-card-layout__headline">
+                  
+            <span class="top-card__metadata">
+              Course
+            </span>
+              <span class="top-card__metadata">
+                
+
+
+    
+    
+    
+    
+    
+    
+
+    Intermediate  
+              </span>
+        
+              </h2>
+
+<!---->
+<!---->
+            <div class="top-card-layout__cta-container">
+                  
+            
+
+    
+    
+
+    <a href="http://www.linkedin.com/learning/subscription/products?courseSlug=jenkins-essential-training&amp;destRedirectURL=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Flearning%2Fjenkins-essential-training&amp;upsellTrk=lil_upsell_course_info_subscription" data-tracking-control-name="lil_upsell_course_info_subscription" data-tracking-impression-name="lil_upsell_course_info_subscription" data-litms-tracking-control-name="lil_upsell_course_info_subscription" data-tracking-will-navigate class="top-card-layout__cta top-card-layout__cta--primary top-card__upsell-link" data-test-live-course-sub-upsell>
+          
+                Start my 1-month free trial
+              
+    </a>
+  
+        
+
+                
+            
+
+    
+    
+
+      <form class="buy-course-upsell__form" action="/learning/subscription/purchaseContent" method="get">
+        <input name="csrfToken" value="ajax:6683638165987582446" type="hidden">
+        <input name="trk" value type="hidden"> 
+        <input name="upsellTrk" value="lil_upsell_course_info_purchase" type="hidden">
+        <input name="upsellOrderOrigin" value type="hidden"> 
+        <input name="upsellTrackingId" value type="hidden"> 
+        <input name="lipi" value type="hidden"> 
+        <input name="learningContentUrn" value="urn:li:lyndaCourse:713394" type="hidden">
+        <input name="courseSlug" value="jenkins-essential-training" type="hidden">
+        <input name="applyCourseDiscount" value="false" type="hidden">
+        <button class="buy-course-upsell__button top-card-layout__cta top-card-layout__cta--secondary" data-litms-tracking-control-name="lil_upsell_course_info_purchase" data-tracking-impression-name="lil_upsell_course_info_purchase" data-tracking-control-name="lil_upsell_course_info_purchase" data-is-purchase="true" data-test-live-course-alc-upsell type="submit">
+            Buy this course ($49.99<sup class="cta-sup-reset">*</sup>)
+        </button>
+      </form>
+  
+        
+            </div>
+          </div>
+
+<!---->        </div>
+
+        
+
+    
+    
+    
+    
+    
+    
+    
+
+<!---->
+
+<!---->      </div>
+    </section>
+  
+    </section>
+  
+            
+
+    
+    
+    
+    
+
+    
+    <div class="tabs content-tabs" data-id="course-content-tabs">
+      <div class="tabs__list" role="tablist">
+        
+        
+    <button class="tab-button" role="tab" aria-selected="true" data-tracking-control-name="overview-tab">
+        
+        Overview
+    </button>
+  
+
+        
+    <button class="tab-button" role="tab" aria-selected="false" tabindex="-1" data-tracking-control-name="transcripts-tab">
+        
+        Transcripts
+    </button>
+  
+
+          
+    <button class="tab-button" role="tab" aria-selected="false" tabindex="-1" data-tracking-control-name="files-tab" data-test-live-exercise-files-tab>
+        
+        Exercise Files
+    </button>
+  
+
+          
+    <button class="tab-button" role="tab" aria-selected="false" tabindex="-1" data-tracking-control-name="offline-tab" data-test-live-offline-tab>
+        
+        View Offline
+    </button>
+  
+      
+      </div>
+
+      
+        
+    <div class="tab-panel" tabindex="0" role="tabpanel">
+      
+          
+                
+
+    
+
+    
+    <section class="section-container course-details">
+      <h2 class="section-container__title">
+        Course details
+      </h2>
+
+          <p class="section-container__description">
+            Continuous integration, deployment, and delivery pipelines can be built from many tools, but Jenkins is one of the most popular, for its open-source extensibility and ease of use. <i>Jenkins Essential Training</i> covers the fundamentals of the platform, including automating builds and testing and securing deployments. Learn how to create jobs, trigger builds, and distribute those builds to multiple environments. Instructor Robert Starmer also shows how to add notifications to alert you to build state changes and failures and extend Jenkins with plugins, shared libraries, and APIs. He also explains how to secure deployments and access to your Jenkins environment, and store artifacts from the build process for safekeeping. Plus, learn how to combine multiple stages of the CI/CD process into a single automated pipeline. The course includes advanced use cases, best practices, and customization tips, designed to give even the first-time user the skills to become a capable Jenkins engineer.
+          </p>
+
+      
+
+<!---->    </section>    
+
+                
+
+    
+    
+    
+    
+    
+    
+
+      
+    <section class="section-container course-instructors">
+      <h2 class="section-container__title">
+        Instructor
+      </h2>
+
+<!---->
+      
+          <ul class="course-instructors__list">
+              <li class="course-instructors__list-item">
+                
+
+    
+
+    
+
+    
+      
+
+    
+      <a href="https://www.linkedin.com/in/rstarmer?trk=learning-course_instructor" target="_self" data-tracking-control-name="learning-course_instructor" data-tracking-will-navigate class="base-card base-card--link base-main-card base-main-card--link  ">
+        
+
+<!---->
+      
+          
+
+    <img class="artdeco-entity-image artdeco-entity-image--profile artdeco-entity-image--circle-4  lazy-load" data-delayed-url="https://media-exp1.licdn.com/dms/image/C5603AQFc7tfbIR_aWQ/profile-displayphoto-shrink_100_100/0/1516239758961?e=1613001600&amp;v=beta&amp;t=0ThJq7Ldy63J0wkJFoRxUaKCfEHMY0-1sUUr1ELt0p8" data-ghost-classes="artdeco-entity-image--ghost artdeco-entity-image--ghost-profile" data-ghost-url="https://static-exp1.licdn.com/sc/h/efkb5179rslll10nmhystl3wx" alt="Click here to view Robert Starmer’s instructor page">
+  
+
+        <div class="base-main-card__info">
+          <h3 class="base-main-card__title">
+            
+        Robert Starmer
+      
+          </h3>
+
+            <h4 class="base-main-card__subtitle">
+              
+        
+      
+            </h4>
+
+<!---->
+<!---->        </div>
+
+          
+        
+      
+      
+    
+      </a>
+  
+  
+  
+  
+
+                
+    <section class="show-more-less-html" data-max-lines="3">
+      <div class="show-more-less-html__markup show-more-less-html__markup--clamp-after-3">
+        Robert Starmer is a cloud advisor and the founder of Kumulus Technologies.<br><br>
+
+
+At Kumulus, Robert and his team provide infrastructure-focused DevOps, systems reliability engineering, and cloud computing consulting, enabling companies at all levels to optimize their cloud usage. He also uses his more than 20 years of experience in cloud, SRE, and DevOps to educate the industry through articles, presentations, and curriculum development. Robert is a Certified OpenStack Administrator (COA) and a graduate of the Rochester Institute of Technology.
+      </div>
+
+        
+                    
+
+    
+    
+
+    <button class="show-more-less-html__button show-more-less-html__button--more" data-tracking-control-name="learning-course_instructor_show-more-html-btn" aria-label="See more about the instructor" aria-expanded="false">
+        
+                        See more
+                      
+
+        <icon class="show-more-less-html__button-icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/cyolgscd0imw2ldqppkrb84vo"></icon>
+    </button>
+  
+                  
+
+        
+                    
+
+    
+    
+
+    <button class="show-more-less-html__button show-more-less-html__button--less" data-tracking-control-name="learning-course_instructor_show-less-html-btn" aria-label="See less about the instructor" aria-expanded="true">
+        
+                        See less
+                      
+
+        <icon class="show-more-less-html__button-icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/4chtt12k98xwnba1nimld2oyg"></icon>
+    </button>
+  
+                  
+    </section>
+  
+              </li>
+          </ul>
+        
+
+<!---->    </section>  
+  
+
+                  
+
+    
+
+    
+    <section class="section-container course-skills">
+      <h2 class="section-container__title">
+        Skills covered in this course
+      </h2>
+
+<!---->
+      
+      
+
+    <div class="pill-list pill-list--row course-skills__pill-list">
+<!---->      <ul class="pill-list__list">
+          <li class="pill-list__list-item">
+            
+      <a href="https://www.linkedin.com/learning/topics/jenkins?trk=learning-course_pill-list" data-tracking-control-name="learning-course_pill-list" data-tracking-will-navigate class="pill pill-list__pill">
+        
+              Jenkins
+            
+      </a>
+  
+          </li>
+          <li class="pill-list__list-item">
+            
+      <a href="https://www.linkedin.com/learning/search?keywords=Automation&amp;trk=learning-course_pill-list" data-tracking-control-name="learning-course_pill-list" data-tracking-will-navigate class="pill pill-list__pill">
+        
+              Automation
+            
+      </a>
+  
+          </li>
+      </ul>
+    </div>
+  
+    
+
+<!---->    </section>  
+  
+                  
+
+    
+    
+    
+    
+    
+
+    
+    <section class="section-container social-proof">
+      <h2 class="section-container__title">
+        Viewers of this course
+      </h2>
+
+<!---->
+      
+      <p class="social-proof__subheading">
+        <icon class="social-proof__video-icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/9inu02kgawayc1ze6aqf5t0ni"></icon>
+        27,152 people watched this course
+      </p>
+
+<!---->
+<!---->    
+
+<!---->    </section>  
+  
+
+                  
+
+    
+    
+    
+    
+
+    
+    <section class="section-container related-courses related-courses--hide-show-more">
+      <h2 class="section-container__title">
+        Related courses
+      </h2>
+
+<!---->
+      
+      
+
+    
+    
+
+    <div class="see-more-less-list related-courses">
+
+      <input id="related-courses-show-more-less-state" class="show-more-less-state related-courses-state" type="checkbox">
+
+<!---->
+      
+          <ul class="related-courses__list" itemscope itemtype="http://schema.org/ItemList">
+              <li class itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                  <meta itemprop="position" content="0">
+                  <meta itemprop="url" content="https://www.linkedin.com/learning/java-build-automation-with-maven">
+                
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+      
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        
+            
+
+    
+      
+
+    
+      <a href="https://www.linkedin.com/learning/java-build-automation-with-maven?trk=learning-course_related_course_learning_search-card" target="_self" data-tracking-control-name="learning-course_related_course_learning_search-card" data-tracking-will-navigate class="base-card base-card--link base-search-card base-search-card--link" aria-label="Java: Build Automation with Maven, 1h 24m, By: Peggy Fisher, 22,564 viewers">
+        
+
+<!---->
+      
+        
+
+    <div class="search-entity-media search-entity-media--rectangle">
+          <img class="search-entity-media__img" alt="Java: Build Automation with Maven" data-delayed-url="https://media-exp1.licdn.com/dms/image/C4E0DAQEPiIiFBbeFiw/learning-public-crop_675_1200/0/1567118191240?e=1607475600&amp;v=beta&amp;t=Co6Cn2LUGa_Hw0kL4BDg-tPlE_MPTIAZGXQWP2Miuqs">
+            <div class="search-entity-media__duration">
+              
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        1h 24m
+
+            </div>
+<!---->    </div>
+  
+
+        <div class="base-search-card__info">
+          <h3 class="base-search-card__title">
+            Java: Build Automation with Maven
+          </h3>
+
+            <h4 class="base-search-card__subtitle">
+              By: Peggy Fisher
+            </h4>
+
+            <p class="base-search-card__identifier">
+              
+<!---->              
+            </p>
+
+            <div class="base-search-card__metadata">
+              
+                  <span class="base-search-card__metadata-item">22,564 viewers</span>
+<!---->              
+            </div>
+        </div>
+      
+    
+      </a>
+  
+  
+  
+        
+
+  
+              </li>
+              <li class itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                  <meta itemprop="position" content="1">
+                  <meta itemprop="url" content="https://www.linkedin.com/learning/devops-foundations">
+                
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+      
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        
+            
+
+    
+      
+
+    
+      <a href="https://www.linkedin.com/learning/devops-foundations?trk=learning-course_related_course_learning_search-card" target="_self" data-tracking-control-name="learning-course_related_course_learning_search-card" data-tracking-will-navigate class="base-card base-card--link base-search-card base-search-card--link" aria-label="DevOps Foundations, 2h 47m, By: James Wickett, 149,073 viewers">
+        
+
+<!---->
+      
+        
+
+    <div class="search-entity-media search-entity-media--rectangle">
+          <img class="search-entity-media__img" alt="DevOps Foundations" data-delayed-url="https://media-exp1.licdn.com/dms/image/C4D0DAQHkScgqxnMH8A/learning-public-crop_675_1200/0/1592865189126?e=1607475600&amp;v=beta&amp;t=rGYJ2cUArZ_D71b7NAORG5_hEsJf4tQlrzvyrry3Bho">
+            <div class="search-entity-media__duration">
+              
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        2h 47m
+
+            </div>
+<!---->    </div>
+  
+
+        <div class="base-search-card__info">
+          <h3 class="base-search-card__title">
+            DevOps Foundations
+          </h3>
+
+            <h4 class="base-search-card__subtitle">
+              By: James Wickett
+            </h4>
+
+            <p class="base-search-card__identifier">
+              
+<!---->              
+            </p>
+
+            <div class="base-search-card__metadata">
+              
+                  <span class="base-search-card__metadata-item">149,073 viewers</span>
+<!---->              
+            </div>
+        </div>
+      
+    
+      </a>
+  
+  
+  
+        
+
+  
+              </li>
+              <li class itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                  <meta itemprop="position" content="2">
+                  <meta itemprop="url" content="https://www.linkedin.com/learning/devops-foundations-continuous-delivery-continuous-integration">
+                
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+      
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        
+            
+
+    
+      
+
+    
+      <a href="https://www.linkedin.com/learning/devops-foundations-continuous-delivery-continuous-integration?trk=learning-course_related_course_learning_search-card" target="_self" data-tracking-control-name="learning-course_related_course_learning_search-card" data-tracking-will-navigate class="base-card base-card--link base-search-card base-search-card--link" aria-label="DevOps Foundations: Continuous Delivery/Continuous Integration, 2h 9m, By: James Wickett, 41,762 viewers">
+        
+
+<!---->
+      
+        
+
+    <div class="search-entity-media search-entity-media--rectangle">
+          <img class="search-entity-media__img" alt="DevOps Foundations: Continuous Delivery/Continuous Integration" data-delayed-url="https://media-exp1.licdn.com/dms/image/C4E0DAQHzeMzyL7Oc3g/learning-public-crop_675_1200/0/1567118703288?e=1607475600&amp;v=beta&amp;t=vXohQaJL5GYQHrPiYlxIEXbtrPpwi6lYFyZoxBgGzaU">
+            <div class="search-entity-media__duration">
+              
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        2h 9m
+
+            </div>
+<!---->    </div>
+  
+
+        <div class="base-search-card__info">
+          <h3 class="base-search-card__title">
+            DevOps Foundations: Continuous Delivery/Continuous Integration
+          </h3>
+
+            <h4 class="base-search-card__subtitle">
+              By: James Wickett
+            </h4>
+
+            <p class="base-search-card__identifier">
+              
+<!---->              
+            </p>
+
+            <div class="base-search-card__metadata">
+              
+                  <span class="base-search-card__metadata-item">41,762 viewers</span>
+<!---->              
+            </div>
+        </div>
+      
+    
+      </a>
+  
+  
+  
+        
+
+  
+              </li>
+              <li class itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                  <meta itemprop="position" content="3">
+                  <meta itemprop="url" content="https://www.linkedin.com/learning/learning-jenkins">
+                
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+      
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        
+            
+
+    
+      
+
+    
+      <a href="https://www.linkedin.com/learning/learning-jenkins?trk=learning-course_related_course_learning_search-card" target="_self" data-tracking-control-name="learning-course_related_course_learning_search-card" data-tracking-will-navigate class="base-card base-card--link base-search-card base-search-card--link" aria-label="Learning Jenkins, 1h 20m, By: Michael Jenkins, 40,404 viewers">
+        
+
+<!---->
+      
+        
+
+    <div class="search-entity-media search-entity-media--rectangle">
+          <img class="search-entity-media__img" alt="Learning Jenkins" data-delayed-url="https://media-exp1.licdn.com/dms/image/C4E0DAQFz-yxp6RMfIA/learning-public-crop_675_1200/0?e=1607475600&amp;v=beta&amp;t=wiagQicaaiSDywjpq4HaeG1LzyPGd4SGTVheeSax5s4">
+            <div class="search-entity-media__duration">
+              
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        1h 20m
+
+            </div>
+<!---->    </div>
+  
+
+        <div class="base-search-card__info">
+          <h3 class="base-search-card__title">
+            Learning Jenkins
+          </h3>
+
+            <h4 class="base-search-card__subtitle">
+              By: Michael Jenkins
+            </h4>
+
+            <p class="base-search-card__identifier">
+              
+<!---->              
+            </p>
+
+            <div class="base-search-card__metadata">
+              
+                  <span class="base-search-card__metadata-item">40,404 viewers</span>
+<!---->              
+            </div>
+        </div>
+      
+    
+      </a>
+  
+  
+  
+        
+
+  
+              </li>
+          </ul>
+        
+
+        
+    <label for="related-courses-show-more-less-state" data-tracking-control-name="learning-course_related_course_showMore" tabindex="0" role="button" aria-expanded="false" class="show-more-less-state__label show-more-less-state__label-more related-courses__label related-courses__label-more">
+      
+            
+          <span class="related-courses__label-text">
+            Show more courses like this
+          </span>
+        
+        
+    </label>
+  
+
+        
+    <label for="related-courses-show-more-less-state" data-tracking-control-name="learning-course_related_course_showLess" tabindex="0" role="button" aria-expanded="false" class="show-more-less-state__label show-more-less-state__label-less related-courses__label related-courses__label-less">
+      
+            
+          <span class="related-courses__label-text">
+            Show fewer
+          </span>
+        
+        
+    </label>
+  
+    </div>
+  
+    
+
+<!---->    </section>    
+
+<!---->              
+        
+    </div>
+  
+
+        
+    <div class="tab-panel" tabindex="0" role="tabpanel" hidden>
+      
+          
+                
+
+    
+    
+
+    
+    <section class="section-container transcripts">
+      <h2 class="section-container__title">
+        From code to production with Jenkins
+      </h2>
+
+<!---->
+      
+      <div class="transcripts__copy">
+          <span class="transcripts__quotation">“</span>
+          <p>
+              - [Robert] Software development is moving rapidly to using continuous integration, delivery, and deployment tools to reduce application bugs and accelerate application feature delivery. When choosing the tools to support that journey, there is one that is always at the top of the list, Jenkins. Really the Swiss army knife of continuous development automation. In my LinkedIn Learning course on Jenkins, we'll walk through a series of example automation scripts to understand the essential features and capabilities that make Jenkins the perfect tool for building continuous integration, delivery, or deployment pipelines. I'm Robert Starmer, founder of Kumulus Technologies, where we support our customers' efforts in getting the best value out of their cloud resources. Join me as we investigate the essential capabilities of Jenkins for continuous integration, delivery, and deployment.
+          </p>
+      </div>
+    
+
+<!---->    </section>    
+              
+        
+    </div>
+  
+
+          
+    <div class="tab-panel" tabindex="0" role="tabpanel" hidden>
+      
+            
+                  
+
+    
+    
+    
+    
+    
+    
+
+    
+    <section class="section-container files">
+      <h2 class="section-container__title">
+        Practice while you learn with exercise files
+      </h2>
+
+          <p class="section-container__description">
+            Download the files the instructor uses to teach the course. Follow along and learn by watching, listening and practicing.
+          </p>
+
+      
+        <ul class="files__list">
+            <li class="files__file">
+              
+
+    
+    
+
+    <a href="http://www.linkedin.com/learning/subscription/products?courseSlug=jenkins-essential-training&amp;destRedirectURL=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Flearning%2Fjenkins-essential-training&amp;upsellTrk=lil_upsell_exercise_file_subscription" data-tracking-control-name="lil_upsell_exercise_file_subscription" data-tracking-impression-name="lil_upsell_exercise_file_subscription" data-litms-tracking-control-name="lil_upsell_exercise_file_subscription" data-tracking-will-navigate class="files__link" data-test-live-files-sub-upsell>
+          
+                    <span class="files__lock-icon">
+                      <span class="a11y-text">
+                        Exercise File: Subscribe to access.
+                      </span>
+                      <icon class="lock-icon-large" data-delayed-url="https://static-exp1.licdn.com/sc/h/1gnb324cexst19zukupplmvva"></icon>
+                    </span>
+                    <span class="files__filename">
+                      Ex_Files_Jenkins_EssT.zip
+                    </span>
+                    <span class="files__filesize">
+                      (1048576)
+                    </span>
+              
+    </a>
+  
+            </li>
+        </ul>
+      
+
+        <div class="section-container__cta-wrapper">
+          <p class="section-container__cta">
+            
+        <span class="files__cta">
+          Download the exercise files for this course.
+        </span>
+        
+
+    
+    
+
+    <a href="http://www.linkedin.com/learning/subscription/products?courseSlug=jenkins-essential-training&amp;destRedirectURL=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Flearning%2Fjenkins-essential-training&amp;upsellTrk=lil_upsell_exercise_file_subscription" data-tracking-control-name="lil_upsell_exercise_file_subscription" data-tracking-impression-name="lil_upsell_exercise_file_subscription" data-litms-tracking-control-name="lil_upsell_exercise_file_subscription" data-tracking-will-navigate data-test-live-files-footer-sub-upsell>
+          
+          Get started with a free trial today.
+        
+    </a>
+  
+      
+          </p>
+        </div>
+    </section>  
+  
+              
+          
+    </div>
+  
+
+          
+    <div class="tab-panel" tabindex="0" role="tabpanel" hidden>
+      
+            
+                
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+    <section class="section-container offline">
+      <h2 class="section-container__title">
+        Download courses and learn on the go
+      </h2>
+
+          <p class="section-container__description">
+            Watch courses on your mobile device without an internet connection. Download courses using your iOS or Android LinkedIn Learning app.
+          </p>
+
+      
+          <div class="offline__link-wrapper">
+            <a class="offline__link" href="https://itunes.apple.com/app/apple-store/id1084807225?ls=1&amp;pt=10746&amp;mt=8&amp;ct=learning_course_tab_viewoffline&amp;trk=apple_app_store" data-tracking-control-name="apple_app_store" data-tracking-will-navigate rel="noopener" target="_blank">
+              <img alt="Download on the App Store" class="offline__image" data-delayed-url="https://static-exp1.licdn.com/sc/h/emczv26hz24woii2j4aleyry">
+            </a>
+            <a class="offline__link" href="https://play.google.com/store/apps/details?id=com.linkedin.android.learning&amp;referrer=utm_source%3Dlinkedinlearning%26utm_medium%3DmobileWeb%26utm_campaign%3Dlearning_guest&amp;ct=learning_course_tab_viewoffline&amp;trk=google_play_store" data-tracking-control-name="google_play_store" data-tracking-will-navigate rel="noopener" target="_blank">
+              <img alt="Get it on Google Play" class="offline__image" data-delayed-url="https://static-exp1.licdn.com/sc/h/535kqf5rsexfx0lucb3t6palb">
+            </a>
+          </div>
+        
+
+        <div class="section-container__cta-wrapper">
+          <p class="section-container__cta">
+            
+            <span class="offline__cta">
+              Watch this course anytime, anywhere.
+            </span>
+            
+
+    
+    
+
+    <a href="http://www.linkedin.com/learning/subscription/products?courseSlug=jenkins-essential-training&amp;destRedirectURL=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Flearning%2Fjenkins-essential-training&amp;upsellTrk=lil_upsell_offline_viewing_subscription" data-tracking-control-name="lil_upsell_offline_viewing_subscription" data-tracking-impression-name="lil_upsell_offline_viewing_subscription" data-litms-tracking-control-name="lil_upsell_offline_viewing_subscription" data-tracking-will-navigate class="offline__upsell-link" data-test-live-offline-footer-sub-upsell>
+          
+              Get started with a free trial today.
+            
+    </a>
+  
+        
+          </p>
+        </div>
+    </section>    
+              
+          
+    </div>
+  
+      
+    </div>
+  
+  
+          
+      
+      </section>
+        <section class="right-rail">
+          
+        
+              
+
+    
+
+    <section class="table-of-contents">
+        <h2 class="table-of-contents__header">
+          Contents
+        </h2>
+      <ul class="table-of-contents__chapters">
+          
+
+    <li>
+      
+
+    
+    
+
+    <div class="see-more-less-list chapter">
+
+      <input id="learning-course_table-of-contents_chapter0-show-more-less-state" class="show-more-less-state chapter-state" type="checkbox">
+
+        
+    <label for="learning-course_table-of-contents_chapter0-show-more-less-state" data-tracking-control-name="learning-course_table-of-contents_chapter_showMore" tabindex="0" role="button" aria-expanded="false" class="show-more-less-state__label show-more-less-state__label-more chapter__label chapter__label-more">
+      
+            
+          Introduction
+          <icon class="show-more-less-state__icon chapter__icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/6jaiek1zi5v272k8zodh1ocbd"></icon>
+        
+        
+    </label>
+  
+
+        
+    <label for="learning-course_table-of-contents_chapter0-show-more-less-state" data-tracking-control-name="learning-course_table-of-contents_chapter_showLess" tabindex="0" role="button" aria-expanded="false" class="show-more-less-state__label show-more-less-state__label-less chapter__label chapter__label-less">
+      
+            
+          Introduction
+          <icon class="show-more-less-state__icon chapter__icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/4rrzmuebbnmei9zaazx34bh8k"></icon>
+        
+        
+    </label>
+  
+
+      
+          <ul class="chapter__list">
+            
+                
+
+    <li class="video show-more-only ">
+      <a class="video__link" data-tracking-control-name="learning-course_table-of-contents_video" data-tracking-will-navigate href="https://www.linkedin.com/learning/jenkins-essential-training/from-code-to-production-with-jenkins?autoplay=true&amp;trk=learning-course_table-of-contents_video">
+          <span class="video__status">
+              <icon class="video__status-play-dark-icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/2cal8hyvmirn7m2tok5d2d9gi" data-svg-class-name="video__status-play-dark-icon--svg"></icon>
+          </span>
+          <div class="video__details-wrapper">
+            <div class="video__title">
+              From code to production with Jenkins
+            </div>
+            <div class="video__length">
+              
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        47s
+
+            </div>
+          </div>
+      </a>
+    </li>
+  
+                
+
+    <li class="video show-more-only ">
+      <a class="video__link" data-tracking-control-name="learning-course_table-of-contents_video" data-tracking-will-navigate href="https://www.linkedin.com/learning/jenkins-essential-training/what-you-should-know?autoplay=true&amp;trk=learning-course_table-of-contents_video">
+          <span class="video__status">
+              <icon class="video__status-play-dark-icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/2cal8hyvmirn7m2tok5d2d9gi" data-svg-class-name="video__status-play-dark-icon--svg"></icon>
+          </span>
+          <div class="video__details-wrapper">
+            <div class="video__title">
+              What you should know
+            </div>
+            <div class="video__length">
+              
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        49s
+
+            </div>
+          </div>
+      </a>
+    </li>
+  
+            
+          </ul>
+        
+
+<!---->    </div>
+  
+    </li>
+  
+          
+
+    <li>
+      
+
+    
+    
+
+    <div class="see-more-less-list chapter">
+
+      <input id="learning-course_table-of-contents_chapter1-show-more-less-state" class="show-more-less-state chapter-state" type="checkbox">
+
+        
+    <label for="learning-course_table-of-contents_chapter1-show-more-less-state" data-tracking-control-name="learning-course_table-of-contents_chapter_showMore" tabindex="0" role="button" aria-expanded="false" class="show-more-less-state__label show-more-less-state__label-more chapter__label chapter__label-more">
+      
+            
+          1. CI/CD
+          <icon class="show-more-less-state__icon chapter__icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/6jaiek1zi5v272k8zodh1ocbd"></icon>
+        
+        
+    </label>
+  
+
+        
+    <label for="learning-course_table-of-contents_chapter1-show-more-less-state" data-tracking-control-name="learning-course_table-of-contents_chapter_showLess" tabindex="0" role="button" aria-expanded="false" class="show-more-less-state__label show-more-less-state__label-less chapter__label chapter__label-less">
+      
+            
+          1. CI/CD
+          <icon class="show-more-less-state__icon chapter__icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/4rrzmuebbnmei9zaazx34bh8k"></icon>
+        
+        
+    </label>
+  
+
+      
+          <ul class="chapter__list">
+            
+                
+
+    <li class="video show-more-only ">
+      <a class="video__link" data-tracking-control-name="learning-course_table-of-contents_video" data-tracking-will-navigate href="https://www.linkedin.com/learning/jenkins-essential-training/continuous-integration-and-deployment?autoplay=true&amp;trk=learning-course_table-of-contents_video">
+          <span class="video__status">
+              <icon class="video__status-lock-icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/397kgg1r9mkldr5uutd2lygzf" data-svg-class-name="video__status-lock-icon--svg"></icon>
+          </span>
+          <div class="video__details-wrapper">
+            <div class="video__title">
+              Continuous integration and deployment
+            </div>
+            <div class="video__length">
+              
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        2m 46s
+
+            </div>
+          </div>
+      </a>
+    </li>
+  
+                
+
+    <li class="video show-more-only ">
+      <a class="video__link" data-tracking-control-name="learning-course_table-of-contents_video" data-tracking-will-navigate href="https://www.linkedin.com/learning/jenkins-essential-training/jenkins-for-continuous-deployment?autoplay=true&amp;trk=learning-course_table-of-contents_video">
+          <span class="video__status">
+              <icon class="video__status-play-dark-icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/2cal8hyvmirn7m2tok5d2d9gi" data-svg-class-name="video__status-play-dark-icon--svg"></icon>
+          </span>
+          <div class="video__details-wrapper">
+            <div class="video__title">
+              Jenkins for continuous deployment
+            </div>
+            <div class="video__length">
+              
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        2m 11s
+
+            </div>
+          </div>
+      </a>
+    </li>
+  
+            
+          </ul>
+        
+
+<!---->    </div>
+  
+    </li>
+  
+          
+
+    <li>
+      
+
+    
+    
+
+    <div class="see-more-less-list chapter">
+
+      <input id="learning-course_table-of-contents_chapter2-show-more-less-state" class="show-more-less-state chapter-state" type="checkbox">
+
+        
+    <label for="learning-course_table-of-contents_chapter2-show-more-less-state" data-tracking-control-name="learning-course_table-of-contents_chapter_showMore" tabindex="0" role="button" aria-expanded="false" class="show-more-less-state__label show-more-less-state__label-more chapter__label chapter__label-more">
+      
+            
+          2. Jobs
+          <icon class="show-more-less-state__icon chapter__icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/6jaiek1zi5v272k8zodh1ocbd"></icon>
+        
+        
+    </label>
+  
+
+        
+    <label for="learning-course_table-of-contents_chapter2-show-more-less-state" data-tracking-control-name="learning-course_table-of-contents_chapter_showLess" tabindex="0" role="button" aria-expanded="false" class="show-more-less-state__label show-more-less-state__label-less chapter__label chapter__label-less">
+      
+            
+          2. Jobs
+          <icon class="show-more-less-state__icon chapter__icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/4rrzmuebbnmei9zaazx34bh8k"></icon>
+        
+        
+    </label>
+  
+
+      
+          <ul class="chapter__list">
+            
+                
+
+    <li class="video show-more-only ">
+      <a class="video__link" data-tracking-control-name="learning-course_table-of-contents_video" data-tracking-will-navigate href="https://www.linkedin.com/learning/jenkins-essential-training/job-or-build-what-s-the-difference?autoplay=true&amp;trk=learning-course_table-of-contents_video">
+          <span class="video__status">
+              <icon class="video__status-lock-icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/397kgg1r9mkldr5uutd2lygzf" data-svg-class-name="video__status-lock-icon--svg"></icon>
+          </span>
+          <div class="video__details-wrapper">
+            <div class="video__title">
+              Job or build: What's the difference?
+            </div>
+            <div class="video__length">
+              
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        1m 39s
+
+            </div>
+          </div>
+      </a>
+    </li>
+  
+                
+
+    <li class="video show-more-only ">
+      <a class="video__link" data-tracking-control-name="learning-course_table-of-contents_video" data-tracking-will-navigate href="https://www.linkedin.com/learning/jenkins-essential-training/creating-a-job-definition?autoplay=true&amp;trk=learning-course_table-of-contents_video">
+          <span class="video__status">
+              <icon class="video__status-lock-icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/397kgg1r9mkldr5uutd2lygzf" data-svg-class-name="video__status-lock-icon--svg"></icon>
+          </span>
+          <div class="video__details-wrapper">
+            <div class="video__title">
+              Creating a job definition
+            </div>
+            <div class="video__length">
+              
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        3m 52s
+
+            </div>
+          </div>
+      </a>
+    </li>
+  
+                
+
+    <li class="video show-more-only ">
+      <a class="video__link" data-tracking-control-name="learning-course_table-of-contents_video" data-tracking-will-navigate href="https://www.linkedin.com/learning/jenkins-essential-training/parameterizing-a-job?autoplay=true&amp;trk=learning-course_table-of-contents_video">
+          <span class="video__status">
+              <icon class="video__status-lock-icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/397kgg1r9mkldr5uutd2lygzf" data-svg-class-name="video__status-lock-icon--svg"></icon>
+          </span>
+          <div class="video__details-wrapper">
+            <div class="video__title">
+              Parameterizing a job
+            </div>
+            <div class="video__length">
+              
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        2m 42s
+
+            </div>
+          </div>
+      </a>
+    </li>
+  
+                
+
+    <li class="video show-more-only ">
+      <a class="video__link" data-tracking-control-name="learning-course_table-of-contents_video" data-tracking-will-navigate href="https://www.linkedin.com/learning/jenkins-essential-training/creating-multiple-steps-for-a-job?autoplay=true&amp;trk=learning-course_table-of-contents_video">
+          <span class="video__status">
+              <icon class="video__status-lock-icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/397kgg1r9mkldr5uutd2lygzf" data-svg-class-name="video__status-lock-icon--svg"></icon>
+          </span>
+          <div class="video__details-wrapper">
+            <div class="video__title">
+              Creating multiple steps for a job
+            </div>
+            <div class="video__length">
+              
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        2m 58s
+
+            </div>
+          </div>
+      </a>
+    </li>
+  
+                
+
+    <li class="video show-more-only ">
+      <a class="video__link" data-tracking-control-name="learning-course_table-of-contents_video" data-tracking-will-navigate href="https://www.linkedin.com/learning/jenkins-essential-training/adding-scripts-as-a-job-step?autoplay=true&amp;trk=learning-course_table-of-contents_video">
+          <span class="video__status">
+              <icon class="video__status-lock-icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/397kgg1r9mkldr5uutd2lygzf" data-svg-class-name="video__status-lock-icon--svg"></icon>
+          </span>
+          <div class="video__details-wrapper">
+            <div class="video__title">
+              Adding scripts as a job step
+            </div>
+            <div class="video__length">
+              
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        5m 17s
+
+            </div>
+          </div>
+      </a>
+    </li>
+  
+            
+          </ul>
+        
+
+<!---->    </div>
+  
+    </li>
+  
+          
+
+    <li>
+      
+
+    
+    
+
+    <div class="see-more-less-list chapter">
+
+      <input id="learning-course_table-of-contents_chapter3-show-more-less-state" class="show-more-less-state chapter-state" type="checkbox">
+
+        
+    <label for="learning-course_table-of-contents_chapter3-show-more-less-state" data-tracking-control-name="learning-course_table-of-contents_chapter_showMore" tabindex="0" role="button" aria-expanded="false" class="show-more-less-state__label show-more-less-state__label-more chapter__label chapter__label-more">
+      
+            
+          3. Builds
+          <icon class="show-more-less-state__icon chapter__icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/6jaiek1zi5v272k8zodh1ocbd"></icon>
+        
+        
+    </label>
+  
+
+        
+    <label for="learning-course_table-of-contents_chapter3-show-more-less-state" data-tracking-control-name="learning-course_table-of-contents_chapter_showLess" tabindex="0" role="button" aria-expanded="false" class="show-more-less-state__label show-more-less-state__label-less chapter__label chapter__label-less">
+      
+            
+          3. Builds
+          <icon class="show-more-less-state__icon chapter__icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/4rrzmuebbnmei9zaazx34bh8k"></icon>
+        
+        
+    </label>
+  
+
+      
+          <ul class="chapter__list">
+            
+                
+
+    <li class="video show-more-only ">
+      <a class="video__link" data-tracking-control-name="learning-course_table-of-contents_video" data-tracking-will-navigate href="https://www.linkedin.com/learning/jenkins-essential-training/tracking-build-state?autoplay=true&amp;trk=learning-course_table-of-contents_video">
+          <span class="video__status">
+              <icon class="video__status-lock-icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/397kgg1r9mkldr5uutd2lygzf" data-svg-class-name="video__status-lock-icon--svg"></icon>
+          </span>
+          <div class="video__details-wrapper">
+            <div class="video__title">
+              Tracking build state
+            </div>
+            <div class="video__length">
+              
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        2m 19s
+
+            </div>
+          </div>
+      </a>
+    </li>
+  
+                
+
+    <li class="video show-more-only ">
+      <a class="video__link" data-tracking-control-name="learning-course_table-of-contents_video" data-tracking-will-navigate href="https://www.linkedin.com/learning/jenkins-essential-training/polling-scm-for-build-triggering?autoplay=true&amp;trk=learning-course_table-of-contents_video">
+          <span class="video__status">
+              <icon class="video__status-lock-icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/397kgg1r9mkldr5uutd2lygzf" data-svg-class-name="video__status-lock-icon--svg"></icon>
+          </span>
+          <div class="video__details-wrapper">
+            <div class="video__title">
+              Polling SCM for build triggering
+            </div>
+            <div class="video__length">
+              
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        4m 10s
+
+            </div>
+          </div>
+      </a>
+    </li>
+  
+                
+
+    <li class="video show-more-only ">
+      <a class="video__link" data-tracking-control-name="learning-course_table-of-contents_video" data-tracking-will-navigate href="https://www.linkedin.com/learning/jenkins-essential-training/connecting-jenkins-to-github?autoplay=true&amp;trk=learning-course_table-of-contents_video">
+          <span class="video__status">
+              <icon class="video__status-lock-icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/397kgg1r9mkldr5uutd2lygzf" data-svg-class-name="video__status-lock-icon--svg"></icon>
+          </span>
+          <div class="video__details-wrapper">
+            <div class="video__title">
+              Connecting Jenkins to GitHub
+            </div>
+            <div class="video__length">
+              
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        2m 27s
+
+            </div>
+          </div>
+      </a>
+    </li>
+  
+                
+
+    <li class="video show-more-only ">
+      <a class="video__link" data-tracking-control-name="learning-course_table-of-contents_video" data-tracking-will-navigate href="https://www.linkedin.com/learning/jenkins-essential-training/webhook-build-triggering?autoplay=true&amp;trk=learning-course_table-of-contents_video">
+          <span class="video__status">
+              <icon class="video__status-lock-icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/397kgg1r9mkldr5uutd2lygzf" data-svg-class-name="video__status-lock-icon--svg"></icon>
+          </span>
+          <div class="video__details-wrapper">
+            <div class="video__title">
+              Webhook build triggering
+            </div>
+            <div class="video__length">
+              
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        5m 43s
+
+            </div>
+          </div>
+      </a>
+    </li>
+  
+            
+          </ul>
+        
+
+<!---->    </div>
+  
+    </li>
+  
+          
+
+    <li>
+      
+
+    
+    
+
+    <div class="see-more-less-list chapter">
+
+      <input id="learning-course_table-of-contents_chapter4-show-more-less-state" class="show-more-less-state chapter-state" type="checkbox">
+
+        
+    <label for="learning-course_table-of-contents_chapter4-show-more-less-state" data-tracking-control-name="learning-course_table-of-contents_chapter_showMore" tabindex="0" role="button" aria-expanded="false" class="show-more-less-state__label show-more-less-state__label-more chapter__label chapter__label-more">
+      
+            
+          4. Agents and Distributing Builds
+          <icon class="show-more-less-state__icon chapter__icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/6jaiek1zi5v272k8zodh1ocbd"></icon>
+        
+        
+    </label>
+  
+
+        
+    <label for="learning-course_table-of-contents_chapter4-show-more-less-state" data-tracking-control-name="learning-course_table-of-contents_chapter_showLess" tabindex="0" role="button" aria-expanded="false" class="show-more-less-state__label show-more-less-state__label-less chapter__label chapter__label-less">
+      
+            
+          4. Agents and Distributing Builds
+          <icon class="show-more-less-state__icon chapter__icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/4rrzmuebbnmei9zaazx34bh8k"></icon>
+        
+        
+    </label>
+  
+
+      
+          <ul class="chapter__list">
+            
+                
+
+    <li class="video show-more-only ">
+      <a class="video__link" data-tracking-control-name="learning-course_table-of-contents_video" data-tracking-will-navigate href="https://www.linkedin.com/learning/jenkins-essential-training/adding-an-ssh-build-agent-to-jenkins?autoplay=true&amp;trk=learning-course_table-of-contents_video">
+          <span class="video__status">
+              <icon class="video__status-lock-icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/397kgg1r9mkldr5uutd2lygzf" data-svg-class-name="video__status-lock-icon--svg"></icon>
+          </span>
+          <div class="video__details-wrapper">
+            <div class="video__title">
+              Adding an SSH build agent to Jenkins
+            </div>
+            <div class="video__length">
+              
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        4m 47s
+
+            </div>
+          </div>
+      </a>
+    </li>
+  
+                
+
+    <li class="video show-more-only ">
+      <a class="video__link" data-tracking-control-name="learning-course_table-of-contents_video" data-tracking-will-navigate href="https://www.linkedin.com/learning/jenkins-essential-training/scaling-builds-with-a-cloud-service?autoplay=true&amp;trk=learning-course_table-of-contents_video">
+          <span class="video__status">
+              <icon class="video__status-lock-icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/397kgg1r9mkldr5uutd2lygzf" data-svg-class-name="video__status-lock-icon--svg"></icon>
+          </span>
+          <div class="video__details-wrapper">
+            <div class="video__title">
+              Scaling builds with a cloud service
+            </div>
+            <div class="video__length">
+              
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        6m 34s
+
+            </div>
+          </div>
+      </a>
+    </li>
+  
+                
+
+    <li class="video show-more-only ">
+      <a class="video__link" data-tracking-control-name="learning-course_table-of-contents_video" data-tracking-will-navigate href="https://www.linkedin.com/learning/jenkins-essential-training/using-docker-images-for-agents?autoplay=true&amp;trk=learning-course_table-of-contents_video">
+          <span class="video__status">
+              <icon class="video__status-lock-icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/397kgg1r9mkldr5uutd2lygzf" data-svg-class-name="video__status-lock-icon--svg"></icon>
+          </span>
+          <div class="video__details-wrapper">
+            <div class="video__title">
+              Using Docker images for agents
+            </div>
+            <div class="video__length">
+              
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        6m 38s
+
+            </div>
+          </div>
+      </a>
+    </li>
+  
+                
+
+    <li class="video show-more-only ">
+      <a class="video__link" data-tracking-control-name="learning-course_table-of-contents_video" data-tracking-will-navigate href="https://www.linkedin.com/learning/jenkins-essential-training/configuring-specific-agents?autoplay=true&amp;trk=learning-course_table-of-contents_video">
+          <span class="video__status">
+              <icon class="video__status-lock-icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/397kgg1r9mkldr5uutd2lygzf" data-svg-class-name="video__status-lock-icon--svg"></icon>
+          </span>
+          <div class="video__details-wrapper">
+            <div class="video__title">
+              Configuring specific agents
+            </div>
+            <div class="video__length">
+              
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        2m 45s
+
+            </div>
+          </div>
+      </a>
+    </li>
+  
+            
+          </ul>
+        
+
+<!---->    </div>
+  
+    </li>
+  
+          
+
+    <li>
+      
+
+    
+    
+
+    <div class="see-more-less-list chapter">
+
+      <input id="learning-course_table-of-contents_chapter5-show-more-less-state" class="show-more-less-state chapter-state" type="checkbox">
+
+        
+    <label for="learning-course_table-of-contents_chapter5-show-more-less-state" data-tracking-control-name="learning-course_table-of-contents_chapter_showMore" tabindex="0" role="button" aria-expanded="false" class="show-more-less-state__label show-more-less-state__label-more chapter__label chapter__label-more">
+      
+            
+          5. Extending Jenkins
+          <icon class="show-more-less-state__icon chapter__icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/6jaiek1zi5v272k8zodh1ocbd"></icon>
+        
+        
+    </label>
+  
+
+        
+    <label for="learning-course_table-of-contents_chapter5-show-more-less-state" data-tracking-control-name="learning-course_table-of-contents_chapter_showLess" tabindex="0" role="button" aria-expanded="false" class="show-more-less-state__label show-more-less-state__label-less chapter__label chapter__label-less">
+      
+            
+          5. Extending Jenkins
+          <icon class="show-more-less-state__icon chapter__icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/4rrzmuebbnmei9zaazx34bh8k"></icon>
+        
+        
+    </label>
+  
+
+      
+          <ul class="chapter__list">
+            
+                
+
+    <li class="video show-more-only ">
+      <a class="video__link" data-tracking-control-name="learning-course_table-of-contents_video" data-tracking-will-navigate href="https://www.linkedin.com/learning/jenkins-essential-training/adding-plugins-via-plugin-manager?autoplay=true&amp;trk=learning-course_table-of-contents_video">
+          <span class="video__status">
+              <icon class="video__status-play-dark-icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/2cal8hyvmirn7m2tok5d2d9gi" data-svg-class-name="video__status-play-dark-icon--svg"></icon>
+          </span>
+          <div class="video__details-wrapper">
+            <div class="video__title">
+              Adding plugins via plugin manager
+            </div>
+            <div class="video__length">
+              
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        3m 17s
+
+            </div>
+          </div>
+      </a>
+    </li>
+  
+                
+
+    <li class="video show-more-only ">
+      <a class="video__link" data-tracking-control-name="learning-course_table-of-contents_video" data-tracking-will-navigate href="https://www.linkedin.com/learning/jenkins-essential-training/using-shared-libraries?autoplay=true&amp;trk=learning-course_table-of-contents_video">
+          <span class="video__status">
+              <icon class="video__status-lock-icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/397kgg1r9mkldr5uutd2lygzf" data-svg-class-name="video__status-lock-icon--svg"></icon>
+          </span>
+          <div class="video__details-wrapper">
+            <div class="video__title">
+              Using shared libraries
+            </div>
+            <div class="video__length">
+              
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        8m 42s
+
+            </div>
+          </div>
+      </a>
+    </li>
+  
+            
+          </ul>
+        
+
+<!---->    </div>
+  
+    </li>
+  
+          
+
+    <li>
+      
+
+    
+    
+
+    <div class="see-more-less-list chapter">
+
+      <input id="learning-course_table-of-contents_chapter6-show-more-less-state" class="show-more-less-state chapter-state" type="checkbox">
+
+        
+    <label for="learning-course_table-of-contents_chapter6-show-more-less-state" data-tracking-control-name="learning-course_table-of-contents_chapter_showMore" tabindex="0" role="button" aria-expanded="false" class="show-more-less-state__label show-more-less-state__label-more chapter__label chapter__label-more">
+      
+            
+          6. Notifications
+          <icon class="show-more-less-state__icon chapter__icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/6jaiek1zi5v272k8zodh1ocbd"></icon>
+        
+        
+    </label>
+  
+
+        
+    <label for="learning-course_table-of-contents_chapter6-show-more-less-state" data-tracking-control-name="learning-course_table-of-contents_chapter_showLess" tabindex="0" role="button" aria-expanded="false" class="show-more-less-state__label show-more-less-state__label-less chapter__label chapter__label-less">
+      
+            
+          6. Notifications
+          <icon class="show-more-less-state__icon chapter__icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/4rrzmuebbnmei9zaazx34bh8k"></icon>
+        
+        
+    </label>
+  
+
+      
+          <ul class="chapter__list">
+            
+                
+
+    <li class="video show-more-only ">
+      <a class="video__link" data-tracking-control-name="learning-course_table-of-contents_video" data-tracking-will-navigate href="https://www.linkedin.com/learning/jenkins-essential-training/notifications-of-build-state-3?autoplay=true&amp;trk=learning-course_table-of-contents_video">
+          <span class="video__status">
+              <icon class="video__status-lock-icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/397kgg1r9mkldr5uutd2lygzf" data-svg-class-name="video__status-lock-icon--svg"></icon>
+          </span>
+          <div class="video__details-wrapper">
+            <div class="video__title">
+              Notifications of build state
+            </div>
+            <div class="video__length">
+              
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        3m 15s
+
+            </div>
+          </div>
+      </a>
+    </li>
+  
+                
+
+    <li class="video show-more-only ">
+      <a class="video__link" data-tracking-control-name="learning-course_table-of-contents_video" data-tracking-will-navigate href="https://www.linkedin.com/learning/jenkins-essential-training/build-state-badges-for-scm-2?autoplay=true&amp;trk=learning-course_table-of-contents_video">
+          <span class="video__status">
+              <icon class="video__status-lock-icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/397kgg1r9mkldr5uutd2lygzf" data-svg-class-name="video__status-lock-icon--svg"></icon>
+          </span>
+          <div class="video__details-wrapper">
+            <div class="video__title">
+              Build state badges for SCM
+            </div>
+            <div class="video__length">
+              
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        3m 55s
+
+            </div>
+          </div>
+      </a>
+    </li>
+  
+            
+          </ul>
+        
+
+<!---->    </div>
+  
+    </li>
+  
+          
+
+    <li>
+      
+
+    
+    
+
+    <div class="see-more-less-list chapter">
+
+      <input id="learning-course_table-of-contents_chapter7-show-more-less-state" class="show-more-less-state chapter-state" type="checkbox">
+
+        
+    <label for="learning-course_table-of-contents_chapter7-show-more-less-state" data-tracking-control-name="learning-course_table-of-contents_chapter_showMore" tabindex="0" role="button" aria-expanded="false" class="show-more-less-state__label show-more-less-state__label-more chapter__label chapter__label-more">
+      
+            
+          7. Testing
+          <icon class="show-more-less-state__icon chapter__icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/6jaiek1zi5v272k8zodh1ocbd"></icon>
+        
+        
+    </label>
+  
+
+        
+    <label for="learning-course_table-of-contents_chapter7-show-more-less-state" data-tracking-control-name="learning-course_table-of-contents_chapter_showLess" tabindex="0" role="button" aria-expanded="false" class="show-more-less-state__label show-more-less-state__label-less chapter__label chapter__label-less">
+      
+            
+          7. Testing
+          <icon class="show-more-less-state__icon chapter__icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/4rrzmuebbnmei9zaazx34bh8k"></icon>
+        
+        
+    </label>
+  
+
+      
+          <ul class="chapter__list">
+            
+                
+
+    <li class="video show-more-only ">
+      <a class="video__link" data-tracking-control-name="learning-course_table-of-contents_video" data-tracking-will-navigate href="https://www.linkedin.com/learning/jenkins-essential-training/code-coverage-tests-and-reports-2?autoplay=true&amp;trk=learning-course_table-of-contents_video">
+          <span class="video__status">
+              <icon class="video__status-lock-icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/397kgg1r9mkldr5uutd2lygzf" data-svg-class-name="video__status-lock-icon--svg"></icon>
+          </span>
+          <div class="video__details-wrapper">
+            <div class="video__title">
+              Code coverage tests and reports
+            </div>
+            <div class="video__length">
+              
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        3m 4s
+
+            </div>
+          </div>
+      </a>
+    </li>
+  
+                
+
+    <li class="video show-more-only ">
+      <a class="video__link" data-tracking-control-name="learning-course_table-of-contents_video" data-tracking-will-navigate href="https://www.linkedin.com/learning/jenkins-essential-training/using-test-results-to-stop-a-build-2?autoplay=true&amp;trk=learning-course_table-of-contents_video">
+          <span class="video__status">
+              <icon class="video__status-lock-icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/397kgg1r9mkldr5uutd2lygzf" data-svg-class-name="video__status-lock-icon--svg"></icon>
+          </span>
+          <div class="video__details-wrapper">
+            <div class="video__title">
+              Using test results to stop a build
+            </div>
+            <div class="video__length">
+              
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        3m 29s
+
+            </div>
+          </div>
+      </a>
+    </li>
+  
+            
+          </ul>
+        
+
+<!---->    </div>
+  
+    </li>
+  
+          
+
+    <li>
+      
+
+    
+    
+
+    <div class="see-more-less-list chapter">
+
+      <input id="learning-course_table-of-contents_chapter8-show-more-less-state" class="show-more-less-state chapter-state" type="checkbox">
+
+        
+    <label for="learning-course_table-of-contents_chapter8-show-more-less-state" data-tracking-control-name="learning-course_table-of-contents_chapter_showMore" tabindex="0" role="button" aria-expanded="false" class="show-more-less-state__label show-more-less-state__label-more chapter__label chapter__label-more">
+      
+            
+          8. REST API
+          <icon class="show-more-less-state__icon chapter__icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/6jaiek1zi5v272k8zodh1ocbd"></icon>
+        
+        
+    </label>
+  
+
+        
+    <label for="learning-course_table-of-contents_chapter8-show-more-less-state" data-tracking-control-name="learning-course_table-of-contents_chapter_showLess" tabindex="0" role="button" aria-expanded="false" class="show-more-less-state__label show-more-less-state__label-less chapter__label chapter__label-less">
+      
+            
+          8. REST API
+          <icon class="show-more-less-state__icon chapter__icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/4rrzmuebbnmei9zaazx34bh8k"></icon>
+        
+        
+    </label>
+  
+
+      
+          <ul class="chapter__list">
+            
+                
+
+    <li class="video show-more-only ">
+      <a class="video__link" data-tracking-control-name="learning-course_table-of-contents_video" data-tracking-will-navigate href="https://www.linkedin.com/learning/jenkins-essential-training/triggering-builds-via-the-rest-api-2?autoplay=true&amp;trk=learning-course_table-of-contents_video">
+          <span class="video__status">
+              <icon class="video__status-lock-icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/397kgg1r9mkldr5uutd2lygzf" data-svg-class-name="video__status-lock-icon--svg"></icon>
+          </span>
+          <div class="video__details-wrapper">
+            <div class="video__title">
+              Triggering builds via the REST API
+            </div>
+            <div class="video__length">
+              
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        4m 22s
+
+            </div>
+          </div>
+      </a>
+    </li>
+  
+                
+
+    <li class="video show-more-only ">
+      <a class="video__link" data-tracking-control-name="learning-course_table-of-contents_video" data-tracking-will-navigate href="https://www.linkedin.com/learning/jenkins-essential-training/retrieving-build-status-via-the-rest-api-2?autoplay=true&amp;trk=learning-course_table-of-contents_video">
+          <span class="video__status">
+              <icon class="video__status-lock-icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/397kgg1r9mkldr5uutd2lygzf" data-svg-class-name="video__status-lock-icon--svg"></icon>
+          </span>
+          <div class="video__details-wrapper">
+            <div class="video__title">
+              Retrieving build status via the REST API
+            </div>
+            <div class="video__length">
+              
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        2m 53s
+
+            </div>
+          </div>
+      </a>
+    </li>
+  
+            
+          </ul>
+        
+
+<!---->    </div>
+  
+    </li>
+  
+          
+
+    <li>
+      
+
+    
+    
+
+    <div class="see-more-less-list chapter">
+
+      <input id="learning-course_table-of-contents_chapter9-show-more-less-state" class="show-more-less-state chapter-state" type="checkbox">
+
+        
+    <label for="learning-course_table-of-contents_chapter9-show-more-less-state" data-tracking-control-name="learning-course_table-of-contents_chapter_showMore" tabindex="0" role="button" aria-expanded="false" class="show-more-less-state__label show-more-less-state__label-more chapter__label chapter__label-more">
+      
+            
+          9. Security
+          <icon class="show-more-less-state__icon chapter__icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/6jaiek1zi5v272k8zodh1ocbd"></icon>
+        
+        
+    </label>
+  
+
+        
+    <label for="learning-course_table-of-contents_chapter9-show-more-less-state" data-tracking-control-name="learning-course_table-of-contents_chapter_showLess" tabindex="0" role="button" aria-expanded="false" class="show-more-less-state__label show-more-less-state__label-less chapter__label chapter__label-less">
+      
+            
+          9. Security
+          <icon class="show-more-less-state__icon chapter__icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/4rrzmuebbnmei9zaazx34bh8k"></icon>
+        
+        
+    </label>
+  
+
+      
+          <ul class="chapter__list">
+            
+                
+
+    <li class="video show-more-only ">
+      <a class="video__link" data-tracking-control-name="learning-course_table-of-contents_video" data-tracking-will-navigate href="https://www.linkedin.com/learning/jenkins-essential-training/securing-your-deployment-with-users-2?autoplay=true&amp;trk=learning-course_table-of-contents_video">
+          <span class="video__status">
+              <icon class="video__status-lock-icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/397kgg1r9mkldr5uutd2lygzf" data-svg-class-name="video__status-lock-icon--svg"></icon>
+          </span>
+          <div class="video__details-wrapper">
+            <div class="video__title">
+              Securing your deployment with users
+            </div>
+            <div class="video__length">
+              
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        3m 56s
+
+            </div>
+          </div>
+      </a>
+    </li>
+  
+                
+
+    <li class="video show-more-only ">
+      <a class="video__link" data-tracking-control-name="learning-course_table-of-contents_video" data-tracking-will-navigate href="https://www.linkedin.com/learning/jenkins-essential-training/securing-secret-credentials-and-files-2?autoplay=true&amp;trk=learning-course_table-of-contents_video">
+          <span class="video__status">
+              <icon class="video__status-lock-icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/397kgg1r9mkldr5uutd2lygzf" data-svg-class-name="video__status-lock-icon--svg"></icon>
+          </span>
+          <div class="video__details-wrapper">
+            <div class="video__title">
+              Securing secret credentials and files
+            </div>
+            <div class="video__length">
+              
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        3m 29s
+
+            </div>
+          </div>
+      </a>
+    </li>
+  
+                
+
+    <li class="video show-more-only ">
+      <a class="video__link" data-tracking-control-name="learning-course_table-of-contents_video" data-tracking-will-navigate href="https://www.linkedin.com/learning/jenkins-essential-training/auditing-your-environment-2?autoplay=true&amp;trk=learning-course_table-of-contents_video">
+          <span class="video__status">
+              <icon class="video__status-play-dark-icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/2cal8hyvmirn7m2tok5d2d9gi" data-svg-class-name="video__status-play-dark-icon--svg"></icon>
+          </span>
+          <div class="video__details-wrapper">
+            <div class="video__title">
+              Auditing your environment
+            </div>
+            <div class="video__length">
+              
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        4m 30s
+
+            </div>
+          </div>
+      </a>
+    </li>
+  
+                
+
+    <li class="video show-more-only ">
+      <a class="video__link" data-tracking-control-name="learning-course_table-of-contents_video" data-tracking-will-navigate href="https://www.linkedin.com/learning/jenkins-essential-training/using-folders-to-create-security-realms-2?autoplay=true&amp;trk=learning-course_table-of-contents_video">
+          <span class="video__status">
+              <icon class="video__status-lock-icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/397kgg1r9mkldr5uutd2lygzf" data-svg-class-name="video__status-lock-icon--svg"></icon>
+          </span>
+          <div class="video__details-wrapper">
+            <div class="video__title">
+              Using folders to create security realms
+            </div>
+            <div class="video__length">
+              
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        6m 15s
+
+            </div>
+          </div>
+      </a>
+    </li>
+  
+            
+          </ul>
+        
+
+<!---->    </div>
+  
+    </li>
+  
+          
+
+    <li>
+      
+
+    
+    
+
+    <div class="see-more-less-list chapter">
+
+      <input id="learning-course_table-of-contents_chapter10-show-more-less-state" class="show-more-less-state chapter-state" type="checkbox">
+
+        
+    <label for="learning-course_table-of-contents_chapter10-show-more-less-state" data-tracking-control-name="learning-course_table-of-contents_chapter_showMore" tabindex="0" role="button" aria-expanded="false" class="show-more-less-state__label show-more-less-state__label-more chapter__label chapter__label-more">
+      
+            
+          10. Artifacts
+          <icon class="show-more-less-state__icon chapter__icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/6jaiek1zi5v272k8zodh1ocbd"></icon>
+        
+        
+    </label>
+  
+
+        
+    <label for="learning-course_table-of-contents_chapter10-show-more-less-state" data-tracking-control-name="learning-course_table-of-contents_chapter_showLess" tabindex="0" role="button" aria-expanded="false" class="show-more-less-state__label show-more-less-state__label-less chapter__label chapter__label-less">
+      
+            
+          10. Artifacts
+          <icon class="show-more-less-state__icon chapter__icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/4rrzmuebbnmei9zaazx34bh8k"></icon>
+        
+        
+    </label>
+  
+
+      
+          <ul class="chapter__list">
+            
+                
+
+    <li class="video show-more-only ">
+      <a class="video__link" data-tracking-control-name="learning-course_table-of-contents_video" data-tracking-will-navigate href="https://www.linkedin.com/learning/jenkins-essential-training/creating-and-storing-artifacts-2?autoplay=true&amp;trk=learning-course_table-of-contents_video">
+          <span class="video__status">
+              <icon class="video__status-lock-icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/397kgg1r9mkldr5uutd2lygzf" data-svg-class-name="video__status-lock-icon--svg"></icon>
+          </span>
+          <div class="video__details-wrapper">
+            <div class="video__title">
+              Creating and storing artifacts
+            </div>
+            <div class="video__length">
+              
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        3m 15s
+
+            </div>
+          </div>
+      </a>
+    </li>
+  
+                
+
+    <li class="video show-more-only ">
+      <a class="video__link" data-tracking-control-name="learning-course_table-of-contents_video" data-tracking-will-navigate href="https://www.linkedin.com/learning/jenkins-essential-training/fingerprinting-for-artifact-tracking-2?autoplay=true&amp;trk=learning-course_table-of-contents_video">
+          <span class="video__status">
+              <icon class="video__status-lock-icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/397kgg1r9mkldr5uutd2lygzf" data-svg-class-name="video__status-lock-icon--svg"></icon>
+          </span>
+          <div class="video__details-wrapper">
+            <div class="video__title">
+              Fingerprinting for artifact tracking
+            </div>
+            <div class="video__length">
+              
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        4m 11s
+
+            </div>
+          </div>
+      </a>
+    </li>
+  
+            
+          </ul>
+        
+
+<!---->    </div>
+  
+    </li>
+  
+          
+
+    <li>
+      
+
+    
+    
+
+    <div class="see-more-less-list chapter">
+
+      <input id="learning-course_table-of-contents_chapter11-show-more-less-state" class="show-more-less-state chapter-state" type="checkbox">
+
+        
+    <label for="learning-course_table-of-contents_chapter11-show-more-less-state" data-tracking-control-name="learning-course_table-of-contents_chapter_showMore" tabindex="0" role="button" aria-expanded="false" class="show-more-less-state__label show-more-less-state__label-more chapter__label chapter__label-more">
+      
+            
+          11. Pipelines
+          <icon class="show-more-less-state__icon chapter__icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/6jaiek1zi5v272k8zodh1ocbd"></icon>
+        
+        
+    </label>
+  
+
+        
+    <label for="learning-course_table-of-contents_chapter11-show-more-less-state" data-tracking-control-name="learning-course_table-of-contents_chapter_showLess" tabindex="0" role="button" aria-expanded="false" class="show-more-less-state__label show-more-less-state__label-less chapter__label chapter__label-less">
+      
+            
+          11. Pipelines
+          <icon class="show-more-less-state__icon chapter__icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/4rrzmuebbnmei9zaazx34bh8k"></icon>
+        
+        
+    </label>
+  
+
+      
+          <ul class="chapter__list">
+            
+                
+
+    <li class="video show-more-only ">
+      <a class="video__link" data-tracking-control-name="learning-course_table-of-contents_video" data-tracking-will-navigate href="https://www.linkedin.com/learning/jenkins-essential-training/automating-deployment-with-pipelines-2?autoplay=true&amp;trk=learning-course_table-of-contents_video">
+          <span class="video__status">
+              <icon class="video__status-lock-icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/397kgg1r9mkldr5uutd2lygzf" data-svg-class-name="video__status-lock-icon--svg"></icon>
+          </span>
+          <div class="video__details-wrapper">
+            <div class="video__title">
+              Automating deployment with pipelines
+            </div>
+            <div class="video__length">
+              
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        2m 13s
+
+            </div>
+          </div>
+      </a>
+    </li>
+  
+                
+
+    <li class="video show-more-only ">
+      <a class="video__link" data-tracking-control-name="learning-course_table-of-contents_video" data-tracking-will-navigate href="https://www.linkedin.com/learning/jenkins-essential-training/creating-pipeline-gates-2?autoplay=true&amp;trk=learning-course_table-of-contents_video">
+          <span class="video__status">
+              <icon class="video__status-lock-icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/397kgg1r9mkldr5uutd2lygzf" data-svg-class-name="video__status-lock-icon--svg"></icon>
+          </span>
+          <div class="video__details-wrapper">
+            <div class="video__title">
+              Creating pipeline gates
+            </div>
+            <div class="video__length">
+              
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        2m 27s
+
+            </div>
+          </div>
+      </a>
+    </li>
+  
+                
+
+    <li class="video show-more-only ">
+      <a class="video__link" data-tracking-control-name="learning-course_table-of-contents_video" data-tracking-will-navigate href="https://www.linkedin.com/learning/jenkins-essential-training/job-promotion-for-long-running-pipelines-2?autoplay=true&amp;trk=learning-course_table-of-contents_video">
+          <span class="video__status">
+              <icon class="video__status-lock-icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/397kgg1r9mkldr5uutd2lygzf" data-svg-class-name="video__status-lock-icon--svg"></icon>
+          </span>
+          <div class="video__details-wrapper">
+            <div class="video__title">
+              Job promotion for long-running pipelines
+            </div>
+            <div class="video__length">
+              
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        4m 32s
+
+            </div>
+          </div>
+      </a>
+    </li>
+  
+                
+
+    <li class="video show-more-only ">
+      <a class="video__link" data-tracking-control-name="learning-course_table-of-contents_video" data-tracking-will-navigate href="https://www.linkedin.com/learning/jenkins-essential-training/multibranch-repository-automation-2?autoplay=true&amp;trk=learning-course_table-of-contents_video">
+          <span class="video__status">
+              <icon class="video__status-lock-icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/397kgg1r9mkldr5uutd2lygzf" data-svg-class-name="video__status-lock-icon--svg"></icon>
+          </span>
+          <div class="video__details-wrapper">
+            <div class="video__title">
+              Multibranch repository automation
+            </div>
+            <div class="video__length">
+              
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        3m 50s
+
+            </div>
+          </div>
+      </a>
+    </li>
+  
+                
+
+    <li class="video show-more-only ">
+      <a class="video__link" data-tracking-control-name="learning-course_table-of-contents_video" data-tracking-will-navigate href="https://www.linkedin.com/learning/jenkins-essential-training/creating-pipelines-with-snippets-2?autoplay=true&amp;trk=learning-course_table-of-contents_video">
+          <span class="video__status">
+              <icon class="video__status-lock-icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/397kgg1r9mkldr5uutd2lygzf" data-svg-class-name="video__status-lock-icon--svg"></icon>
+          </span>
+          <div class="video__details-wrapper">
+            <div class="video__title">
+              Creating pipelines with snippets
+            </div>
+            <div class="video__length">
+              
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        2m 35s
+
+            </div>
+          </div>
+      </a>
+    </li>
+  
+                
+
+    <li class="video show-more-only ">
+      <a class="video__link" data-tracking-control-name="learning-course_table-of-contents_video" data-tracking-will-navigate href="https://www.linkedin.com/learning/jenkins-essential-training/discovering-global-pipeline-variables-2?autoplay=true&amp;trk=learning-course_table-of-contents_video">
+          <span class="video__status">
+              <icon class="video__status-lock-icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/397kgg1r9mkldr5uutd2lygzf" data-svg-class-name="video__status-lock-icon--svg"></icon>
+          </span>
+          <div class="video__details-wrapper">
+            <div class="video__title">
+              Discovering global pipeline variables
+            </div>
+            <div class="video__length">
+              
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        3m 1s
+
+            </div>
+          </div>
+      </a>
+    </li>
+  
+            
+          </ul>
+        
+
+<!---->    </div>
+  
+    </li>
+  
+          
+
+    <li>
+      
+
+    
+    
+
+    <div class="see-more-less-list chapter">
+
+      <input id="learning-course_table-of-contents_chapter12-show-more-less-state" class="show-more-less-state chapter-state" type="checkbox">
+
+        
+    <label for="learning-course_table-of-contents_chapter12-show-more-less-state" data-tracking-control-name="learning-course_table-of-contents_chapter_showMore" tabindex="0" role="button" aria-expanded="false" class="show-more-less-state__label show-more-less-state__label-more chapter__label chapter__label-more">
+      
+            
+          12. Best Practices
+          <icon class="show-more-less-state__icon chapter__icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/6jaiek1zi5v272k8zodh1ocbd"></icon>
+        
+        
+    </label>
+  
+
+        
+    <label for="learning-course_table-of-contents_chapter12-show-more-less-state" data-tracking-control-name="learning-course_table-of-contents_chapter_showLess" tabindex="0" role="button" aria-expanded="false" class="show-more-less-state__label show-more-less-state__label-less chapter__label chapter__label-less">
+      
+            
+          12. Best Practices
+          <icon class="show-more-less-state__icon chapter__icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/4rrzmuebbnmei9zaazx34bh8k"></icon>
+        
+        
+    </label>
+  
+
+      
+          <ul class="chapter__list">
+            
+                
+
+    <li class="video show-more-only ">
+      <a class="video__link" data-tracking-control-name="learning-course_table-of-contents_video" data-tracking-will-navigate href="https://www.linkedin.com/learning/jenkins-essential-training/distributing-builds-with-agents-2?autoplay=true&amp;trk=learning-course_table-of-contents_video">
+          <span class="video__status">
+              <icon class="video__status-play-dark-icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/2cal8hyvmirn7m2tok5d2d9gi" data-svg-class-name="video__status-play-dark-icon--svg"></icon>
+          </span>
+          <div class="video__details-wrapper">
+            <div class="video__title">
+              Distributing builds with agents
+            </div>
+            <div class="video__length">
+              
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        2m 28s
+
+            </div>
+          </div>
+      </a>
+    </li>
+  
+                
+
+    <li class="video show-more-only ">
+      <a class="video__link" data-tracking-control-name="learning-course_table-of-contents_video" data-tracking-will-navigate href="https://www.linkedin.com/learning/jenkins-essential-training/automating-tool-installation-on-agents-2?autoplay=true&amp;trk=learning-course_table-of-contents_video">
+          <span class="video__status">
+              <icon class="video__status-lock-icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/397kgg1r9mkldr5uutd2lygzf" data-svg-class-name="video__status-lock-icon--svg"></icon>
+          </span>
+          <div class="video__details-wrapper">
+            <div class="video__title">
+              Automating tool installation on agents
+            </div>
+            <div class="video__length">
+              
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        2m 20s
+
+            </div>
+          </div>
+      </a>
+    </li>
+  
+                
+
+    <li class="video show-more-only ">
+      <a class="video__link" data-tracking-control-name="learning-course_table-of-contents_video" data-tracking-will-navigate href="https://www.linkedin.com/learning/jenkins-essential-training/global-libraries-for-pipelines-2?autoplay=true&amp;trk=learning-course_table-of-contents_video">
+          <span class="video__status">
+              <icon class="video__status-lock-icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/397kgg1r9mkldr5uutd2lygzf" data-svg-class-name="video__status-lock-icon--svg"></icon>
+          </span>
+          <div class="video__details-wrapper">
+            <div class="video__title">
+              Global libraries for pipelines
+            </div>
+            <div class="video__length">
+              
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        2m 36s
+
+            </div>
+          </div>
+      </a>
+    </li>
+  
+                
+
+    <li class="video show-more-only ">
+      <a class="video__link" data-tracking-control-name="learning-course_table-of-contents_video" data-tracking-will-navigate href="https://www.linkedin.com/learning/jenkins-essential-training/jenkinsfile-as-code-2?autoplay=true&amp;trk=learning-course_table-of-contents_video">
+          <span class="video__status">
+              <icon class="video__status-lock-icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/397kgg1r9mkldr5uutd2lygzf" data-svg-class-name="video__status-lock-icon--svg"></icon>
+          </span>
+          <div class="video__details-wrapper">
+            <div class="video__title">
+              Jenkinsfile as code
+            </div>
+            <div class="video__length">
+              
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        2m 48s
+
+            </div>
+          </div>
+      </a>
+    </li>
+  
+                
+
+    <li class="video show-more-only ">
+      <a class="video__link" data-tracking-control-name="learning-course_table-of-contents_video" data-tracking-will-navigate href="https://www.linkedin.com/learning/jenkins-essential-training/organizing-jobs-in-views-2?autoplay=true&amp;trk=learning-course_table-of-contents_video">
+          <span class="video__status">
+              <icon class="video__status-lock-icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/397kgg1r9mkldr5uutd2lygzf" data-svg-class-name="video__status-lock-icon--svg"></icon>
+          </span>
+          <div class="video__details-wrapper">
+            <div class="video__title">
+              Organizing jobs in views
+            </div>
+            <div class="video__length">
+              
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        1m 40s
+
+            </div>
+          </div>
+      </a>
+    </li>
+  
+            
+          </ul>
+        
+
+<!---->    </div>
+  
+    </li>
+  
+          
+
+    <li>
+      
+
+    
+    
+
+    <div class="see-more-less-list chapter">
+
+      <input id="learning-course_table-of-contents_chapter13-show-more-less-state" class="show-more-less-state chapter-state" type="checkbox">
+
+        
+    <label for="learning-course_table-of-contents_chapter13-show-more-less-state" data-tracking-control-name="learning-course_table-of-contents_chapter_showMore" tabindex="0" role="button" aria-expanded="false" class="show-more-less-state__label show-more-less-state__label-more chapter__label chapter__label-more">
+      
+            
+          Conclusion
+          <icon class="show-more-less-state__icon chapter__icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/6jaiek1zi5v272k8zodh1ocbd"></icon>
+        
+        
+    </label>
+  
+
+        
+    <label for="learning-course_table-of-contents_chapter13-show-more-less-state" data-tracking-control-name="learning-course_table-of-contents_chapter_showLess" tabindex="0" role="button" aria-expanded="false" class="show-more-less-state__label show-more-less-state__label-less chapter__label chapter__label-less">
+      
+            
+          Conclusion
+          <icon class="show-more-less-state__icon chapter__icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/4rrzmuebbnmei9zaazx34bh8k"></icon>
+        
+        
+    </label>
+  
+
+      
+          <ul class="chapter__list">
+            
+                
+
+    <li class="video show-more-only ">
+      <a class="video__link" data-tracking-control-name="learning-course_table-of-contents_video" data-tracking-will-navigate href="https://www.linkedin.com/learning/jenkins-essential-training/next-steps?autoplay=true&amp;trk=learning-course_table-of-contents_video">
+          <span class="video__status">
+              <icon class="video__status-lock-icon" data-delayed-url="https://static-exp1.licdn.com/sc/h/397kgg1r9mkldr5uutd2lygzf" data-svg-class-name="video__status-lock-icon--svg"></icon>
+          </span>
+          <div class="video__details-wrapper">
+            <div class="video__title">
+              Next steps
+            </div>
+            <div class="video__length">
+              
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        1m 9s
+
+            </div>
+          </div>
+      </a>
+    </li>
+  
+            
+          </ul>
+        
+
+<!---->    </div>
+  
+    </li>
+  
+      </ul>
+    </section>  
+          
+      
+        </section>
+    </main>
+
+      <div class="pre-footer ">
+        
+        
+                
+    
+
+    <div class="price-disclaimer">
+      <p class="price-disclaimer__copy">
+        <sup class="price-disclaimer__copy--sup">*</sup>Price may change based on profile and billing country information entered during Sign In or Registration
+      </p>
+    </div>
+  
+            
+
+    <section class="browse-map">
+      <div class="browse-map__inner">
+            
+
+    
+    
+    
+    
+    
+
+    <section class="course-list-by-type">
+      <h4 class="course-list-by-type__heading">
+        Business courses
+      </h4>
+
+      <ul class="course-list-by-type__list">
+          <li class="course-list-by-type__list-item">
+            <a class="course-list-by-type__link" href="https://www.linkedin.com/learning/topics/business-analysis-and-strategy?trk=learning-course_browsemap_subject-link" data-tracking-control-name="learning-course_browsemap_subject-link" data-tracking-will-navigate>
+              Business Analysis and Strategy
+            </a>
+          </li>
+          <li class="course-list-by-type__list-item">
+            <a class="course-list-by-type__link" href="https://www.linkedin.com/learning/topics/business-software-and-tools?trk=learning-course_browsemap_subject-link" data-tracking-control-name="learning-course_browsemap_subject-link" data-tracking-will-navigate>
+              Business Software and Tools
+            </a>
+          </li>
+          <li class="course-list-by-type__list-item">
+            <a class="course-list-by-type__link" href="https://www.linkedin.com/learning/topics/career-development-5?trk=learning-course_browsemap_subject-link" data-tracking-control-name="learning-course_browsemap_subject-link" data-tracking-will-navigate>
+              Career Development
+            </a>
+          </li>
+          <li class="course-list-by-type__list-item">
+            <a class="course-list-by-type__link" href="https://www.linkedin.com/learning/topics/customer-service-3?trk=learning-course_browsemap_subject-link" data-tracking-control-name="learning-course_browsemap_subject-link" data-tracking-will-navigate>
+              Customer Service
+            </a>
+          </li>
+          <li class="course-list-by-type__list-item">
+            <a class="course-list-by-type__link" href="https://www.linkedin.com/learning/topics/finance-and-accounting?trk=learning-course_browsemap_subject-link" data-tracking-control-name="learning-course_browsemap_subject-link" data-tracking-will-navigate>
+              Finance and Accounting
+            </a>
+          </li>
+          <li class="course-list-by-type__list-item">
+            <a class="course-list-by-type__link" href="https://www.linkedin.com/learning/topics/human-resources-3?trk=learning-course_browsemap_subject-link" data-tracking-control-name="learning-course_browsemap_subject-link" data-tracking-will-navigate>
+              Human Resources
+            </a>
+          </li>
+          <li class="course-list-by-type__list-item">
+            <a class="course-list-by-type__link" href="https://www.linkedin.com/learning/topics/leadership-and-management?trk=learning-course_browsemap_subject-link" data-tracking-control-name="learning-course_browsemap_subject-link" data-tracking-will-navigate>
+              Leadership and Management
+            </a>
+          </li>
+          <li class="course-list-by-type__list-item">
+            <a class="course-list-by-type__link" href="https://www.linkedin.com/learning/topics/marketing-2?trk=learning-course_browsemap_subject-link" data-tracking-control-name="learning-course_browsemap_subject-link" data-tracking-will-navigate>
+              Marketing
+            </a>
+          </li>
+          <li class="course-list-by-type__list-item">
+            <a class="course-list-by-type__link" href="https://www.linkedin.com/learning/topics/professional-development?trk=learning-course_browsemap_subject-link" data-tracking-control-name="learning-course_browsemap_subject-link" data-tracking-will-navigate>
+              Professional Development
+            </a>
+          </li>
+          <li class="course-list-by-type__list-item">
+            <a class="course-list-by-type__link" href="https://www.linkedin.com/learning/topics/project-management?trk=learning-course_browsemap_subject-link" data-tracking-control-name="learning-course_browsemap_subject-link" data-tracking-will-navigate>
+              Project Management
+            </a>
+          </li>
+          <li class="course-list-by-type__list-item">
+            <a class="course-list-by-type__link" href="https://www.linkedin.com/learning/topics/sales-3?trk=learning-course_browsemap_subject-link" data-tracking-control-name="learning-course_browsemap_subject-link" data-tracking-will-navigate>
+              Sales
+            </a>
+          </li>
+          <li class="course-list-by-type__list-item">
+            <a class="course-list-by-type__link" href="https://www.linkedin.com/learning/topics/small-business-and-entrepreneurship?trk=learning-course_browsemap_subject-link" data-tracking-control-name="learning-course_browsemap_subject-link" data-tracking-will-navigate>
+              Small Business and Entrepreneurship
+            </a>
+          </li>
+          <li class="course-list-by-type__list-item">
+            <a class="course-list-by-type__link" href="https://www.linkedin.com/learning/topics/training-and-education?trk=learning-course_browsemap_subject-link" data-tracking-control-name="learning-course_browsemap_subject-link" data-tracking-will-navigate>
+              Training and Education
+            </a>
+          </li>
+      </ul>
+
+      <a class="course-list-by-type__topic-link" aria-label="See all business courses" href="https://www.linkedin.com/learning/topics/business?trk=learning-course_browsemap_subject-link_see-all-topics" data-tracking-control-name="learning-course_browsemap_subject-link_see-all-topics" data-tracking-will-navigate>
+          See all
+      </a>
+    </section>
+  
+            
+
+    
+    
+    
+    
+    
+
+    <section class="course-list-by-type">
+      <h4 class="course-list-by-type__heading">
+        Creative courses
+      </h4>
+
+      <ul class="course-list-by-type__list">
+          <li class="course-list-by-type__list-item">
+            <a class="course-list-by-type__link" href="https://www.linkedin.com/learning/topics/aec?trk=learning-course_browsemap_subject-link" data-tracking-control-name="learning-course_browsemap_subject-link" data-tracking-will-navigate>
+              AEC
+            </a>
+          </li>
+          <li class="course-list-by-type__list-item">
+            <a class="course-list-by-type__link" href="https://www.linkedin.com/learning/topics/animation-and-illustration?trk=learning-course_browsemap_subject-link" data-tracking-control-name="learning-course_browsemap_subject-link" data-tracking-will-navigate>
+              Animation and Illustration
+            </a>
+          </li>
+          <li class="course-list-by-type__list-item">
+            <a class="course-list-by-type__link" href="https://www.linkedin.com/learning/topics/audio-and-music?trk=learning-course_browsemap_subject-link" data-tracking-control-name="learning-course_browsemap_subject-link" data-tracking-will-navigate>
+              Audio and Music
+            </a>
+          </li>
+          <li class="course-list-by-type__list-item">
+            <a class="course-list-by-type__link" href="https://www.linkedin.com/learning/topics/graphic-design?trk=learning-course_browsemap_subject-link" data-tracking-control-name="learning-course_browsemap_subject-link" data-tracking-will-navigate>
+              Graphic Design
+            </a>
+          </li>
+          <li class="course-list-by-type__list-item">
+            <a class="course-list-by-type__link" href="https://www.linkedin.com/learning/topics/motion-graphics-and-vfx?trk=learning-course_browsemap_subject-link" data-tracking-control-name="learning-course_browsemap_subject-link" data-tracking-will-navigate>
+              Motion Graphics and VFX
+            </a>
+          </li>
+          <li class="course-list-by-type__list-item">
+            <a class="course-list-by-type__link" href="https://www.linkedin.com/learning/topics/photography-2?trk=learning-course_browsemap_subject-link" data-tracking-control-name="learning-course_browsemap_subject-link" data-tracking-will-navigate>
+              Photography
+            </a>
+          </li>
+          <li class="course-list-by-type__list-item">
+            <a class="course-list-by-type__link" href="https://www.linkedin.com/learning/topics/product-and-manufacturing?trk=learning-course_browsemap_subject-link" data-tracking-control-name="learning-course_browsemap_subject-link" data-tracking-will-navigate>
+              Product and Manufacturing
+            </a>
+          </li>
+          <li class="course-list-by-type__list-item">
+            <a class="course-list-by-type__link" href="https://www.linkedin.com/learning/topics/user-experience?trk=learning-course_browsemap_subject-link" data-tracking-control-name="learning-course_browsemap_subject-link" data-tracking-will-navigate>
+              User Experience
+            </a>
+          </li>
+          <li class="course-list-by-type__list-item">
+            <a class="course-list-by-type__link" href="https://www.linkedin.com/learning/topics/video-2?trk=learning-course_browsemap_subject-link" data-tracking-control-name="learning-course_browsemap_subject-link" data-tracking-will-navigate>
+              Video
+            </a>
+          </li>
+          <li class="course-list-by-type__list-item">
+            <a class="course-list-by-type__link" href="https://www.linkedin.com/learning/topics/visualization-and-real-time?trk=learning-course_browsemap_subject-link" data-tracking-control-name="learning-course_browsemap_subject-link" data-tracking-will-navigate>
+              Visualization and Real-Time
+            </a>
+          </li>
+          <li class="course-list-by-type__list-item">
+            <a class="course-list-by-type__link" href="https://www.linkedin.com/learning/topics/web-design?trk=learning-course_browsemap_subject-link" data-tracking-control-name="learning-course_browsemap_subject-link" data-tracking-will-navigate>
+              Web Design
+            </a>
+          </li>
+      </ul>
+
+      <a class="course-list-by-type__topic-link" aria-label="See all creative courses" href="https://www.linkedin.com/learning/topics/creative?trk=learning-course_browsemap_subject-link_see-all-topics" data-tracking-control-name="learning-course_browsemap_subject-link_see-all-topics" data-tracking-will-navigate>
+          See all
+      </a>
+    </section>
+  
+            
+
+    
+    
+    
+    
+    
+
+    <section class="course-list-by-type">
+      <h4 class="course-list-by-type__heading">
+        Technology courses
+      </h4>
+
+      <ul class="course-list-by-type__list">
+          <li class="course-list-by-type__list-item">
+            <a class="course-list-by-type__link" href="https://www.linkedin.com/learning/topics/cloud-computing-5?trk=learning-course_browsemap_subject-link" data-tracking-control-name="learning-course_browsemap_subject-link" data-tracking-will-navigate>
+              Cloud Computing
+            </a>
+          </li>
+          <li class="course-list-by-type__list-item">
+            <a class="course-list-by-type__link" href="https://www.linkedin.com/learning/topics/data-science?trk=learning-course_browsemap_subject-link" data-tracking-control-name="learning-course_browsemap_subject-link" data-tracking-will-navigate>
+              Data Science
+            </a>
+          </li>
+          <li class="course-list-by-type__list-item">
+            <a class="course-list-by-type__link" href="https://www.linkedin.com/learning/topics/database-management?trk=learning-course_browsemap_subject-link" data-tracking-control-name="learning-course_browsemap_subject-link" data-tracking-will-navigate>
+              Database Management
+            </a>
+          </li>
+          <li class="course-list-by-type__list-item">
+            <a class="course-list-by-type__link" href="https://www.linkedin.com/learning/topics/devops?trk=learning-course_browsemap_subject-link" data-tracking-control-name="learning-course_browsemap_subject-link" data-tracking-will-navigate>
+              DevOps
+            </a>
+          </li>
+          <li class="course-list-by-type__list-item">
+            <a class="course-list-by-type__link" href="https://www.linkedin.com/learning/topics/it-help-desk-5?trk=learning-course_browsemap_subject-link" data-tracking-control-name="learning-course_browsemap_subject-link" data-tracking-will-navigate>
+              IT Help Desk
+            </a>
+          </li>
+          <li class="course-list-by-type__list-item">
+            <a class="course-list-by-type__link" href="https://www.linkedin.com/learning/topics/mobile-development?trk=learning-course_browsemap_subject-link" data-tracking-control-name="learning-course_browsemap_subject-link" data-tracking-will-navigate>
+              Mobile Development
+            </a>
+          </li>
+          <li class="course-list-by-type__list-item">
+            <a class="course-list-by-type__link" href="https://www.linkedin.com/learning/topics/network-and-system-administration?trk=learning-course_browsemap_subject-link" data-tracking-control-name="learning-course_browsemap_subject-link" data-tracking-will-navigate>
+              Network and System Administration
+            </a>
+          </li>
+          <li class="course-list-by-type__list-item">
+            <a class="course-list-by-type__link" href="https://www.linkedin.com/learning/topics/security-3?trk=learning-course_browsemap_subject-link" data-tracking-control-name="learning-course_browsemap_subject-link" data-tracking-will-navigate>
+              Security
+            </a>
+          </li>
+          <li class="course-list-by-type__list-item">
+            <a class="course-list-by-type__link" href="https://www.linkedin.com/learning/topics/software-development?trk=learning-course_browsemap_subject-link" data-tracking-control-name="learning-course_browsemap_subject-link" data-tracking-will-navigate>
+              Software Development
+            </a>
+          </li>
+          <li class="course-list-by-type__list-item">
+            <a class="course-list-by-type__link" href="https://www.linkedin.com/learning/topics/web-development?trk=learning-course_browsemap_subject-link" data-tracking-control-name="learning-course_browsemap_subject-link" data-tracking-will-navigate>
+              Web Development
+            </a>
+          </li>
+      </ul>
+
+      <a class="course-list-by-type__topic-link" aria-label="See all technology courses" href="https://www.linkedin.com/learning/topics/technology?trk=learning-course_browsemap_subject-link_see-all-topics" data-tracking-control-name="learning-course_browsemap_subject-link_see-all-topics" data-tracking-will-navigate>
+          See all
+      </a>
+    </section>
+  
+      </div>
+    </section>
+  
+          
+      
+      </div>
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <footer class="li-footer ">
+      <ul class="li-footer__list">
+        <li class="li-footer__item">
+          <span class="sr-only">LinkedIn</span>
+          <icon class="li-footer__copy-logo" data-delayed-url="https://static-exp1.licdn.com/sc/h/b11vnqql8f4abtysggvq9v836"></icon>
+          <span class="li-footer__copy-text">&copy; 2020</span>
+        </li>
+        <li class="li-footer__item">
+          <a href="https://about.linkedin.com?trk=d_learning_course_guest_footer-about" data-tracking-control-name="d_learning_course_guest_footer-about" data-tracking-will-navigate class="li-footer__item-link">
+            About
+          </a>
+        </li>
+        <li class="li-footer__item">
+          <a href="https://www.linkedin.com/accessibility?trk=d_learning_course_guest_footer-accessibility" data-tracking-control-name="d_learning_course_guest_footer-accessibility" data-tracking-will-navigate class="li-footer__item-link">
+            Accessibility
+          </a>
+        </li>
+        <li class="li-footer__item">
+          <a href="https://www.linkedin.com/legal/user-agreement?trk=d_learning_course_guest_footer-user-agreement" data-tracking-control-name="d_learning_course_guest_footer-user-agreement" data-tracking-will-navigate class="li-footer__item-link">
+            User Agreement
+          </a>
+        </li>
+        <li class="li-footer__item">
+          <a href="https://www.linkedin.com/legal/privacy-policy?trk=d_learning_course_guest_footer-privacy-policy" data-tracking-control-name="d_learning_course_guest_footer-privacy-policy" data-tracking-will-navigate class="li-footer__item-link">
+            Privacy Policy
+          </a>
+        </li>
+        <li class="li-footer__item">
+          <a href="https://www.linkedin.com/legal/cookie-policy?trk=d_learning_course_guest_footer-cookie-policy" data-tracking-control-name="d_learning_course_guest_footer-cookie-policy" data-tracking-will-navigate class="li-footer__item-link">
+            Cookie Policy
+          </a>
+        </li>
+        <li class="li-footer__item">
+          <a href="https://www.linkedin.com/legal/copyright-policy?trk=d_learning_course_guest_footer-copyright-policy" data-tracking-control-name="d_learning_course_guest_footer-copyright-policy" data-tracking-will-navigate class="li-footer__item-link">
+            Copyright Policy
+          </a>
+        </li>
+        <li class="li-footer__item">
+          <a href="https://brand.linkedin.com/policies?trk=d_learning_course_guest_footer-brand-policy" data-tracking-control-name="d_learning_course_guest_footer-brand-policy" data-tracking-will-navigate class="li-footer__item-link">
+            Brand Policy
+          </a>
+        </li>
+        <li class="li-footer__item">
+          <a href="https://www.linkedin.com/psettings/guest-controls?trk=d_learning_course_guest_footer-guest-controls" data-tracking-control-name="d_learning_course_guest_footer-guest-controls" data-tracking-will-navigate class="li-footer__item-link">
+            Guest Controls
+          </a>
+        </li>
+        <li class="li-footer__item">
+          <a href="https://www.linkedin.com/help/linkedin/answer/34593?lang=en&amp;trk=d_learning_course_guest_footer-community-guide" data-tracking-control-name="d_learning_course_guest_footer-community-guide" data-tracking-will-navigate class="li-footer__item-link">
+            Community Guidelines
+          </a>
+        </li>
+          
+
+          <li class="li-footer__item">
+            
+
+    
+
+    
+
+    
+
+    <div class="collapsible-dropdown collapsible-dropdown--footer collapsible-dropdown--up language-selector">
+      <ul class="collapsible-dropdown__list hidden" role="menu">
+        
+          <li class="language-selector__item" role="menuitem">
+            <button data-tracking-control-name="language-selector-ar_AE" class="language-selector__link " data-locale="ar_AE" lang="ar_AE">
+                العربية (Arabic)
+            </button>
+          </li>
+          <li class="language-selector__item" role="menuitem">
+            <button data-tracking-control-name="language-selector-cs_CZ" class="language-selector__link " data-locale="cs_CZ" lang="cs_CZ">
+                Čeština (Czech)
+            </button>
+          </li>
+          <li class="language-selector__item" role="menuitem">
+            <button data-tracking-control-name="language-selector-da_DK" class="language-selector__link " data-locale="da_DK" lang="da_DK">
+                Dansk (Danish)
+            </button>
+          </li>
+          <li class="language-selector__item" role="menuitem">
+            <button data-tracking-control-name="language-selector-de_DE" class="language-selector__link " data-locale="de_DE" lang="de_DE">
+                Deutsch (German)
+            </button>
+          </li>
+          <li class="language-selector__item" role="menuitem">
+            <button data-tracking-control-name="language-selector-en_US" class="language-selector__link language-selector__link--selected" data-locale="en_US" lang="en_US">
+                <strong>English (English)</strong>
+            </button>
+          </li>
+          <li class="language-selector__item" role="menuitem">
+            <button data-tracking-control-name="language-selector-es_ES" class="language-selector__link " data-locale="es_ES" lang="es_ES">
+                Español (Spanish)
+            </button>
+          </li>
+          <li class="language-selector__item" role="menuitem">
+            <button data-tracking-control-name="language-selector-fr_FR" class="language-selector__link " data-locale="fr_FR" lang="fr_FR">
+                Français (French)
+            </button>
+          </li>
+          <li class="language-selector__item" role="menuitem">
+            <button data-tracking-control-name="language-selector-in_ID" class="language-selector__link " data-locale="in_ID" lang="in_ID">
+                Bahasa Indonesia (Bahasa Indonesia)
+            </button>
+          </li>
+          <li class="language-selector__item" role="menuitem">
+            <button data-tracking-control-name="language-selector-it_IT" class="language-selector__link " data-locale="it_IT" lang="it_IT">
+                Italiano (Italian)
+            </button>
+          </li>
+          <li class="language-selector__item" role="menuitem">
+            <button data-tracking-control-name="language-selector-ja_JP" class="language-selector__link " data-locale="ja_JP" lang="ja_JP">
+                日本語 (Japanese)
+            </button>
+          </li>
+          <li class="language-selector__item" role="menuitem">
+            <button data-tracking-control-name="language-selector-ko_KR" class="language-selector__link " data-locale="ko_KR" lang="ko_KR">
+                한국어 (Korean)
+            </button>
+          </li>
+          <li class="language-selector__item" role="menuitem">
+            <button data-tracking-control-name="language-selector-ms_MY" class="language-selector__link " data-locale="ms_MY" lang="ms_MY">
+                Bahasa Malaysia (Malay)
+            </button>
+          </li>
+          <li class="language-selector__item" role="menuitem">
+            <button data-tracking-control-name="language-selector-nl_NL" class="language-selector__link " data-locale="nl_NL" lang="nl_NL">
+                Nederlands (Dutch)
+            </button>
+          </li>
+          <li class="language-selector__item" role="menuitem">
+            <button data-tracking-control-name="language-selector-no_NO" class="language-selector__link " data-locale="no_NO" lang="no_NO">
+                Norsk (Norwegian)
+            </button>
+          </li>
+          <li class="language-selector__item" role="menuitem">
+            <button data-tracking-control-name="language-selector-pl_PL" class="language-selector__link " data-locale="pl_PL" lang="pl_PL">
+                Polski (Polish)
+            </button>
+          </li>
+          <li class="language-selector__item" role="menuitem">
+            <button data-tracking-control-name="language-selector-pt_BR" class="language-selector__link " data-locale="pt_BR" lang="pt_BR">
+                Português (Portuguese)
+            </button>
+          </li>
+          <li class="language-selector__item" role="menuitem">
+            <button data-tracking-control-name="language-selector-ro_RO" class="language-selector__link " data-locale="ro_RO" lang="ro_RO">
+                Română (Romanian)
+            </button>
+          </li>
+          <li class="language-selector__item" role="menuitem">
+            <button data-tracking-control-name="language-selector-ru_RU" class="language-selector__link " data-locale="ru_RU" lang="ru_RU">
+                Русский (Russian)
+            </button>
+          </li>
+          <li class="language-selector__item" role="menuitem">
+            <button data-tracking-control-name="language-selector-sv_SE" class="language-selector__link " data-locale="sv_SE" lang="sv_SE">
+                Svenska (Swedish)
+            </button>
+          </li>
+          <li class="language-selector__item" role="menuitem">
+            <button data-tracking-control-name="language-selector-th_TH" class="language-selector__link " data-locale="th_TH" lang="th_TH">
+                ภาษาไทย (Thai)
+            </button>
+          </li>
+          <li class="language-selector__item" role="menuitem">
+            <button data-tracking-control-name="language-selector-tl_PH" class="language-selector__link " data-locale="tl_PH" lang="tl_PH">
+                Tagalog (Tagalog)
+            </button>
+          </li>
+          <li class="language-selector__item" role="menuitem">
+            <button data-tracking-control-name="language-selector-tr_TR" class="language-selector__link " data-locale="tr_TR" lang="tr_TR">
+                Türkçe (Turkish)
+            </button>
+          </li>
+          <li class="language-selector__item" role="menuitem">
+            <button data-tracking-control-name="language-selector-zh_CN" class="language-selector__link " data-locale="zh_CN" lang="zh_CN">
+                简体中文 (Chinese (Simplified))
+            </button>
+          </li>
+          <li class="language-selector__item" role="menuitem">
+            <button data-tracking-control-name="language-selector-zh_TW" class="language-selector__link " data-locale="zh_TW" lang="zh_TW">
+                正體中文 (Chinese (Traditional))
+            </button>
+          </li>
+      
+      </ul>
+
+        
+        <button class="language-selector__button" aria-expanded="false" data-tracking-control-name="footer-lang-dropdown_trigger">
+                <span class="language-selector__label-text">Language</span>
+          <icon class="language-selector__label-chevron" data-delayed-url="https://static-exp1.licdn.com/sc/h/cyolgscd0imw2ldqppkrb84vo"></icon>
+        </button>
+      
+    </div>
+  
+  
+          </li>
+      </ul>
+    </footer>
+  
+  
+  
+
+      
+        <code id="model" style="display: none"><!--{"lix":{"learning_web_course-mobile-banner":"enabled","learning_guest_get-price-with-browser-id":"enabled","learning_guest_enterpriseNav_enabled":"enabled","learning_guest_lil_lynda_cobranding":"LIL-and-LDC-Branded","learning_guest_tracking_force-fire-upsell-impressions":"enabled","learning_guest_lil_course-page-title-test":"control","learning_alc-only":"control","learning_guest_course_sychronous-video-load":"enabled","learning_guest_upsell-sign-in-modal":"control","learning_guest_lil-nav-parity":"enabled","learning_guest_lil-nav-with-lynda-content":"enabled","learning_web_course-redesign":"control","learning_subscription_free-trial-length":"control","learning_guest_lyndaCanonicalUrl_enabled":"control","learning_web_course_hide-viewer-titles":"enabled","learning_guest_premium-upsell-copy-test":"control","learning_guest_google_one_tap":"control","learning_guest_inTranslation":"control","learning_web_course_hide-viewer-companies":"enabled","guest_client_ingraphs":"enabled","learning_guest_alc-upsells-no-price":"control","learning_web_hand-shake":"enabled","guest_use_mercado_mvp_style":"enabled"},"detailedCourse":{"hashedCourseId":"PNnbVDvNQgZsK4epV8+f+Lt/tUGKxBj0KZJ1+KlalJA=","urn":"urn:li:lyndaCourse:713394","contentPrice":{"totalPrice":{"currencyCode":"USD","amount":"49.99"},"taxInclusive":true,"tax":null}}}--></code>
+<!---->      
+
+              <script src="https://static-exp1.licdn.com/sc/h/69grjyr4967u2n2thoeasc148" async></script>
+          
+        
+        
+
+    <code id="scriptsToDefer" style="display: none"><!--"https://static-exp1.licdn.com/sc/h/3x34xtc8izxajvox13b4ngzyq"--></code>
+
+    <script async src="https://static-exp1.licdn.com/sc/h/43t5sr3a2nyvavf4ylnaopvra"></script>  
+        <script class="lazy-load" data-delayed-url="https://static-exp1.licdn.com/sc/h/ey92ic89flxvn0vbjz7ade696" data-module-id="media-player"></script>
+      
+<!---->      
+      </body>
+    </html>
