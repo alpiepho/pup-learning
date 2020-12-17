@@ -1,5 +1,7 @@
 ![website](https://github.com/alpiepho/pup-learning/workflows/website/badge.svg)
 
+
+**UPDATE** Try the golang version described at the end.
 # pup-learning
 
 Deployed on GitHub pages [here](https://alpiepho.github.io/pup-learning/).
@@ -108,6 +110,18 @@ Some ideas for future changes:
 - Create summary page from data
 
 
+## Golang version
 
+As a side project to learn Golang, this was rewritten in Go and chromedp.  Go is a little
+more difficult than javascript or python, but it seems to run a little faster.  Also,
+chromedp will allow automating the login to Linkedin Learning and can run headless.
+
+Install golang [here](https://golang.org/doc/install)
+
+[chromedp](https://github.com/chromedp/chromedp) library.
+
+`go get -u github.com/chromedp/chromedp`
+
+`go run main.go`
 
 
