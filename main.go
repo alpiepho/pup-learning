@@ -2,11 +2,13 @@ package main
 
 import (
 	"context"
+	"flag"
 	"fmt"
 	"io"
 	"log"
 	"net/http"
 	"os"
+	"sort"
 	"strconv"
 	"strings"
 	"time"
@@ -43,7 +45,15 @@ type Course struct {
 	imgFile       string
 	linkedin      string
 	details       string
+	completedTs   int64
 }
+
+// ByCompleted -
+type ByCompleted []Course
+
+func (a ByCompleted) Len() int           { return len(a) }
+func (a ByCompleted) Less(i, j int) bool { return a[i].completedTs > a[j].completedTs }
+func (a ByCompleted) Swap(i, j int)      { a[i], a[j] = a[j], a[i] }
 
 func loginAuto(ctx *context.Context) {
 	err := chromedp.Run(*ctx,
@@ -114,7 +124,18 @@ func autoScroll(ctx *context.Context) {
 	}
 }
 
-func parseHistory(ctx *context.Context, courses *[]Course) {
+func fixDate(input string) string {
+	parts := strings.Split(input, "/")
+	if len(parts) == 3 {
+		m, _ := strconv.Atoi(parts[0])
+		d, _ := strconv.Atoi(parts[1])
+		y, _ := strconv.Atoi(parts[2])
+		input = fmt.Sprintf("%02d/%02d/%04d", m, d, y)
+	}
+	return input
+}
+
+func parseHistory(ctx *context.Context, courses *[]Course, noscroll bool) {
 	var err error
 	err = chromedp.Run(*ctx,
 		chromedp.Navigate(URLHistory),
@@ -124,7 +145,9 @@ func parseHistory(ctx *context.Context, courses *[]Course) {
 		// ignore error
 	}
 
-	autoScroll(ctx)
+	if !noscroll {
+		autoScroll(ctx)
+	}
 
 	var nodes []*cdp.Node
 	err = chromedp.Run(*ctx,
@@ -159,6 +182,9 @@ func parseHistory(ctx *context.Context, courses *[]Course) {
 		data.releasedDate = strings.Replace(data.releasedDate, "Released ", "", 1)
 		data.releasedDate = strings.Replace(data.releasedDate, "Updated ", "", 1)
 		data.completedDate = strings.Replace(data.completedDate, "Completed ", "", 1)
+		// REFERENCE: https://programming.guide/go/format-parse-string-time-date-example.html
+		t, _ := time.Parse("01/02/2006", fixDate(data.completedDate))
+		data.completedTs = t.Unix()
 		data.imgFile = ""
 		data.linkedin = URLBase + data.linkedin
 		*courses = append(*courses, data)
@@ -167,7 +193,7 @@ func parseHistory(ctx *context.Context, courses *[]Course) {
 	fmt.Println(len(nodes))
 }
 
-func saveThumbs(ctx *context.Context, courses []Course) {
+func saveThumbs(ctx *context.Context, courses *[]Course, nopngs bool) {
 	var err error
 	err = os.RemoveAll("./public/images")
 	if err != nil {
@@ -177,10 +203,14 @@ func saveThumbs(ctx *context.Context, courses []Course) {
 	if err != nil {
 		log.Fatal(err)
 	}
-	for _, course := range courses {
+	if nopngs {
+		return
+	}
+	for i, course := range *courses {
 		if len(course.img) > 0 {
 			parts := strings.Split(course.img, "/")
 			course.imgFile = "./public/images/" + parts[5] + ".png"
+			(*courses)[i].imgFile = "./images/" + parts[5] + ".png"
 
 			response, e := http.Get(course.img)
 			if e != nil {
@@ -369,6 +399,11 @@ func buildHTML(courses []Course, totalH int, totalM int) {
 }
 
 func main() {
+	noscroll := flag.Bool("noscroll", false, "a bool")
+	nopngs := flag.Bool("nopngs", false, "a bool")
+	nosort := flag.Bool("nosort", false, "a bool")
+	flag.Parse()
+
 	opts := append(chromedp.DefaultExecAllocatorOptions[:],
 		chromedp.DisableGPU,
 		chromedp.Flag("headless", os.Getenv("GO_HEADLESS") == "true"),
@@ -380,11 +415,14 @@ func main() {
 
 	var courses []Course
 	loginAuto(&ctx)
-	parseHistory(&ctx, &courses)
-	saveThumbs(&ctx, courses)
+	parseHistory(&ctx, &courses, *noscroll)
+	saveThumbs(&ctx, &courses, *nopngs)
 	logoutAuto(&ctx)
 	parseDetails(&ctx, courses) // faster after logout
-
+	if !*nosort {
+		sort.Sort(ByCompleted(courses))
+	}
 	totalH, totalM := buildTimes(courses)
+
 	buildHTML(courses, totalH, totalM)
 }
