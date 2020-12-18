@@ -251,35 +251,14 @@ func parseDetails(ctx *context.Context, courses []Course, getexfiles bool) {
 			)
 			if err == nil {
 				err = chromedp.Run(*ctx,
+					chromedp.Click(`a.classroom-exercise-files-modal__exercise-file-download`, chromedp.NodeVisible, chromedp.ByQuery, chromedp.AtLeast(0)),
+					chromedp.Sleep(10*time.Second),
+				)
+				err = chromedp.Run(*ctx,
 					chromedp.Click(`button[aria-label="Dismiss"]`, chromedp.NodeVisible, chromedp.ByQuery, chromedp.AtLeast(0)),
 					chromedp.Sleep(2*time.Second),
 				)
-				if err == nil {
-				}
 			}
-
-			// <button aria-label="Show all exercise files" id="ember437" class="artdeco-button artdeco-button--1 artdeco-button--tertiary ember-view btn-link" data-control-name="exercise_files_modal"><!---->
-			// <span class="artdeco-button__text">
-			// Show all
-			// </span></button>
-
-			// <a tabindex="0" rel="noopener noreferrer" target="_blank" href="https://files3.lynda.com/secure/courses/696863/exercises/Ex_Files_Selenium_EssT.zip?6fTMprnWbUDxx-qEigGE75YmeHtaOYpfbqgIq9-P5qDNMvt_wyqTDCeZey7enPUBmguuYc0T_4-ITcXWWCc0lZx9P9HKtKCSeNsgBhi5eydEDoyB1JmHPSdPXYbqaH7fd1to-AgLfP8VQZcH5B7XSjcDZLTea9cboQ" id="ember530" class="ember-view classroom-exercise-files-modal__exercise-file-download artdeco-button artdeco-button--secondary">
-			// 		<span aria-hidden="true">
-			// 		Download
-			// 	</span>
-			// 	<span class="a11y-text">
-			// 		Download Ex_Files_Selenium_EssT.zip with file size 1.7MB
-			// 	</span>
-			// </a>
-
-			// 			<button data-test-modal-close-btn="" aria-label="Dismiss" id="ember533" class="artdeco-modal__dismiss artdeco-button artdeco-button--circle artdeco-button--muted artdeco-button--2 artdeco-button--tertiary ember-view">  <li-icon aria-hidden="true" type="cancel-icon" class="artdeco-button__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" width="24" height="24" focusable="false">
-			//   <path d="M20 5.32L13.32 12 20 18.68 18.66 20 12 13.33 5.34 20 4 18.68 10.68 12 4 5.32 5.32 4 12 10.69 18.68 4z"></path>
-			// </svg></li-icon>
-
-			// <span class="artdeco-button__text">
-
-			// </span></button>
-
 		}
 	}
 }
