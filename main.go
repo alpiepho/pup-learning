@@ -167,7 +167,7 @@ func parseHistory(ctx *context.Context, courses *[]Course, noscroll bool) {
 			chromedp.AttributeValue(`h3 a`, "href", &data.link, &ok, chromedp.NodeVisible, chromedp.ByQuery, chromedp.AtLeast(0), chromedp.FromNode(n)),
 			chromedp.Text(`.lls-card-authors`, &data.author, chromedp.ByQuery, chromedp.AtLeast(0), chromedp.FromNode(n)),
 			chromedp.Text(`.lls-card-released-on`, &data.releasedDate, chromedp.ByQuery, chromedp.AtLeast(0), chromedp.FromNode(n)),
-			chromedp.Text(`.lls-card-duration-label`, &data.duration, chromedp.ByQuery, chromedp.AtLeast(0), chromedp.FromNode(n)),
+			chromedp.Text(`.lls-card-length-label`, &data.duration, chromedp.ByQuery, chromedp.AtLeast(0), chromedp.FromNode(n)),
 			chromedp.Text(`.lls-card-completion-state--completed`, &data.completedDate, chromedp.ByQuery, chromedp.AtLeast(0), chromedp.FromNode(n)),
 			chromedp.AttributeValue(`img`, "src", &data.img, &ok, chromedp.NodeVisible, chromedp.ByQuery, chromedp.AtLeast(0), chromedp.FromNode(n)),
 			chromedp.AttributeValue(`.lls-card-authors a`, "href", &data.linkedin, &ok, chromedp.NodeVisible, chromedp.ByQuery, chromedp.AtLeast(0), chromedp.FromNode(n)),
@@ -187,7 +187,9 @@ func parseHistory(ctx *context.Context, courses *[]Course, noscroll bool) {
 		data.completedTs = t.Unix()
 		data.imgFile = ""
 		data.linkedin = URLBase + data.linkedin
-		*courses = append(*courses, data)
+		if len(data.completedDate) > 0 {
+			*courses = append(*courses, data)
+		}
 	}
 	fmt.Println("Parsing courses, done.")
 	fmt.Println(len(nodes))
