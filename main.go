@@ -234,19 +234,23 @@ func saveThumbs(ctx *context.Context, courses *[]Course, nopngs bool) {
 	}
 }
 
-func parseDetails(ctx *context.Context, courses []Course, getexfiles bool) {
-	for _, course := range courses {
+func parseDetails(ctx *context.Context, courses *[]Course, getexfiles bool) {
+	for i, course := range *courses {
 		var details string = ""
+		time.Sleep(2 * time.Second)
 		err := chromedp.Run(*ctx,
 			chromedp.Navigate(course.link),
-			chromedp.Text(`p.section-container__description`, &details, chromedp.NodeVisible, chromedp.ByQuery, chromedp.AtLeast(0)),
+			//chromedp.Text(`p.section-container__description`, &details, chromedp.NodeVisible, chromedp.ByQuery, chromedp.AtLeast(0)),
+			chromedp.Text(`p.t-16`, &details, chromedp.NodeVisible, chromedp.ByQuery, chromedp.AtLeast(0)),
 		)
 		if err != nil {
 			// ignore error
+			fmt.Println(course.link)
+			fmt.Println(err)
 		}
-		course.details = details
+		(*courses)[i].details = details
 		if getexfiles {
-			time.Sleep(2 * time.Second)
+			//time.Sleep(2 * time.Second)
 			err = chromedp.Run(*ctx,
 				chromedp.Click(`button[aria-label="Show all exercise files"]`, chromedp.NodeVisible, chromedp.ByQuery, chromedp.AtLeast(0)),
 				chromedp.Sleep(2*time.Second),
@@ -438,11 +442,11 @@ func main() {
 	parseHistory(&ctx, &courses, *noscroll)
 	saveThumbs(&ctx, &courses, *nopngs)
 	if *getexfiles {
-		parseDetails(&ctx, courses, *getexfiles)
+		parseDetails(&ctx, &courses, *getexfiles)
 		logoutAuto(&ctx)
 	} else {
 		logoutAuto(&ctx)
-		parseDetails(&ctx, courses, *getexfiles)
+		parseDetails(&ctx, &courses, *getexfiles)
 	}
 	if !*nosort {
 		sort.Sort(ByCompleted(courses))
