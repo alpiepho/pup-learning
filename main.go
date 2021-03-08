@@ -237,7 +237,7 @@ func saveThumbs(ctx *context.Context, courses *[]Course, nopngs bool) {
 func parseDetails(ctx *context.Context, courses *[]Course, getexfiles bool) {
 	for i, course := range *courses {
 		var details string = ""
-		time.Sleep(2 * time.Second)
+		time.Sleep(4 * time.Second)
 		err := chromedp.Run(*ctx,
 			chromedp.Navigate(course.link),
 			//chromedp.Text(`p.section-container__description`, &details, chromedp.NodeVisible, chromedp.ByQuery, chromedp.AtLeast(0)),
