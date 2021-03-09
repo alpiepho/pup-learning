@@ -101,7 +101,7 @@ be used for automated testing.  This works with both Chrome and Firefox.
 
 ## TODO List:
 
-- pull course example files
+- pull course example files (done in Golang version)
 
 ## Future changes:
 
