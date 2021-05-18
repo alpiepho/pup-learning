@@ -125,13 +125,7 @@ Install golang [here](https://golang.org/doc/install)
 `go run main.go`
 
 
-## Glang version TODO
-
-- Split up with command line flags for debug
-    - login auto or manual
-    - stage1 - history and save data
-    - stage2 - read data, thumbs, and save data 
-    - stage3 - read data, logout, and save data 
-    - stage4 - read data, details, and save data 
-    - stage5 - read data, buildhtml
+## Golang version TODO
+- save as json
+- partial update
 
