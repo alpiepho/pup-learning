@@ -7,7 +7,7 @@
     "axios": "^0.21.1",
     "cheerio": "^1.0.0-rc.3",
     "dotenv": "^8.0.0",
-    "minimist": "^1.2.5",
+    "minimist": "^1.2.6",
     "nodejs-fs-utils": "^1.2.4",
     "puppeteer": "^1.16.0",
     "puppeteer-firefox": "^0.5.1"
