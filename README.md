@@ -120,9 +120,9 @@ Install golang [here](https://golang.org/doc/install)
 
 [chromedp](https://github.com/chromedp/chromedp) library.
 
-`go get -u github.com/chromedp/chromedp`
-
 `go run main.go`
+or 
+`go run main.go fromlinks`
 
 
 ## Golang version TODO
