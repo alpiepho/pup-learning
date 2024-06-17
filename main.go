@@ -120,10 +120,12 @@ func doLogout(ctx *context.Context, stages bool, stagelogout bool) {
 func autoScroll(ctx *context.Context) {
 	totalHeight := 0
 	scrollHeight := 1
-	for totalHeight < scrollHeight {
-		// fmt.Printf("%d\n", totalHeight)
-		// fmt.Printf("%d\n", scrollHeight)
-		totalHeight += 400
+	retries := 0
+	for totalHeight < scrollHeight && retries < 20 {
+		fmt.Printf("retries      %d\n", retries)
+		fmt.Printf("totalHeight  %d\n", totalHeight)
+		fmt.Printf("scrollHeight %d\n", scrollHeight)
+		totalHeight += 1600 //400
 		err := chromedp.Run(*ctx,
 			chromedp.ActionFunc(func(ctx context.Context) error {
 				_, exp, err := runtime.Evaluate(`window.scrollBy(0,400);`).Do(ctx)
@@ -139,7 +141,18 @@ func autoScroll(ctx *context.Context) {
 			chromedp.EvaluateAsDevTools(`document.body.scrollHeight`, &scrollHeight),
 		)
 		if err != nil {
-			// ignore error
+			retries += 1
+		}
+		if err == nil {
+			retries = 0
+		}
+		// try More button
+		err = chromedp.Run(*ctx,
+			chromedp.Click(`button[aria-label="Show more learning history"]`, chromedp.NodeVisible, chromedp.ByQuery, chromedp.AtLeast(0)),
+			chromedp.Sleep(1*time.Second),
+		)
+		if err == nil {
+			//totalHeight = 0
 		}
 	}
 }
@@ -318,6 +331,10 @@ func parseDetails(ctx *context.Context, courses *[]Course, getexfiles bool, stag
 		}
 	}
 }
+
+// TODO LI-AI-LIST
+// buildCoursesFromLinks
+// parseDetailsFromLinks
 
 func buildTimes(courses []Course, stages bool, stagetimes bool) (int, int) {
 	// Derive timestamps and duration, sort
@@ -527,6 +544,13 @@ func main() {
 
 	var courses []Course
 	doLogin(&ctx, *manuallogin, *stages, *stagelogin)
+
+	// TODO LI-AI-LIST
+	// -fromlinks
+	// buildCoursesFromLinks
+	// parseDetailsFromLinks
+	// - or -
+
 	parseHistory(&ctx, &courses, *noscroll, *stages, *stagehistory)
 	saveThumbs(&ctx, &courses, *nopngs, *stages, *stagethumbs)
 	if *getexfiles {
