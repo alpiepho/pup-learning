@@ -390,9 +390,9 @@ const HTML1 string = `
     <title>
     LinkedIn Learning Courses Completed
     </title>
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="manifest" href="./manifest.json" />
-    <link rel="icon"
+    <li style=\"list-style-type:none\" nk rel="stylesheet" href="./style.css" />
+    <li style=\"list-style-type:none\" nk rel="manifest" href="./manifest.json" />
+    <li style=\"list-style-type:none\" nk rel="icon"
       type="image/png" 
       href="./favicon.ico" />
   </head>
@@ -440,9 +440,9 @@ func buildHTML(courses []Course, totalH int, totalM int, stages bool, stagehtml 
 		fmt.Fprintf(&b, "      <br/><p>Totals - Course: %d, Time: %dh %dm</p><br/>\n\n", len(courses), totalH, totalM)
 		fmt.Fprintf(&b, "      <ul class=\"mainul\">\n")
 		for _, course := range courses {
-			fmt.Fprintf(&b, "            <li>\n")
+			fmt.Fprintf(&b, "            <li style=\"list-style-type:none\" >\n")
 			fmt.Fprintf(&b, "              <ul>\n")
-			fmt.Fprintf(&b, "                <li>\n")
+			fmt.Fprintf(&b, "                <li style=\"list-style-type:none\" >\n")
 			fmt.Fprintf(&b, "                  <div class=\"leftside\">\n")
 			if len(course.imgFile) > 0 {
 				fmt.Fprintf(&b, "                    <p><img src=\"%s\" loading=\"lazy\"</img></p>\n", course.imgFile)
@@ -452,31 +452,31 @@ func buildHTML(courses []Course, totalH int, totalM int, stages bool, stagehtml 
 			fmt.Fprintf(&b, "                  </div>\n")
 			fmt.Fprintf(&b, "                  <div class=\"rightside\">\n")
 			fmt.Fprintf(&b, "                    <ul>\n")
-			fmt.Fprintf(&b, "                      <li>\n")
+			fmt.Fprintf(&b, "                      <li style=\"list-style-type:none\" >\n")
 			fmt.Fprintf(&b, "                        <a target=\"_blank\" href=\"%s\">\n", course.link)
 			fmt.Fprintf(&b, "                        %s\n", course.title)
 			fmt.Fprintf(&b, "                        </a>  ")
 			fmt.Fprintf(&b, "                      </li>\n")
-			fmt.Fprintf(&b, "                      <li>\n")
+			fmt.Fprintf(&b, "                      <li style=\"list-style-type:none\" >\n")
 			fmt.Fprintf(&b, "                        <span>(%s ... %s)</span>\n", course.releasedDate, course.duration)
 			fmt.Fprintf(&b, "                      </li>\n")
-			fmt.Fprintf(&b, "                      <li>\n")
+			fmt.Fprintf(&b, "                      <li style=\"list-style-type:none\" >\n")
 			if len(course.linkedin) > 0 {
-				fmt.Fprintf(&b, "                        <li>Author: <a target=\"_blank\" href=\"%s\">%s</a></li>\n", course.linkedin, course.author)
+				fmt.Fprintf(&b, "                        <li style=\"list-style-type:none\" >Author: <a target=\"_blank\" href=\"%s\">%s</a></li>\n", course.linkedin, course.author)
 			} else {
-				fmt.Fprintf(&b, "                        <li>Author: %s</li>\n", course.author)
+				fmt.Fprintf(&b, "                        <li style=\"list-style-type:none\" >Author: %s</li>\n", course.author)
 			}
 			fmt.Fprintf(&b, "                      </li>\n")
-			fmt.Fprintf(&b, "                      <li>\n")
-			fmt.Fprintf(&b, "                        <li class=\"completed\"><i>Completed: %s</i></li>\n", course.completedDate)
+			fmt.Fprintf(&b, "                      <li style=\"list-style-type:none\" >\n")
+			fmt.Fprintf(&b, "                        <li style=\"list-style-type:none\"  class=\"completed\"><i>Completed: %s</i></li>\n", course.completedDate)
 			fmt.Fprintf(&b, "                      </li>\n")
 			fmt.Fprintf(&b, "                    </ul>\n")
 			fmt.Fprintf(&b, "                  </div>\n")
 			fmt.Fprintf(&b, "                </li>\n")
-			fmt.Fprintf(&b, "                <li class=\"details\">\n")
+			fmt.Fprintf(&b, "                <li style=\"list-style-type:none\"  class=\"details\">\n")
 			fmt.Fprintf(&b, "                  %s\n", course.details)
 			fmt.Fprintf(&b, "                </li>\n")
-			fmt.Fprintf(&b, "                <li class=\"topbottom\"><a href=\"#top\">top</a> / <a href=\"#bottom\">bottom</a></li>\n")
+			fmt.Fprintf(&b, "                <li style=\"list-style-type:none\"  class=\"topbottom\"><a href=\"#top\">top</a> / <a href=\"#bottom\">bottom</a></li>\n")
 			fmt.Fprintf(&b, "              </ul>\n")
 			fmt.Fprintf(&b, "            </li>\n")
 		}
@@ -608,126 +608,17 @@ const HTML3 string = `
     <meta name="Description" content="LinkedIn Learning Courses Completed">
     <meta name="theme-color" content="#d36060"/>
     <title>
-    LinkedIn Learning Courses Completed
+    LinkedIn Learning Courses on AI
     </title>
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="manifest" href="./manifest.json" />
-    <link rel="icon"
-      type="image/png" 
-      href="./favicon.ico" />
-	<style>
-			.body {
-				margin: auto;
-				width: 800px;
-				font-family: Helvetica, Arial, sans-serif;
-				line-height: 140%;
-			}
-			
-			.introduction {
-				max-width: 800px;
-			}
-			
-			#top {
-				text-align: center;
-			}
-			
-			ul {
-				list-style-type: none;
-				margin-bottom: 15px;
-				padding-inline-start: 0px;
-			}
-			
-			li {
-				list-style-type: none;
-				margin-bottom: 5px;
-			}
-			
-			img {
-				width: 300px;
-			}
-			
-			.completed {
-				margin-bottom: 20px;
-			}
-			
-			.details {
-				max-width: 800px;
-				clear: both;
-			}
-			
-			.topbottom {
-				margin-top: 20px;
-				margin-bottom: 50px;
-			}
-			
-			.leftside {
-				float: left;
-			}
-			
-			.rightside {
-				float: right;
-				padding-top: 20px;
-			}
-			
-			.rightside li {
-				text-align: right;
-			}
-			
-			@media only screen and (max-width: 800px) {
-				.body {
-					margin: auto;
-					width: 300px;
-				} 
-			
-				ul {
-					padding: 0;
-				}
-			
-				.mainul {
-					padding-bottom: 50px;
-				}
-			
-				img {
-					width: 300px;
-				}
-			
-				.details {
-					max-width: 300px;
-				}
-			
-				.leftside {
-					float: none;
-				}
-				
-				.rightside {
-					float: none;
-					padding-top: 20px;
-				}
-				
-				.rightside li {
-					text-align: left;
-				}
-				
-			}
-		</style>
   </head>
-  <body class="body">
+  <body class="body" style="margin: auto; width: 800px;">
     <main>
     <article class="page">
-      <h1  id="top">LinkedIn Learning Courses Completed</h1>
+      <h1  id="top">LinkedIn Learning Courses on AI</h1>
 
       <div class="introduction">
       <p>
-      This a summary of all the Linked-In courses offered by LinkedIn Learning for Keysight. 
-      </p>
-      <p>
-      This list is generated from a tool called "main.go" that can be found
-      <a
-        href="https://github.com/alpiepho/pup-learning"
-        target="_blank"
-        rel="noreferrer"
-      >here</a>.  This tool needs to be run manually to parse the LinkedIn Learning
-      site to gather the list of courses from Keysight AI.
+      Below is an auto generated HTML document from a tool I use to view my own progress on LinkedIn Learning.  I adapted it to parse the recent list of AI related courses, Unfortunately, the formatting is off when added to a Confluence page. (only allows inline styles).   
       </p>
       </div>
 `
@@ -740,59 +631,57 @@ const HTML4 string = `
 </html>
 `
 
-func buildHTMLFromLinks(courses []Course, totalH int, totalM int, stages bool, stagehtml bool) {
-	if !stages || stagehtml {
-		today := time.Now().Local()
-		var b strings.Builder
-		fmt.Fprintf(&b, "%s", HTML3)
-		fmt.Fprintf(&b, "<sup><sub>(updated %s)</sub></sup>\n\n", today)
-		fmt.Fprintf(&b, "      <br/><p>Totals - Course: %d, Time: %dh %dm</p><br/>\n\n", len(courses), totalH, totalM)
-		fmt.Fprintf(&b, "      <ul class=\"mainul\">\n")
-		for _, course := range courses {
-			fmt.Fprintf(&b, "            <li>\n")
-			fmt.Fprintf(&b, "              <ul>\n")
-			fmt.Fprintf(&b, "                <li>\n")
-			fmt.Fprintf(&b, "                  <div class=\"leftside\">\n")
-			if len(course.imgFile) > 0 {
-				fmt.Fprintf(&b, "                    <p><img src=\"%s\" loading=\"lazy\"</img></p>\n", course.imgFile)
-			} else {
-				fmt.Fprintf(&b, "                    <p><img src=\"%s\" loading=\"lazy\"</img></p>\n", course.img)
-			}
-			fmt.Fprintf(&b, "                  </div>\n")
-			fmt.Fprintf(&b, "                  <div class=\"rightside\">\n")
-			fmt.Fprintf(&b, "                    <ul>\n")
-			fmt.Fprintf(&b, "                      <li>\n")
-			fmt.Fprintf(&b, "                        <a target=\"_blank\" href=\"%s\">\n", course.link)
-			fmt.Fprintf(&b, "                        %s\n", course.title)
-			fmt.Fprintf(&b, "                        </a>  ")
-			fmt.Fprintf(&b, "                      </li>\n")
-			fmt.Fprintf(&b, "                      <li>\n")
-			fmt.Fprintf(&b, "                        <span>(%s ... %s)</span>\n", course.releasedDate, course.duration)
-			fmt.Fprintf(&b, "                      </li>\n")
-			fmt.Fprintf(&b, "                      <li>\n")
-			if len(course.linkedin) > 0 {
-				fmt.Fprintf(&b, "                        <li>Author: <a target=\"_blank\" href=\"%s\">%s</a></li>\n", course.linkedin, course.author)
-			} else {
-				fmt.Fprintf(&b, "                        <li>Author: %s</li>\n", course.author)
-			}
-			fmt.Fprintf(&b, "                      </li>\n")
-			fmt.Fprintf(&b, "                    </ul>\n")
-			fmt.Fprintf(&b, "                  </div>\n")
-			fmt.Fprintf(&b, "                </li>\n")
-			fmt.Fprintf(&b, "                <li class=\"details\">\n")
-			fmt.Fprintf(&b, "                  %s\n", course.details)
-			fmt.Fprintf(&b, "                </li>\n")
-			fmt.Fprintf(&b, "                <li class=\"topbottom\"><a href=\"#top\">top</a> / <a href=\"#bottom\">bottom</a></li>\n")
-			fmt.Fprintf(&b, "              </ul>\n")
-			fmt.Fprintf(&b, "            </li>\n")
+func buildHTMLFromLinks(courses []Course, totalH int, totalM int) {
+	today := time.Now().Local()
+	var b strings.Builder
+	fmt.Fprintf(&b, "%s", HTML3)
+	fmt.Fprintf(&b, "<sup><sub>(updated %s)</sub></sup>\n\n", today)
+	fmt.Fprintf(&b, "      <br/><p>Totals - Course: %d, Time: %dh %dm</p><br/>\n\n", len(courses), totalH, totalM)
+	fmt.Fprintf(&b, "      <ul class=\"mainul\">\n")
+	for _, course := range courses {
+		fmt.Fprintf(&b, "            <li style=\"list-style-type:none\" >\n")
+		fmt.Fprintf(&b, "              <ul>\n")
+		fmt.Fprintf(&b, "                <li style=\"list-style-type:none\" >\n")
+		fmt.Fprintf(&b, "                  <div class=\"leftside\">\n")
+		if len(course.imgFile) > 0 {
+			fmt.Fprintf(&b, "                    <p><img src=\"%s\" loading=\"lazy\" width=\"300px\"></img></p>\n", course.imgFile)
+		} else {
+			fmt.Fprintf(&b, "                    <p><img src=\"%s\" loading=\"lazy\" width=\"300px\"></img></p>\n", course.img)
 		}
-		fmt.Fprintf(&b, "      </ul>\n")
-		fmt.Fprintf(&b, "%s", HTML4)
+		fmt.Fprintf(&b, "                  </div>\n")
+		fmt.Fprintf(&b, "                  <div class=\"rightside\">\n")
+		fmt.Fprintf(&b, "                    <ul>\n")
+		fmt.Fprintf(&b, "                      <li style=\"list-style-type:none\" >\n")
+		fmt.Fprintf(&b, "                        <a target=\"_blank\" href=\"%s\">\n", course.link)
+		fmt.Fprintf(&b, "                        %s\n", course.title)
+		fmt.Fprintf(&b, "                        </a>  ")
+		fmt.Fprintf(&b, "                      </li>\n")
+		fmt.Fprintf(&b, "                      <li style=\"list-style-type:none\" >\n")
+		fmt.Fprintf(&b, "                        <span>(%s ... %s)</span>\n", course.releasedDate, course.duration)
+		fmt.Fprintf(&b, "                      </li>\n")
+		//fmt.Fprintf(&b, "                      <li style=\"list-style-type:none\" >\n")
+		if len(course.linkedin) > 0 {
+			fmt.Fprintf(&b, "                        <li style=\"list-style-type:none\" >Author: <a target=\"_blank\" href=\"%s\">%s</a></li>\n", course.linkedin, course.author)
+		} else {
+			fmt.Fprintf(&b, "                        <li style=\"list-style-type:none\" >Author: %s</li>\n", course.author)
+		}
+		//fmt.Fprintf(&b, "                      </li>\n")
+		fmt.Fprintf(&b, "                    </ul>\n")
+		fmt.Fprintf(&b, "                  </div>\n")
+		fmt.Fprintf(&b, "                </li>\n")
+		fmt.Fprintf(&b, "                <li style=\"list-style-type:none\"  class=\"details\">\n")
+		fmt.Fprintf(&b, "                  %s\n", course.details)
+		fmt.Fprintf(&b, "                </li>\n")
+		fmt.Fprintf(&b, "                <li style=\"list-style-type:none\"  class=\"topbottom\"><a href=\"#top\">top</a> / <a href=\"#bottom\">bottom</a></li>\n")
+		fmt.Fprintf(&b, "              </ul>\n")
+		fmt.Fprintf(&b, "            </li>\n")
+	}
+	fmt.Fprintf(&b, "      </ul>\n")
+	fmt.Fprintf(&b, "%s", HTML4)
 
-		err := writeToFile("./ai_list/index.html", b.String())
-		if err != nil {
-			// ignore error
-		}
+	err := writeToFile("./ai_list/index.html", b.String())
+	if err != nil {
+		// ignore error
 	}
 }
 
@@ -847,33 +736,33 @@ func main() {
 	defer cancel()
 
 	var courses []Course
-	doLogin(&ctx, *manuallogin, *stages, *stagelogin)
 
 	// TODO LI-AI-LIST
 	if *fromlinks {
 		buildCoursesFromLinks(&courses)
 		//saveThumbs(&ctx, &courses, *nopngs, *stages, *stagethumbs)
-		if *getexfiles {
-			parseDetailsFromLinks(&ctx, &courses)
-			logoutAuto(&ctx)
-		} else {
-			// logout doesnt work (needs cookie) so try new browser
-			//doLogout(&ctx, *stages, *stagelogout)
-			cancel()
-			ctx2, cancel2 := chromedp.NewExecAllocator(context.Background(), opts...)
-			defer cancel2()
-			ctx2, cancel2 = chromedp.NewContext(ctx2)
-			defer cancel2()
-			parseDetailsFromLinks(&ctx2, &courses)
-		}
+		//if *getexfiles {
+		parseDetailsFromLinks(&ctx, &courses)
+		//	logoutAuto(&ctx)
+		// } else {
+		// 	// logout doesnt work (needs cookie) so try new browser
+		// 	//doLogout(&ctx, *stages, *stagelogout)
+		// 	cancel()
+		// 	ctx2, cancel2 := chromedp.NewExecAllocator(context.Background(), opts...)
+		// 	defer cancel2()
+		// 	ctx2, cancel2 = chromedp.NewContext(ctx2)
+		// 	defer cancel2()
+		// 	parseDetailsFromLinks(&ctx2, &courses)
+		// }
 		if !*nosort {
 			sort.Sort(ByCompleted(courses))
 		}
 		totalH, totalM := buildTimes(courses, *stages, *stagetimes)
 
-		buildHTMLFromLinks(courses, totalH, totalM, *stages, *stagehtml)
+		buildHTMLFromLinks(courses, totalH, totalM)
 
 	} else {
+		doLogin(&ctx, *manuallogin, *stages, *stagelogin)
 		parseHistory(&ctx, &courses, *noscroll, *stages, *stagehistory)
 		saveThumbs(&ctx, &courses, *nopngs, *stages, *stagethumbs)
 		if *getexfiles {
